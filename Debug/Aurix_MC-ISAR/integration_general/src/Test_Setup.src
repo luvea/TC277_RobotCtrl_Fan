@@ -1,0 +1,1438 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.2r2 Build 18041957 SN 06692445"
+	.compiler_invocation	"ctc -f cc99664a --dep-file=Aurix_MC-ISAR\\integration_general\\src\\.Test_Setup.o.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xc -D__CPU_TC27XC__ --core=tc1.6.x --fp-model=+float -D_TASKING_C_TRICORE_ -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\.settings -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Asw -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\compiler -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc\\TC27xC -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc\\TC27xC\\SupportDocuments -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\lib -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\obj -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Asw -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\dio_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\dio_infineon_tricore\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\integration_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\integration_general\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Hal_Sensor -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output\\generated -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output\\generated\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\PWM3Ph -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Qspi -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Adc_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Adc3ph_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Can_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TLE_9180_Drive -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\UART_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Hal_Sensor -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\Demo_Aurix -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\mak -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\PWM3Ph -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Qspi -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Adc_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Adc3ph_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Can_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TLE_9180_Drive -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\UART_Test -g2 --make-target=Aurix_MC-ISAR\\integration_general\\src\\Test_Setup.o -t2 --language=-gcc,-volatile,+strings,-kanji --default-near-size=8 -O2 --default-a1-size=0 --default-a0-size=0 --source --align=0 --compact-max-size=200 --switch=auto --error-limit=42 -o Aurix_MC-ISAR\\integration_general\\src\\Test_Setup.src ..\\Aurix_MC-ISAR\\integration_general\\src\\Test_Setup.c"
+	.compiler_name		"ctc"
+	;source	'..\\Aurix_MC-ISAR\\integration_general\\src\\Test_Setup.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.Test_Setup.Test_Setup_Init',code,cluster('Test_Setup_Init')
+	.sect	'.text.Test_Setup.Test_Setup_Init'
+	.align	2
+	
+	.global	Test_Setup_Init
+
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	     1  /******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	     2  **                                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	     3  ** Copyright (C) Infineon Technologies (2013)                                **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	     4  **                                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	     5  ** All rights reserved.                                                      **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	     6  **                                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	     7  ** This document contains proprietary information belonging to Infineon      **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	     8  ** Technologies. Passing on and copying of this document, and communication  **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	     9  ** of its contents is not permitted without prior written authorization.     **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    10  **                                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    11  *******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    12  **                                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    13  **  $FILENAME   : Test_Setup.c $                                             **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    14  **                                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    15  **  $CC VERSION : \main\3 $                                                  **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    16  **                                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    17  **  $DATE       : 2013-06-20 $                                               **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    18  **                                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    19  **  AUTHOR      : DL-AUTOSAR-Engineering                                     **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    20  **                                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    21  **  VENDOR      : Infineon Technologies                                      **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    22  **                                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    23  **  DESCRIPTION :   This file is used to initialize the Test environment     **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    24  **                                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    25  **  MAY BE CHANGED BY USER [yes/no]: Yes                                     **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    26  **                                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    27  ******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    28  /*******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    29  **                      Includes                                              **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    30  *******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    31  /*Inclusion of Std_Types.h */
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    32  #include <Std_Types.h>
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    33  #include <Test_Print.h>
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    34  #include <Test_Setup.h>
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    35  #include <Mcal.h>
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    36  
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    37  /*******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    38  **                      Imported Compiler Switch Checks                       **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    39  *******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    40  
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    41  /*******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    42  **                      Private Macro Definitions                             **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    43  *******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    44  
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    45  /*******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    46  **                      Private Type Definitions                              **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    47  *******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    48  
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    49  typedef void (*Test_Setup_Init_Demo)(void);
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    50  typedef int (*StringParser_Demo)(void);
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    51  
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    52  /******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    53  **                      Private Function Declarations                         **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    54  *******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    55  
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    56  
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    57  /*******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    58  **                      Global Constant Definitions                           **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    59  *******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    60  
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    61  
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    62  /*******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    63  **                      Global Variable Definitions                           **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    64  *******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    65  char inputString[100];
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    66  uint32 paramArray[PARAM_COUNT];  
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    67  /*******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    68  **                      Private Constant Definitions                          **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    69  *******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    70  
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    71  
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    72  /*******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    73  **                      Private Variable Definitions                          **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    74  *******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    75  
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    76  
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    77  /*******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    78  **                      Private Function Definitions                          **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    79  *******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    80  
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    81  
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    82  /*******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    83  **                      Global Function Definitions                           **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    84  *******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    85  
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    86  /*******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    87  **                      Local Function Declarations                           **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    88  *******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    89  
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    90  /*******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    91  ** Syntax : void Test_InitPrint(void)                                         **                                   
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    92  **                                                                            **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    93  ** Service ID:                                                                **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    94  **                                                                            **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    95  ** Sync/Async:                                                                **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    96  **                                                                            **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    97  ** Reentrancy:                                                                **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    98  **                                                                            **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	    99  ** Parameters (in):   none                                                    **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   100  **                                                                            **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   101  ** Parameters (out): none                                                     **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   102  **                                                                            **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   103  ** Return value: none                                                         **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   104  **                                                                            **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   105  ** Description : This function Initializes the Test Setup.                    **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   106  *******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   107  
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   108  void Test_Setup_Init()
+; Function Test_Setup_Init
+.L38:
+Test_Setup_Init:	.type	func
+
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   109  {
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   110    char c;
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   111    Test_InitPrint();        /* Call to Test_InitPrint() function */
+	call	Test_InitPrint
+.L119:
+
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   112    get_char();              /*Call to get_char() function */ 
+	call	get_char
+.L120:
+
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   113    do
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   114    {
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   115      print_f("START_APP"); /* Send the Token "START_APP" till a Character is recieved 
+	movh.a	a15,#@his(.1.str)
+	lea	a15,[a15]@los(.1.str)
+
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   116                               from the Communication Port.*/
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   117     }while( (c=get_ch()) == -1);
+.L2:
+	mov.aa	a4,a15
+	call	print_f
+.L121:
+	call	get_ch
+	extr	d15,d2,#0,#8
+.L98:
+	jeq	d15,#-1,.L2
+.L122:
+
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   118     ENABLE();              /* Enable Global Interrupt Flag */                
+	enable
+.L123:
+
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   119  }
+	ret
+.L73:
+	
+__Test_Setup_Init_function_end:
+	.size	Test_Setup_Init,__Test_Setup_Init_function_end-Test_Setup_Init
+.L53:
+	; End of function
+	
+	.sdecl	'.text.Test_Setup.StringParser',code,cluster('StringParser')
+	.sect	'.text.Test_Setup.StringParser'
+	.align	2
+	
+	.global	StringParser
+
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   120  
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   121  
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   122  /*******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   123  ** Syntax : int StringParser()                                                **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   124  **                                                                            **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   125  ** Service ID:                                                                **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   126  **                                                                            **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   127  ** Sync/Async:                                                                **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   128  **                                                                            **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   129  ** Reentrancy:                                                                **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   130  **                                                                            **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   131  ** Parameters (in):                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   132  **                                                                            **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   133  ** Parameters (out): none                                                     **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   134  **                                                                            **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   135  ** Return value: none                                                         **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   136  **                                                                            **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   137  ** Description : This function parses the Input Parameter String Passed       **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   138  **               to the Test Application.Preamble: "@@@"                      **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   139  **               TestApplication ID & Delimiter :[Numeric value]> , ex: 1>    **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   140  **               Param String:Parameters Separated by Commas.                 **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   141  **               PostAmble: "@@@"                                             **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   142  **               Example of ParamString:  "@@@1>0,32768,50@@@"                **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   143  *******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   144  
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   145  int StringParser()
+; Function StringParser
+.L40:
+StringParser:	.type	func
+
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   146  {
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   147      char *tempString, param[20];
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   148      tempString = inputString;
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   149      int preAmble=0, postAmble=0, paramCount=0, charCount=0;
+	mov	d0,#0
+	movh.a	a12,#@his(inputString)
+.L100:
+	mov	e8,d0,d0
+	lea	a12,[a12]@los(inputString)
+.L136:
+
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   150      
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   151      /* Check for PreAmble */
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   152      for(; *tempString == '@' && preAmble < 3; tempString++, preAmble++);
+	mov	d15,#64
+	sub.a	a10,#24
+.L99:
+	j	.L3
+.L4:
+	add	d0,#1
+	add.a	a12,#1
+.L3:
+	ld.b	d1,[a12]0
+	jne	d15,d1,.L5
+.L137:
+	jlt	d0,#3,.L4
+.L5:
+
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   153      if (preAmble < 3) 
+	jlt	d0,#3,.L6
+.L138:
+
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   154          return -1;
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   155  
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   156      /* Find the TestCase ID ending with '>' delimiter */
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   157      for(; *tempString != '>'; tempString++)
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   158      {
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   159          param[charCount++] = (char) *tempString;
+	mov.aa	a15,a10
+.L139:
+	mov	d15,#62
+	j	.L7
+.L8:
+	ld.bu	d0,[a12+]1
+.L140:
+	st.b	[a15+],d0
+.L7:
+	ld.b	d0,[a12]0
+.L141:
+	jne	d15,d0,.L8
+.L142:
+
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   160      }
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   161      /* Transfer it the the Parameter Array as first Element.*/
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   162      paramArray[paramCount] = (uint32) atoi(param);
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   163      charCount = 0;
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   164      tempString++;
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   165  
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   166      /* Find the Test Case Parameters */
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   167      while (*tempString != '@')
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   168      {
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   169          /* Looks for the ',' delimiter */
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   170          if (*tempString != ',')
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   171          {
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   172              param[charCount++]= (char) *tempString;
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   173          }   
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   174          else
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   175          {
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   176              param[charCount] = 0;
+	mov	d10,#0
+.L143:
+	mov	d11,#44
+.L144:
+	mov	d12,#64
+	j	.L9
+.L10:
+	addsc.a	a15,a10,d15,#0
+.L145:
+	ld.b	d0,[a12]0
+.L146:
+	jeq	d0,d11,.L11
+.L147:
+	st.b	[a15],d0
+.L148:
+	add	d15,#1
+	j	.L12
+.L11:
+
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   177              paramCount++;
+	add	d9,#1
+	st.b	[a15],d10
+.L9:
+
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   178              paramArray[paramCount] = (uint32) atoi(param);
+	movh.a	a15,#@his(paramArray)
+	lea	a15,[a15]@los(paramArray)
+.L101:
+	addsc.a	a15,a15,d9,#2
+.L102:
+	mov.aa	a4,a10
+	call	atoi
+.L149:
+
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   179              charCount = 0;
+	mov	d15,#0
+	st.w	[a15],d2
+.L12:
+	ld.b	d0,[+a12]1
+.L150:
+	jne	d0,d12,.L10
+.L151:
+
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   180          }
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   181          tempString++;
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   182      }
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   183      if (charCount)
+	jeq	d15,#0,.L14
+.L152:
+
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   184      {
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   185          param[charCount] = 0;
+	addsc.a	a15,a10,d15,#0
+.L153:
+
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   186          paramCount++;
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   187          paramArray[paramCount] = (uint32) atoi(param);
+	mov	d15,#0
+	mov.aa	a4,a10
+.L103:
+	st.b	[a15],d15
+.L104:
+	add	d9,#1
+	movh.a	a15,#@his(paramArray)
+	lea	a15,[a15]@los(paramArray)
+.L154:
+	addsc.a	a15,a15,d9,#2
+.L155:
+	call	atoi
+.L156:
+	st.w	[a15],d2
+.L157:
+
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   188      }
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   189      /* Check for PostAmble */
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   190      for(; *tempString == '@' && postAmble < 3; tempString++, postAmble++);
+	j	.L14
+.L15:
+	add	d8,#1
+	add.a	a12,#1
+.L14:
+	ld.b	d0,[a12]0
+.L158:
+	mov	d15,#64
+.L159:
+	jne	d15,d0,.L16
+.L105:
+	jlt	d8,#3,.L15
+.L16:
+
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   191      if (postAmble < 3) 
+	jge	d8,#3,.L17
+
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   192          return -1;
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   193      /* Return the Number of Parameters obtained in the ParamString */
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   194      return paramCount;
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   195  }
+.L6:
+	mov	d2,#-1
+	ret
+.L17:
+	mov	d2,d9
+	ret
+.L82:
+	
+__StringParser_function_end:
+	.size	StringParser,__StringParser_function_end-StringParser
+.L63:
+	; End of function
+	
+	.sdecl	'.text.Test_Setup.atoi',code,cluster('atoi')
+	.sect	'.text.Test_Setup.atoi'
+	.align	2
+	
+	.global	atoi
+
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   196  
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   197  
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   198  /*******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   199  ** Syntax : uint32 atoi(char s[])                                             **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   200  **                                                                            **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   201  ** Service ID:                                                                **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   202  **                                                                            **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   203  ** Sync/Async:                                                                **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   204  **                                                                            **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   205  ** Reentrancy:                                                                **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   206  **                                                                            **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   207  ** Parameters (in):                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   208  **                                                                            **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   209  ** Parameters (out): none                                                     **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   210  **                                                                            **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   211  ** Return value: none                                                         **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   212  **                                                                            **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   213  ** Description : This function convert character String to integer            **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   214  *******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   215  uint32 atoi(char s[])
+; Function atoi
+.L42:
+atoi:	.type	func
+
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   216  {
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   217      uint32 i, n;
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   218      n = 0;
+	mov	d2,#0
+.L106:
+
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   219      for (i = 0; s[i] >= '0' && s[i] <= '9'; ++i)
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   220          n = 10 * n + (s[i] - '0');
+	mov	d15,#10
+	j	.L20
+.L21:
+	ld.b	d0,[a4+]1
+.L128:
+	add	d0,d0,#-48
+.L129:
+	madd	d2,d0,d2,d15
+.L20:
+	ld.b	d0,[a4]0
+	add	d0,d0,#-48
+	extr.u	d0,d0,#0,#8
+.L130:
+	jlt.u	d0,#10,.L21
+.L131:
+
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   221      return n;      /* return of n value */
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   222  }
+	ret
+.L77:
+	
+__atoi_function_end:
+	.size	atoi,__atoi_function_end-atoi
+.L58:
+	; End of function
+	
+	.sdecl	'.text.Test_Setup.StringParser_manual',code,cluster('StringParser_manual')
+	.sect	'.text.Test_Setup.StringParser_manual'
+	.align	2
+	
+	.global	StringParser_manual
+
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   223  
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   224  
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   225  /*******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   226  ** Syntax : int StringParser_manual()                                         **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   227  **                                                                            **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   228  ** Service ID:                                                                **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   229  **                                                                            **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   230  ** Sync/Async:                                                                **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   231  **                                                                            **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   232  ** Reentrancy:                                                                **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   233  **                                                                            **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   234  ** Parameters (in):                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   235  **                                                                            **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   236  ** Parameters (out): none                                                     **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   237  **                                                                            **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   238  ** Return value: none                                                         **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   239  **                                                                            **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   240  ** Description : This function does the parsing of the given string           **
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   241  *******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   242  int StringParser_manual()
+; Function StringParser_manual
+.L44:
+StringParser_manual:	.type	func
+
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   243  {
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   244      char *tempString, param[20];
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   245      tempString = inputString;
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   246      int preAmble=0, postAmble=0, paramCount=0, charCount=0;
+	mov	d0,#0
+	movh.a	a12,#@his(inputString)
+.L108:
+	mov	d8,d0
+	lea	a12,[a12]@los(inputString)
+.L109:
+
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   247      
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   248      /* Check for PreAmble */
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   249      for(; *tempString == '[' && preAmble < 1; tempString++, preAmble++);
+	mov	d15,#91
+	sub.a	a10,#24
+.L107:
+	j	.L23
+.L24:
+	add	d0,#1
+	add.a	a12,#1
+.L23:
+	ld.b	d1,[a12]0
+	jne	d15,d1,.L25
+.L164:
+	jlt	d0,#1,.L24
+.L25:
+
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   250      if (preAmble < 1) 
+	jlt	d0,#1,.L26
+.L165:
+
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   251          return -1;
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   252  
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   253      /* Find the TestCase ID ending with ']' delimiter */
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   254      for(; *tempString != ']'; tempString++)
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   255      {
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   256          param[charCount++] = (char) *tempString;
+	mov.aa	a15,a10
+.L166:
+	mov	d15,#93
+	j	.L27
+.L28:
+	ld.bu	d0,[a12+]1
+.L167:
+	st.b	[a15+],d0
+.L27:
+	ld.b	d0,[a12]0
+.L168:
+	jne	d15,d0,.L28
+.L169:
+
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   257      }
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   258      
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   259      /* Check for parameter PreAmble */
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   260      if (*++tempString != '[') 
+	ld.b	d0,[+a12]1
+.L170:
+	mov	d15,#91
+.L171:
+	jeq	d15,d0,.L29
+
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   261          return -1;
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   262  
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   263      /* Transfer it the the Parameter Array as first Element. */
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   264      tempString++;
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   265      paramArray[paramCount] = (uint32) atoi(param);
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   266      charCount = 0;
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   267      tempString++;
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   268  
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   269      /* Find the Test Case Parameters */
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   270      while (*tempString != ']')
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   271      {
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   272          /* Looks for the ',' delimiter */
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   273          if (*tempString != ',')
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   274          {
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   275              param[charCount++]= (char) *tempString;
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   276          }   
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   277          else
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   278          {
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   279              param[charCount] = 0;
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   280              paramCount++;
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   281              paramArray[paramCount] = (uint32) atoi(param);
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   282              charCount = 0;
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   283          }
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   284          tempString++;
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   285      }
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   286      if (charCount)
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   287      {
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   288          param[charCount] = 0;
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   289          paramCount++;
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   290          paramArray[paramCount] = (uint32) atoi(param);
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   291      }
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   292      /* Return the Number of Parameters obtained in the ParamString */
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   293      return paramCount;
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   294  }
+.L26:
+	mov	d2,#-1
+	ret
+.L29:
+	mov	d9,#0
+	movh.a	a13,#@his(paramArray)
+.L172:
+	mov	d10,#44
+	lea	a13,[a13]@los(paramArray)
+.L173:
+	mov	d11,#93
+	add.a	a12,#1
+.L174:
+	j	.L31
+.L32:
+	addsc.a	a15,a10,d15,#0
+.L175:
+	ld.b	d0,[a12]0
+.L176:
+	jeq	d0,d10,.L33
+.L177:
+	st.b	[a15],d0
+.L178:
+	add	d15,#1
+	j	.L34
+.L33:
+	add	d8,#1
+	st.b	[a15],d9
+.L31:
+	addsc.a	a15,a13,d8,#2
+.L179:
+	mov.aa	a4,a10
+	call	atoi
+.L180:
+	mov	d15,#0
+	st.w	[a15],d2
+.L34:
+	ld.b	d0,[+a12]1
+.L181:
+	jne	d0,d11,.L32
+.L182:
+	jeq	d15,#0,.L35
+.L183:
+	addsc.a	a15,a10,d15,#0
+.L184:
+	add	d8,#1
+	mov.aa	a4,a10
+.L185:
+	mov	d15,#0
+	st.b	[a15],d15
+.L110:
+	addsc.a	a15,a13,d8,#2
+.L186:
+	call	atoi
+.L187:
+	st.w	[a15],d2
+.L35:
+	mov	d2,d8
+	ret
+.L90:
+	
+__StringParser_manual_function_end:
+	.size	StringParser_manual,__StringParser_manual_function_end-StringParser_manual
+.L68:
+	; End of function
+	
+	.sdecl	'.bss.Test_Setup.inputString',data,cluster('inputString')
+	.sect	'.bss.Test_Setup.inputString'
+	.global	inputString
+inputString:	.type	object
+	.size	inputString,100
+	.space	100
+	.sdecl	'.bss.Test_Setup.paramArray',data,cluster('paramArray')
+	.sect	'.bss.Test_Setup.paramArray'
+	.global	paramArray
+	.align	2
+paramArray:	.type	object
+	.size	paramArray,80
+	.space	80
+	.sdecl	'.rodata.Test_Setup..1.str',data,rom
+	.sect	'.rodata.Test_Setup..1.str'
+.1.str:	.type	object
+	.size	.1.str,10
+	.byte	83,84,65,82
+	.byte	84,95,65,80
+	.byte	80
+	.space	1
+	.calls	'Test_Setup_Init','Test_InitPrint'
+	.calls	'Test_Setup_Init','get_char'
+	.calls	'Test_Setup_Init','print_f'
+	.calls	'Test_Setup_Init','get_ch'
+	.calls	'StringParser','atoi'
+	.calls	'StringParser_manual','atoi'
+	.calls	'Test_Setup_Init','',0
+	.calls	'StringParser','',24
+	.calls	'atoi','',0
+	.extern	Test_InitPrint
+	.extern	get_char
+	.extern	print_f
+	.extern	get_ch
+	.calls	'StringParser_manual','',24
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L46:
+	.word	557
+	.half	3
+	.word	.L47
+	.byte	4
+.L45:
+	.byte	1
+	.byte	'..\\Aurix_MC-ISAR\\integration_general\\src\\Test_Setup.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L48
+	.byte	2
+	.byte	'__enable',0,1,1,1,1,3
+	.byte	'Test_InitPrint',0,1,107,13,1,1,1,1
+.L81:
+	.byte	4
+	.byte	'int',0,4,5,5
+	.byte	'get_char',0,1,146,1,12
+	.word	241
+	.byte	1,1,1,1
+.L74:
+	.byte	4
+	.byte	'char',0,1,6,6
+	.word	270
+	.byte	7
+	.word	278
+	.byte	8
+	.byte	'print_f',0,1,166,1,13,1,1,1,1,9
+	.byte	'p_frm',0,1,166,1,33
+	.word	283
+	.byte	10,1,166,1,40,0,5
+	.byte	'get_ch',0,1,135,2,12
+	.word	241
+	.byte	1,1,1,1
+.L76:
+	.byte	4
+	.byte	'unsigned long int',0,4,7
+.L78:
+	.byte	7
+	.word	270
+.L84:
+	.byte	11,20
+	.word	270
+	.byte	12,19,0,4
+	.byte	'unsigned int',0,4,7,13
+	.byte	'__size_t',0,2,1,1
+	.word	381
+	.byte	14,1,7
+	.word	414
+	.byte	13
+	.byte	'__codeptr',0,2,1,1
+	.word	416
+	.byte	4
+	.byte	'unsigned char',0,1,8,13
+	.byte	'uint8',0,3,90,29
+	.word	439
+	.byte	4
+	.byte	'unsigned short int',0,2,7,13
+	.byte	'uint16',0,3,92,29
+	.word	470
+	.byte	13
+	.byte	'uint32',0,3,94,29
+	.word	346
+	.byte	13
+	.byte	'_iob_flag_t',0,4,82,25
+	.word	470
+.L96:
+	.byte	11,100
+	.word	270
+	.byte	12,99,0
+.L97:
+	.byte	11,80
+	.word	346
+	.byte	12,19,0,0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L47:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,46,0,3,8,54,15,39,12,63,12,60,12,0,0,3,46,0,3,8,58,15
+	.byte	59,15,57,15,54,15,39,12,63,12,60,12,0,0,4,36,0,3,8,11,15,62,15,0,0,5,46,0,3,8,58,15,59,15,57,15,73,19
+	.byte	54,15,39,12,63,12,60,12,0,0,6,38,0,73,19,0,0,7,15,0,73,19,0,0,8,46,1,3,8,58,15,59,15,57,15,54,15,39,12
+	.byte	63,12,60,12,0,0,9,5,0,3,8,58,15,59,15,57,15,73,19,0,0,10,24,0,58,15,59,15,57,15,0,0,11,1,1,11,15,73,19
+	.byte	0,0,12,33,0,47,15,0,0,13,22,0,3,8,58,15,59,15,57,15,73,19,0,0,14,21,0,54,15,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L48:
+	.word	.L112-.L111
+.L111:
+	.half	3
+	.word	.L114-.L113
+.L113:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general\\inc',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc',0
+	.byte	'R:\\TASKING\\TriCore v6.2r2\\ctc\\include\\',0,0
+	.byte	'Test_Print.h',0,1,0,0
+	.byte	'..\\Aurix_MC-ISAR\\integration_general\\src\\Test_Setup.c',0,0,0,0
+	.byte	'Platform_Types.h',0,2,0,0
+	.byte	'stdio.h',0,3,0,0,0
+.L114:
+.L112:
+	.sdecl	'.debug_info',debug,cluster('Test_Setup_Init')
+	.sect	'.debug_info'
+.L49:
+	.word	270
+	.half	3
+	.word	.L50
+	.byte	4,1
+	.byte	'..\\Aurix_MC-ISAR\\integration_general\\src\\Test_Setup.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L52,.L51
+	.byte	2
+	.word	.L45
+	.byte	3
+	.byte	'Test_Setup_Init',0,1,108,6,1,1,1
+	.word	.L38,.L73,.L37
+	.byte	4
+	.word	.L38,.L73
+	.byte	5
+	.byte	'c',0,1,110,8
+	.word	.L74,.L75
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Test_Setup_Init')
+	.sect	'.debug_abbrev'
+.L50:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Test_Setup_Init')
+	.sect	'.debug_line'
+.L51:
+	.word	.L116-.L115
+.L115:
+	.half	3
+	.word	.L118-.L117
+.L117:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\Aurix_MC-ISAR\\integration_general\\src\\Test_Setup.c',0,0,0,0,0
+.L118:
+	.byte	5,17,7,0,5,2
+	.word	.L38
+	.byte	3,238,0,1,5,11,9
+	.half	.L119-.L38
+	.byte	3,1,1,5,13,9
+	.half	.L120-.L119
+	.byte	3,3,1,5,21,9
+	.half	.L121-.L120
+	.byte	3,2,1,5,31,9
+	.half	.L98-.L121
+	.byte	1,5,4,7,9
+	.half	.L122-.L98
+	.byte	3,1,1,5,1,9
+	.half	.L123-.L122
+	.byte	3,1,1,7,9
+	.half	.L53-.L123
+	.byte	0,1,1
+.L116:
+	.sdecl	'.debug_ranges',debug,cluster('Test_Setup_Init')
+	.sect	'.debug_ranges'
+.L52:
+	.word	-1,.L38,0,.L53-.L38,0,0
+	.sdecl	'.debug_info',debug,cluster('atoi')
+	.sect	'.debug_info'
+.L54:
+	.word	280
+	.half	3
+	.word	.L55
+	.byte	4,1
+	.byte	'..\\Aurix_MC-ISAR\\integration_general\\src\\Test_Setup.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L57,.L56
+	.byte	2
+	.word	.L45
+	.byte	3
+	.byte	'atoi',0,1,215,1,8
+	.word	.L76
+	.byte	1,1,1
+	.word	.L42,.L77,.L41
+	.byte	4
+	.byte	's',0,1,215,1,18
+	.word	.L78,.L79
+	.byte	5
+	.word	.L42,.L77
+	.byte	6
+	.byte	'n',0,1,217,1,15
+	.word	.L76,.L80
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('atoi')
+	.sect	'.debug_abbrev'
+.L55:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('atoi')
+	.sect	'.debug_line'
+.L56:
+	.word	.L125-.L124
+.L124:
+	.half	3
+	.word	.L127-.L126
+.L126:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\Aurix_MC-ISAR\\integration_general\\src\\Test_Setup.c',0,0,0,0,0
+.L127:
+	.byte	5,7,7,0,5,2
+	.word	.L42
+	.byte	3,217,1,1,5,13,9
+	.half	.L106-.L42
+	.byte	3,2,1,5,43,3,127,1,5,24,9
+	.half	.L21-.L106
+	.byte	3,1,1,5,28,9
+	.half	.L128-.L21
+	.byte	1,5,20,9
+	.half	.L129-.L128
+	.byte	1,5,33,9
+	.half	.L20-.L129
+	.byte	3,127,1,5,37,9
+	.half	.L130-.L20
+	.byte	1,5,1,7,9
+	.half	.L131-.L130
+	.byte	3,3,1,7,9
+	.half	.L58-.L131
+	.byte	0,1,1
+.L125:
+	.sdecl	'.debug_ranges',debug,cluster('atoi')
+	.sect	'.debug_ranges'
+.L57:
+	.word	-1,.L42,0,.L58-.L42,0,0
+	.sdecl	'.debug_info',debug,cluster('StringParser')
+	.sect	'.debug_info'
+.L59:
+	.word	403
+	.half	3
+	.word	.L60
+	.byte	4,1
+	.byte	'..\\Aurix_MC-ISAR\\integration_general\\src\\Test_Setup.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L62,.L61
+	.byte	2
+	.word	.L45
+	.byte	3
+	.byte	'StringParser',0,1,145,1,5
+	.word	.L81
+	.byte	1,1,1
+	.word	.L40,.L82,.L39
+	.byte	4
+	.word	.L40,.L82
+	.byte	5
+	.byte	'tempString',0,1,147,1,11
+	.word	.L78,.L83
+	.byte	5
+	.byte	'param',0,1,147,1,23
+	.word	.L84,.L85
+	.byte	4
+	.word	.L40,.L82
+	.byte	5
+	.byte	'preAmble',0,1,149,1,9
+	.word	.L81,.L86
+	.byte	5
+	.byte	'postAmble',0,1,149,1,21
+	.word	.L81,.L87
+	.byte	5
+	.byte	'paramCount',0,1,149,1,34
+	.word	.L81,.L88
+	.byte	5
+	.byte	'charCount',0,1,149,1,48
+	.word	.L81,.L89
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('StringParser')
+	.sect	'.debug_abbrev'
+.L60:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('StringParser')
+	.sect	'.debug_line'
+.L61:
+	.word	.L133-.L132
+.L132:
+	.half	3
+	.word	.L135-.L134
+.L134:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\Aurix_MC-ISAR\\integration_general\\src\\Test_Setup.c',0,0,0,0,0
+.L135:
+	.byte	5,17,7,0,5,2
+	.word	.L40
+	.byte	3,148,1,1,5,18,3,127,1,5,30,9
+	.half	.L100-.L40
+	.byte	3,1,1,5,18,3,127,1,5,26,9
+	.half	.L136-.L100
+	.byte	3,4,1,5,5,3,121,1,5,45,9
+	.half	.L99-.L136
+	.byte	3,7,1,5,69,9
+	.half	.L4-.L99
+	.byte	1,5,57,1,5,11,9
+	.half	.L3-.L4
+	.byte	1,5,42,9
+	.half	.L137-.L3
+	.byte	1,5,5,7,9
+	.half	.L5-.L137
+	.byte	3,1,1,5,9,7,9
+	.half	.L138-.L5
+	.byte	3,6,1,5,26,9
+	.half	.L139-.L138
+	.byte	3,126,1,5,29,1,5,37,9
+	.half	.L8-.L139
+	.byte	3,2,1,5,28,9
+	.half	.L140-.L8
+	.byte	1,5,11,9
+	.half	.L7-.L140
+	.byte	3,126,1,5,29,9
+	.half	.L141-.L7
+	.byte	1,5,32,7,9
+	.half	.L142-.L141
+	.byte	3,19,1,5,28,9
+	.half	.L143-.L142
+	.byte	3,122,1,5,27,9
+	.half	.L144-.L143
+	.byte	3,125,1,5,30,1,5,18,9
+	.half	.L10-.L144
+	.byte	3,5,1,5,13,9
+	.half	.L145-.L10
+	.byte	3,126,1,5,9,9
+	.half	.L146-.L145
+	.byte	1,5,31,7,9
+	.half	.L147-.L146
+	.byte	3,2,1,5,28,9
+	.half	.L148-.L147
+	.byte	1,5,51,1,5,23,9
+	.half	.L11-.L148
+	.byte	3,5,1,5,30,3,127,1,5,13,9
+	.half	.L9-.L11
+	.byte	3,2,1,5,23,9
+	.half	.L101-.L9
+	.byte	1,5,52,9
+	.half	.L102-.L101
+	.byte	1,5,23,9
+	.half	.L149-.L102
+	.byte	3,1,1,5,36,3,127,1,5,12,9
+	.half	.L12-.L149
+	.byte	3,117,1,5,30,9
+	.half	.L150-.L12
+	.byte	1,5,5,7,9
+	.half	.L151-.L150
+	.byte	3,16,1,5,14,7,9
+	.half	.L152-.L151
+	.byte	3,2,1,5,28,9
+	.half	.L153-.L152
+	.byte	1,5,48,3,2,1,5,26,9
+	.half	.L103-.L153
+	.byte	3,126,1,5,19,9
+	.half	.L104-.L103
+	.byte	3,1,1,5,9,3,1,1,5,19,9
+	.half	.L154-.L104
+	.byte	1,5,48,9
+	.half	.L155-.L154
+	.byte	1,5,32,9
+	.half	.L156-.L155
+	.byte	1,5,46,9
+	.half	.L157-.L156
+	.byte	3,3,1,5,71,9
+	.half	.L15-.L157
+	.byte	1,5,58,1,5,11,9
+	.half	.L14-.L15
+	.byte	1,5,26,9
+	.half	.L158-.L14
+	.byte	1,5,11,9
+	.half	.L159-.L158
+	.byte	1,5,43,7,9
+	.half	.L105-.L159
+	.byte	1,5,5,7,9
+	.half	.L16-.L105
+	.byte	3,1,1,5,16,7,9
+	.half	.L6-.L16
+	.byte	3,1,1,5,1,3,3,1,5,5,7,9
+	.half	.L17-.L6
+	.byte	3,127,1,5,1,3,1,1,7,9
+	.half	.L63-.L17
+	.byte	0,1,1
+.L133:
+	.sdecl	'.debug_ranges',debug,cluster('StringParser')
+	.sect	'.debug_ranges'
+.L62:
+	.word	-1,.L40,0,.L63-.L40,0,0
+	.sdecl	'.debug_info',debug,cluster('StringParser_manual')
+	.sect	'.debug_info'
+.L64:
+	.word	387
+	.half	3
+	.word	.L65
+	.byte	4,1
+	.byte	'..\\Aurix_MC-ISAR\\integration_general\\src\\Test_Setup.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L67,.L66
+	.byte	2
+	.word	.L45
+	.byte	3
+	.byte	'StringParser_manual',0,1,242,1,5
+	.word	.L81
+	.byte	1,1,1
+	.word	.L44,.L90,.L43
+	.byte	4
+	.word	.L44,.L90
+	.byte	5
+	.byte	'tempString',0,1,244,1,11
+	.word	.L78,.L91
+	.byte	5
+	.byte	'param',0,1,244,1,23
+	.word	.L84,.L92
+	.byte	4
+	.word	.L44,.L90
+	.byte	5
+	.byte	'preAmble',0,1,246,1,9
+	.word	.L81,.L93
+	.byte	5
+	.byte	'paramCount',0,1,246,1,34
+	.word	.L81,.L94
+	.byte	5
+	.byte	'charCount',0,1,246,1,48
+	.word	.L81,.L95
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('StringParser_manual')
+	.sect	'.debug_abbrev'
+.L65:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('StringParser_manual')
+	.sect	'.debug_line'
+.L66:
+	.word	.L161-.L160
+.L160:
+	.half	3
+	.word	.L163-.L162
+.L162:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\Aurix_MC-ISAR\\integration_general\\src\\Test_Setup.c',0,0,0,0,0
+.L163:
+	.byte	5,17,7,0,5,2
+	.word	.L44
+	.byte	3,245,1,1,5,18,3,127,1,5,44,9
+	.half	.L108-.L44
+	.byte	3,1,1,5,18,3,127,1,5,26,9
+	.half	.L109-.L108
+	.byte	3,4,1,5,5,3,121,1,5,45,9
+	.half	.L107-.L109
+	.byte	3,7,1,5,69,9
+	.half	.L24-.L107
+	.byte	1,5,57,1,5,11,9
+	.half	.L23-.L24
+	.byte	1,5,42,9
+	.half	.L164-.L23
+	.byte	1,5,5,7,9
+	.half	.L25-.L164
+	.byte	3,1,1,5,9,7,9
+	.half	.L165-.L25
+	.byte	3,6,1,5,26,9
+	.half	.L166-.L165
+	.byte	3,126,1,5,29,1,5,37,9
+	.half	.L28-.L166
+	.byte	3,2,1,5,28,9
+	.half	.L167-.L28
+	.byte	1,5,11,9
+	.half	.L27-.L167
+	.byte	3,126,1,5,29,9
+	.half	.L168-.L27
+	.byte	1,5,9,7,9
+	.half	.L169-.L168
+	.byte	3,6,1,5,26,9
+	.half	.L170-.L169
+	.byte	1,5,5,9
+	.half	.L171-.L170
+	.byte	1,5,16,7,9
+	.half	.L26-.L171
+	.byte	3,1,1,5,1,3,33,1,5,32,7,9
+	.half	.L29-.L26
+	.byte	3,113,1,5,13,3,2,1,5,28,9
+	.half	.L172-.L29
+	.byte	3,120,1,5,13,3,8,1,5,27,9
+	.half	.L173-.L172
+	.byte	3,117,1,5,15,3,122,1,5,30,9
+	.half	.L174-.L173
+	.byte	3,6,1,5,18,9
+	.half	.L32-.L174
+	.byte	3,5,1,5,13,9
+	.half	.L175-.L32
+	.byte	3,126,1,5,9,9
+	.half	.L176-.L175
+	.byte	1,5,31,7,9
+	.half	.L177-.L176
+	.byte	3,2,1,5,28,9
+	.half	.L178-.L177
+	.byte	1,5,51,1,5,23,9
+	.half	.L33-.L178
+	.byte	3,5,1,5,30,3,127,1,5,23,9
+	.half	.L31-.L33
+	.byte	3,2,1,5,52,9
+	.half	.L179-.L31
+	.byte	1,5,23,9
+	.half	.L180-.L179
+	.byte	3,1,1,5,36,3,127,1,5,12,9
+	.half	.L34-.L180
+	.byte	3,117,1,5,30,9
+	.half	.L181-.L34
+	.byte	1,5,5,7,9
+	.half	.L182-.L181
+	.byte	3,16,1,5,14,7,9
+	.half	.L183-.L182
+	.byte	3,2,1,5,19,9
+	.half	.L184-.L183
+	.byte	3,1,1,5,48,3,1,1,5,28,9
+	.half	.L185-.L184
+	.byte	3,126,1,5,26,1,5,19,9
+	.half	.L110-.L185
+	.byte	3,2,1,5,48,9
+	.half	.L186-.L110
+	.byte	1,5,32,9
+	.half	.L187-.L186
+	.byte	1,5,5,9
+	.half	.L35-.L187
+	.byte	3,3,1,5,1,3,1,1,7,9
+	.half	.L68-.L35
+	.byte	0,1,1
+.L161:
+	.sdecl	'.debug_ranges',debug,cluster('StringParser_manual')
+	.sect	'.debug_ranges'
+.L67:
+	.word	-1,.L44,0,.L68-.L44,0,0
+	.sdecl	'.debug_info',debug,cluster('inputString')
+	.sect	'.debug_info'
+.L69:
+	.word	229
+	.half	3
+	.word	.L70
+	.byte	4,1
+	.byte	'..\\Aurix_MC-ISAR\\integration_general\\src\\Test_Setup.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1,2
+	.word	.L45
+	.byte	3
+	.byte	'inputString',0,2,65,6
+	.word	.L96
+	.byte	1,5,3
+	.word	inputString
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('inputString')
+	.sect	'.debug_abbrev'
+.L70:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('paramArray')
+	.sect	'.debug_info'
+.L71:
+	.word	228
+	.half	3
+	.word	.L72
+	.byte	4,1
+	.byte	'..\\Aurix_MC-ISAR\\integration_general\\src\\Test_Setup.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1,2
+	.word	.L45
+	.byte	3
+	.byte	'paramArray',0,2,66,8
+	.word	.L97
+	.byte	1,5,3
+	.word	paramArray
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('paramArray')
+	.sect	'.debug_abbrev'
+.L72:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_loc',debug,cluster('StringParser')
+	.sect	'.debug_loc'
+.L39:
+	.word	-1,.L40,0,.L99-.L40
+	.half	2
+	.byte	138,0
+	.word	.L99-.L40,.L17-.L40
+	.half	2
+	.byte	138,24
+	.word	.L17-.L40,.L17-.L40
+	.half	2
+	.byte	138,0
+	.word	.L17-.L40,.L82-.L40
+	.half	2
+	.byte	138,24
+	.word	.L82-.L40,.L82-.L40
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L89:
+	.word	-1,.L40,.L10-.L40,.L9-.L40
+	.half	1
+	.byte	95
+	.word	.L12-.L40,.L103-.L40
+	.half	1
+	.byte	95
+	.word	0,0
+.L85:
+	.word	-1,.L40,0,.L82-.L40
+	.half	2
+	.byte	145,104
+	.word	0,0
+.L88:
+	.word	-1,.L40,.L11-.L40,.L9-.L40
+	.half	1
+	.byte	89
+	.word	.L101-.L40,.L102-.L40
+	.half	1
+	.byte	89
+	.word	.L104-.L40,.L15-.L40
+	.half	1
+	.byte	89
+	.word	.L17-.L40,.L82-.L40
+	.half	1
+	.byte	89
+	.word	0,0
+.L87:
+	.word	-1,.L40,.L15-.L40,.L14-.L40
+	.half	1
+	.byte	88
+	.word	.L105-.L40,.L6-.L40
+	.half	1
+	.byte	88
+	.word	0,0
+.L86:
+	.word	-1,.L40,.L100-.L40,.L8-.L40
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L83:
+	.word	-1,.L40,.L100-.L40,.L82-.L40
+	.half	1
+	.byte	108
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('StringParser_manual')
+	.sect	'.debug_loc'
+.L43:
+	.word	-1,.L44,0,.L107-.L44
+	.half	2
+	.byte	138,0
+	.word	.L107-.L44,.L29-.L44
+	.half	2
+	.byte	138,24
+	.word	.L29-.L44,.L29-.L44
+	.half	2
+	.byte	138,0
+	.word	.L29-.L44,.L90-.L44
+	.half	2
+	.byte	138,24
+	.word	.L90-.L44,.L90-.L44
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L95:
+	.word	-1,.L44,.L32-.L44,.L31-.L44
+	.half	1
+	.byte	95
+	.word	.L34-.L44,.L110-.L44
+	.half	1
+	.byte	95
+	.word	0,0
+.L92:
+	.word	-1,.L44,0,.L90-.L44
+	.half	2
+	.byte	145,104
+	.word	0,0
+.L94:
+	.word	-1,.L44,.L109-.L44,.L90-.L44
+	.half	1
+	.byte	88
+	.word	0,0
+.L93:
+	.word	-1,.L44,.L108-.L44,.L28-.L44
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L91:
+	.word	-1,.L44,.L108-.L44,.L90-.L44
+	.half	1
+	.byte	108
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Test_Setup_Init')
+	.sect	'.debug_loc'
+.L37:
+	.word	-1,.L38,0,.L73-.L38
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L75:
+	.word	-1,.L38,.L98-.L38,.L73-.L38
+	.half	1
+	.byte	95
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('atoi')
+	.sect	'.debug_loc'
+.L41:
+	.word	-1,.L42,0,.L77-.L42
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L80:
+	.word	-1,.L42,.L106-.L42,.L77-.L42
+	.half	1
+	.byte	82
+	.word	0,0
+.L79:
+	.word	-1,.L42,0,.L77-.L42
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L188:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,27,8,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('Test_Setup_Init')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L188,.L38,.L73-.L38
+	.sdecl	'.debug_frame',debug,cluster('StringParser')
+	.sect	'.debug_frame'
+	.word	52
+	.word	.L188,.L40,.L82-.L40
+	.byte	4
+	.word	(.L99-.L40)/2
+	.byte	19,24,22,26,3,19,138,24,4
+	.word	(.L17-.L99)/2
+	.byte	19,0,8,26,19,24,22,26,3,19,138,24,4
+	.word	(.L82-.L17)/2
+	.byte	19,0,8,26,0
+	.sdecl	'.debug_frame',debug,cluster('atoi')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L188,.L42,.L77-.L42
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('StringParser_manual')
+	.sect	'.debug_frame'
+	.word	52
+	.word	.L188,.L44,.L90-.L44
+	.byte	4
+	.word	(.L107-.L44)/2
+	.byte	19,24,22,26,3,19,138,24,4
+	.word	(.L29-.L107)/2
+	.byte	19,0,8,26,19,24,22,26,3,19,138,24,4
+	.word	(.L90-.L29)/2
+	.byte	19,0,8,26,0
+
+; ..\Aurix_MC-ISAR\integration_general\src\Test_Setup.c	   295  
+
+	; Module end

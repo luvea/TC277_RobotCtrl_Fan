@@ -1,0 +1,747 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.2r2 Build 18041957 SN 06692445"
+	.compiler_invocation	"ctc -f cc71020a --dep-file=Aurix_MC-ISAR\\integration_general\\src\\.CanIf.o.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xc -D__CPU_TC27XC__ --core=tc1.6.x --fp-model=+float -D_TASKING_C_TRICORE_ -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\.settings -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Asw -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\compiler -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc\\TC27xC -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc\\TC27xC\\SupportDocuments -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\lib -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\obj -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Asw -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\dio_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\dio_infineon_tricore\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\integration_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\integration_general\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Hal_Sensor -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output\\generated -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output\\generated\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\PWM3Ph -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Qspi -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Adc_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Adc3ph_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Can_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TLE_9180_Drive -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\UART_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Hal_Sensor -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\Demo_Aurix -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\mak -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\PWM3Ph -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Qspi -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Adc_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Adc3ph_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Can_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TLE_9180_Drive -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\UART_Test -g2 --make-target=Aurix_MC-ISAR\\integration_general\\src\\CanIf.o -t2 --language=-gcc,-volatile,+strings,-kanji --default-near-size=8 -O2 --default-a1-size=0 --default-a0-size=0 --source --align=0 --compact-max-size=200 --switch=auto --error-limit=42 -o Aurix_MC-ISAR\\integration_general\\src\\CanIf.src ..\\Aurix_MC-ISAR\\integration_general\\src\\CanIf.c"
+	.compiler_name		"ctc"
+	;source	'..\\Aurix_MC-ISAR\\integration_general\\src\\CanIf.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.CanIf.CanIf_SetWakeupEvent',code,cluster('CanIf_SetWakeupEvent')
+	.sect	'.text.CanIf.CanIf_SetWakeupEvent'
+	.align	2
+	
+	.global	CanIf_SetWakeupEvent
+
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	     1  /******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	     2  **                                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	     3  ** Copyright (C) Infineon Technologies (2013)                                **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	     4  **                                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	     5  ** All rights reserved.                                                      **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	     6  **                                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	     7  ** This document contains proprietary information belonging to Infineon      **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	     8  ** Technologies. Passing on and copying of this document, and communication  **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	     9  ** of its contents is not permitted without prior written authorization.     **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    10  **                                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    11  *******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    12  **                                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    13  **  $FILENAME   : CanIf.c $                                                  **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    14  **                                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    15  **  $CC VERSION : \main\6 $                                                  **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    16  **                                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    17  **  $DATE       : 2014-12-09 $                                               **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    18  **                                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    19  **  AUTHOR      : DL-AUTOSAR-Engineering                                     **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    20  **                                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    21  **  VENDOR      : Infineon Technologies                                      **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    22  **                                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    23  **  DESCRIPTION : This file contains CAN interface (CanIf) function          **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    24  **                definitions                                                **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    25  **                Note : This file is for Evaluation Purpose Only            **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    26  **                                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    27  **  MAY BE CHANGED BY USER [yes/no]: Yes                                     **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    28  **                                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    29  ******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    30  
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    31  /*******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    32  **                      Includes                                              **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    33  *******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    34  /* Inclusion of CanIf module header file  */
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    35  #include "CanIf.h"
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    36  #include "Mcal.h"
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    37  #include "Test_Print.h"
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    38  /*******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    39  **                      Imported Compiler Switch Check                        **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    40  *******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    41  
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    42  /*******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    43  **                      Private Macro Definitions                             **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    44  *******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    45  
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    46  /*******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    47  **                      Private Type Definitions                              **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    48  *******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    49  
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    50  /*******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    51  **                      Private Function Declarations                         **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    52  *******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    53  
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    54  /*******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    55  **                      Global Constant Definitions                           **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    56  *******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    57  
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    58  /*******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    59  **                      Global Variable Definitions                           **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    60  *******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    61  
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    62  /*******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    63  **                      Private Constant Definitions                          **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    64  *******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    65  
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    66  /*******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    67  **                      Private Variable Definitions                          **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    68  *******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    69  
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    70  /*******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    71  **                      Global Function Definitions                           **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    72  *******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    73  
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    74  /*******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    75  ** Syntax : void CanIf_SetWakeupEvent(uint8 CanNetwork,                       **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    76  **                                    CanIf_WakeupSourceType WakeupSource )   **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    77  **                                                                            **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    78  ** Service ID: none                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    79  **                                                                            **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    80  ** Sync/Async:  none                                                          **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    81  **                                                                            **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    82  ** Reentrancy:  none                                                          **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    83  **                                                                            **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    84  ** Parameters (in): none                                                      **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    85  **                                                                            **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    86  ** Parameters (out):  none                                                    **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    87  **                                                                            **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    88  ** Return value:  none                                                        **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    89  **                                                                            **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    90  ** Description : This function is called in CanTrcv_MainFunction or           **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    91  **               CanTrcv_CB_WakeupByBus function.                             **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    92  **                                                                            **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    93  *******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    94  void CanIf_SetWakeupEvent(uint8 CanNetwork,
+; Function CanIf_SetWakeupEvent
+.L3:
+CanIf_SetWakeupEvent:	.type	func
+
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    95                                     CanIf_WakeupSourceType WakeupSource )
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    96  {
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    97  	UNUSED_PARAMETER(CanNetwork)
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    98  	UNUSED_PARAMETER(WakeupSource)
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	    99  }
+	ret
+.L37:
+	
+__CanIf_SetWakeupEvent_function_end:
+	.size	CanIf_SetWakeupEvent,__CanIf_SetWakeupEvent_function_end-CanIf_SetWakeupEvent
+.L23:
+	; End of function
+	
+	.sdecl	'.text.CanIf.CanIf_CheckWakeup',code,cluster('CanIf_CheckWakeup')
+	.sect	'.text.CanIf.CanIf_CheckWakeup'
+	.align	2
+	
+	.global	CanIf_CheckWakeup
+
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	   100  
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	   101  
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	   102  void CanIf_CheckWakeup(CanIf_WakeupSourceType WakeupSource )
+; Function CanIf_CheckWakeup
+.L5:
+CanIf_CheckWakeup:	.type	func
+
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	   103  {
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	   104  
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	   105  UNUSED_PARAMETER(WakeupSource)
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	   106  	
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	   107  }
+	ret
+.L34:
+	
+__CanIf_CheckWakeup_function_end:
+	.size	CanIf_CheckWakeup,__CanIf_CheckWakeup_function_end-CanIf_CheckWakeup
+.L18:
+	; End of function
+	
+	.sdecl	'.text.CanIf.CanIf_TrcvModeIndication',code,cluster('CanIf_TrcvModeIndication')
+	.sect	'.text.CanIf.CanIf_TrcvModeIndication'
+	.align	2
+	
+	.global	CanIf_TrcvModeIndication
+
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	   108  
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	   109  void CanIf_TrcvModeIndication(uint8 Transceiver,CanTrcv_TrcvModeType OpMode)
+; Function CanIf_TrcvModeIndication
+.L7:
+CanIf_TrcvModeIndication:	.type	func
+
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	   110  {
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	   111  	UNUSED_PARAMETER(Transceiver)
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	   112  	UNUSED_PARAMETER(OpMode)
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	   113    print_f("\n Callback function CanIf_TrcvModeIndication is called!\n");
+	mov	d15,d4
+	movh.a	a4,#@his(.1.str)
+.L48:
+	mov	d8,d5
+	lea	a4,[a4]@los(.1.str)
+.L49:
+	sub.a	a10,#8
+.L46:
+	call	print_f
+.L47:
+
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	   114    print_f(" Transceiver = %d \n", Transceiver);
+	st.w	[a10],d15
+.L69:
+	movh.a	a4,#@his(.2.str)
+	lea	a4,[a4]@los(.2.str)
+	call	print_f
+.L70:
+
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	   115    print_f(" OpMode = %d \n", OpMode);
+	st.w	[a10],d8
+.L71:
+	movh.a	a4,#@his(.3.str)
+	lea	a4,[a4]@los(.3.str)
+	j	print_f
+.L40:
+	
+__CanIf_TrcvModeIndication_function_end:
+	.size	CanIf_TrcvModeIndication,__CanIf_TrcvModeIndication_function_end-CanIf_TrcvModeIndication
+.L28:
+	; End of function
+	
+	.sdecl	'.text.CanIf.CanIf_CheckTrcvWakeFlagIndication',code,cluster('CanIf_CheckTrcvWakeFlagIndication')
+	.sect	'.text.CanIf.CanIf_CheckTrcvWakeFlagIndication'
+	.align	2
+	
+	.global	CanIf_CheckTrcvWakeFlagIndication
+
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	   116  }
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	   117  
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	   118  void CanIf_CheckTrcvWakeFlagIndication(uint8 Transceiver)
+; Function CanIf_CheckTrcvWakeFlagIndication
+.L9:
+CanIf_CheckTrcvWakeFlagIndication:	.type	func
+	sub.a	a10,#8
+.L50:
+
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	   119  {
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	   120  		UNUSED_PARAMETER(Transceiver)
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	   121      print_f("\n Callback function CanIf_CheckTrcvWakeFlagIndication is called!\n");
+	mov	d15,d4
+	movh.a	a4,#@his(.4.str)
+.L52:
+	lea	a4,[a4]@los(.4.str)
+	call	print_f
+.L51:
+
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	   122      print_f(" Transceiver = %d \n", Transceiver);
+	st.w	[a10],d15
+.L76:
+	movh.a	a4,#@his(.2.str)
+	lea	a4,[a4]@los(.2.str)
+	j	print_f
+.L44:
+	
+__CanIf_CheckTrcvWakeFlagIndication_function_end:
+	.size	CanIf_CheckTrcvWakeFlagIndication,__CanIf_CheckTrcvWakeFlagIndication_function_end-CanIf_CheckTrcvWakeFlagIndication
+.L33:
+	; End of function
+	
+	.sdecl	'.rodata.CanIf..1.str',data,rom
+	.sect	'.rodata.CanIf..1.str'
+.1.str:	.type	object
+	.size	.1.str,57
+	.byte	10,32,67,97
+	.byte	108,108,98,97
+	.byte	99,107,32,102
+	.byte	117,110,99,116
+	.byte	105,111,110,32
+	.byte	67,97,110,73
+	.byte	102,95,84,114
+	.byte	99,118,77,111
+	.byte	100,101,73,110
+	.byte	100,105,99,97
+	.byte	116,105,111,110
+	.byte	32,105,115,32
+	.byte	99,97,108,108
+	.byte	101,100,33,10
+	.space	1
+	.sdecl	'.rodata.CanIf..2.str',data,rom
+	.sect	'.rodata.CanIf..2.str'
+.2.str:	.type	object
+	.size	.2.str,20
+	.byte	32,84,114,97
+	.byte	110,115,99,101
+	.byte	105,118,101,114
+	.byte	32,61,32,37
+	.byte	100,32,10
+	.space	1
+	.sdecl	'.rodata.CanIf..3.str',data,rom
+	.sect	'.rodata.CanIf..3.str'
+.3.str:	.type	object
+	.size	.3.str,15
+	.byte	32,79,112,77
+	.byte	111,100,101,32
+	.byte	61,32,37,100
+	.byte	32,10
+	.space	1
+	.sdecl	'.rodata.CanIf..4.str',data,rom
+	.sect	'.rodata.CanIf..4.str'
+.4.str:	.type	object
+	.size	.4.str,66
+	.byte	10,32,67,97
+	.byte	108,108,98,97
+	.byte	99,107,32,102
+	.byte	117,110,99,116
+	.byte	105,111,110,32
+	.byte	67,97,110,73
+	.byte	102,95,67,104
+	.byte	101,99,107,84
+	.byte	114,99,118,87
+	.byte	97,107,101,70
+	.byte	108,97,103,73
+	.byte	110,100,105,99
+	.byte	97,116,105,111
+	.byte	110,32,105,115
+	.byte	32,99,97,108
+	.byte	108,101,100,33
+	.byte	10
+	.space	1
+	.calls	'CanIf_TrcvModeIndication','print_f'
+	.calls	'CanIf_CheckTrcvWakeFlagIndication','print_f'
+	.calls	'CanIf_SetWakeupEvent','',0
+	.calls	'CanIf_CheckWakeup','',0
+	.calls	'CanIf_TrcvModeIndication','',8
+	.extern	print_f
+	.calls	'CanIf_CheckTrcvWakeFlagIndication','',8
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L11:
+	.word	637
+	.half	3
+	.word	.L12
+	.byte	4
+.L10:
+	.byte	1
+	.byte	'..\\Aurix_MC-ISAR\\integration_general\\src\\CanIf.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L13
+.L35:
+	.byte	2
+	.byte	'unsigned char',0,1,8
+.L42:
+	.byte	3,1,85,9,1,4
+	.byte	'CANTRCV_TRCVMODE_NORMAL',0,0,4
+	.byte	'CANTRCV_TRCVMODE_SLEEP',0,1,4
+	.byte	'CANTRCV_TRCVMODE_STANDBY',0,2,0,2
+	.byte	'char',0,1,6,5
+	.word	300
+	.byte	6
+	.word	308
+	.byte	7
+	.byte	'print_f',0,2,166,1,13,1,1,1,1,8
+	.byte	'p_frm',0,2,166,1,33
+	.word	313
+	.byte	9,2,166,1,40,0,2
+	.byte	'unsigned int',0,4,7,10
+	.byte	'__size_t',0,3,1,1
+	.word	356
+	.byte	11,1,6
+	.word	389
+	.byte	10
+	.byte	'__codeptr',0,3,1,1
+	.word	391
+	.byte	10
+	.byte	'uint8',0,4,90,29
+	.word	199
+	.byte	2
+	.byte	'unsigned short int',0,2,7,10
+	.byte	'uint16',0,4,92,29
+	.word	428
+	.byte	2
+	.byte	'unsigned long int',0,4,7,10
+	.byte	'uint32',0,4,94,29
+	.word	465
+	.byte	10
+	.byte	'PduIdType',0,5,72,22
+	.word	199
+	.byte	10
+	.byte	'PduLengthType',0,5,76,22
+	.word	428
+	.byte	10
+	.byte	'Can_IdType',0,1,45,16
+	.word	465
+	.byte	10
+	.byte	'CanTrcv_TrcvModeType',0,1,90,3
+	.word	216
+	.byte	10
+	.byte	'CanIf_WakeupSourceType',0,6,56,15
+	.word	199
+	.byte	10
+	.byte	'_iob_flag_t',0,7,82,25
+	.word	428
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L12:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,4,1,58,15,59,15,57,15,11,15
+	.byte	0,0,4,40,0,3,8,28,13,0,0,5,38,0,73,19,0,0,6,15,0,73,19,0,0,7,46,1,3,8,58,15,59,15,57,15,54,15,39,12,63
+	.byte	12,60,12,0,0,8,5,0,3,8,58,15,59,15,57,15,73,19,0,0,9,24,0,58,15,59,15,57,15,0,0,10,22,0,3,8,58,15,59,15
+	.byte	57,15,73,19,0,0,11,21,0,54,15,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L13:
+	.word	.L54-.L53
+.L53:
+	.half	3
+	.word	.L56-.L55
+.L55:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general\\inc',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\inc',0
+	.byte	'R:\\TASKING\\TriCore v6.2r2\\ctc\\include\\',0,0
+	.byte	'Can_GeneralTypes.h',0,1,0,0
+	.byte	'Test_Print.h',0,1,0,0
+	.byte	'..\\Aurix_MC-ISAR\\integration_general\\src\\CanIf.c',0,0,0,0
+	.byte	'Platform_Types.h',0,2,0,0
+	.byte	'ComStack_Types.h',0,3,0,0
+	.byte	'CanIf_Types.h',0,1,0,0
+	.byte	'stdio.h',0,4,0,0,0
+.L56:
+.L54:
+	.sdecl	'.debug_info',debug,cluster('CanIf_CheckWakeup')
+	.sect	'.debug_info'
+.L14:
+	.word	277
+	.half	3
+	.word	.L15
+	.byte	4,1
+	.byte	'..\\Aurix_MC-ISAR\\integration_general\\src\\CanIf.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L17,.L16
+	.byte	2
+	.word	.L10
+	.byte	3
+	.byte	'CanIf_CheckWakeup',0,1,102,6,1,1,1
+	.word	.L5,.L34,.L4
+	.byte	4
+	.byte	'WakeupSource',0,1,102,47
+	.word	.L35,.L36
+	.byte	5
+	.word	.L5,.L34
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('CanIf_CheckWakeup')
+	.sect	'.debug_abbrev'
+.L15:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('CanIf_CheckWakeup')
+	.sect	'.debug_line'
+.L16:
+	.word	.L58-.L57
+.L57:
+	.half	3
+	.word	.L60-.L59
+.L59:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\Aurix_MC-ISAR\\integration_general\\src\\CanIf.c',0,0,0,0,0
+.L60:
+	.byte	5,1,7,0,5,2
+	.word	.L5
+	.byte	3,234,0,1,7,9
+	.half	.L18-.L5
+	.byte	0,1,1
+.L58:
+	.sdecl	'.debug_ranges',debug,cluster('CanIf_CheckWakeup')
+	.sect	'.debug_ranges'
+.L17:
+	.word	-1,.L5,0,.L18-.L5,0,0
+	.sdecl	'.debug_info',debug,cluster('CanIf_SetWakeupEvent')
+	.sect	'.debug_info'
+.L19:
+	.word	303
+	.half	3
+	.word	.L20
+	.byte	4,1
+	.byte	'..\\Aurix_MC-ISAR\\integration_general\\src\\CanIf.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L22,.L21
+	.byte	2
+	.word	.L10
+	.byte	3
+	.byte	'CanIf_SetWakeupEvent',0,1,94,6,1,1,1
+	.word	.L3,.L37,.L2
+	.byte	4
+	.byte	'CanNetwork',0,1,94,33
+	.word	.L35,.L38
+	.byte	4
+	.byte	'WakeupSource',0,1,95,59
+	.word	.L35,.L39
+	.byte	5
+	.word	.L3,.L37
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('CanIf_SetWakeupEvent')
+	.sect	'.debug_abbrev'
+.L20:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('CanIf_SetWakeupEvent')
+	.sect	'.debug_line'
+.L21:
+	.word	.L62-.L61
+.L61:
+	.half	3
+	.word	.L64-.L63
+.L63:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\Aurix_MC-ISAR\\integration_general\\src\\CanIf.c',0,0,0,0,0
+.L64:
+	.byte	5,1,7,0,5,2
+	.word	.L3
+	.byte	3,226,0,1,7,9
+	.half	.L23-.L3
+	.byte	0,1,1
+.L62:
+	.sdecl	'.debug_ranges',debug,cluster('CanIf_SetWakeupEvent')
+	.sect	'.debug_ranges'
+.L22:
+	.word	-1,.L3,0,.L23-.L3,0,0
+	.sdecl	'.debug_info',debug,cluster('CanIf_TrcvModeIndication')
+	.sect	'.debug_info'
+.L24:
+	.word	302
+	.half	3
+	.word	.L25
+	.byte	4,1
+	.byte	'..\\Aurix_MC-ISAR\\integration_general\\src\\CanIf.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L27,.L26
+	.byte	2
+	.word	.L10
+	.byte	3
+	.byte	'CanIf_TrcvModeIndication',0,1,109,6,1,1,1
+	.word	.L7,.L40,.L6
+	.byte	4
+	.byte	'Transceiver',0,1,109,37
+	.word	.L35,.L41
+	.byte	4
+	.byte	'OpMode',0,1,109,70
+	.word	.L42,.L43
+	.byte	5
+	.word	.L7,.L40
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('CanIf_TrcvModeIndication')
+	.sect	'.debug_abbrev'
+.L25:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('CanIf_TrcvModeIndication')
+	.sect	'.debug_line'
+.L26:
+	.word	.L66-.L65
+.L65:
+	.half	3
+	.word	.L68-.L67
+.L67:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\Aurix_MC-ISAR\\integration_general\\src\\CanIf.c',0,0,0,0,0
+.L68:
+	.byte	5,6,7,0,5,2
+	.word	.L7
+	.byte	3,236,0,1,5,11,3,4,1,5,6,9
+	.half	.L48-.L7
+	.byte	3,124,1,5,11,3,4,1,5,6,9
+	.half	.L49-.L48
+	.byte	3,124,1,5,11,9
+	.half	.L46-.L49
+	.byte	3,4,1,5,35,9
+	.half	.L47-.L46
+	.byte	3,1,1,5,11,9
+	.half	.L69-.L47
+	.byte	1,5,30,9
+	.half	.L70-.L69
+	.byte	3,1,1,5,11,9
+	.half	.L71-.L70
+	.byte	1,5,1,9
+	.half	.L28-.L71
+	.byte	3,1,0,1,1
+.L66:
+	.sdecl	'.debug_ranges',debug,cluster('CanIf_TrcvModeIndication')
+	.sect	'.debug_ranges'
+.L27:
+	.word	-1,.L7,0,.L28-.L7,0,0
+	.sdecl	'.debug_info',debug,cluster('CanIf_CheckTrcvWakeFlagIndication')
+	.sect	'.debug_info'
+.L29:
+	.word	292
+	.half	3
+	.word	.L30
+	.byte	4,1
+	.byte	'..\\Aurix_MC-ISAR\\integration_general\\src\\CanIf.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L32,.L31
+	.byte	2
+	.word	.L10
+	.byte	3
+	.byte	'CanIf_CheckTrcvWakeFlagIndication',0,1,118,6,1,1,1
+	.word	.L9,.L44,.L8
+	.byte	4
+	.byte	'Transceiver',0,1,118,46
+	.word	.L35,.L45
+	.byte	5
+	.word	.L9,.L44
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('CanIf_CheckTrcvWakeFlagIndication')
+	.sect	'.debug_abbrev'
+.L30:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('CanIf_CheckTrcvWakeFlagIndication')
+	.sect	'.debug_line'
+.L31:
+	.word	.L73-.L72
+.L72:
+	.half	3
+	.word	.L75-.L74
+.L74:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\Aurix_MC-ISAR\\integration_general\\src\\CanIf.c',0,0,0,0,0
+.L75:
+	.byte	5,6,7,0,5,2
+	.word	.L9
+	.byte	3,245,0,1,5,13,9
+	.half	.L50-.L9
+	.byte	3,3,1,5,37,9
+	.half	.L51-.L50
+	.byte	3,1,1,5,13,9
+	.half	.L76-.L51
+	.byte	1,5,1,9
+	.half	.L33-.L76
+	.byte	3,1,0,1,1
+.L73:
+	.sdecl	'.debug_ranges',debug,cluster('CanIf_CheckTrcvWakeFlagIndication')
+	.sect	'.debug_ranges'
+.L32:
+	.word	-1,.L9,0,.L33-.L9,0,0
+	.sdecl	'.debug_loc',debug,cluster('CanIf_CheckTrcvWakeFlagIndication')
+	.sect	'.debug_loc'
+.L8:
+	.word	-1,.L9,0,.L50-.L9
+	.half	2
+	.byte	138,0
+	.word	.L50-.L9,.L44-.L9
+	.half	2
+	.byte	138,8
+	.word	.L44-.L9,.L44-.L9
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L45:
+	.word	-1,.L9,0,.L51-.L9
+	.half	1
+	.byte	84
+	.word	.L52-.L9,.L44-.L9
+	.half	1
+	.byte	95
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('CanIf_CheckWakeup')
+	.sect	'.debug_loc'
+.L4:
+	.word	-1,.L5,0,.L34-.L5
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L36:
+	.word	-1,.L5,0,.L34-.L5
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('CanIf_SetWakeupEvent')
+	.sect	'.debug_loc'
+.L2:
+	.word	-1,.L3,0,.L37-.L3
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L38:
+	.word	-1,.L3,0,.L37-.L3
+	.half	1
+	.byte	84
+	.word	0,0
+.L39:
+	.word	-1,.L3,0,.L37-.L3
+	.half	1
+	.byte	85
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('CanIf_TrcvModeIndication')
+	.sect	'.debug_loc'
+.L6:
+	.word	-1,.L7,0,.L46-.L7
+	.half	2
+	.byte	138,0
+	.word	.L46-.L7,.L40-.L7
+	.half	2
+	.byte	138,8
+	.word	.L40-.L7,.L40-.L7
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L43:
+	.word	-1,.L7,0,.L47-.L7
+	.half	1
+	.byte	85
+	.word	.L49-.L7,.L40-.L7
+	.half	1
+	.byte	88
+	.word	0,0
+.L41:
+	.word	-1,.L7,0,.L47-.L7
+	.half	1
+	.byte	84
+	.word	.L48-.L7,.L40-.L7
+	.half	1
+	.byte	95
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L77:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,27,8,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('CanIf_SetWakeupEvent')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L77,.L3,.L37-.L3
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('CanIf_CheckWakeup')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L77,.L5,.L34-.L5
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('CanIf_TrcvModeIndication')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L77,.L7,.L40-.L7
+	.byte	4
+	.word	(.L46-.L7)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L40-.L46)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('CanIf_CheckTrcvWakeFlagIndication')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L77,.L9,.L44-.L9
+	.byte	4
+	.word	(.L50-.L9)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L44-.L50)/2
+	.byte	19,0,8,26,0,0
+
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	   123  }
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	   124  
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	   125  /*******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	   126  **                      Private Function Definitions                          **
+; ..\Aurix_MC-ISAR\integration_general\src\CanIf.c	   127  *******************************************************************************/
+
+	; Module end

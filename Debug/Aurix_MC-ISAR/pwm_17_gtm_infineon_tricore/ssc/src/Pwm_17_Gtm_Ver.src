@@ -1,0 +1,219 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.2r2 Build 18041957 SN 06692445"
+	.compiler_invocation	"ctc -f cc75500a --dep-file=Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\src\\.Pwm_17_Gtm_Ver.o.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xc -D__CPU_TC27XC__ --core=tc1.6.x --fp-model=+float -D_TASKING_C_TRICORE_ -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\.settings -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Asw -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\compiler -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc\\TC27xC -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc\\TC27xC\\SupportDocuments -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\lib -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\obj -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Asw -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\dio_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\dio_infineon_tricore\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\integration_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\integration_general\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Hal_Sensor -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output\\generated -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output\\generated\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\PWM3Ph -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Qspi -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Adc_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Adc3ph_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Can_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TLE_9180_Drive -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\UART_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Hal_Sensor -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\Demo_Aurix -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\mak -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\PWM3Ph -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Qspi -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Adc_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Adc3ph_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Can_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TLE_9180_Drive -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\UART_Test -g2 --make-target=Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\src\\Pwm_17_Gtm_Ver.o -t2 --language=-gcc,-volatile,+strings,-kanji --default-near-size=8 -O2 --default-a1-size=0 --default-a0-size=0 --source --align=0 --compact-max-size=200 --switch=auto --error-limit=42 -o Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\src\\Pwm_17_Gtm_Ver.src ..\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\src\\Pwm_17_Gtm_Ver.c"
+	.compiler_name		"ctc"
+	;source	'..\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\src\\Pwm_17_Gtm_Ver.c'
+
+	
+$TC16X
+	
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L3:
+	.word	790
+	.half	3
+	.word	.L4
+	.byte	4
+.L2:
+	.byte	1
+	.byte	'..\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\src\\Pwm_17_Gtm_Ver.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L5
+	.byte	2,1,3
+	.word	220
+	.byte	4
+	.byte	'__codeptr',0,1,1,1
+	.word	222
+	.byte	5
+	.byte	'unsigned char',0,1,8,4
+	.byte	'uint8',0,2,90,29
+	.word	245
+	.byte	5
+	.byte	'unsigned short int',0,2,7,4
+	.byte	'uint16',0,2,92,29
+	.word	276
+	.byte	5
+	.byte	'unsigned long int',0,4,7,4
+	.byte	'uint32',0,2,94,29
+	.word	313
+	.byte	4
+	.byte	'Pwm_17_Gtm_ChannelType',0,3,233,2,16
+	.word	313
+	.byte	4
+	.byte	'Pwm_17_Gtm_PeriodType',0,3,236,2,16
+	.word	313
+	.byte	6,1,1,3
+	.word	412
+	.byte	4
+	.byte	'Pwm_17_Gtm_NotifiPtrType',0,3,242,2,16
+	.word	415
+	.byte	7
+	.byte	'Pwm_17_Gtm_ChannelConfigType',0,3,248,2,16,24,8
+	.byte	'Notification',0
+	.word	420
+	.byte	4,2,35,0,8
+	.byte	'ChannelInfo',0
+	.word	313
+	.byte	4,2,35,4,8
+	.byte	'PeriodDefault',0
+	.word	313
+	.byte	4,2,35,8,8
+	.byte	'DutycycleDefault',0
+	.word	313
+	.byte	4,2,35,12,8
+	.byte	'ShiftValue',0
+	.word	313
+	.byte	4,2,35,16,8
+	.byte	'SafetyChannelIndex',0
+	.word	245
+	.byte	1,2,35,20,0,4
+	.byte	'Pwm_17_Gtm_ChannelConfigType',0,3,205,3,2
+	.word	454
+	.byte	3
+	.word	412
+	.byte	7
+	.byte	'Pwm_17_Gtm_GrpChanConfigType',0,3,207,3,16,6,8
+	.byte	'PwmChannelNumber',0
+	.word	313
+	.byte	4,2,35,0,8
+	.byte	'TomAtomNum',0
+	.word	245
+	.byte	1,2,35,4,0,4
+	.byte	'Pwm_17_Gtm_GrpChanConfigType',0,3,213,3,2
+	.word	673
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L4:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,0,0,3,15,0,73,19,0,0,4,22,0,3,8,58,15,59,15
+	.byte	57,15,73,19,0,0,5,36,0,3,8,11,15,62,15,0,0,6,21,0,54,15,39,12,0,0,7,19,1,3,8,58,15,59,15,57,15,11,15,0
+	.byte	0,8,13,0,3,8,73,19,11,15,56,9,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L5:
+	.word	.L7-.L6
+.L6:
+	.half	3
+	.word	.L9-.L8
+.L8:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\inc',0
+	.byte	0
+	.byte	'..\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\src\\Pwm_17_Gtm_Ver.c',0,0,0,0
+	.byte	'Platform_Types.h',0,1,0,0
+	.byte	'Pwm_17_Gtm.h',0,2,0,0,0
+.L9:
+.L7:
+
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	     1  /*******************************************************************************
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	     2  **                                                                            **
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	     3  ** Copyright (C) Infineon Technologies (2014)                                 **
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	     4  **                                                                            **
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	     5  ** All rights reserved.                                                       **
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	     6  **                                                                            **
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	     7  ** This document contains proprietary information belonging to Infineon       **
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	     8  ** Technologies. Passing on and copying of this document, and communication   **
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	     9  ** of its contents is not permitted without prior written authorization.      **
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    10  **                                                                            **
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    11  ********************************************************************************
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    12  **                                                                            **
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    13  **  $FILENAME   : Pwm_17_Gtm_Ver.h                                            **
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    14  **                                                                            **
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    15  **  $CC VERSION : \main\8 $                                                  **
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    16  **                                                                            **
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    17  **  $DATE       : 2016-03-20 $                                               **
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    18  **                                                                            **
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    19  **  AUTHOR    : DL-AUTOSAR-Engineering                                        **
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    20  **                                                                            **
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    21  **  VENDOR    : Infineon Technologies                                         **
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    22  **                                                                            **
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    23  **  DESCRIPTION  : This file contains                                         **
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    24  **                 - functionality of Pwm driver.                            **
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    25  **                                                                            **
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    26  **  MAY BE CHANGED BY USER [Yes/No]: No                                       **
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    27  **                                                                            **
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    28  *******************************************************************************/
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    29  
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    30  /**  TRACEABILITY: [cover parentID=DS_NAS_PWM_PR730]                          **
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    31                                                                                */
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    32  
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    33  
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    34  
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    35  /*******************************************************************************
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    36  **                      Includes                                              **
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    37  *******************************************************************************/
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    38  
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    39  /* Own header file, this includes own configuration file also */
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    40  #include "Pwm_17_Gtm_Ver.h"
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    41  
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    42  /*******************************************************************************
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    43  **                      Imported Compiler Switch Check                        **
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    44  *******************************************************************************/
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    45  /* Check for definition of the AS Version */
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    46  #ifndef PWM_17_GTM_AR_RELEASE_MAJOR_VERSION
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    47    #error "PWM_17_GTM_AR_RELEASE_MAJOR_VERSION is not defined. "
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    48  #endif
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    49  
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    50  #ifndef PWM_17_GTM_AR_RELEASE_MINOR_VERSION
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    51    #error "PWM_17_GTM_AR_RELEASE_MINOR_VERSION is not defined. "
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    52  #endif
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    53  
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    54  #ifndef PWM_17_GTM_AR_RELEASE_REVISION_VERSION
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    55    #error "PWM_17_GTM_AR_RELEASE_REVISION_VERSION is not defined. "
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    56  #endif
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    57  
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    58  #if ( PWM_17_GTM_AR_RELEASE_MAJOR_VERSION != 4U)
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    59    #error "PWM_17_GTM_AR_RELEASE_MAJOR_VERSION does not match. "
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    60  #endif
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    61  
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    62  #if ( PWM_17_GTM_AR_RELEASE_MINOR_VERSION != 0U )
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    63    #error "PWM_17_GTM_AR_RELEASE_MINOR_VERSION does not match. "
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    64  #endif
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    65  
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    66  /* PWM029: */
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    67  /* Check for definition of SW version Information */
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    68  #ifndef PWM_17_GTM_SW_MAJOR_VERSION
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    69    #error "PWM_17_GTM_SW_MAJOR_VERSION is not defined. "
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    70  #endif
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    71  
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    72  #ifndef PWM_17_GTM_SW_MINOR_VERSION
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    73    #error "PWM_17_GTM_SW_MINOR_VERSION is not defined. "
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    74  #endif
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    75  
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    76  #ifndef PWM_17_GTM_SW_PATCH_VERSION
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    77    #error "PWM_17_GTM_SW_PATCH_VERSION is not defined. "
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    78  #endif
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    79  
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    80  #if ( PWM_17_GTM_SW_MAJOR_VERSION != 5U )
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    81    #error "PWM_17_GTM_SW_MAJOR_VERSION does not match. "
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    82  #endif
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    83  #if ( PWM_17_GTM_SW_MINOR_VERSION != 1U )
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    84    #error "PWM_17_GTM_SW_MINOR_VERSION does not match. "
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    85  #endif
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    86  
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    87  /*
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    88    PWM029: Inter Module Checks to avoid integration of incompatible files
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    89  */
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    90  #if ( PWM_DEV_ERROR_DETECT == STD_ON)
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    91   #ifndef DET_AR_RELEASE_MAJOR_VERSION
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    92     #error "DET_AR_RELEASE_MAJOR_VERSION is not defined. "
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    93   #endif
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    94    
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    95   #ifndef DET_AR_RELEASE_MINOR_VERSION
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    96       #error "DET_AR_RELEASE_MINOR_VERSION is not defined. "
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    97   #endif
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    98   #if (IFX_DET_VERSION_CHECK == STD_ON)  
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	    99   #if ( DET_AR_RELEASE_MAJOR_VERSION != 4U )
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	   100       #error "DET_AR_RELEASE_MAJOR_VERSION does not match. "
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	   101   #endif
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	   102   #if ( DET_AR_RELEASE_MINOR_VERSION != 0U )
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	   103     #error "DET_AR_RELEASE_MINOR_VERSION does not match. "
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	   104   #endif
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	   105   #endif /* (IFX_DET_VERSION_CHECK  == STD_ON) */
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	   106  #endif 
+; ..\Aurix_MC-ISAR\pwm_17_gtm_infineon_tricore\ssc\src\Pwm_17_Gtm_Ver.c	   107  /* PWM_DEV_ERROR_DETECT == STD_ON) */
+
+	; Module end

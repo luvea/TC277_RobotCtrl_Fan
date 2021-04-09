@@ -1,0 +1,364 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.2r2 Build 18041957 SN 06692445"
+	.compiler_invocation	"ctc -f cc74144a --dep-file=Qspi\\.AurixQspi_PBCfg.o.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xc -D__CPU_TC27XC__ --core=tc1.6.x --fp-model=+float -D_TASKING_C_TRICORE_ -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\.settings -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Asw -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\compiler -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc\\TC27xC -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc\\TC27xC\\SupportDocuments -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\lib -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\obj -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Asw -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\dio_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\dio_infineon_tricore\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\integration_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\integration_general\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Hal_Sensor -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output\\generated -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output\\generated\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\PWM3Ph -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Qspi -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Adc_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Adc3ph_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Can_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TLE_9180_Drive -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\UART_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Hal_Sensor -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\Demo_Aurix -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\mak -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\PWM3Ph -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Qspi -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Adc_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Adc3ph_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Can_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TLE_9180_Drive -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\UART_Test -g2 --make-target=Qspi\\AurixQspi_PBCfg.o -t2 --language=-gcc,-volatile,+strings,-kanji --default-near-size=8 -O2 --default-a1-size=0 --default-a0-size=0 --source --align=0 --compact-max-size=200 --switch=auto --error-limit=42 -o Qspi\\AurixQspi_PBCfg.src ..\\Qspi\\AurixQspi_PBCfg.c"
+	.compiler_name		"ctc"
+	;source	'..\\Qspi\\AurixQspi_PBCfg.c'
+
+	
+$TC16X
+	
+	.sdecl	'.rodata.AurixQspi_PBCfg.AurixQspi_Moudle_cst',data,rom,cluster('AurixQspi_Moudle_cst')
+	.sect	'.rodata.AurixQspi_PBCfg.AurixQspi_Moudle_cst'
+	.global	AurixQspi_Moudle_cst
+	.align	4
+AurixQspi_Moudle_cst:	.type	object
+	.size	AurixQspi_Moudle_cst,12
+	.space	2
+	.word	17775616,383817599
+	.space	2
+	.sdecl	'.rodata.AurixQspi_PBCfg.AurixQspi_Channel_cst',data,rom,cluster('AurixQspi_Channel_cst')
+	.sect	'.rodata.AurixQspi_PBCfg.AurixQspi_Channel_cst'
+	.global	AurixQspi_Channel_cst
+	.align	4
+AurixQspi_Channel_cst:	.type	object
+	.size	AurixQspi_Channel_cst,80
+	.space	1
+	.byte	2,2
+	.space	1
+	.word	733029523,4036
+	.space	4
+	.word	262144
+	.space	2
+	.byte	2
+	.space	1
+	.word	-1951325037,4036
+	.space	4
+	.word	16777216
+	.space	1
+	.byte	1,2
+	.space	1
+	.word	-1682889581,4036
+	.space	4
+	.word	33554432
+	.space	1
+	.byte	2,2
+	.space	1
+	.word	-1414454125,4036
+	.space	4
+	.word	67108864
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L3:
+	.word	649
+	.half	3
+	.word	.L4
+	.byte	4
+.L2:
+	.byte	1
+	.byte	'..\\Qspi\\AurixQspi_PBCfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L5
+	.byte	2,1,3
+	.word	176
+	.byte	4
+	.byte	'__codeptr',0,1,1,1
+	.word	178
+	.byte	5
+	.byte	'unsigned char',0,1,8,4
+	.byte	'uint8',0,2,90,29
+	.word	201
+	.byte	5
+	.byte	'unsigned short int',0,2,7,4
+	.byte	'uint16',0,2,92,29
+	.word	232
+	.byte	5
+	.byte	'unsigned long int',0,4,7,4
+	.byte	'uint32',0,2,94,29
+	.word	269
+	.byte	6
+	.byte	'AurixQspi_Moudle',0,3,44,16,12,7
+	.byte	'ModuleIndx_u8',0
+	.word	201
+	.byte	1,2,35,0,7
+	.byte	'GLOBALCON_u32',0
+	.word	269
+	.byte	4,2,35,2,7
+	.byte	'GLOBALCON1_u32',0
+	.word	269
+	.byte	4,2,35,6,0,4
+	.byte	'AurixQspi_MoudleType',0,3,49,2
+	.word	305
+	.byte	6
+	.byte	'AurixQspi_Channel',0,3,52,16,20,7
+	.byte	'ModuleIndx_u8',0
+	.word	201
+	.byte	1,2,35,0,7
+	.byte	'Qspi_Channel_u8',0
+	.word	201
+	.byte	1,2,35,1,7
+	.byte	'Data_Length',0
+	.word	201
+	.byte	1,2,35,2,7
+	.byte	'BACON_u32',0
+	.word	269
+	.byte	4,2,35,4,7
+	.byte	'ECON_u32',0
+	.word	269
+	.byte	4,2,35,8,7
+	.byte	'PISEL_u32',0
+	.word	269
+	.byte	4,2,35,12,7
+	.byte	'SSOC_u32',0
+	.word	269
+	.byte	4,2,35,16,0,4
+	.byte	'AurixQspi_ChannelType',0,3,63,2
+	.word	427
+	.byte	8,12
+	.word	305
+	.byte	9,0,0
+.L10:
+	.byte	10
+	.word	624
+	.byte	8,80
+	.word	427
+	.byte	9,3,0
+.L11:
+	.byte	10
+	.word	638
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L4:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,0,0,3,15,0,73,19,0,0,4,22,0,3,8,58,15,59,15
+	.byte	57,15,73,19,0,0,5,36,0,3,8,11,15,62,15,0,0,6,19,1,3,8,58,15,59,15,57,15,11,15,0,0,7,13,0,3,8,73,19,11
+	.byte	15,56,9,0,0,8,1,1,11,15,73,19,0,0,9,33,0,47,15,0,0,10,38,0,73,19,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L5:
+	.word	.L13-.L12
+.L12:
+	.half	3
+	.word	.L15-.L14
+.L14:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc',0
+	.byte	0
+	.byte	'..\\Qspi\\AurixQspi_PBCfg.c',0,0,0,0
+	.byte	'Platform_Types.h',0,1,0,0
+	.byte	'..\\Qspi\\AurixQspi_Types.h',0,0,0,0,0
+.L15:
+.L13:
+	.sdecl	'.debug_info',debug,cluster('AurixQspi_Moudle_cst')
+	.sect	'.debug_info'
+.L6:
+	.word	210
+	.half	3
+	.word	.L7
+	.byte	4,1
+	.byte	'..\\Qspi\\AurixQspi_PBCfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1,2
+	.word	.L2
+	.byte	3
+	.byte	'AurixQspi_Moudle_cst',0,1,45,28
+	.word	.L10
+	.byte	1,5,3
+	.word	AurixQspi_Moudle_cst
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('AurixQspi_Moudle_cst')
+	.sect	'.debug_abbrev'
+.L7:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('AurixQspi_Channel_cst')
+	.sect	'.debug_info'
+.L8:
+	.word	211
+	.half	3
+	.word	.L9
+	.byte	4,1
+	.byte	'..\\Qspi\\AurixQspi_PBCfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1,2
+	.word	.L2
+	.byte	3
+	.byte	'AurixQspi_Channel_cst',0,1,67,29
+	.word	.L11
+	.byte	1,5,3
+	.word	AurixQspi_Channel_cst
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('AurixQspi_Channel_cst')
+	.sect	'.debug_abbrev'
+.L9:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+
+; ..\Qspi\AurixQspi_PBCfg.c	     1  /*******************************************************************************
+; ..\Qspi\AurixQspi_PBCfg.c	     2  **----------------------------------------------------------------------------**
+; ..\Qspi\AurixQspi_PBCfg.c	     3  ** Copyright (c) 2017 by G-Pulse.		All rights reserved.
+; ..\Qspi\AurixQspi_PBCfg.c	     4  ** This software is copyright protected and proprietary to G-Pulse.
+; ..\Qspi\AurixQspi_PBCfg.c	     5  ** G-Pulse grants to you only those rights as set out in the license conditions.
+; ..\Qspi\AurixQspi_PBCfg.c	     6  ** All other rights remain with G-Pulse.
+; ..\Qspi\AurixQspi_PBCfg.c	     7  **----------------------------------------------------------------------------**
+; ..\Qspi\AurixQspi_PBCfg.c	     8  **
+; ..\Qspi\AurixQspi_PBCfg.c	     9  * Administrative Information
+; ..\Qspi\AurixQspi_PBCfg.c	    10  * $Namespace_: \CddDrv\AurixQspi$
+; ..\Qspi\AurixQspi_PBCfg.c	    11  * $Class_____: C$
+; ..\Qspi\AurixQspi_PBCfg.c	    12  * $Name______: AurixQspi_PBCfg.c$
+; ..\Qspi\AurixQspi_PBCfg.c	    13  * $Variant___: 1.0.0$
+; ..\Qspi\AurixQspi_PBCfg.c	    14  * $Revision__: 0$
+; ..\Qspi\AurixQspi_PBCfg.c	    15  * $Author____: YM$
+; ..\Qspi\AurixQspi_PBCfg.c	    16  **
+; ..\Qspi\AurixQspi_PBCfg.c	    17  **----------------------------------------------------------------------------**
+; ..\Qspi\AurixQspi_PBCfg.c	    18  ** MAY BE CHANGED BY USER [Yes/No]: Yes
+; ..\Qspi\AurixQspi_PBCfg.c	    19  **----------------------------------------------------------------------------**
+; ..\Qspi\AurixQspi_PBCfg.c	    20  ** DESCRIPTION:
+; ..\Qspi\AurixQspi_PBCfg.c	    21  ** AURIX QSPI manual driver PB configuration source code
+; ..\Qspi\AurixQspi_PBCfg.c	    22  *******************************************************************************/
+; ..\Qspi\AurixQspi_PBCfg.c	    23  
+; ..\Qspi\AurixQspi_PBCfg.c	    24  /*******************************************************************************
+; ..\Qspi\AurixQspi_PBCfg.c	    25  **                      Other Header File Inclusion                           **
+; ..\Qspi\AurixQspi_PBCfg.c	    26  *******************************************************************************/
+; ..\Qspi\AurixQspi_PBCfg.c	    27  #include "AurixQspi_Cfg.h"
+; ..\Qspi\AurixQspi_PBCfg.c	    28  
+; ..\Qspi\AurixQspi_PBCfg.c	    29  /*******************************************************************************
+; ..\Qspi\AurixQspi_PBCfg.c	    30  **                          Macro Definition                         		  **
+; ..\Qspi\AurixQspi_PBCfg.c	    31  *******************************************************************************/
+; ..\Qspi\AurixQspi_PBCfg.c	    32  
+; ..\Qspi\AurixQspi_PBCfg.c	    33  /*******************************************************************************
+; ..\Qspi\AurixQspi_PBCfg.c	    34  **                          Typedef Definition                         		  **
+; ..\Qspi\AurixQspi_PBCfg.c	    35  *******************************************************************************/
+; ..\Qspi\AurixQspi_PBCfg.c	    36  
+; ..\Qspi\AurixQspi_PBCfg.c	    37  /*******************************************************************************
+; ..\Qspi\AurixQspi_PBCfg.c	    38  **                   Static Local Variables Definition              		  **
+; ..\Qspi\AurixQspi_PBCfg.c	    39  *******************************************************************************/
+; ..\Qspi\AurixQspi_PBCfg.c	    40  
+; ..\Qspi\AurixQspi_PBCfg.c	    41  /*******************************************************************************
+; ..\Qspi\AurixQspi_PBCfg.c	    42  **                     Global Variables Definition              		      **
+; ..\Qspi\AurixQspi_PBCfg.c	    43  *******************************************************************************/
+; ..\Qspi\AurixQspi_PBCfg.c	    44  /* SPI 模块配置 */
+; ..\Qspi\AurixQspi_PBCfg.c	    45  const AurixQspi_MoudleType AurixQspi_Moudle_cst[AURIX_QSPI_MOUDLE_USE_NUM] =
+; ..\Qspi\AurixQspi_PBCfg.c	    46  {
+; ..\Qspi\AurixQspi_PBCfg.c	    47  	/* QSPI MOUDLE 0 */
+; ..\Qspi\AurixQspi_PBCfg.c	    48  //	{//slave
+; ..\Qspi\AurixQspi_PBCfg.c	    49  //		0U, 			/*QSPI模块索引*/
+; ..\Qspi\AurixQspi_PBCfg.c	    50  //		0x050F3E00U,	/*GLOBALCON*/                   //050 slave
+; ..\Qspi\AurixQspi_PBCfg.c	    51  //		0x16E0977FU,	/*GLOBALCON1*/
+; ..\Qspi\AurixQspi_PBCfg.c	    52  //	},
+; ..\Qspi\AurixQspi_PBCfg.c	    53  
+; ..\Qspi\AurixQspi_PBCfg.c	    54  	{//master
+; ..\Qspi\AurixQspi_PBCfg.c	    55  		0U, 			/*QSPI模块索引*/
+; ..\Qspi\AurixQspi_PBCfg.c	    56  		0x010F3C00U,	/*GLOBALCON*/      //master 7c/3c                                                            //00000001 00001111 00111100 00000000
+; ..\Qspi\AurixQspi_PBCfg.c	    57  		0x16E0977FU,	/*GLOBALCON1*/                                                                //00010110 11100000 10010111 01111111
+; ..\Qspi\AurixQspi_PBCfg.c	    58  	},
+; ..\Qspi\AurixQspi_PBCfg.c	    59  //	{//master
+; ..\Qspi\AurixQspi_PBCfg.c	    60  //		3U, 			/*QSPI模块索引*/
+; ..\Qspi\AurixQspi_PBCfg.c	    61  //		0x010F3C00U,	/*GLOBALCON*/
+; ..\Qspi\AurixQspi_PBCfg.c	    62  //		0x16E0977FU,	/*GLOBALCON1*/
+; ..\Qspi\AurixQspi_PBCfg.c	    63  //	},
+; ..\Qspi\AurixQspi_PBCfg.c	    64  };
+; ..\Qspi\AurixQspi_PBCfg.c	    65  
+; ..\Qspi\AurixQspi_PBCfg.c	    66  /* SPI 通道配置 */
+; ..\Qspi\AurixQspi_PBCfg.c	    67  const AurixQspi_ChannelType AurixQspi_Channel_cst[AURIX_QSPI_CHANNEL_USE_NUM] =
+; ..\Qspi\AurixQspi_PBCfg.c	    68  {
+; ..\Qspi\AurixQspi_PBCfg.c	    69  //	{
+; ..\Qspi\AurixQspi_PBCfg.c	    70  //		0U, 						/*QSPI模块索引*/
+; ..\Qspi\AurixQspi_PBCfg.c	    71  //		5U,							/*QSPI通道(Channel 13)*/
+; ..\Qspi\AurixQspi_PBCfg.c	    72  //		AURIX_QSPI_DATA_LENGTH_8,	/*数据位宽*/
+; ..\Qspi\AurixQspi_PBCfg.c	    73  //		/*24bit ,2M*/
+; ..\Qspi\AurixQspi_PBCfg.c	    74  //		0xD3B12493U,				/*BACON*/               //channel 13 8bit
+; ..\Qspi\AurixQspi_PBCfg.c	    75  //		0x00001FC4U,				/*ECON*/                //1FC4U
+; ..\Qspi\AurixQspi_PBCfg.c	    76  //		/*MRST1A,P20.12*/
+; ..\Qspi\AurixQspi_PBCfg.c	    77  //		0x00002000U,				/*PISEL*/               //MTSRA     SLSI B
+; ..\Qspi\AurixQspi_PBCfg.c	    78  //		/*CHANNEL 13*/
+; ..\Qspi\AurixQspi_PBCfg.c	    79  //		0x20000000U,				/*SSOC*/               //channel 13
+; ..\Qspi\AurixQspi_PBCfg.c	    80  //	},
+; ..\Qspi\AurixQspi_PBCfg.c	    81  
+; ..\Qspi\AurixQspi_PBCfg.c	    82  
+; ..\Qspi\AurixQspi_PBCfg.c	    83  
+; ..\Qspi\AurixQspi_PBCfg.c	    84  
+; ..\Qspi\AurixQspi_PBCfg.c	    85  		//cs4
+; ..\Qspi\AurixQspi_PBCfg.c	    86  	{
+; ..\Qspi\AurixQspi_PBCfg.c	    87  		0U, 						/*QSPI模块索引*/
+; ..\Qspi\AurixQspi_PBCfg.c	    88  		2U,							/*QSPI通道(Channel 2)*/
+; ..\Qspi\AurixQspi_PBCfg.c	    89  		AURIX_QSPI_DATA_LENGTH_32,	/*数据位宽*/
+; ..\Qspi\AurixQspi_PBCfg.c	    90  		/*24bit ,2M*/
+; ..\Qspi\AurixQspi_PBCfg.c	    91  		0x2BB12493U,				/*BACON*/                       //ch2
+; ..\Qspi\AurixQspi_PBCfg.c	    92  		0x00000FC4U,				/*ECON*///FC4U
+; ..\Qspi\AurixQspi_PBCfg.c	    93  		/*MRST1A,P20.12*/
+; ..\Qspi\AurixQspi_PBCfg.c	    94  		0x00000000U,				/*PISEL*/
+; ..\Qspi\AurixQspi_PBCfg.c	    95  		/*CHANNEL 6*/
+; ..\Qspi\AurixQspi_PBCfg.c	    96  		0x00040000U,				/*SSOC*/                        //cs ch2
+; ..\Qspi\AurixQspi_PBCfg.c	    97  	},
+; ..\Qspi\AurixQspi_PBCfg.c	    98  
+; ..\Qspi\AurixQspi_PBCfg.c	    99  
+; ..\Qspi\AurixQspi_PBCfg.c	   100  		/*24 bit*/   //cs3
+; ..\Qspi\AurixQspi_PBCfg.c	   101  		{
+; ..\Qspi\AurixQspi_PBCfg.c	   102  			0U, 						/*QSPI模块索引*/
+; ..\Qspi\AurixQspi_PBCfg.c	   103  			0U,							/*QSPI通道(Channel 8)*/
+; ..\Qspi\AurixQspi_PBCfg.c	   104  			AURIX_QSPI_DATA_LENGTH_32,	/*数据位宽*/
+; ..\Qspi\AurixQspi_PBCfg.c	   105  			/*24bit ,2M*/
+; ..\Qspi\AurixQspi_PBCfg.c	   106  			0x8BB12493U,				/*BACON*/
+; ..\Qspi\AurixQspi_PBCfg.c	   107  			0x00000FC4U,				/*ECON*///FC4U
+; ..\Qspi\AurixQspi_PBCfg.c	   108  			/*MRST1A,P20.12*/
+; ..\Qspi\AurixQspi_PBCfg.c	   109  			0x00000000U,				/*PISEL*/
+; ..\Qspi\AurixQspi_PBCfg.c	   110  			/*CHANNEL 8*/
+; ..\Qspi\AurixQspi_PBCfg.c	   111  			0x01000000U,				/*SSOC*/
+; ..\Qspi\AurixQspi_PBCfg.c	   112  		},
+; ..\Qspi\AurixQspi_PBCfg.c	   113  
+; ..\Qspi\AurixQspi_PBCfg.c	   114  
+; ..\Qspi\AurixQspi_PBCfg.c	   115  
+; ..\Qspi\AurixQspi_PBCfg.c	   116  
+; ..\Qspi\AurixQspi_PBCfg.c	   117  //		/*24 bit*/cs2
+; ..\Qspi\AurixQspi_PBCfg.c	   118  		{
+; ..\Qspi\AurixQspi_PBCfg.c	   119  			0U, 						/*QSPI模块索引*/
+; ..\Qspi\AurixQspi_PBCfg.c	   120  			1U,							/*QSPI通道(Channel 9)*/
+; ..\Qspi\AurixQspi_PBCfg.c	   121  			AURIX_QSPI_DATA_LENGTH_32,	/*数据位宽*/
+; ..\Qspi\AurixQspi_PBCfg.c	   122  			/*24bit ,2M*/
+; ..\Qspi\AurixQspi_PBCfg.c	   123  			0x9BB12493U,				/*BACON*/
+; ..\Qspi\AurixQspi_PBCfg.c	   124  			0x00000FC4U,				/*ECON*///FC4U
+; ..\Qspi\AurixQspi_PBCfg.c	   125  			/*MRST1A,P20.12*/
+; ..\Qspi\AurixQspi_PBCfg.c	   126  			0x00000000U,				/*PISEL*/
+; ..\Qspi\AurixQspi_PBCfg.c	   127  			/*CHANNEL 9*/
+; ..\Qspi\AurixQspi_PBCfg.c	   128  			0x02000000U,				/*SSOC*/
+; ..\Qspi\AurixQspi_PBCfg.c	   129  		},
+; ..\Qspi\AurixQspi_PBCfg.c	   130  
+; ..\Qspi\AurixQspi_PBCfg.c	   131  
+; ..\Qspi\AurixQspi_PBCfg.c	   132  
+; ..\Qspi\AurixQspi_PBCfg.c	   133  
+; ..\Qspi\AurixQspi_PBCfg.c	   134  		//cs1
+; ..\Qspi\AurixQspi_PBCfg.c	   135  		{
+; ..\Qspi\AurixQspi_PBCfg.c	   136  			0U, 						/*QSPI模块索引*/
+; ..\Qspi\AurixQspi_PBCfg.c	   137  			2U,							/*QSPI通道(Channel 10)*/
+; ..\Qspi\AurixQspi_PBCfg.c	   138  			AURIX_QSPI_DATA_LENGTH_32,	/*数据位宽*/
+; ..\Qspi\AurixQspi_PBCfg.c	   139  			/*24bit ,2M*/
+; ..\Qspi\AurixQspi_PBCfg.c	   140  			0xABB12493U,				/*BACON*/
+; ..\Qspi\AurixQspi_PBCfg.c	   141  			0x00000FC4U,				/*ECON*///FC4U
+; ..\Qspi\AurixQspi_PBCfg.c	   142  			/*MRST1A,P20.12*/
+; ..\Qspi\AurixQspi_PBCfg.c	   143  			0x00000000U,				/*PISEL*/
+; ..\Qspi\AurixQspi_PBCfg.c	   144  			/*CHANNEL 8*/
+; ..\Qspi\AurixQspi_PBCfg.c	   145  			0x04000000U,				/*SSOC*/
+; ..\Qspi\AurixQspi_PBCfg.c	   146  		},
+; ..\Qspi\AurixQspi_PBCfg.c	   147  
+; ..\Qspi\AurixQspi_PBCfg.c	   148  };
+; ..\Qspi\AurixQspi_PBCfg.c	   149  /*******************************************************************************
+; ..\Qspi\AurixQspi_PBCfg.c	   150  **                  Static Local Function Declaration            		      **
+; ..\Qspi\AurixQspi_PBCfg.c	   151  *******************************************************************************/
+; ..\Qspi\AurixQspi_PBCfg.c	   152  
+; ..\Qspi\AurixQspi_PBCfg.c	   153  /*******************************************************************************
+; ..\Qspi\AurixQspi_PBCfg.c	   154  **                 		  Function Source Code            		              **
+; ..\Qspi\AurixQspi_PBCfg.c	   155  *******************************************************************************/
+; ..\Qspi\AurixQspi_PBCfg.c	   156  
+; ..\Qspi\AurixQspi_PBCfg.c	   157  
+; ..\Qspi\AurixQspi_PBCfg.c	   158  /*******************************************************************************
+; ..\Qspi\AurixQspi_PBCfg.c	   159  * $History__:$
+; ..\Qspi\AurixQspi_PBCfg.c	   160  * V1.0.0; 0     02.06.2017 YM
+; ..\Qspi\AurixQspi_PBCfg.c	   161  *  N: new created
+; ..\Qspi\AurixQspi_PBCfg.c	   162  *******************************************************************************/
+; ..\Qspi\AurixQspi_PBCfg.c	   163  
+
+	; Module end

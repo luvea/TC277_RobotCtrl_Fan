@@ -1,0 +1,2466 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.2r2 Build 18041957 SN 06692445"
+	.compiler_invocation	"ctc -f cc76140a --dep-file=UART_Test\\.Uart_Test.o.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xc -D__CPU_TC27XC__ --core=tc1.6.x --fp-model=+float -D_TASKING_C_TRICORE_ -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\.settings -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Asw -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\compiler -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc\\TC27xC -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc\\TC27xC\\SupportDocuments -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\lib -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\obj -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Asw -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\dio_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\dio_infineon_tricore\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\integration_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\integration_general\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Hal_Sensor -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output\\generated -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output\\generated\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\PWM3Ph -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Qspi -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Adc_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Adc3ph_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Can_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TLE_9180_Drive -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\UART_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Hal_Sensor -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\Demo_Aurix -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\mak -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\PWM3Ph -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Qspi -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Adc_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Adc3ph_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Can_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TLE_9180_Drive -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\UART_Test -g2 --make-target=UART_Test\\Uart_Test.o -t2 --language=-gcc,-volatile,+strings,-kanji --default-near-size=8 -O2 --default-a1-size=0 --default-a0-size=0 --source --align=0 --compact-max-size=200 --switch=auto --error-limit=42 -o UART_Test\\Uart_Test.src ..\\UART_Test\\Uart_Test.c"
+	.compiler_name		"ctc"
+	;source	'..\\UART_Test\\Uart_Test.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.Uart_Test.UartDemo_ValidateData',code,cluster('UartDemo_ValidateData')
+	.sect	'.text.Uart_Test.UartDemo_ValidateData'
+	.align	2
+	
+	.global	UartDemo_ValidateData
+
+; ..\UART_Test\Uart_Test.c	     1  /*
+; ..\UART_Test\Uart_Test.c	     2   * Uart_Test.c
+; ..\UART_Test\Uart_Test.c	     3   *
+; ..\UART_Test\Uart_Test.c	     4   *  Created on: 2021Äê1ÔÂ21ÈÕ
+; ..\UART_Test\Uart_Test.c	     5   *      Author: jw
+; ..\UART_Test\Uart_Test.c	     6   */
+; ..\UART_Test\Uart_Test.c	     7  
+; ..\UART_Test\Uart_Test.c	     8  /******************************************************************************
+; ..\UART_Test\Uart_Test.c	     9  **                                                                           **
+; ..\UART_Test\Uart_Test.c	    10  ** Copyright (C) Infineon Technologies (2014)                                **
+; ..\UART_Test\Uart_Test.c	    11  **                                                                           **
+; ..\UART_Test\Uart_Test.c	    12  ** All rights reserved.                                                      **
+; ..\UART_Test\Uart_Test.c	    13  **                                                                           **
+; ..\UART_Test\Uart_Test.c	    14  ** This document contains proprietary information belonging to Infineon      **
+; ..\UART_Test\Uart_Test.c	    15  ** Technologies. Passing on and copying of this document, and communication  **
+; ..\UART_Test\Uart_Test.c	    16  ** of its contents is not permitted without prior written authorization.     **
+; ..\UART_Test\Uart_Test.c	    17  **                                                                           **
+; ..\UART_Test\Uart_Test.c	    18  *******************************************************************************
+; ..\UART_Test\Uart_Test.c	    19  **                                                                           **
+; ..\UART_Test\Uart_Test.c	    20  **  $FILENAME   : Uart_Demo.c $                                              **
+; ..\UART_Test\Uart_Test.c	    21  **                                                                           **
+; ..\UART_Test\Uart_Test.c	    22  **  $CC VERSION : \main\19 $                                                 **
+; ..\UART_Test\Uart_Test.c	    23  **                                                                           **
+; ..\UART_Test\Uart_Test.c	    24  **  $DATE       : 2014-07-23 $                                               **
+; ..\UART_Test\Uart_Test.c	    25  **                                                                           **
+; ..\UART_Test\Uart_Test.c	    26  **  AUTHOR      : DL-AUTOSAR-Engineering                                     **
+; ..\UART_Test\Uart_Test.c	    27  **                                                                           **
+; ..\UART_Test\Uart_Test.c	    28  **  VENDOR      : Infineon Technologies                                      **
+; ..\UART_Test\Uart_Test.c	    29  **                                                                           **
+; ..\UART_Test\Uart_Test.c	    30  **  DESCRIPTION : This file contains                                         **
+; ..\UART_Test\Uart_Test.c	    31  **                - Sample Demo Application for UART module                  **
+; ..\UART_Test\Uart_Test.c	    32  **                                                                           **
+; ..\UART_Test\Uart_Test.c	    33  **  MAY BE CHANGED BY USER [yes/no]: yes                                     **
+; ..\UART_Test\Uart_Test.c	    34  **                                                                           **
+; ..\UART_Test\Uart_Test.c	    35  ******************************************************************************/
+; ..\UART_Test\Uart_Test.c	    36  /*******************************************************************************
+; ..\UART_Test\Uart_Test.c	    37  **                      Includes                                              **
+; ..\UART_Test\Uart_Test.c	    38  *******************************************************************************/
+; ..\UART_Test\Uart_Test.c	    39  #include "Std_Types.h"
+; ..\UART_Test\Uart_Test.c	    40  #include "Mcal.h"
+; ..\UART_Test\Uart_Test.c	    41  
+; ..\UART_Test\Uart_Test.c	    42  #include "Test_Print.h"
+; ..\UART_Test\Uart_Test.c	    43  #include "Test_Time.h"
+; ..\UART_Test\Uart_Test.c	    44  #include "Test_Main.h"
+; ..\UART_Test\Uart_Test.c	    45  #include "DemoApp_Cfg.h"
+; ..\UART_Test\Uart_Test.c	    46  
+; ..\UART_Test\Uart_Test.c	    47  #include "Uart_Test.h"
+; ..\UART_Test\Uart_Test.c	    48  #include "Dio.h"
+; ..\UART_Test\Uart_Test.c	    49  
+; ..\UART_Test\Uart_Test.c	    50  /*******************************************************************************
+; ..\UART_Test\Uart_Test.c	    51  **                      Private Macro Definitions                             **
+; ..\UART_Test\Uart_Test.c	    52  *******************************************************************************/
+; ..\UART_Test\Uart_Test.c	    53  
+; ..\UART_Test\Uart_Test.c	    54  
+; ..\UART_Test\Uart_Test.c	    55  
+; ..\UART_Test\Uart_Test.c	    56  /*******************************************************************************
+; ..\UART_Test\Uart_Test.c	    57  **                      Private Variable Declarations                         **
+; ..\UART_Test\Uart_Test.c	    58  *******************************************************************************/
+; ..\UART_Test\Uart_Test.c	    59  
+; ..\UART_Test\Uart_Test.c	    60  
+; ..\UART_Test\Uart_Test.c	    61  /*******************************************************************************
+; ..\UART_Test\Uart_Test.c	    62  **                      Private Function Definitions                          **
+; ..\UART_Test\Uart_Test.c	    63  *******************************************************************************/
+; ..\UART_Test\Uart_Test.c	    64  
+; ..\UART_Test\Uart_Test.c	    65  uint8 UartDemo_ValidateData(uint16 UartRxDataCnt)
+; Function UartDemo_ValidateData
+.L11:
+UartDemo_ValidateData:	.type	func
+
+; ..\UART_Test\Uart_Test.c	    66  {
+; ..\UART_Test\Uart_Test.c	    67    uint16 idx;
+; ..\UART_Test\Uart_Test.c	    68    uint8 RsltDataCheck = 0;
+; ..\UART_Test\Uart_Test.c	    69  
+; ..\UART_Test\Uart_Test.c	    70    #if (UART_NINEBITS_USED == STD_ON)
+; ..\UART_Test\Uart_Test.c	    71    UartRxDataCnt = UartRxDataCnt/2;
+; ..\UART_Test\Uart_Test.c	    72    #endif
+; ..\UART_Test\Uart_Test.c	    73  
+; ..\UART_Test\Uart_Test.c	    74    for(idx = 0; idx < UartRxDataCnt; idx++)
+; ..\UART_Test\Uart_Test.c	    75    {
+; ..\UART_Test\Uart_Test.c	    76      /*Compare Data Read with the Data Written for the Channel*/
+; ..\UART_Test\Uart_Test.c	    77    #if (UART_NINEBITS_USED == STD_ON)
+; ..\UART_Test\Uart_Test.c	    78      if((Uart_TxDataBuff[idx] & UART_NINE_BIT_DATA_MASK) == \ 
+; ..\UART_Test\Uart_Test.c	    79        Uart_RxDataBuff[idx])
+; ..\UART_Test\Uart_Test.c	    80    #else
+; ..\UART_Test\Uart_Test.c	    81      if(Uart_TxDataBuff[idx] == Uart_RxDataBuff[idx])
+	mov	d2,#0
+	movh.a	a15,#@his(Uart_RxDataBuff)
+.L61:
+	lea	a15,[a15]@los(Uart_RxDataBuff)
+.L82:
+	movh.a	a2,#@his(Uart_TxDataBuff)
+	lea	a2,[a2]@los(Uart_TxDataBuff)
+.L83:
+	jlt	d4,#1,.L6
+.L84:
+	mov.a	a4,d4
+	add.a	a4,#-1
+.L3:
+	ld.bu	d15,[a2]
+.L85:
+	ld.bu	d0,[a15]
+.L86:
+	jne	d15,d0,.L4
+.L87:
+	add.a	a15,#1
+.L88:
+	add.a	a2,#1
+	loop	a4,.L3
+
+; ..\UART_Test\Uart_Test.c	    82    #endif
+; ..\UART_Test\Uart_Test.c	    83       {
+; ..\UART_Test\Uart_Test.c	    84         RsltDataCheck =0;
+; ..\UART_Test\Uart_Test.c	    85       }
+; ..\UART_Test\Uart_Test.c	    86       else
+.L6:
+
+; ..\UART_Test\Uart_Test.c	    87       {
+; ..\UART_Test\Uart_Test.c	    88         RsltDataCheck =1;
+; ..\UART_Test\Uart_Test.c	    89         break;
+; ..\UART_Test\Uart_Test.c	    90       }
+; ..\UART_Test\Uart_Test.c	    91    }
+; ..\UART_Test\Uart_Test.c	    92  
+; ..\UART_Test\Uart_Test.c	    93    /*Clear the App Rx Data Buffer for Next Operation*/
+; ..\UART_Test\Uart_Test.c	    94  //  for(idx = 0; idx < UartRxDataCnt; idx++)
+; ..\UART_Test\Uart_Test.c	    95  //  {
+; ..\UART_Test\Uart_Test.c	    96  //   Uart_RxDataBuff[idx] = 0;
+; ..\UART_Test\Uart_Test.c	    97  //  }
+; ..\UART_Test\Uart_Test.c	    98  
+; ..\UART_Test\Uart_Test.c	    99    return RsltDataCheck;
+; ..\UART_Test\Uart_Test.c	   100  }
+	ret
+.L4:
+	mov	d2,#1
+	ret
+.L43:
+	
+__UartDemo_ValidateData_function_end:
+	.size	UartDemo_ValidateData,__UartDemo_ValidateData_function_end-UartDemo_ValidateData
+.L26:
+	; End of function
+	
+	.sdecl	'.text.Uart_Test.Ultrasonic_Uart1',code,cluster('Ultrasonic_Uart1')
+	.sect	'.text.Uart_Test.Ultrasonic_Uart1'
+	.align	2
+	
+	.global	Ultrasonic_Uart1
+
+; ..\UART_Test\Uart_Test.c	   101  
+; ..\UART_Test\Uart_Test.c	   102  uint8 Ultrasonic_Uart1(Uart_ChannelIdType Channel,uint8 Uart_Data_u8[10], uint32 Distance_Data_u32[4])
+; Function Ultrasonic_Uart1
+.L13:
+Ultrasonic_Uart1:	.type	func
+	mov	d15,d4
+	mov.aa	a15,a4
+.L63:
+
+; ..\UART_Test\Uart_Test.c	   103  {
+; ..\UART_Test\Uart_Test.c	   104  
+; ..\UART_Test\Uart_Test.c	   105  	Dio_WriteChannel(DioConf_DioChannel_D0_USS1_TX, STD_HIGH);
+	mov	d4,#177
+	mov.aa	a12,a5
+.L62:
+	mov	d5,#1
+	call	Dio_WriteChannel
+.L55:
+
+; ..\UART_Test\Uart_Test.c	   106  
+; ..\UART_Test\Uart_Test.c	   107  	uint8 UltraData_Num = 10;
+; ..\UART_Test\Uart_Test.c	   108  
+; ..\UART_Test\Uart_Test.c	   109      Uart_Read(Channel, Uart_Data_u8, UltraData_Num);
+	mov	d4,d15
+	mov.aa	a4,a15
+.L65:
+	mov	d5,#10
+	call	Uart_Read
+.L64:
+
+; ..\UART_Test\Uart_Test.c	   110  
+; ..\UART_Test\Uart_Test.c	   111      Distance_Data_u32[0] = Uart_Data_u8[1] * 256 + Uart_Data_u8[2];
+	fcall	.cocofun_1
+.L68:
+
+; ..\UART_Test\Uart_Test.c	   112      Distance_Data_u32[1] = Uart_Data_u8[3] * 256 + Uart_Data_u8[4];
+; ..\UART_Test\Uart_Test.c	   113      Distance_Data_u32[2] = Uart_Data_u8[5] * 256 + Uart_Data_u8[6];
+; ..\UART_Test\Uart_Test.c	   114      Distance_Data_u32[3] = Uart_Data_u8[7] * 256 + Uart_Data_u8[8];
+; ..\UART_Test\Uart_Test.c	   115      return UltraData_Num;
+; ..\UART_Test\Uart_Test.c	   116   }
+	ret
+.L48:
+	
+__Ultrasonic_Uart1_function_end:
+	.size	Ultrasonic_Uart1,__Ultrasonic_Uart1_function_end-Ultrasonic_Uart1
+.L31:
+	; End of function
+	
+	.sdecl	'.text.Uart_Test..cocofun_1',code,cluster('.cocofun_1')
+	.sect	'.text.Uart_Test..cocofun_1'
+	.align	2
+; Function .cocofun_1
+.L15:
+.cocofun_1:	.type	func
+; Function body .cocofun_1, coco_iter:0
+	ld.bu	d0,[a15]1
+.L101:
+	ld.bu	d15,[a15]2
+.L66:
+	sha	d0,d0,#8
+.L102:
+	add	d15,d0
+	st.w	[a12],d15
+.L103:
+	mov	d2,#10
+.L104:
+	ld.bu	d0,[a15]3
+.L105:
+	ld.bu	d15,[a15]4
+.L106:
+	sha	d0,d0,#8
+.L107:
+	add	d15,d0
+	st.w	[a12]4,d15
+.L108:
+	ld.bu	d0,[a15]5
+.L109:
+	ld.bu	d15,[a15]6
+.L110:
+	sha	d0,d0,#8
+.L111:
+	add	d15,d0
+	st.w	[a12]8,d15
+.L112:
+	ld.bu	d0,[a15]7
+.L113:
+	ld.bu	d15,[a15]8
+.L114:
+	sha	d0,d0,#8
+.L115:
+	add	d15,d0
+	st.w	[a12]12,d15
+.L67:
+	fret
+.L41:
+	; End of function
+	.sdecl	'.text.Uart_Test.Ultrasonic_Uart2',code,cluster('Ultrasonic_Uart2')
+	.sect	'.text.Uart_Test.Ultrasonic_Uart2'
+	.align	2
+	
+	.global	Ultrasonic_Uart2
+
+; ..\UART_Test\Uart_Test.c	   117  
+; ..\UART_Test\Uart_Test.c	   118  uint8 Ultrasonic_Uart2(Uart_ChannelIdType Channel,uint8 Uart_Data_u8[10], uint32 Distance_Data_u32[4])
+; Function Ultrasonic_Uart2
+.L17:
+Ultrasonic_Uart2:	.type	func
+	mov	d15,d4
+	mov.aa	a15,a4
+.L70:
+
+; ..\UART_Test\Uart_Test.c	   119  {
+; ..\UART_Test\Uart_Test.c	   120  
+; ..\UART_Test\Uart_Test.c	   121  	Dio_WriteChannel(DioConf_DioChannel_DO_USS2_TX, STD_HIGH);
+	mov	d4,#234
+	mov.aa	a12,a5
+.L69:
+	mov	d5,#1
+	call	Dio_WriteChannel
+.L60:
+
+; ..\UART_Test\Uart_Test.c	   122  
+; ..\UART_Test\Uart_Test.c	   123  	uint8 UltraData_Num = 10;
+; ..\UART_Test\Uart_Test.c	   124  
+; ..\UART_Test\Uart_Test.c	   125      Uart_Read(Channel, Uart_Data_u8, UltraData_Num);
+	mov	d4,d15
+	mov.aa	a4,a15
+.L72:
+	mov	d5,#10
+	call	Uart_Read
+.L71:
+
+; ..\UART_Test\Uart_Test.c	   126  
+; ..\UART_Test\Uart_Test.c	   127      Distance_Data_u32[0] = Uart_Data_u8[1] * 256 + Uart_Data_u8[2];
+	fcall	.cocofun_1
+.L73:
+
+; ..\UART_Test\Uart_Test.c	   128      Distance_Data_u32[1] = Uart_Data_u8[3] * 256 + Uart_Data_u8[4];
+; ..\UART_Test\Uart_Test.c	   129      Distance_Data_u32[2] = Uart_Data_u8[5] * 256 + Uart_Data_u8[6];
+; ..\UART_Test\Uart_Test.c	   130      Distance_Data_u32[3] = Uart_Data_u8[7] * 256 + Uart_Data_u8[8];
+; ..\UART_Test\Uart_Test.c	   131      return UltraData_Num;
+; ..\UART_Test\Uart_Test.c	   132   }
+	ret
+.L56:
+	
+__Ultrasonic_Uart2_function_end:
+	.size	Ultrasonic_Uart2,__Ultrasonic_Uart2_function_end-Ultrasonic_Uart2
+.L36:
+	; End of function
+	
+	.calls	'Ultrasonic_Uart1','Dio_WriteChannel'
+	.calls	'Ultrasonic_Uart1','Uart_Read'
+	.calls	'Ultrasonic_Uart2','Dio_WriteChannel'
+	.calls	'Ultrasonic_Uart2','Uart_Read'
+	.calls	'Ultrasonic_Uart1','.cocofun_1'
+	.calls	'Ultrasonic_Uart2','.cocofun_1'
+	.calls	'UartDemo_ValidateData','',0
+	.calls	'Ultrasonic_Uart1','',0
+	.calls	'.cocofun_1','',0
+	.extern	Uart_Read
+	.extern	Uart_TxDataBuff
+	.extern	Uart_RxDataBuff
+	.extern	Dio_WriteChannel
+	.calls	'Ultrasonic_Uart2','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L19:
+	.word	10260
+	.half	3
+	.word	.L20
+	.byte	4
+.L18:
+	.byte	1
+	.byte	'..\\UART_Test\\Uart_Test.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L21
+	.byte	2
+	.byte	'Uart_ReturnType',0,1,203,4,14,1,3
+	.byte	'UART_OK',0,0,3
+	.byte	'UART_NOT_OK',0,1,3
+	.byte	'UART_IS_BUSY',0,2,0
+.L42:
+	.byte	4
+	.byte	'unsigned char',0,1,8
+.L50:
+	.byte	5
+	.word	237
+	.byte	6
+	.byte	'Uart_MemPtrType',0,1,231,3,16
+	.word	254
+.L44:
+	.byte	4
+	.byte	'unsigned short int',0,2,7,7
+	.byte	'Uart_Read',0,1,227,5,24
+	.word	175
+	.byte	1,1,1,1,8
+	.byte	'Channel',0,1,228,5,24
+	.word	237
+	.byte	8
+	.byte	'MemPtr',0,1,228,5,48
+	.word	259
+	.byte	8
+	.byte	'Size',0,1,228,5,69
+	.word	284
+	.byte	0,5
+	.word	237
+	.byte	4
+	.byte	'unsigned long int',0,4,7
+.L52:
+	.byte	5
+	.word	382
+	.byte	9
+	.byte	'Dio_WriteChannel',0,2,232,3,13,1,1,1,1,8
+	.byte	'ChannelId',0,2,234,3,19
+	.word	284
+	.byte	8
+	.byte	'Level',0,2,235,3,17
+	.word	237
+	.byte	0,4
+	.byte	'unsigned int',0,4,7,6
+	.byte	'__size_t',0,3,1,1
+	.word	469
+	.byte	10,1,5
+	.word	502
+	.byte	6
+	.byte	'__codeptr',0,3,1,1
+	.word	504
+	.byte	6
+	.byte	'uint8',0,4,90,29
+	.word	237
+	.byte	6
+	.byte	'uint16',0,4,92,29
+	.word	284
+	.byte	6
+	.byte	'uint32',0,4,94,29
+	.word	382
+	.byte	6
+	.byte	'_iob_flag_t',0,5,82,25
+	.word	284
+	.byte	6
+	.byte	'Uart_SizeType',0,1,240,3,16
+	.word	284
+	.byte	6
+	.byte	'Uart_ChannelIdType',0,1,246,3,15
+	.word	237
+	.byte	2
+	.byte	'Uart_ErrorIdType',0,1,253,3,14,1,3
+	.byte	'UART_NO_ERR',0,0,3
+	.byte	'UART_PARITY_ERR',0,1,3
+	.byte	'UART_FRAME_ERR',0,2,3
+	.byte	'UART_TXOVERFLOW_ERR',0,3,3
+	.byte	'UART_RXOVERFLOW_ERR',0,4,3
+	.byte	'UART_RXUNDERFLOW_ERR',0,5,0,11,1,1,12
+	.word	642
+	.byte	0,5
+	.word	782
+	.byte	6
+	.byte	'Uart_NotificationPtrType',0,1,135,4,15
+	.word	791
+	.byte	13
+	.byte	'UartNotifType',0,1,142,4,16,16,14
+	.byte	'UartTransmitNotifPtr',0
+	.word	796
+	.byte	4,2,35,0,14
+	.byte	'UartReceiveNotifPtr',0
+	.word	796
+	.byte	4,2,35,4,14
+	.byte	'UartAbortTransmitNotifPtr',0
+	.word	796
+	.byte	4,2,35,8,14
+	.byte	'UartAbortReceiveNotifPtr',0
+	.word	796
+	.byte	4,2,35,12,0,6
+	.byte	'UartNotifType',0,1,148,4,2
+	.word	830
+	.byte	5
+	.word	782
+	.byte	13
+	.byte	'Uart_ChannelType',0,1,155,4,16,32,14
+	.byte	'UartNotif',0
+	.word	830
+	.byte	16,2,35,0,14
+	.byte	'HwBrgNumerator',0
+	.word	284
+	.byte	2,2,35,16,14
+	.byte	'HwBrgDenominator',0
+	.word	284
+	.byte	2,2,35,18,14
+	.byte	'HwBitconPrescalar',0
+	.word	284
+	.byte	2,2,35,20,14
+	.byte	'HwBitconOversampling',0
+	.word	237
+	.byte	1,2,35,22,14
+	.byte	'HwModule',0
+	.word	237
+	.byte	1,2,35,23,14
+	.byte	'StopBits',0
+	.word	237
+	.byte	1,2,35,24,14
+	.byte	'DataLength',0
+	.word	237
+	.byte	1,2,35,25,14
+	.byte	'RxPinSelection',0
+	.word	237
+	.byte	1,2,35,26,14
+	.byte	'ParityEnable',0
+	.word	237
+	.byte	1,2,35,27,14
+	.byte	'Parity',0
+	.word	237
+	.byte	1,2,35,28,14
+	.byte	'CtsEnable',0
+	.word	237
+	.byte	1,2,35,29,14
+	.byte	'CtsPolarity',0
+	.word	237
+	.byte	1,2,35,30,0,6
+	.byte	'Uart_ChannelType',0,1,183,4,2
+	.word	1007
+	.byte	6
+	.byte	'Uart_ReturnType',0,1,208,4,2
+	.word	175
+	.byte	2
+	.byte	'Uart_StateType',0,1,228,4,14,1,3
+	.byte	'UART_UNINITIALISED',0,0,3
+	.byte	'UART_INITIALISED',0,1,3
+	.byte	'UART_OPERATION_IN_PROGRESS',0,2,0,6
+	.byte	'Uart_StateType',0,1,233,4,2
+	.word	1366
+	.byte	15,12
+	.word	237
+	.byte	16,11,0,17
+	.byte	'Uart_TxDataBuff',0,6,65,14
+	.word	1481
+	.byte	1,1,17
+	.byte	'Uart_RxDataBuff',0,6,66,14
+	.word	1481
+	.byte	1,1,13
+	.byte	'_Ifx_P_ACCEN0_Bits',0,7,45,16,4,18
+	.byte	'EN0',0,1
+	.word	237
+	.byte	1,7,2,35,0,18
+	.byte	'EN1',0,1
+	.word	237
+	.byte	1,6,2,35,0,18
+	.byte	'EN2',0,1
+	.word	237
+	.byte	1,5,2,35,0,18
+	.byte	'EN3',0,1
+	.word	237
+	.byte	1,4,2,35,0,18
+	.byte	'EN4',0,1
+	.word	237
+	.byte	1,3,2,35,0,18
+	.byte	'EN5',0,1
+	.word	237
+	.byte	1,2,2,35,0,18
+	.byte	'EN6',0,1
+	.word	237
+	.byte	1,1,2,35,0,18
+	.byte	'EN7',0,1
+	.word	237
+	.byte	1,0,2,35,0,18
+	.byte	'EN8',0,1
+	.word	237
+	.byte	1,7,2,35,1,18
+	.byte	'EN9',0,1
+	.word	237
+	.byte	1,6,2,35,1,18
+	.byte	'EN10',0,1
+	.word	237
+	.byte	1,5,2,35,1,18
+	.byte	'EN11',0,1
+	.word	237
+	.byte	1,4,2,35,1,18
+	.byte	'EN12',0,1
+	.word	237
+	.byte	1,3,2,35,1,18
+	.byte	'EN13',0,1
+	.word	237
+	.byte	1,2,2,35,1,18
+	.byte	'EN14',0,1
+	.word	237
+	.byte	1,1,2,35,1,18
+	.byte	'EN15',0,1
+	.word	237
+	.byte	1,0,2,35,1,18
+	.byte	'EN16',0,1
+	.word	237
+	.byte	1,7,2,35,2,18
+	.byte	'EN17',0,1
+	.word	237
+	.byte	1,6,2,35,2,18
+	.byte	'EN18',0,1
+	.word	237
+	.byte	1,5,2,35,2,18
+	.byte	'EN19',0,1
+	.word	237
+	.byte	1,4,2,35,2,18
+	.byte	'EN20',0,1
+	.word	237
+	.byte	1,3,2,35,2,18
+	.byte	'EN21',0,1
+	.word	237
+	.byte	1,2,2,35,2,18
+	.byte	'EN22',0,1
+	.word	237
+	.byte	1,1,2,35,2,18
+	.byte	'EN23',0,1
+	.word	237
+	.byte	1,0,2,35,2,18
+	.byte	'EN24',0,1
+	.word	237
+	.byte	1,7,2,35,3,18
+	.byte	'EN25',0,1
+	.word	237
+	.byte	1,6,2,35,3,18
+	.byte	'EN26',0,1
+	.word	237
+	.byte	1,5,2,35,3,18
+	.byte	'EN27',0,1
+	.word	237
+	.byte	1,4,2,35,3,18
+	.byte	'EN28',0,1
+	.word	237
+	.byte	1,3,2,35,3,18
+	.byte	'EN29',0,1
+	.word	237
+	.byte	1,2,2,35,3,18
+	.byte	'EN30',0,1
+	.word	237
+	.byte	1,1,2,35,3,18
+	.byte	'EN31',0,1
+	.word	237
+	.byte	1,0,2,35,3,0,6
+	.byte	'Ifx_P_ACCEN0_Bits',0,7,79,3
+	.word	1542
+	.byte	13
+	.byte	'_Ifx_P_ACCEN1_Bits',0,7,82,16,4,18
+	.byte	'reserved_0',0,4
+	.word	469
+	.byte	32,0,2,35,0,0,6
+	.byte	'Ifx_P_ACCEN1_Bits',0,7,85,3
+	.word	2095
+	.byte	13
+	.byte	'_Ifx_P_ESR_Bits',0,7,88,16,4,18
+	.byte	'EN0',0,1
+	.word	237
+	.byte	1,7,2,35,0,18
+	.byte	'EN1',0,1
+	.word	237
+	.byte	1,6,2,35,0,18
+	.byte	'EN2',0,1
+	.word	237
+	.byte	1,5,2,35,0,18
+	.byte	'EN3',0,1
+	.word	237
+	.byte	1,4,2,35,0,18
+	.byte	'EN4',0,1
+	.word	237
+	.byte	1,3,2,35,0,18
+	.byte	'EN5',0,1
+	.word	237
+	.byte	1,2,2,35,0,18
+	.byte	'EN6',0,1
+	.word	237
+	.byte	1,1,2,35,0,18
+	.byte	'EN7',0,1
+	.word	237
+	.byte	1,0,2,35,0,18
+	.byte	'EN8',0,1
+	.word	237
+	.byte	1,7,2,35,1,18
+	.byte	'EN9',0,1
+	.word	237
+	.byte	1,6,2,35,1,18
+	.byte	'EN10',0,1
+	.word	237
+	.byte	1,5,2,35,1,18
+	.byte	'EN11',0,1
+	.word	237
+	.byte	1,4,2,35,1,18
+	.byte	'EN12',0,1
+	.word	237
+	.byte	1,3,2,35,1,18
+	.byte	'EN13',0,1
+	.word	237
+	.byte	1,2,2,35,1,18
+	.byte	'EN14',0,1
+	.word	237
+	.byte	1,1,2,35,1,18
+	.byte	'EN15',0,1
+	.word	237
+	.byte	1,0,2,35,1,18
+	.byte	'reserved_16',0,2
+	.word	284
+	.byte	16,0,2,35,2,0,6
+	.byte	'Ifx_P_ESR_Bits',0,7,107,3
+	.word	2168
+	.byte	13
+	.byte	'_Ifx_P_ID_Bits',0,7,110,16,4,18
+	.byte	'MODREV',0,1
+	.word	237
+	.byte	8,0,2,35,0,18
+	.byte	'MODTYPE',0,1
+	.word	237
+	.byte	8,0,2,35,1,18
+	.byte	'MODNUMBER',0,2
+	.word	284
+	.byte	16,0,2,35,2,0,6
+	.byte	'Ifx_P_ID_Bits',0,7,115,3
+	.word	2482
+	.byte	13
+	.byte	'_Ifx_P_IN_Bits',0,7,118,16,4,18
+	.byte	'P0',0,1
+	.word	237
+	.byte	1,7,2,35,0,18
+	.byte	'P1',0,1
+	.word	237
+	.byte	1,6,2,35,0,18
+	.byte	'P2',0,1
+	.word	237
+	.byte	1,5,2,35,0,18
+	.byte	'P3',0,1
+	.word	237
+	.byte	1,4,2,35,0,18
+	.byte	'P4',0,1
+	.word	237
+	.byte	1,3,2,35,0,18
+	.byte	'P5',0,1
+	.word	237
+	.byte	1,2,2,35,0,18
+	.byte	'P6',0,1
+	.word	237
+	.byte	1,1,2,35,0,18
+	.byte	'P7',0,1
+	.word	237
+	.byte	1,0,2,35,0,18
+	.byte	'P8',0,1
+	.word	237
+	.byte	1,7,2,35,1,18
+	.byte	'P9',0,1
+	.word	237
+	.byte	1,6,2,35,1,18
+	.byte	'P10',0,1
+	.word	237
+	.byte	1,5,2,35,1,18
+	.byte	'P11',0,1
+	.word	237
+	.byte	1,4,2,35,1,18
+	.byte	'P12',0,1
+	.word	237
+	.byte	1,3,2,35,1,18
+	.byte	'P13',0,1
+	.word	237
+	.byte	1,2,2,35,1,18
+	.byte	'P14',0,1
+	.word	237
+	.byte	1,1,2,35,1,18
+	.byte	'P15',0,1
+	.word	237
+	.byte	1,0,2,35,1,18
+	.byte	'reserved_16',0,2
+	.word	284
+	.byte	16,0,2,35,2,0,6
+	.byte	'Ifx_P_IN_Bits',0,7,137,1,3
+	.word	2583
+	.byte	13
+	.byte	'_Ifx_P_IOCR0_Bits',0,7,140,1,16,4,18
+	.byte	'reserved_0',0,1
+	.word	237
+	.byte	3,5,2,35,0,18
+	.byte	'PC0',0,1
+	.word	237
+	.byte	5,0,2,35,0,18
+	.byte	'reserved_8',0,1
+	.word	237
+	.byte	3,5,2,35,1,18
+	.byte	'PC1',0,1
+	.word	237
+	.byte	5,0,2,35,1,18
+	.byte	'reserved_16',0,1
+	.word	237
+	.byte	3,5,2,35,2,18
+	.byte	'PC2',0,1
+	.word	237
+	.byte	5,0,2,35,2,18
+	.byte	'reserved_24',0,1
+	.word	237
+	.byte	3,5,2,35,3,18
+	.byte	'PC3',0,1
+	.word	237
+	.byte	5,0,2,35,3,0,6
+	.byte	'Ifx_P_IOCR0_Bits',0,7,150,1,3
+	.word	2880
+	.byte	13
+	.byte	'_Ifx_P_IOCR12_Bits',0,7,153,1,16,4,18
+	.byte	'reserved_0',0,1
+	.word	237
+	.byte	3,5,2,35,0,18
+	.byte	'PC12',0,1
+	.word	237
+	.byte	5,0,2,35,0,18
+	.byte	'reserved_8',0,1
+	.word	237
+	.byte	3,5,2,35,1,18
+	.byte	'PC13',0,1
+	.word	237
+	.byte	5,0,2,35,1,18
+	.byte	'reserved_16',0,1
+	.word	237
+	.byte	3,5,2,35,2,18
+	.byte	'PC14',0,1
+	.word	237
+	.byte	5,0,2,35,2,18
+	.byte	'reserved_24',0,1
+	.word	237
+	.byte	3,5,2,35,3,18
+	.byte	'PC15',0,1
+	.word	237
+	.byte	5,0,2,35,3,0,6
+	.byte	'Ifx_P_IOCR12_Bits',0,7,163,1,3
+	.word	3081
+	.byte	13
+	.byte	'_Ifx_P_IOCR4_Bits',0,7,166,1,16,4,18
+	.byte	'reserved_0',0,1
+	.word	237
+	.byte	3,5,2,35,0,18
+	.byte	'PC4',0,1
+	.word	237
+	.byte	5,0,2,35,0,18
+	.byte	'reserved_8',0,1
+	.word	237
+	.byte	3,5,2,35,1,18
+	.byte	'PC5',0,1
+	.word	237
+	.byte	5,0,2,35,1,18
+	.byte	'reserved_16',0,1
+	.word	237
+	.byte	3,5,2,35,2,18
+	.byte	'PC6',0,1
+	.word	237
+	.byte	5,0,2,35,2,18
+	.byte	'reserved_24',0,1
+	.word	237
+	.byte	3,5,2,35,3,18
+	.byte	'PC7',0,1
+	.word	237
+	.byte	5,0,2,35,3,0,6
+	.byte	'Ifx_P_IOCR4_Bits',0,7,176,1,3
+	.word	3288
+	.byte	13
+	.byte	'_Ifx_P_IOCR8_Bits',0,7,179,1,16,4,18
+	.byte	'reserved_0',0,1
+	.word	237
+	.byte	3,5,2,35,0,18
+	.byte	'PC8',0,1
+	.word	237
+	.byte	5,0,2,35,0,18
+	.byte	'reserved_8',0,1
+	.word	237
+	.byte	3,5,2,35,1,18
+	.byte	'PC9',0,1
+	.word	237
+	.byte	5,0,2,35,1,18
+	.byte	'reserved_16',0,1
+	.word	237
+	.byte	3,5,2,35,2,18
+	.byte	'PC10',0,1
+	.word	237
+	.byte	5,0,2,35,2,18
+	.byte	'reserved_24',0,1
+	.word	237
+	.byte	3,5,2,35,3,18
+	.byte	'PC11',0,1
+	.word	237
+	.byte	5,0,2,35,3,0,6
+	.byte	'Ifx_P_IOCR8_Bits',0,7,189,1,3
+	.word	3489
+	.byte	13
+	.byte	'_Ifx_P_LPCR0_Bits',0,7,192,1,16,4,18
+	.byte	'reserved_0',0,1
+	.word	237
+	.byte	1,7,2,35,0,18
+	.byte	'PS1',0,1
+	.word	237
+	.byte	1,6,2,35,0,18
+	.byte	'reserved_2',0,4
+	.word	469
+	.byte	30,0,2,35,0,0,6
+	.byte	'Ifx_P_LPCR0_Bits',0,7,197,1,3
+	.word	3692
+	.byte	13
+	.byte	'_Ifx_P_LPCR1_Bits',0,7,200,1,16,4,18
+	.byte	'reserved_0',0,1
+	.word	237
+	.byte	1,7,2,35,0,18
+	.byte	'PS1',0,1
+	.word	237
+	.byte	1,6,2,35,0,18
+	.byte	'reserved_2',0,4
+	.word	469
+	.byte	30,0,2,35,0,0,6
+	.byte	'Ifx_P_LPCR1_Bits',0,7,205,1,3
+	.word	3802
+	.byte	13
+	.byte	'_Ifx_P_LPCR1_P21_Bits',0,7,208,1,16,4,18
+	.byte	'RDIS_CTRL',0,1
+	.word	237
+	.byte	1,7,2,35,0,18
+	.byte	'RX_DIS',0,1
+	.word	237
+	.byte	1,6,2,35,0,18
+	.byte	'TERM',0,1
+	.word	237
+	.byte	1,5,2,35,0,18
+	.byte	'LRXTERM',0,1
+	.word	237
+	.byte	5,0,2,35,0,18
+	.byte	'reserved_8',0,4
+	.word	469
+	.byte	24,0,2,35,0,0,6
+	.byte	'Ifx_P_LPCR1_P21_Bits',0,7,215,1,3
+	.word	3912
+	.byte	13
+	.byte	'_Ifx_P_LPCR2_Bits',0,7,218,1,16,4,18
+	.byte	'reserved_0',0,1
+	.word	237
+	.byte	8,0,2,35,0,18
+	.byte	'LVDSR',0,1
+	.word	237
+	.byte	1,7,2,35,1,18
+	.byte	'LVDSRL',0,1
+	.word	237
+	.byte	1,6,2,35,1,18
+	.byte	'reserved_10',0,1
+	.word	237
+	.byte	2,4,2,35,1,18
+	.byte	'TDIS_CTRL',0,1
+	.word	237
+	.byte	1,3,2,35,1,18
+	.byte	'TX_DIS',0,1
+	.word	237
+	.byte	1,2,2,35,1,18
+	.byte	'TX_PD',0,1
+	.word	237
+	.byte	1,1,2,35,1,18
+	.byte	'TX_PWDPD',0,1
+	.word	237
+	.byte	1,0,2,35,1,18
+	.byte	'reserved_16',0,2
+	.word	284
+	.byte	16,0,2,35,2,0,6
+	.byte	'Ifx_P_LPCR2_Bits',0,7,229,1,3
+	.word	4067
+	.byte	13
+	.byte	'_Ifx_P_OMCR0_Bits',0,7,232,1,16,4,18
+	.byte	'reserved_0',0,2
+	.word	284
+	.byte	16,0,2,35,0,18
+	.byte	'PCL0',0,1
+	.word	237
+	.byte	1,7,2,35,2,18
+	.byte	'PCL1',0,1
+	.word	237
+	.byte	1,6,2,35,2,18
+	.byte	'PCL2',0,1
+	.word	237
+	.byte	1,5,2,35,2,18
+	.byte	'PCL3',0,1
+	.word	237
+	.byte	1,4,2,35,2,18
+	.byte	'reserved_20',0,2
+	.word	284
+	.byte	12,0,2,35,2,0,6
+	.byte	'Ifx_P_OMCR0_Bits',0,7,240,1,3
+	.word	4297
+	.byte	13
+	.byte	'_Ifx_P_OMCR12_Bits',0,7,243,1,16,4,18
+	.byte	'reserved_0',0,4
+	.word	469
+	.byte	28,4,2,35,0,18
+	.byte	'PCL12',0,1
+	.word	237
+	.byte	1,3,2,35,3,18
+	.byte	'PCL13',0,1
+	.word	237
+	.byte	1,2,2,35,3,18
+	.byte	'PCL14',0,1
+	.word	237
+	.byte	1,1,2,35,3,18
+	.byte	'PCL15',0,1
+	.word	237
+	.byte	1,0,2,35,3,0,6
+	.byte	'Ifx_P_OMCR12_Bits',0,7,250,1,3
+	.word	4457
+	.byte	13
+	.byte	'_Ifx_P_OMCR4_Bits',0,7,253,1,16,4,18
+	.byte	'reserved_0',0,4
+	.word	469
+	.byte	20,12,2,35,0,18
+	.byte	'PCL4',0,1
+	.word	237
+	.byte	1,3,2,35,2,18
+	.byte	'PCL5',0,1
+	.word	237
+	.byte	1,2,2,35,2,18
+	.byte	'PCL6',0,1
+	.word	237
+	.byte	1,1,2,35,2,18
+	.byte	'PCL7',0,1
+	.word	237
+	.byte	1,0,2,35,2,18
+	.byte	'reserved_24',0,1
+	.word	237
+	.byte	8,0,2,35,3,0,6
+	.byte	'Ifx_P_OMCR4_Bits',0,7,133,2,3
+	.word	4600
+	.byte	13
+	.byte	'_Ifx_P_OMCR8_Bits',0,7,136,2,16,4,18
+	.byte	'reserved_0',0,4
+	.word	469
+	.byte	24,8,2,35,0,18
+	.byte	'PCL8',0,1
+	.word	237
+	.byte	1,7,2,35,3,18
+	.byte	'PCL9',0,1
+	.word	237
+	.byte	1,6,2,35,3,18
+	.byte	'PCL10',0,1
+	.word	237
+	.byte	1,5,2,35,3,18
+	.byte	'PCL11',0,1
+	.word	237
+	.byte	1,4,2,35,3,18
+	.byte	'reserved_28',0,1
+	.word	237
+	.byte	4,0,2,35,3,0,6
+	.byte	'Ifx_P_OMCR8_Bits',0,7,144,2,3
+	.word	4760
+	.byte	13
+	.byte	'_Ifx_P_OMCR_Bits',0,7,147,2,16,4,18
+	.byte	'reserved_0',0,2
+	.word	284
+	.byte	16,0,2,35,0,18
+	.byte	'PCL0',0,1
+	.word	237
+	.byte	1,7,2,35,2,18
+	.byte	'PCL1',0,1
+	.word	237
+	.byte	1,6,2,35,2,18
+	.byte	'PCL2',0,1
+	.word	237
+	.byte	1,5,2,35,2,18
+	.byte	'PCL3',0,1
+	.word	237
+	.byte	1,4,2,35,2,18
+	.byte	'PCL4',0,1
+	.word	237
+	.byte	1,3,2,35,2,18
+	.byte	'PCL5',0,1
+	.word	237
+	.byte	1,2,2,35,2,18
+	.byte	'PCL6',0,1
+	.word	237
+	.byte	1,1,2,35,2,18
+	.byte	'PCL7',0,1
+	.word	237
+	.byte	1,0,2,35,2,18
+	.byte	'PCL8',0,1
+	.word	237
+	.byte	1,7,2,35,3,18
+	.byte	'PCL9',0,1
+	.word	237
+	.byte	1,6,2,35,3,18
+	.byte	'PCL10',0,1
+	.word	237
+	.byte	1,5,2,35,3,18
+	.byte	'PCL11',0,1
+	.word	237
+	.byte	1,4,2,35,3,18
+	.byte	'PCL12',0,1
+	.word	237
+	.byte	1,3,2,35,3,18
+	.byte	'PCL13',0,1
+	.word	237
+	.byte	1,2,2,35,3,18
+	.byte	'PCL14',0,1
+	.word	237
+	.byte	1,1,2,35,3,18
+	.byte	'PCL15',0,1
+	.word	237
+	.byte	1,0,2,35,3,0,6
+	.byte	'Ifx_P_OMCR_Bits',0,7,166,2,3
+	.word	4922
+	.byte	13
+	.byte	'_Ifx_P_OMR_Bits',0,7,169,2,16,4,18
+	.byte	'PS0',0,1
+	.word	237
+	.byte	1,7,2,35,0,18
+	.byte	'PS1',0,1
+	.word	237
+	.byte	1,6,2,35,0,18
+	.byte	'PS2',0,1
+	.word	237
+	.byte	1,5,2,35,0,18
+	.byte	'PS3',0,1
+	.word	237
+	.byte	1,4,2,35,0,18
+	.byte	'PS4',0,1
+	.word	237
+	.byte	1,3,2,35,0,18
+	.byte	'PS5',0,1
+	.word	237
+	.byte	1,2,2,35,0,18
+	.byte	'PS6',0,1
+	.word	237
+	.byte	1,1,2,35,0,18
+	.byte	'PS7',0,1
+	.word	237
+	.byte	1,0,2,35,0,18
+	.byte	'PS8',0,1
+	.word	237
+	.byte	1,7,2,35,1,18
+	.byte	'PS9',0,1
+	.word	237
+	.byte	1,6,2,35,1,18
+	.byte	'PS10',0,1
+	.word	237
+	.byte	1,5,2,35,1,18
+	.byte	'PS11',0,1
+	.word	237
+	.byte	1,4,2,35,1,18
+	.byte	'PS12',0,1
+	.word	237
+	.byte	1,3,2,35,1,18
+	.byte	'PS13',0,1
+	.word	237
+	.byte	1,2,2,35,1,18
+	.byte	'PS14',0,1
+	.word	237
+	.byte	1,1,2,35,1,18
+	.byte	'PS15',0,1
+	.word	237
+	.byte	1,0,2,35,1,18
+	.byte	'PCL0',0,1
+	.word	237
+	.byte	1,7,2,35,2,18
+	.byte	'PCL1',0,1
+	.word	237
+	.byte	1,6,2,35,2,18
+	.byte	'PCL2',0,1
+	.word	237
+	.byte	1,5,2,35,2,18
+	.byte	'PCL3',0,1
+	.word	237
+	.byte	1,4,2,35,2,18
+	.byte	'PCL4',0,1
+	.word	237
+	.byte	1,3,2,35,2,18
+	.byte	'PCL5',0,1
+	.word	237
+	.byte	1,2,2,35,2,18
+	.byte	'PCL6',0,1
+	.word	237
+	.byte	1,1,2,35,2,18
+	.byte	'PCL7',0,1
+	.word	237
+	.byte	1,0,2,35,2,18
+	.byte	'PCL8',0,1
+	.word	237
+	.byte	1,7,2,35,3,18
+	.byte	'PCL9',0,1
+	.word	237
+	.byte	1,6,2,35,3,18
+	.byte	'PCL10',0,1
+	.word	237
+	.byte	1,5,2,35,3,18
+	.byte	'PCL11',0,1
+	.word	237
+	.byte	1,4,2,35,3,18
+	.byte	'PCL12',0,1
+	.word	237
+	.byte	1,3,2,35,3,18
+	.byte	'PCL13',0,1
+	.word	237
+	.byte	1,2,2,35,3,18
+	.byte	'PCL14',0,1
+	.word	237
+	.byte	1,1,2,35,3,18
+	.byte	'PCL15',0,1
+	.word	237
+	.byte	1,0,2,35,3,0,6
+	.byte	'Ifx_P_OMR_Bits',0,7,203,2,3
+	.word	5255
+	.byte	13
+	.byte	'_Ifx_P_OMSR0_Bits',0,7,206,2,16,4,18
+	.byte	'PS0',0,1
+	.word	237
+	.byte	1,7,2,35,0,18
+	.byte	'PS1',0,1
+	.word	237
+	.byte	1,6,2,35,0,18
+	.byte	'PS2',0,1
+	.word	237
+	.byte	1,5,2,35,0,18
+	.byte	'PS3',0,1
+	.word	237
+	.byte	1,4,2,35,0,18
+	.byte	'reserved_4',0,4
+	.word	469
+	.byte	28,0,2,35,0,0,6
+	.byte	'Ifx_P_OMSR0_Bits',0,7,213,2,3
+	.word	5810
+	.byte	13
+	.byte	'_Ifx_P_OMSR12_Bits',0,7,216,2,16,4,18
+	.byte	'reserved_0',0,2
+	.word	284
+	.byte	12,4,2,35,0,18
+	.byte	'PS12',0,1
+	.word	237
+	.byte	1,3,2,35,1,18
+	.byte	'PS13',0,1
+	.word	237
+	.byte	1,2,2,35,1,18
+	.byte	'PS14',0,1
+	.word	237
+	.byte	1,1,2,35,1,18
+	.byte	'PS15',0,1
+	.word	237
+	.byte	1,0,2,35,1,18
+	.byte	'reserved_16',0,2
+	.word	284
+	.byte	16,0,2,35,2,0,6
+	.byte	'Ifx_P_OMSR12_Bits',0,7,224,2,3
+	.word	5943
+	.byte	13
+	.byte	'_Ifx_P_OMSR4_Bits',0,7,227,2,16,4,18
+	.byte	'reserved_0',0,1
+	.word	237
+	.byte	4,4,2,35,0,18
+	.byte	'PS4',0,1
+	.word	237
+	.byte	1,3,2,35,0,18
+	.byte	'PS5',0,1
+	.word	237
+	.byte	1,2,2,35,0,18
+	.byte	'PS6',0,1
+	.word	237
+	.byte	1,1,2,35,0,18
+	.byte	'PS7',0,1
+	.word	237
+	.byte	1,0,2,35,0,18
+	.byte	'reserved_8',0,4
+	.word	469
+	.byte	24,0,2,35,0,0,6
+	.byte	'Ifx_P_OMSR4_Bits',0,7,235,2,3
+	.word	6105
+	.byte	13
+	.byte	'_Ifx_P_OMSR8_Bits',0,7,238,2,16,4,18
+	.byte	'reserved_0',0,1
+	.word	237
+	.byte	8,0,2,35,0,18
+	.byte	'PS8',0,1
+	.word	237
+	.byte	1,7,2,35,1,18
+	.byte	'PS9',0,1
+	.word	237
+	.byte	1,6,2,35,1,18
+	.byte	'PS10',0,1
+	.word	237
+	.byte	1,5,2,35,1,18
+	.byte	'PS11',0,1
+	.word	237
+	.byte	1,4,2,35,1,18
+	.byte	'reserved_12',0,4
+	.word	469
+	.byte	20,0,2,35,0,0,6
+	.byte	'Ifx_P_OMSR8_Bits',0,7,246,2,3
+	.word	6260
+	.byte	13
+	.byte	'_Ifx_P_OMSR_Bits',0,7,249,2,16,4,18
+	.byte	'PS0',0,1
+	.word	237
+	.byte	1,7,2,35,0,18
+	.byte	'PS1',0,1
+	.word	237
+	.byte	1,6,2,35,0,18
+	.byte	'PS2',0,1
+	.word	237
+	.byte	1,5,2,35,0,18
+	.byte	'PS3',0,1
+	.word	237
+	.byte	1,4,2,35,0,18
+	.byte	'PS4',0,1
+	.word	237
+	.byte	1,3,2,35,0,18
+	.byte	'PS5',0,1
+	.word	237
+	.byte	1,2,2,35,0,18
+	.byte	'PS6',0,1
+	.word	237
+	.byte	1,1,2,35,0,18
+	.byte	'PS7',0,1
+	.word	237
+	.byte	1,0,2,35,0,18
+	.byte	'PS8',0,1
+	.word	237
+	.byte	1,7,2,35,1,18
+	.byte	'PS9',0,1
+	.word	237
+	.byte	1,6,2,35,1,18
+	.byte	'PS10',0,1
+	.word	237
+	.byte	1,5,2,35,1,18
+	.byte	'PS11',0,1
+	.word	237
+	.byte	1,4,2,35,1,18
+	.byte	'PS12',0,1
+	.word	237
+	.byte	1,3,2,35,1,18
+	.byte	'PS13',0,1
+	.word	237
+	.byte	1,2,2,35,1,18
+	.byte	'PS14',0,1
+	.word	237
+	.byte	1,1,2,35,1,18
+	.byte	'PS15',0,1
+	.word	237
+	.byte	1,0,2,35,1,18
+	.byte	'reserved_16',0,2
+	.word	284
+	.byte	16,0,2,35,2,0,6
+	.byte	'Ifx_P_OMSR_Bits',0,7,140,3,3
+	.word	6418
+	.byte	13
+	.byte	'_Ifx_P_OUT_Bits',0,7,143,3,16,4,18
+	.byte	'P0',0,1
+	.word	237
+	.byte	1,7,2,35,0,18
+	.byte	'P1',0,1
+	.word	237
+	.byte	1,6,2,35,0,18
+	.byte	'P2',0,1
+	.word	237
+	.byte	1,5,2,35,0,18
+	.byte	'P3',0,1
+	.word	237
+	.byte	1,4,2,35,0,18
+	.byte	'P4',0,1
+	.word	237
+	.byte	1,3,2,35,0,18
+	.byte	'P5',0,1
+	.word	237
+	.byte	1,2,2,35,0,18
+	.byte	'P6',0,1
+	.word	237
+	.byte	1,1,2,35,0,18
+	.byte	'P7',0,1
+	.word	237
+	.byte	1,0,2,35,0,18
+	.byte	'P8',0,1
+	.word	237
+	.byte	1,7,2,35,1,18
+	.byte	'P9',0,1
+	.word	237
+	.byte	1,6,2,35,1,18
+	.byte	'P10',0,1
+	.word	237
+	.byte	1,5,2,35,1,18
+	.byte	'P11',0,1
+	.word	237
+	.byte	1,4,2,35,1,18
+	.byte	'P12',0,1
+	.word	237
+	.byte	1,3,2,35,1,18
+	.byte	'P13',0,1
+	.word	237
+	.byte	1,2,2,35,1,18
+	.byte	'P14',0,1
+	.word	237
+	.byte	1,1,2,35,1,18
+	.byte	'P15',0,1
+	.word	237
+	.byte	1,0,2,35,1,18
+	.byte	'reserved_16',0,2
+	.word	284
+	.byte	16,0,2,35,2,0,6
+	.byte	'Ifx_P_OUT_Bits',0,7,162,3,3
+	.word	6736
+	.byte	13
+	.byte	'_Ifx_P_PCSR_Bits',0,7,165,3,16,4,18
+	.byte	'SEL0',0,1
+	.word	237
+	.byte	1,7,2,35,0,18
+	.byte	'SEL1',0,1
+	.word	237
+	.byte	1,6,2,35,0,18
+	.byte	'SEL2',0,1
+	.word	237
+	.byte	1,5,2,35,0,18
+	.byte	'SEL3',0,1
+	.word	237
+	.byte	1,4,2,35,0,18
+	.byte	'SEL4',0,1
+	.word	237
+	.byte	1,3,2,35,0,18
+	.byte	'SEL5',0,1
+	.word	237
+	.byte	1,2,2,35,0,18
+	.byte	'SEL6',0,1
+	.word	237
+	.byte	1,1,2,35,0,18
+	.byte	'reserved_7',0,2
+	.word	284
+	.byte	3,6,2,35,0,18
+	.byte	'SEL10',0,1
+	.word	237
+	.byte	1,5,2,35,1,18
+	.byte	'SEL11',0,1
+	.word	237
+	.byte	1,4,2,35,1,18
+	.byte	'reserved_12',0,4
+	.word	469
+	.byte	19,1,2,35,0,18
+	.byte	'LCK',0,1
+	.word	237
+	.byte	1,0,2,35,3,0,6
+	.byte	'Ifx_P_PCSR_Bits',0,7,179,3,3
+	.word	7036
+	.byte	13
+	.byte	'_Ifx_P_PDISC_Bits',0,7,182,3,16,4,18
+	.byte	'PDIS0',0,1
+	.word	237
+	.byte	1,7,2,35,0,18
+	.byte	'PDIS1',0,1
+	.word	237
+	.byte	1,6,2,35,0,18
+	.byte	'PDIS2',0,1
+	.word	237
+	.byte	1,5,2,35,0,18
+	.byte	'PDIS3',0,1
+	.word	237
+	.byte	1,4,2,35,0,18
+	.byte	'PDIS4',0,1
+	.word	237
+	.byte	1,3,2,35,0,18
+	.byte	'PDIS5',0,1
+	.word	237
+	.byte	1,2,2,35,0,18
+	.byte	'PDIS6',0,1
+	.word	237
+	.byte	1,1,2,35,0,18
+	.byte	'PDIS7',0,1
+	.word	237
+	.byte	1,0,2,35,0,18
+	.byte	'PDIS8',0,1
+	.word	237
+	.byte	1,7,2,35,1,18
+	.byte	'PDIS9',0,1
+	.word	237
+	.byte	1,6,2,35,1,18
+	.byte	'PDIS10',0,1
+	.word	237
+	.byte	1,5,2,35,1,18
+	.byte	'PDIS11',0,1
+	.word	237
+	.byte	1,4,2,35,1,18
+	.byte	'PDIS12',0,1
+	.word	237
+	.byte	1,3,2,35,1,18
+	.byte	'PDIS13',0,1
+	.word	237
+	.byte	1,2,2,35,1,18
+	.byte	'PDIS14',0,1
+	.word	237
+	.byte	1,1,2,35,1,18
+	.byte	'PDIS15',0,1
+	.word	237
+	.byte	1,0,2,35,1,18
+	.byte	'reserved_16',0,2
+	.word	284
+	.byte	16,0,2,35,2,0,6
+	.byte	'Ifx_P_PDISC_Bits',0,7,201,3,3
+	.word	7291
+	.byte	13
+	.byte	'_Ifx_P_PDR0_Bits',0,7,204,3,16,4,18
+	.byte	'PD0',0,1
+	.word	237
+	.byte	3,5,2,35,0,18
+	.byte	'PL0',0,1
+	.word	237
+	.byte	1,4,2,35,0,18
+	.byte	'PD1',0,1
+	.word	237
+	.byte	3,1,2,35,0,18
+	.byte	'PL1',0,1
+	.word	237
+	.byte	1,0,2,35,0,18
+	.byte	'PD2',0,1
+	.word	237
+	.byte	3,5,2,35,1,18
+	.byte	'PL2',0,1
+	.word	237
+	.byte	1,4,2,35,1,18
+	.byte	'PD3',0,1
+	.word	237
+	.byte	3,1,2,35,1,18
+	.byte	'PL3',0,1
+	.word	237
+	.byte	1,0,2,35,1,18
+	.byte	'PD4',0,1
+	.word	237
+	.byte	3,5,2,35,2,18
+	.byte	'PL4',0,1
+	.word	237
+	.byte	1,4,2,35,2,18
+	.byte	'PD5',0,1
+	.word	237
+	.byte	3,1,2,35,2,18
+	.byte	'PL5',0,1
+	.word	237
+	.byte	1,0,2,35,2,18
+	.byte	'PD6',0,1
+	.word	237
+	.byte	3,5,2,35,3,18
+	.byte	'PL6',0,1
+	.word	237
+	.byte	1,4,2,35,3,18
+	.byte	'PD7',0,1
+	.word	237
+	.byte	3,1,2,35,3,18
+	.byte	'PL7',0,1
+	.word	237
+	.byte	1,0,2,35,3,0,6
+	.byte	'Ifx_P_PDR0_Bits',0,7,222,3,3
+	.word	7643
+	.byte	13
+	.byte	'_Ifx_P_PDR1_Bits',0,7,225,3,16,4,18
+	.byte	'PD8',0,1
+	.word	237
+	.byte	3,5,2,35,0,18
+	.byte	'PL8',0,1
+	.word	237
+	.byte	1,4,2,35,0,18
+	.byte	'PD9',0,1
+	.word	237
+	.byte	3,1,2,35,0,18
+	.byte	'PL9',0,1
+	.word	237
+	.byte	1,0,2,35,0,18
+	.byte	'PD10',0,1
+	.word	237
+	.byte	3,5,2,35,1,18
+	.byte	'PL10',0,1
+	.word	237
+	.byte	1,4,2,35,1,18
+	.byte	'PD11',0,1
+	.word	237
+	.byte	3,1,2,35,1,18
+	.byte	'PL11',0,1
+	.word	237
+	.byte	1,0,2,35,1,18
+	.byte	'PD12',0,1
+	.word	237
+	.byte	3,5,2,35,2,18
+	.byte	'PL12',0,1
+	.word	237
+	.byte	1,4,2,35,2,18
+	.byte	'PD13',0,1
+	.word	237
+	.byte	3,1,2,35,2,18
+	.byte	'PL13',0,1
+	.word	237
+	.byte	1,0,2,35,2,18
+	.byte	'PD14',0,1
+	.word	237
+	.byte	3,5,2,35,3,18
+	.byte	'PL14',0,1
+	.word	237
+	.byte	1,4,2,35,3,18
+	.byte	'PD15',0,1
+	.word	237
+	.byte	3,1,2,35,3,18
+	.byte	'PL15',0,1
+	.word	237
+	.byte	1,0,2,35,3,0,6
+	.byte	'Ifx_P_PDR1_Bits',0,7,243,3,3
+	.word	7932
+	.byte	4
+	.byte	'int',0,4,5,19,7,251,3,9,4,14
+	.byte	'U',0
+	.word	469
+	.byte	4,2,35,0,14
+	.byte	'I',0
+	.word	8233
+	.byte	4,2,35,0,14
+	.byte	'B',0
+	.word	1542
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_P_ACCEN0',0,7,128,4,3
+	.word	8240
+	.byte	19,7,131,4,9,4,14
+	.byte	'U',0
+	.word	469
+	.byte	4,2,35,0,14
+	.byte	'I',0
+	.word	8233
+	.byte	4,2,35,0,14
+	.byte	'B',0
+	.word	2095
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_P_ACCEN1',0,7,136,4,3
+	.word	8302
+	.byte	19,7,139,4,9,4,14
+	.byte	'U',0
+	.word	469
+	.byte	4,2,35,0,14
+	.byte	'I',0
+	.word	8233
+	.byte	4,2,35,0,14
+	.byte	'B',0
+	.word	2168
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_P_ESR',0,7,144,4,3
+	.word	8364
+	.byte	19,7,147,4,9,4,14
+	.byte	'U',0
+	.word	469
+	.byte	4,2,35,0,14
+	.byte	'I',0
+	.word	8233
+	.byte	4,2,35,0,14
+	.byte	'B',0
+	.word	2482
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_P_ID',0,7,152,4,3
+	.word	8423
+	.byte	19,7,155,4,9,4,14
+	.byte	'U',0
+	.word	469
+	.byte	4,2,35,0,14
+	.byte	'I',0
+	.word	8233
+	.byte	4,2,35,0,14
+	.byte	'B',0
+	.word	2583
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_P_IN',0,7,160,4,3
+	.word	8481
+	.byte	19,7,163,4,9,4,14
+	.byte	'U',0
+	.word	469
+	.byte	4,2,35,0,14
+	.byte	'I',0
+	.word	8233
+	.byte	4,2,35,0,14
+	.byte	'B',0
+	.word	2880
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_P_IOCR0',0,7,168,4,3
+	.word	8539
+	.byte	19,7,171,4,9,4,14
+	.byte	'U',0
+	.word	469
+	.byte	4,2,35,0,14
+	.byte	'I',0
+	.word	8233
+	.byte	4,2,35,0,14
+	.byte	'B',0
+	.word	3081
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_P_IOCR12',0,7,176,4,3
+	.word	8600
+	.byte	19,7,179,4,9,4,14
+	.byte	'U',0
+	.word	469
+	.byte	4,2,35,0,14
+	.byte	'I',0
+	.word	8233
+	.byte	4,2,35,0,14
+	.byte	'B',0
+	.word	3288
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_P_IOCR4',0,7,184,4,3
+	.word	8662
+	.byte	19,7,187,4,9,4,14
+	.byte	'U',0
+	.word	469
+	.byte	4,2,35,0,14
+	.byte	'I',0
+	.word	8233
+	.byte	4,2,35,0,14
+	.byte	'B',0
+	.word	3489
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_P_IOCR8',0,7,192,4,3
+	.word	8723
+	.byte	19,7,195,4,9,4,14
+	.byte	'U',0
+	.word	469
+	.byte	4,2,35,0,14
+	.byte	'I',0
+	.word	8233
+	.byte	4,2,35,0,14
+	.byte	'B',0
+	.word	3692
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_P_LPCR0',0,7,200,4,3
+	.word	8784
+	.byte	19,7,203,4,9,4,14
+	.byte	'U',0
+	.word	469
+	.byte	4,2,35,0,14
+	.byte	'I',0
+	.word	8233
+	.byte	4,2,35,0,14
+	.byte	'B',0
+	.word	3802
+	.byte	4,2,35,0,14
+	.byte	'B_P21',0
+	.word	3912
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_P_LPCR1',0,7,209,4,3
+	.word	8845
+	.byte	19,7,212,4,9,4,14
+	.byte	'U',0
+	.word	469
+	.byte	4,2,35,0,14
+	.byte	'I',0
+	.word	8233
+	.byte	4,2,35,0,14
+	.byte	'B',0
+	.word	4067
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_P_LPCR2',0,7,217,4,3
+	.word	8921
+	.byte	19,7,220,4,9,4,14
+	.byte	'U',0
+	.word	469
+	.byte	4,2,35,0,14
+	.byte	'I',0
+	.word	8233
+	.byte	4,2,35,0,14
+	.byte	'B',0
+	.word	4922
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_P_OMCR',0,7,225,4,3
+	.word	8982
+	.byte	19,7,228,4,9,4,14
+	.byte	'U',0
+	.word	469
+	.byte	4,2,35,0,14
+	.byte	'I',0
+	.word	8233
+	.byte	4,2,35,0,14
+	.byte	'B',0
+	.word	4297
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_P_OMCR0',0,7,233,4,3
+	.word	9042
+	.byte	19,7,236,4,9,4,14
+	.byte	'U',0
+	.word	469
+	.byte	4,2,35,0,14
+	.byte	'I',0
+	.word	8233
+	.byte	4,2,35,0,14
+	.byte	'B',0
+	.word	4457
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_P_OMCR12',0,7,241,4,3
+	.word	9103
+	.byte	19,7,244,4,9,4,14
+	.byte	'U',0
+	.word	469
+	.byte	4,2,35,0,14
+	.byte	'I',0
+	.word	8233
+	.byte	4,2,35,0,14
+	.byte	'B',0
+	.word	4600
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_P_OMCR4',0,7,249,4,3
+	.word	9165
+	.byte	19,7,252,4,9,4,14
+	.byte	'U',0
+	.word	469
+	.byte	4,2,35,0,14
+	.byte	'I',0
+	.word	8233
+	.byte	4,2,35,0,14
+	.byte	'B',0
+	.word	4760
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_P_OMCR8',0,7,129,5,3
+	.word	9226
+	.byte	19,7,132,5,9,4,14
+	.byte	'U',0
+	.word	469
+	.byte	4,2,35,0,14
+	.byte	'I',0
+	.word	8233
+	.byte	4,2,35,0,14
+	.byte	'B',0
+	.word	5255
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_P_OMR',0,7,137,5,3
+	.word	9287
+	.byte	19,7,140,5,9,4,14
+	.byte	'U',0
+	.word	469
+	.byte	4,2,35,0,14
+	.byte	'I',0
+	.word	8233
+	.byte	4,2,35,0,14
+	.byte	'B',0
+	.word	6418
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_P_OMSR',0,7,145,5,3
+	.word	9346
+	.byte	19,7,148,5,9,4,14
+	.byte	'U',0
+	.word	469
+	.byte	4,2,35,0,14
+	.byte	'I',0
+	.word	8233
+	.byte	4,2,35,0,14
+	.byte	'B',0
+	.word	5810
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_P_OMSR0',0,7,153,5,3
+	.word	9406
+	.byte	19,7,156,5,9,4,14
+	.byte	'U',0
+	.word	469
+	.byte	4,2,35,0,14
+	.byte	'I',0
+	.word	8233
+	.byte	4,2,35,0,14
+	.byte	'B',0
+	.word	5943
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_P_OMSR12',0,7,161,5,3
+	.word	9467
+	.byte	19,7,164,5,9,4,14
+	.byte	'U',0
+	.word	469
+	.byte	4,2,35,0,14
+	.byte	'I',0
+	.word	8233
+	.byte	4,2,35,0,14
+	.byte	'B',0
+	.word	6105
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_P_OMSR4',0,7,169,5,3
+	.word	9529
+	.byte	19,7,172,5,9,4,14
+	.byte	'U',0
+	.word	469
+	.byte	4,2,35,0,14
+	.byte	'I',0
+	.word	8233
+	.byte	4,2,35,0,14
+	.byte	'B',0
+	.word	6260
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_P_OMSR8',0,7,177,5,3
+	.word	9590
+	.byte	19,7,180,5,9,4,14
+	.byte	'U',0
+	.word	469
+	.byte	4,2,35,0,14
+	.byte	'I',0
+	.word	8233
+	.byte	4,2,35,0,14
+	.byte	'B',0
+	.word	6736
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_P_OUT',0,7,185,5,3
+	.word	9651
+	.byte	19,7,188,5,9,4,14
+	.byte	'U',0
+	.word	469
+	.byte	4,2,35,0,14
+	.byte	'I',0
+	.word	8233
+	.byte	4,2,35,0,14
+	.byte	'B',0
+	.word	7036
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_P_PCSR',0,7,193,5,3
+	.word	9710
+	.byte	19,7,196,5,9,4,14
+	.byte	'U',0
+	.word	469
+	.byte	4,2,35,0,14
+	.byte	'I',0
+	.word	8233
+	.byte	4,2,35,0,14
+	.byte	'B',0
+	.word	7291
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_P_PDISC',0,7,201,5,3
+	.word	9770
+	.byte	19,7,204,5,9,4,14
+	.byte	'U',0
+	.word	469
+	.byte	4,2,35,0,14
+	.byte	'I',0
+	.word	8233
+	.byte	4,2,35,0,14
+	.byte	'B',0
+	.word	7643
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_P_PDR0',0,7,209,5,3
+	.word	9831
+	.byte	19,7,212,5,9,4,14
+	.byte	'U',0
+	.word	469
+	.byte	4,2,35,0,14
+	.byte	'I',0
+	.word	8233
+	.byte	4,2,35,0,14
+	.byte	'B',0
+	.word	7932
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_P_PDR1',0,7,217,5,3
+	.word	9891
+	.byte	6
+	.byte	'Dio_LevelType',0,2,237,1,17
+	.word	237
+	.byte	6
+	.byte	'Dio_ChannelType',0,2,243,1,17
+	.word	284
+	.byte	6
+	.byte	'Dio_PortType',0,2,249,1,17
+	.word	237
+	.byte	6
+	.byte	'Dio_PortLevelType',0,2,252,1,17
+	.word	284
+	.byte	13
+	.byte	'Dio_ChannelGroupType',0,2,129,2,16,4,14
+	.byte	'mask',0
+	.word	284
+	.byte	2,2,35,0,14
+	.byte	'offset',0
+	.word	237
+	.byte	1,2,35,2,14
+	.byte	'port',0
+	.word	237
+	.byte	1,2,35,3,0,6
+	.byte	'Dio_ChannelGroupType',0,2,137,2,3
+	.word	10048
+	.byte	13
+	.byte	'Dio_PortChannelIdType',0,2,139,2,16,8,14
+	.byte	'Dio_PortIdConfig',0
+	.word	382
+	.byte	4,2,35,0,14
+	.byte	'Dio_ChannelConfig',0
+	.word	382
+	.byte	4,2,35,4,0,6
+	.byte	'Dio_PortChannelIdType',0,2,145,2,2
+	.word	10150
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L20:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,4,1,3,8,58,15,59,15,57,15,11,15,0,0,3,40,0,3,8,28,13,0
+	.byte	0,4,36,0,3,8,11,15,62,15,0,0,5,15,0,73,19,0,0,6,22,0,3,8,58,15,59,15,57,15,73,19,0,0,7,46,1,3,8,58,15
+	.byte	59,15,57,15,73,19,54,15,39,12,63,12,60,12,0,0,8,5,0,3,8,58,15,59,15,57,15,73,19,0,0,9,46,1,3,8,58,15,59
+	.byte	15,57,15,54,15,39,12,63,12,60,12,0,0,10,21,0,54,15,0,0,11,21,1,54,15,39,12,0,0,12,5,0,73,19,0,0,13,19
+	.byte	1,3,8,58,15,59,15,57,15,11,15,0,0,14,13,0,3,8,73,19,11,15,56,9,0,0,15,1,1,11,15,73,19,0,0,16,33,0,47,15
+	.byte	0,0,17,52,0,3,8,58,15,59,15,57,15,73,19,63,12,60,12,0,0,18,13,0,3,8,11,15,73,19,13,15,12,15,56,9,0,0,19
+	.byte	23,1,58,15,59,15,57,15,11,15,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L21:
+	.word	.L75-.L74
+.L74:
+	.half	3
+	.word	.L77-.L76
+.L76:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\inc',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore\\inc',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc',0
+	.byte	'R:\\TASKING\\TriCore v6.2r2\\ctc\\include\\',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc\\TC27xC',0
+	.byte	0
+	.byte	'Uart.h',0,1,0,0
+	.byte	'Dio.h',0,2,0,0
+	.byte	'..\\UART_Test\\Uart_Test.c',0,0,0,0
+	.byte	'Platform_Types.h',0,3,0,0
+	.byte	'stdio.h',0,4,0,0
+	.byte	'..\\UART_Test\\Uart_Test.h',0,0,0,0
+	.byte	'IfxPort_regdef.h',0,5,0,0,0
+.L77:
+.L75:
+	.sdecl	'.debug_info',debug,cluster('UartDemo_ValidateData')
+	.sect	'.debug_info'
+.L22:
+	.word	305
+	.half	3
+	.word	.L23
+	.byte	4,1
+	.byte	'..\\UART_Test\\Uart_Test.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L25,.L24
+	.byte	2
+	.word	.L18
+	.byte	3
+	.byte	'UartDemo_ValidateData',0,1,65,7
+	.word	.L42
+	.byte	1,1,1
+	.word	.L11,.L43,.L10
+	.byte	4
+	.byte	'UartRxDataCnt',0,1,65,36
+	.word	.L44,.L45
+	.byte	5
+	.word	.L11,.L43
+	.byte	6
+	.byte	'idx',0,1,67,10
+	.word	.L44,.L46
+	.byte	6
+	.byte	'RsltDataCheck',0,1,68,9
+	.word	.L42,.L47
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('UartDemo_ValidateData')
+	.sect	'.debug_abbrev'
+.L23:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('UartDemo_ValidateData')
+	.sect	'.debug_line'
+.L24:
+	.word	.L79-.L78
+.L78:
+	.half	3
+	.word	.L81-.L80
+.L80:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\UART_Test\\Uart_Test.c',0,0,0,0,0
+.L81:
+	.byte	5,23,7,0,5,2
+	.word	.L11
+	.byte	3,195,0,1,5,32,3,13,1,5,8,9
+	.half	.L82-.L11
+	.byte	1,5,22,9
+	.half	.L83-.L82
+	.byte	3,121,1,7,9
+	.half	.L84-.L83
+	.byte	1,5,23,9
+	.half	.L3-.L84
+	.byte	3,7,1,5,47,9
+	.half	.L85-.L3
+	.byte	1,5,5,9
+	.half	.L86-.L85
+	.byte	1,5,40,7,9
+	.half	.L87-.L86
+	.byte	3,121,1,5,22,9
+	.half	.L88-.L87
+	.byte	1,5,1,7,9
+	.half	.L6-.L88
+	.byte	3,26,1,5,22,7,9
+	.half	.L4-.L6
+	.byte	3,116,1,5,1,3,12,1,7,9
+	.half	.L26-.L4
+	.byte	0,1,1
+.L79:
+	.sdecl	'.debug_ranges',debug,cluster('UartDemo_ValidateData')
+	.sect	'.debug_ranges'
+.L25:
+	.word	-1,.L11,0,.L26-.L11,0,0
+	.sdecl	'.debug_info',debug,cluster('Ultrasonic_Uart1')
+	.sect	'.debug_info'
+.L27:
+	.word	312
+	.half	3
+	.word	.L28
+	.byte	4,1
+	.byte	'..\\UART_Test\\Uart_Test.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L30,.L29
+	.byte	2
+	.word	.L18
+	.byte	3
+	.byte	'Ultrasonic_Uart1',0,1,102,7
+	.word	.L42
+	.byte	1,1,1
+	.word	.L13,.L48,.L12
+	.byte	4
+	.byte	'Channel',0,1,102,43
+	.word	.L42,.L49
+	.byte	4
+	.byte	'Uart_Data_u8',0,1,102,57
+	.word	.L50,.L51
+	.byte	4
+	.byte	'Distance_Data_u32',0,1,102,82
+	.word	.L52,.L53
+	.byte	5
+	.word	.L13,.L48
+	.byte	6
+	.word	.L54
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Ultrasonic_Uart1')
+	.sect	'.debug_abbrev'
+.L28:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	11,0,85,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Ultrasonic_Uart1')
+	.sect	'.debug_line'
+.L29:
+	.word	.L90-.L89
+.L89:
+	.half	3
+	.word	.L92-.L91
+.L91:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\UART_Test\\Uart_Test.c',0,0,0,0,0
+.L92:
+	.byte	5,7,7,0,5,2
+	.word	.L13
+	.byte	3,229,0,1,5,19,9
+	.half	.L63-.L13
+	.byte	3,3,1,5,7,3,125,1,5,50,9
+	.half	.L62-.L63
+	.byte	3,3,1,5,38,9
+	.half	.L55-.L62
+	.byte	3,4,1,5,64,9
+	.half	.L64-.L55
+	.byte	3,2,1,5,2,9
+	.half	.L68-.L64
+	.byte	3,5,1,7,9
+	.half	.L31-.L68
+	.byte	0,1,1
+.L90:
+	.sdecl	'.debug_ranges',debug,cluster('Ultrasonic_Uart1')
+	.sect	'.debug_ranges'
+.L30:
+	.word	-1,.L13,0,.L31-.L13,0,0
+.L54:
+	.word	-1,.L13,.L55-.L13,.L48-.L13,-1,.L15,0,.L41-.L15,0,0
+	.sdecl	'.debug_info',debug,cluster('Ultrasonic_Uart2')
+	.sect	'.debug_info'
+.L32:
+	.word	316
+	.half	3
+	.word	.L33
+	.byte	4,1
+	.byte	'..\\UART_Test\\Uart_Test.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L35,.L34
+	.byte	2
+	.word	.L18
+	.byte	3
+	.byte	'Ultrasonic_Uart2',0,1,118,7
+	.word	.L42
+	.byte	1,1,1
+	.word	.L17,.L56,.L16
+	.byte	4
+	.byte	'Channel',0,1,118,43
+	.word	.L42,.L57
+	.byte	4
+	.byte	'Uart_Data_u8',0,1,118,57
+	.word	.L50,.L58
+	.byte	4
+	.byte	'Distance_Data_u32',0,1,118,82
+	.word	.L52,.L59
+	.byte	5
+	.word	.L17,.L56
+	.byte	6
+	.word	.L60,.L56
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Ultrasonic_Uart2')
+	.sect	'.debug_abbrev'
+.L33:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Ultrasonic_Uart2')
+	.sect	'.debug_line'
+.L34:
+	.word	.L94-.L93
+.L93:
+	.half	3
+	.word	.L96-.L95
+.L95:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\UART_Test\\Uart_Test.c',0,0,0,0,0
+.L96:
+	.byte	5,7,7,0,5,2
+	.word	.L17
+	.byte	3,245,0,1,5,19,9
+	.half	.L70-.L17
+	.byte	3,3,1,5,7,3,125,1,5,50,9
+	.half	.L69-.L70
+	.byte	3,3,1,5,38,9
+	.half	.L60-.L69
+	.byte	3,4,1,5,64,9
+	.half	.L71-.L60
+	.byte	3,2,1,5,2,9
+	.half	.L73-.L71
+	.byte	3,5,1,7,9
+	.half	.L36-.L73
+	.byte	0,1,1
+.L94:
+	.sdecl	'.debug_ranges',debug,cluster('Ultrasonic_Uart2')
+	.sect	'.debug_ranges'
+.L35:
+	.word	-1,.L17,0,.L36-.L17,0,0
+	.sdecl	'.debug_info',debug,cluster('.cocofun_1')
+	.sect	'.debug_info'
+.L37:
+	.word	209
+	.half	3
+	.word	.L38
+	.byte	4,1
+	.byte	'..\\UART_Test\\Uart_Test.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L40,.L39
+	.byte	2
+	.word	.L18
+	.byte	3
+	.byte	'.cocofun_1',0,1,102,7,1
+	.word	.L15,.L41,.L14
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('.cocofun_1')
+	.sect	'.debug_abbrev'
+.L38:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,0,3,8,58,15,59,15,57,15,54,15
+	.byte	17,1,18,1,64,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('.cocofun_1')
+	.sect	'.debug_line'
+.L39:
+	.word	.L98-.L97
+.L97:
+	.half	3
+	.word	.L100-.L99
+.L99:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\UART_Test\\Uart_Test.c',0,0,0,0,0
+.L100:
+	.byte	5,40,7,0,5,2
+	.word	.L15
+	.byte	3,238,0,1,5,64,9
+	.half	.L101-.L15
+	.byte	1,5,40,9
+	.half	.L66-.L101
+	.byte	1,5,50,9
+	.half	.L102-.L66
+	.byte	1,5,26,1,5,12,9
+	.half	.L103-.L102
+	.byte	3,4,1,5,40,9
+	.half	.L104-.L103
+	.byte	3,125,1,5,64,9
+	.half	.L105-.L104
+	.byte	1,5,40,9
+	.half	.L106-.L105
+	.byte	1,5,50,9
+	.half	.L107-.L106
+	.byte	1,5,26,1,5,40,9
+	.half	.L108-.L107
+	.byte	3,1,1,5,64,9
+	.half	.L109-.L108
+	.byte	1,5,40,9
+	.half	.L110-.L109
+	.byte	1,5,50,9
+	.half	.L111-.L110
+	.byte	1,5,26,1,5,40,9
+	.half	.L112-.L111
+	.byte	3,1,1,5,64,9
+	.half	.L113-.L112
+	.byte	1,5,40,9
+	.half	.L114-.L113
+	.byte	1,5,50,9
+	.half	.L115-.L114
+	.byte	1,5,26,1,5,12,9
+	.half	.L67-.L115
+	.byte	3,1,1,7,9
+	.half	.L41-.L67
+	.byte	0,1,1,5,40,0,5,2
+	.word	.L15
+	.byte	3,254,0,1,5,64,9
+	.half	.L101-.L15
+	.byte	1,5,40,9
+	.half	.L66-.L101
+	.byte	1,5,50,9
+	.half	.L102-.L66
+	.byte	1,5,26,1,5,12,9
+	.half	.L103-.L102
+	.byte	3,4,1,5,40,9
+	.half	.L104-.L103
+	.byte	3,125,1,5,64,9
+	.half	.L105-.L104
+	.byte	1,5,40,9
+	.half	.L106-.L105
+	.byte	1,5,50,9
+	.half	.L107-.L106
+	.byte	1,5,26,1,5,40,9
+	.half	.L108-.L107
+	.byte	3,1,1,5,64,9
+	.half	.L109-.L108
+	.byte	1,5,40,9
+	.half	.L110-.L109
+	.byte	1,5,50,9
+	.half	.L111-.L110
+	.byte	1,5,26,1,5,40,9
+	.half	.L112-.L111
+	.byte	3,1,1,5,64,9
+	.half	.L113-.L112
+	.byte	1,5,40,9
+	.half	.L114-.L113
+	.byte	1,5,50,9
+	.half	.L115-.L114
+	.byte	1,5,26,1,5,12,9
+	.half	.L67-.L115
+	.byte	3,113,1,7,9
+	.half	.L41-.L67
+	.byte	0,1,1
+.L98:
+	.sdecl	'.debug_ranges',debug,cluster('.cocofun_1')
+	.sect	'.debug_ranges'
+.L40:
+	.word	-1,.L15,0,.L41-.L15,0,0
+	.sdecl	'.debug_loc',debug,cluster('.cocofun_1')
+	.sect	'.debug_loc'
+.L14:
+	.word	-1,.L15,0,.L41-.L15
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('UartDemo_ValidateData')
+	.sect	'.debug_loc'
+.L47:
+	.word	-1,.L11,.L61-.L11,.L43-.L11
+	.half	1
+	.byte	82
+	.word	0,0
+.L10:
+	.word	-1,.L11,0,.L43-.L11
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L45:
+	.word	-1,.L11,0,.L43-.L11
+	.half	1
+	.byte	84
+	.word	0,0
+.L46:
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Ultrasonic_Uart1')
+	.sect	'.debug_loc'
+.L49:
+	.word	-1,.L13,0,.L62-.L13
+	.half	1
+	.byte	84
+	.word	.L63-.L13,.L64-.L13
+	.half	1
+	.byte	95
+	.word	.L65-.L13,.L64-.L13
+	.half	1
+	.byte	84
+	.word	.L15-.L13,.L66-.L13
+	.half	1
+	.byte	95
+	.word	0,0
+.L53:
+	.word	-1,.L13,0,.L55-.L13
+	.half	1
+	.byte	101
+	.word	.L62-.L13,.L64-.L13
+	.half	1
+	.byte	108
+	.word	.L15-.L13,.L67-.L13
+	.half	1
+	.byte	108
+	.word	.L68-.L13,.L48-.L13
+	.half	1
+	.byte	108
+	.word	0,0
+.L51:
+	.word	-1,.L13,0,.L55-.L13
+	.half	1
+	.byte	100
+	.word	.L63-.L13,.L64-.L13
+	.half	1
+	.byte	111
+	.word	.L65-.L13,.L64-.L13
+	.half	1
+	.byte	100
+	.word	.L15-.L13,.L67-.L13
+	.half	1
+	.byte	111
+	.word	.L68-.L13,.L48-.L13
+	.half	1
+	.byte	111
+	.word	0,0
+.L12:
+	.word	-1,.L13,0,.L48-.L13
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Ultrasonic_Uart2')
+	.sect	'.debug_loc'
+.L57:
+	.word	-1,.L17,0,.L69-.L17
+	.half	1
+	.byte	84
+	.word	.L70-.L17,.L71-.L17
+	.half	1
+	.byte	95
+	.word	.L72-.L17,.L71-.L17
+	.half	1
+	.byte	84
+	.word	.L15-.L17,.L66-.L17
+	.half	1
+	.byte	95
+	.word	0,0
+.L59:
+	.word	-1,.L17,0,.L60-.L17
+	.half	1
+	.byte	101
+	.word	.L69-.L17,.L71-.L17
+	.half	1
+	.byte	108
+	.word	.L15-.L17,.L41-.L17
+	.half	1
+	.byte	108
+	.word	.L73-.L17,.L56-.L17
+	.half	1
+	.byte	108
+	.word	0,0
+.L58:
+	.word	-1,.L17,0,.L60-.L17
+	.half	1
+	.byte	100
+	.word	.L70-.L17,.L71-.L17
+	.half	1
+	.byte	111
+	.word	.L72-.L17,.L71-.L17
+	.half	1
+	.byte	100
+	.word	.L15-.L17,.L41-.L17
+	.half	1
+	.byte	111
+	.word	.L73-.L17,.L56-.L17
+	.half	1
+	.byte	111
+	.word	0,0
+.L16:
+	.word	-1,.L17,0,.L56-.L17
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L116:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,27,8,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('UartDemo_ValidateData')
+	.sect	'.debug_frame'
+	.word	20
+	.word	.L116,.L11,.L43-.L11
+	.byte	8,19,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('Ultrasonic_Uart1')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L116,.L13,.L48-.L13
+	.sdecl	'.debug_frame',debug,cluster('Ultrasonic_Uart2')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L116,.L17,.L56-.L17
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L117:
+	.word	52
+	.word	-1
+	.byte	3,0,2,1,40,12,26,0,9,40,27,155,0,7,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36
+	.byte	8,37,8,38,8,39,0
+	.sdecl	'.debug_frame',debug,cluster('.cocofun_1')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L117,.L15,.L41-.L15
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+
+; ..\UART_Test\Uart_Test.c	   133  
+
+	; Module end

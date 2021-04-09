@@ -1,0 +1,166 @@
+<!--
+******************************************************************************
+**                                                                           **
+** Copyright (C) Infineon Technologies (2014)                                **
+**                                                                           **
+** All rights reserved.                                                      **
+**                                                                           **
+** This document contains proprietary information belonging to Infineon      **
+** Technologies. Passing on and copying of this document, and communication  **
+** of its contents is not permitted without prior written authorization.     **
+**                                                                           **
+*******************************************************************************
+**                                                                           **
+**  $FILENAME   : Dio_ConfigDoc.html $                                       **
+**                                                                           **
+**  $CC VERSION : \main\7 $                                                  **
+**                                                                           **
+**  $DATE       : 2014-05-16 $                                               **
+**                                                                           **
+**  AUTHOR      : DL-AUTOSAR-Engineering                                     **
+**                                                                           **
+**  VENDOR      : Infineon Technologies                                      **
+**                                                                           **
+**  DESCRIPTION : This file contains                                         **
+**                the Configuration description for DIO driver               **
+**                                                                           **
+**  MAY BE CHANGED BY USER [yes/no]: No                                      **
+**                                                                           **
+*******************************************************************************
+*******************************************************************************
+**  TRACEABILITY :[cover parentID= DS_MCAL_DIO_0505,DS_NAS_DIO_PR115,
+                                   DS_NAS_DIO_PR131]                         **
+**                [/cover]                                                   **
+*******************************************************************************
+-->
+
+
+<html>
+  <head>
+    <title>DIO Driver Details</title>
+  </head>
+  <body>
+    <style type="text/css">
+table{table-layout: fixed;width: 300px;}
+table.curvedEdges { border:10px solid ;-webkit-border-radius:13px;-moz-border-radius:13px;-ms-border-radius:13px;-o-border-radius:13px;border-radius:13px; }
+table.curvedEdges td, table.curvedEdges th { border-bottom:1px dotted black;overflow: hidden;width: 400px;padding:5px; }
+</style>
+<!-- Be sure to place the above styles (i.e. everything between the <style></style> tags) into the document 'head' (i.e. between the <head></head> tags. Everything below goes inside the <body></body> tags) -->		
+    <p>
+      &nbsp;</p>  
+    <h2>
+      /*****************************************DIO HW-SW MAP*****************************************/</h2>
+    <table border="3" cellpadding="5" cellspacing="0" class="curvedEdges">
+      <caption><strong>
+        Table 1: DIO SFR Usage per API</strong></caption>
+      <thead>
+        <tr>
+          <th scope="col">
+            API Name</th>
+          <th scope="col">
+            SFRs Used</th>
+          <th scope="col">
+            Remarks</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            Dio_Init</td>
+          <td>-</td>
+          <td>No SFRs used</td>
+        </tr>
+
+
+        <tr>
+          <td>
+            Dio_ReadChannel</td>
+          <td>Pn_IN</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>
+            Dio_WriteChannel</td>
+          <td>
+            Pn_OMR
+          </td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>
+            Dio_ReadPort</td>
+          <td>
+            Pn_IN          
+          </td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>
+            Dio_WritePort</td>
+          <td>
+            Pn_OUT           
+          </td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>
+            Dio_ReadChannelGroup</td>
+          <td>
+            Pn_IN
+          </td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>
+            Dio_WriteChannelGroup</td>
+          <td>
+            Pn_OMR
+          </td>
+          <td>-</td>
+        </tr> 
+        <tr>
+          <td>
+            Dio_FlipChannel</td>
+          <td>
+            Pn_IN, Pn_OMR
+          </td>
+          <td>-</td>          
+        </tr>
+
+      </tbody>
+    </table>    
+    <p>
+      &nbsp;</p>      
+    <h2>
+      /******************************************DIO MPU Settings******************************************/</h2>        
+<h3>
+      For MPU setting wrt SFR, refer HW manual for Port module</h3>     
+    <table border="3" cellpadding="5" cellspacing="0" class="curvedEdges">
+      <caption><strong>
+        Table 2: DIO Memory Range</strong></caption>
+      <thead>
+        <tr>
+          <th scope="col">
+            Start Address</th>
+          <th scope="col">
+            End Address</th>
+          <th scope="col">
+            Remarks</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr>
+          <td>
+            DIO_START_SEC_VAR_32BIT</td>
+          <td>
+            DIO_STOP_SEC_VAR_32BIT</td>
+          <td>
+            <p>
+              Dio_kConfigPtr - 32 bit variables used by DIO driver</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>                                    

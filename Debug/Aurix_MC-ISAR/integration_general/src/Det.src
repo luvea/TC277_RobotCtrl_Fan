@@ -1,0 +1,370 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.2r2 Build 18041957 SN 06692445"
+	.compiler_invocation	"ctc -f cc91936a --dep-file=Aurix_MC-ISAR\\integration_general\\src\\.Det.o.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xc -D__CPU_TC27XC__ --core=tc1.6.x --fp-model=+float -D_TASKING_C_TRICORE_ -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\.settings -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Asw -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\compiler -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc\\TC27xC -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc\\TC27xC\\SupportDocuments -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\lib -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\obj -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Asw -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\dio_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\dio_infineon_tricore\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\integration_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\integration_general\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Hal_Sensor -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output\\generated -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output\\generated\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\PWM3Ph -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Qspi -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Adc_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Adc3ph_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Can_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TLE_9180_Drive -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\UART_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Hal_Sensor -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\Demo_Aurix -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\mak -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\PWM3Ph -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Qspi -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Adc_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Adc3ph_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Can_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TLE_9180_Drive -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\UART_Test -g2 --make-target=Aurix_MC-ISAR\\integration_general\\src\\Det.o -t2 --language=-gcc,-volatile,+strings,-kanji --default-near-size=8 -O2 --default-a1-size=0 --default-a0-size=0 --source --align=0 --compact-max-size=200 --switch=auto --error-limit=42 -o Aurix_MC-ISAR\\integration_general\\src\\Det.src ..\\Aurix_MC-ISAR\\integration_general\\src\\Det.c"
+	.compiler_name		"ctc"
+	;source	'..\\Aurix_MC-ISAR\\integration_general\\src\\Det.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.Det.Det_ReportError',code,cluster('Det_ReportError')
+	.sect	'.text.Det.Det_ReportError'
+	.align	2
+	
+	.global	Det_ReportError
+
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	     1  /******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	     2  **                                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	     3  ** Copyright (C) Infineon Technologies (2013)                                **
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	     4  **                                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	     5  ** All rights reserved.                                                      **
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	     6  **                                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	     7  ** This document contains proprietary information belonging to Infineon      **
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	     8  ** Technologies. Passing on and copying of this document, and communication  **
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	     9  ** of its contents is not permitted without prior written authorization.     **
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    10  **                                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    11  *******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    12  **                                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    13  **  $FILENAME   : Det.c $                                                    **
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    14  **                                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    15  **  $CC VERSION : \main\3 $                                                  **
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    16  **                                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    17  **  $DATE       : 2013-06-20 $                                               **
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    18  **                                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    19  **  AUTHOR      : DL-AUTOSAR-Engineering                                     **
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    20  **                                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    21  **  VENDOR      : Infineon Technologies                                      **
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    22  **                                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    23  **  DESCRIPTION : This file contains stub for Det_ReportError                **
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    24  **                                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    25  **  MAY BE CHANGED BY USER [yes/no]: Yes                                     **
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    26  **                                                                           **
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    27  ******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    28  /*******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    29  **                      Includes                                              **
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    30  *******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    31  
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    32  /* Inclusion of Platform_Types.h and Compiler.h */
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    33  #include <Std_Types.h>
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    34  #include <Det.h>
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    35  #include <Test_Print.h>
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    36  #include <Mcal.h>
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    37  
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    38  /*******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    39  **                      Imported Compiler Switch Check                        **
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    40  *******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    41  /*******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    42  **                      Private Macro Definitions                             **
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    43  *******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    44  /*******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    45  **                      Private Type Definitions                              **
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    46  *******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    47  /*******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    48  **                      Private Function Declarations                         **
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    49  *******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    50  /*******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    51  **                      Global Constant Definitions                           **
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    52  *******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    53  /*******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    54  **                      Global Variable Definitions                           **
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    55  *******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    56  /*******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    57  **                      Private Constant Definitions                          **
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    58  *******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    59  /*******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    60  **                      Private Variable Definitions                          **
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    61  *******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    62  /*******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    63  **                      Global Function Definitions                           **
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    64  *******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    65  /* Test Stub for Det_ReportError */ 
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    66  void Det_ReportError(uint16 ModuleId,uint8 InstanceId,uint8 ApiId,uint8 ErrorId) 
+; Function Det_ReportError
+.L3:
+Det_ReportError:	.type	func
+
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    67  {
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    68    print_f("\n DET OCCURED \n ");
+	mov	d8,d4
+	movh.a	a4,#@his(.1.str)
+.L22:
+	mov	d15,d5
+	lea	a4,[a4]@los(.1.str)
+.L23:
+	mov	d9,d6
+	sub.a	a10,#16
+.L20:
+	mov	d10,d7
+	call	print_f
+.L21:
+
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    69    print_f("ModuleId:%d, InstanceId: %d, ApiId:%d, ErrorId:%d"
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    70             ,ModuleId, InstanceId, ApiId, ErrorId);
+	st.w	[a10],d8
+.L32:
+	st.w	[a10]4,d15
+.L33:
+	st.w	[a10]8,d9
+.L34:
+	st.w	[a10]12,d10
+.L35:
+	movh.a	a4,#@his(.2.str)
+	lea	a4,[a4]@los(.2.str)
+	j	print_f
+.L13:
+	
+__Det_ReportError_function_end:
+	.size	Det_ReportError,__Det_ReportError_function_end-Det_ReportError
+.L12:
+	; End of function
+	
+	.sdecl	'.rodata.Det..1.str',data,rom
+	.sect	'.rodata.Det..1.str'
+.1.str:	.type	object
+	.size	.1.str,17
+	.byte	10,32,68,69
+	.byte	84,32,79,67
+	.byte	67,85,82,69
+	.byte	68,32,10,32
+	.space	1
+	.sdecl	'.rodata.Det..2.str',data,rom
+	.sect	'.rodata.Det..2.str'
+.2.str:	.type	object
+	.size	.2.str,50
+	.byte	77,111,100,117
+	.byte	108,101,73,100
+	.byte	58,37,100,44
+	.byte	32,73,110,115
+	.byte	116,97,110,99
+	.byte	101,73,100,58
+	.byte	32,37,100,44
+	.byte	32,65,112,105
+	.byte	73,100,58,37
+	.byte	100,44,32,69
+	.byte	114,114,111,114
+	.byte	73,100,58,37
+	.byte	100
+	.space	1
+	.calls	'Det_ReportError','print_f'
+	.extern	print_f
+	.calls	'Det_ReportError','',16
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L5:
+	.word	432
+	.half	3
+	.word	.L6
+	.byte	4
+.L4:
+	.byte	1
+	.byte	'..\\Aurix_MC-ISAR\\integration_general\\src\\Det.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L7
+.L14:
+	.byte	2
+	.byte	'unsigned short int',0,2,7
+.L16:
+	.byte	2
+	.byte	'unsigned char',0,1,8,2
+	.byte	'char',0,1,6,3
+	.word	236
+	.byte	4
+	.word	244
+	.byte	5
+	.byte	'print_f',0,1,166,1,13,1,1,1,1,6
+	.byte	'p_frm',0,1,166,1,33
+	.word	249
+	.byte	7,1,166,1,40,0,2
+	.byte	'unsigned int',0,4,7,8
+	.byte	'__size_t',0,2,1,1
+	.word	292
+	.byte	9,1,4
+	.word	325
+	.byte	8
+	.byte	'__codeptr',0,2,1,1
+	.word	327
+	.byte	8
+	.byte	'uint8',0,3,90,29
+	.word	219
+	.byte	8
+	.byte	'uint16',0,3,92,29
+	.word	197
+	.byte	2
+	.byte	'unsigned long int',0,4,7,8
+	.byte	'uint32',0,3,94,29
+	.word	379
+	.byte	8
+	.byte	'_iob_flag_t',0,4,82,25
+	.word	197
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L6:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,38,0,73,19,0,0,4,15,0,73,19
+	.byte	0,0,5,46,1,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,6,5,0,3,8,58,15,59,15,57,15,73,19,0,0,7,24
+	.byte	0,58,15,59,15,57,15,0,0,8,22,0,3,8,58,15,59,15,57,15,73,19,0,0,9,21,0,54,15,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L7:
+	.word	.L25-.L24
+.L24:
+	.half	3
+	.word	.L27-.L26
+.L26:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general\\inc',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc',0
+	.byte	'R:\\TASKING\\TriCore v6.2r2\\ctc\\include\\',0,0
+	.byte	'Test_Print.h',0,1,0,0
+	.byte	'..\\Aurix_MC-ISAR\\integration_general\\src\\Det.c',0,0,0,0
+	.byte	'Platform_Types.h',0,2,0,0
+	.byte	'stdio.h',0,3,0,0,0
+.L27:
+.L25:
+	.sdecl	'.debug_info',debug,cluster('Det_ReportError')
+	.sect	'.debug_info'
+.L8:
+	.word	330
+	.half	3
+	.word	.L9
+	.byte	4,1
+	.byte	'..\\Aurix_MC-ISAR\\integration_general\\src\\Det.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L11,.L10
+	.byte	2
+	.word	.L4
+	.byte	3
+	.byte	'Det_ReportError',0,1,66,6,1,1,1
+	.word	.L3,.L13,.L2
+	.byte	4
+	.byte	'ModuleId',0,1,66,29
+	.word	.L14,.L15
+	.byte	4
+	.byte	'InstanceId',0,1,66,44
+	.word	.L16,.L17
+	.byte	4
+	.byte	'ApiId',0,1,66,61
+	.word	.L16,.L18
+	.byte	4
+	.byte	'ErrorId',0,1,66,73
+	.word	.L16,.L19
+	.byte	5
+	.word	.L3,.L13
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Det_ReportError')
+	.sect	'.debug_abbrev'
+.L9:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Det_ReportError')
+	.sect	'.debug_line'
+.L10:
+	.word	.L29-.L28
+.L28:
+	.half	3
+	.word	.L31-.L30
+.L30:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\Aurix_MC-ISAR\\integration_general\\src\\Det.c',0,0,0,0,0
+.L31:
+	.byte	5,6,7,0,5,2
+	.word	.L3
+	.byte	3,193,0,1,5,11,3,2,1,5,6,9
+	.half	.L22-.L3
+	.byte	3,126,1,5,11,3,2,1,5,6,9
+	.half	.L23-.L22
+	.byte	3,126,1,5,11,9
+	.half	.L20-.L23
+	.byte	3,2,1,5,13,9
+	.half	.L21-.L20
+	.byte	3,2,1,5,23,9
+	.half	.L32-.L21
+	.byte	1,5,35,9
+	.half	.L33-.L32
+	.byte	1,5,42,9
+	.half	.L34-.L33
+	.byte	1,5,11,9
+	.half	.L35-.L34
+	.byte	3,127,1,5,1,9
+	.half	.L12-.L35
+	.byte	3,3,0,1,1
+.L29:
+	.sdecl	'.debug_ranges',debug,cluster('Det_ReportError')
+	.sect	'.debug_ranges'
+.L11:
+	.word	-1,.L3,0,.L12-.L3,0,0
+	.sdecl	'.debug_loc',debug,cluster('Det_ReportError')
+	.sect	'.debug_loc'
+.L18:
+	.word	-1,.L3,0,.L21-.L3
+	.half	1
+	.byte	86
+	.word	.L20-.L3,.L13-.L3
+	.half	1
+	.byte	89
+	.word	0,0
+.L2:
+	.word	-1,.L3,0,.L20-.L3
+	.half	2
+	.byte	138,0
+	.word	.L20-.L3,.L13-.L3
+	.half	2
+	.byte	138,16
+	.word	.L13-.L3,.L13-.L3
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L19:
+	.word	-1,.L3,0,.L21-.L3
+	.half	1
+	.byte	87
+	.word	.L21-.L3,.L13-.L3
+	.half	1
+	.byte	90
+	.word	0,0
+.L17:
+	.word	-1,.L3,0,.L21-.L3
+	.half	1
+	.byte	85
+	.word	.L23-.L3,.L13-.L3
+	.half	1
+	.byte	95
+	.word	0,0
+.L15:
+	.word	-1,.L3,0,.L21-.L3
+	.half	1
+	.byte	84
+	.word	.L22-.L3,.L13-.L3
+	.half	1
+	.byte	88
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L36:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,27,8,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('Det_ReportError')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L36,.L3,.L13-.L3
+	.byte	4
+	.word	(.L20-.L3)/2
+	.byte	19,16,22,26,3,19,138,16,4
+	.word	(.L13-.L20)/2
+	.byte	19,0,8,26,0,0
+
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    71  
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    72  }
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    73  /*******************************************************************************
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    74  **                      Private Function Definitions                          **
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    75  *******************************************************************************/
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    76  
+; ..\Aurix_MC-ISAR\integration_general\src\Det.c	    77  
+
+	; Module end

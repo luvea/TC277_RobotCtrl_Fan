@@ -1,0 +1,1206 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.2r2 Build 18041957 SN 06692445"
+	.compiler_invocation	"ctc -f cc75376a --dep-file=Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src\\.Can_Irq.o.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xc -D__CPU_TC27XC__ --core=tc1.6.x --fp-model=+float -D_TASKING_C_TRICORE_ -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\.settings -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Asw -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\compiler -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc\\TC27xC -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc\\TC27xC\\SupportDocuments -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\lib -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\obj -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Asw -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\dio_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\dio_infineon_tricore\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\integration_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\integration_general\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Hal_Sensor -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output\\generated -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output\\generated\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\PWM3Ph -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Qspi -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Adc_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Adc3ph_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Can_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TLE_9180_Drive -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\UART_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Hal_Sensor -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\Demo_Aurix -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\mak -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\PWM3Ph -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Qspi -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Adc_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Adc3ph_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Can_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TLE_9180_Drive -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\UART_Test -g2 --make-target=Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src\\Can_Irq.o -t2 --language=-gcc,-volatile,+strings,-kanji --default-near-size=8 -O2 --default-a1-size=0 --default-a0-size=0 --source --align=0 --compact-max-size=200 --switch=auto --error-limit=42 -o Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src\\Can_Irq.src ..\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src\\Can_Irq.c"
+	.compiler_name		"ctc"
+	;source	'..\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src\\Can_Irq.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.inttab0.intvec.00a',code
+	.sect	'.text.inttab0.intvec.00a'
+
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	     1  /******************************************************************************
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	     2  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	     3  ** Copyright (C) Infineon Technologies (2013)                                **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	     4  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	     5  ** All rights reserved.                                                      **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	     6  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	     7  ** This document contains proprietary information belonging to Infineon      **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	     8  ** Technologies. Passing on and copying of this document, and communication  **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	     9  ** of its contents is not permitted without prior written authorization.     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    10  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    11  *******************************************************************************
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    12  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    13  **  $FILENAME   : Can_Irq.c $                                                **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    14  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    15  **  $CC VERSION : \main\dev_tc2xx_ca\5 $                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    16  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    17  **  $DATE       : 2016-06-27 $                                               **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    18  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    19  **  AUTHOR      : DL-AUTOSAR-Engineering                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    20  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    21  **  VENDOR      : Infineon Technologies                                      **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    22  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    23  **  DESCRIPTION : This file contains CAN Module interrupt frames             **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    24  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    25  **  MAY BE CHANGED BY USER [yes/no]: Yes                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    26  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    27  ******************************************************************************/
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    28  /*******************************************************************************
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    29  **                      Includes                                              **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    30  *******************************************************************************/
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    31  #include "Can_17_MCanP.h"
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    32  #include "Std_Types.h"
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    33  #include "Irq.h"
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    34  #include "Mcal.h"
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    35  
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    36  /*******************************************************************************
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    37  **                      Imported Compiler Switch Checks                       **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    38  *******************************************************************************/
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    39  
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    40  /*******************************************************************************
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    41  **                      Private Macro Definitions                             **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    42  *******************************************************************************/
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    43  
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    44  /*******************************************************************************
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    45  **                      Private Type Definitions                              **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    46  *******************************************************************************/
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    47  
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    48  /*******************************************************************************
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    49  **                      Private Function Declarations                         **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    50  *******************************************************************************/
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    51  
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    52  /*******************************************************************************
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    53  **                      Global Constant Definitions                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    54  *******************************************************************************/
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    55  
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    56  /*******************************************************************************
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    57  **                      Global Variable Definitions                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    58  *******************************************************************************/
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    59  
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    60  /*******************************************************************************
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    61  **                      Private Constant Definitions                          **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    62  *******************************************************************************/
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    63  
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    64  /*******************************************************************************
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    65  **                      Private Variable Definitions                          **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    66  *******************************************************************************/
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    67  
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    68  /*******************************************************************************
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    69  **                      Private Function Definitions                          **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    70  *******************************************************************************/
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    71  
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    72  /*******************************************************************************
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    73  **                      Global Function Definitions                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    74  *******************************************************************************/
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    75  #define IRQ_START_SEC_CODE
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    76  #include "MemMap.h"
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    77  /******************************************************************************
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    78  ** Syntax : void CANSR0_ISR(void)                                          **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    79  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    80  ** Service ID: NA                                                            **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    81  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    82  ** Sync/Async: Synchronous                                                   **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    83  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    84  ** Reentrancy: Reentrant                                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    85  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    86  ** Parameters (in): None                                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    87  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    88  ** Parameters (out): None                                                    **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    89  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    90  ** Return value: None                                                        **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    91  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    92  ** Description : Service for CAN Controller 0 Transmission event                   **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    93  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    94  ******************************************************************************/
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    95  #if (IRQ_CAN0_EXIST == STD_ON)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    96  #if((IRQ_CAN_SR0_PRIO > 0) || (IRQ_CAN_SR0_CAT == IRQ_CAT23))
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    97  #if((IRQ_CAN_SR0_PRIO > 0) && (IRQ_CAN_SR0_CAT == IRQ_CAT1))
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    98  IFX_INTERRUPT(CANSR0_ISR, 0, IRQ_CAN_SR0_PRIO)
+	movh.a	a14,#@his(CANSR0_ISR)
+	lea	a14,[a14]@los(CANSR0_ISR)
+	ji	a14
+	.sdecl	'.text.Shared.DEFAULT_CODE_ROM',code,cluster('CANSR0_ISR')
+	.sect	'.text.Shared.DEFAULT_CODE_ROM'
+	.align	2
+	
+	.global	CANSR0_ISR
+; Function CANSR0_ISR
+.L3:
+CANSR0_ISR:	.type	func
+	svlcx
+.L38:
+
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	    99  #elif IRQ_CAN_SR0_CAT == IRQ_CAT23
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   100  ISR(CANSR0_ISR)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   101  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   102  {
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   103  #if (IRQ_CAN_SR0_CAT == IRQ_CAT1)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   104    Mcal_EnableAllInterrupts();
+	enable
+.L39:
+
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   105  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   106    #ifdef CAN_TX_PROCESSING_HWCONTROLLER0
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   107    #if (CAN_TX_PROCESSING_HWCONTROLLER0 == CAN_INTERRUPT)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   108    Can_17_MCanP_IsrTransmitHandler(CAN_HWCONTROLLER0);
+	mov	d4,#0
+	call	Can_17_MCanP_IsrTransmitHandler
+.L40:
+
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   109    #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   110    #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   111  }
+	rslcx
+	rfe
+.L27:
+	
+__CANSR0_ISR_function_end:
+	.size	CANSR0_ISR,__CANSR0_ISR_function_end-CANSR0_ISR
+.L16:
+	; End of function
+	
+	.sdecl	'.text.inttab0.intvec.00b',code
+	.sect	'.text.inttab0.intvec.00b'
+
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   112  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   113  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   114  
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   115  /******************************************************************************
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   116  ** Syntax : void CANSR1_ISR(void)                                          **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   117  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   118  ** Service ID: NA                                                            **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   119  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   120  ** Sync/Async: Synchronous                                                   **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   121  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   122  ** Reentrancy: Reentrant                                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   123  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   124  ** Parameters (in): None                                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   125  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   126  ** Parameters (out): None                                                    **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   127  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   128  ** Return value: None                                                        **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   129  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   130  ** Description : Service for CAN Controller 1 Transmission event                   **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   131  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   132  ******************************************************************************/
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   133  #if (IRQ_CAN1_EXIST == STD_ON)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   134  #if((IRQ_CAN_SR1_PRIO > 0) || (IRQ_CAN_SR1_CAT == IRQ_CAT23))
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   135  #if((IRQ_CAN_SR1_PRIO > 0) && (IRQ_CAN_SR1_CAT == IRQ_CAT1))
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   136  IFX_INTERRUPT(CANSR1_ISR, 0, IRQ_CAN_SR1_PRIO)
+	movh.a	a14,#@his(CANSR1_ISR)
+	lea	a14,[a14]@los(CANSR1_ISR)
+	ji	a14
+	.sdecl	'.text.Shared.DEFAULT_CODE_ROM',code,cluster('CANSR1_ISR')
+	.sect	'.text.Shared.DEFAULT_CODE_ROM'
+	.align	2
+	
+	.global	CANSR1_ISR
+; Function CANSR1_ISR
+.L5:
+CANSR1_ISR:	.type	func
+	svlcx
+.L45:
+
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   137  #elif IRQ_CAN_SR1_CAT == IRQ_CAT23
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   138  ISR(CANSR1_ISR)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   139  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   140  {
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   141  #if (IRQ_CAN_SR1_CAT == IRQ_CAT1)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   142    Mcal_EnableAllInterrupts();
+	enable
+.L46:
+
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   143  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   144    #ifdef CAN_TX_PROCESSING_HWCONTROLLER1
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   145   #if (CAN_TX_PROCESSING_HWCONTROLLER1 == CAN_INTERRUPT)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   146    Can_17_MCanP_IsrTransmitHandler(CAN_HWCONTROLLER1);
+	mov	d4,#1
+	call	Can_17_MCanP_IsrTransmitHandler
+.L47:
+
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   147    #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   148    #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   149  }
+	rslcx
+	rfe
+.L28:
+	
+__CANSR1_ISR_function_end:
+	.size	CANSR1_ISR,__CANSR1_ISR_function_end-CANSR1_ISR
+.L21:
+	; End of function
+	
+	.sdecl	'.text.inttab0.intvec.00c',code
+	.sect	'.text.inttab0.intvec.00c'
+
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   150  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   151  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   152  
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   153  /******************************************************************************
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   154  ** Syntax : void CANSR2_ISR(void)                                          **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   155  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   156  ** Service ID: NA                                                            **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   157  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   158  ** Sync/Async: Synchronous                                                   **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   159  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   160  ** Reentrancy: Reentrant                                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   161  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   162  ** Parameters (in): None                                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   163  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   164  ** Parameters (out): None                                                    **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   165  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   166  ** Return value: None                                                        **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   167  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   168  ** Description : Service for CAN Controller 2 Transmission event                   **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   169  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   170  ******************************************************************************/
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   171  #if (IRQ_CAN2_EXIST == STD_ON)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   172  #if((IRQ_CAN_SR2_PRIO > 0) || (IRQ_CAN_SR2_CAT == IRQ_CAT23))
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   173  #if((IRQ_CAN_SR2_PRIO > 0) && (IRQ_CAN_SR2_CAT == IRQ_CAT1))
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   174  IFX_INTERRUPT(CANSR2_ISR, 0, IRQ_CAN_SR2_PRIO)
+	movh.a	a14,#@his(CANSR2_ISR)
+	lea	a14,[a14]@los(CANSR2_ISR)
+	ji	a14
+	.sdecl	'.text.Shared.DEFAULT_CODE_ROM',code,cluster('CANSR2_ISR')
+	.sect	'.text.Shared.DEFAULT_CODE_ROM'
+	.align	2
+	
+	.global	CANSR2_ISR
+; Function CANSR2_ISR
+.L7:
+CANSR2_ISR:	.type	func
+	svlcx
+.L52:
+
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   175  #elif IRQ_CAN_SR2_CAT == IRQ_CAT23
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   176  ISR(CANSR2_ISR)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   177  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   178  {
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   179  #if (IRQ_CAN_SR2_CAT == IRQ_CAT1)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   180    Mcal_EnableAllInterrupts();
+	enable
+.L53:
+
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   181  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   182    #ifdef CAN_TX_PROCESSING_HWCONTROLLER2
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   183    #if (CAN_TX_PROCESSING_HWCONTROLLER2 == CAN_INTERRUPT)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   184    Can_17_MCanP_IsrTransmitHandler(CAN_HWCONTROLLER2);
+	mov	d4,#2
+	call	Can_17_MCanP_IsrTransmitHandler
+.L54:
+
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   185    #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   186    #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   187  }
+	rslcx
+	rfe
+.L29:
+	
+__CANSR2_ISR_function_end:
+	.size	CANSR2_ISR,__CANSR2_ISR_function_end-CANSR2_ISR
+.L26:
+	; End of function
+	
+	.calls	'CANSR0_ISR','Can_17_MCanP_IsrTransmitHandler'
+	.calls	'CANSR1_ISR','Can_17_MCanP_IsrTransmitHandler'
+	.calls	'CANSR2_ISR','Can_17_MCanP_IsrTransmitHandler'
+	.calls	'CANSR0_ISR','',0
+	.calls	'CANSR1_ISR','',0
+	.extern	Can_17_MCanP_IsrTransmitHandler
+	.calls	'CANSR2_ISR','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L9:
+	.word	1121
+	.half	3
+	.word	.L10
+	.byte	4
+.L8:
+	.byte	1
+	.byte	'..\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src\\Can_Irq.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L11
+	.byte	2
+	.byte	'__enable',0,1,1,1,1,3
+	.byte	'unsigned char',0,1,8,4
+	.byte	'Can_17_MCanP_IsrTransmitHandler',0,1,229,9,13,1,1,1,1,5
+	.byte	'HwControllerId',0,1,229,9,51
+	.word	220
+	.byte	0,6,1,7
+	.word	303
+	.byte	8
+	.byte	'__codeptr',0,2,1,1
+	.word	305
+	.byte	8
+	.byte	'uint8',0,3,90,29
+	.word	220
+	.byte	3
+	.byte	'unsigned short int',0,2,7,8
+	.byte	'uint16',0,3,92,29
+	.word	342
+	.byte	3
+	.byte	'unsigned long int',0,4,7,8
+	.byte	'uint32',0,3,94,29
+	.word	379
+	.byte	8
+	.byte	'PduIdType',0,4,72,22
+	.word	220
+	.byte	8
+	.byte	'PduLengthType',0,4,76,22
+	.word	342
+	.byte	8
+	.byte	'Can_IdType',0,5,45,16
+	.word	379
+	.byte	9
+	.byte	'Can_TxHwObjectConfigType',0,1,219,3,16,2,10
+	.byte	'MsgObjId',0
+	.word	220
+	.byte	1,2,35,0,10
+	.byte	'HwControllerId',0
+	.word	220
+	.byte	1,2,35,1,0,8
+	.byte	'Can_TxHwObjectConfigType',0,1,237,3,3
+	.word	474
+	.byte	11,4
+	.word	220
+	.byte	12,3,0,9
+	.byte	'Can_ControllerMOMapConfigType',0,1,166,4,16,4,10
+	.byte	'ControllerMOMap',0
+	.word	582
+	.byte	4,2,35,0,0,8
+	.byte	'Can_ControllerMOMapConfigType',0,1,169,4,3
+	.word	591
+	.byte	9
+	.byte	'Can_NPCRValueType',0,1,173,4,16,2,10
+	.byte	'Can_NPCRValue',0
+	.word	342
+	.byte	2,2,35,0,0,8
+	.byte	'Can_NPCRValueType',0,1,176,4,3
+	.word	692
+	.byte	9
+	.byte	'Can_17_MCanP_ControllerBaudrateConfigType',0,1,179,4,16,6,10
+	.byte	'CanControllerBaudrate',0
+	.word	379
+	.byte	4,2,35,0,10
+	.byte	'CanControllerBaudrateCfg',0
+	.word	342
+	.byte	2,2,35,4,0,8
+	.byte	'Can_17_MCanP_ControllerBaudrateConfigType',0,1,183,4,3
+	.word	767
+	.byte	13
+	.word	767
+	.byte	7
+	.word	932
+	.byte	9
+	.byte	'Can_BaudrateConfigPtrType',0,1,186,4,16,4,10
+	.byte	'Can_kBaudrateConfigPtr',0
+	.word	937
+	.byte	4,2,35,0,0,8
+	.byte	'Can_BaudrateConfigPtrType',0,1,189,4,3
+	.word	942
+	.byte	9
+	.byte	'Can_EventHandlingType',0,1,211,4,16,4,10
+	.byte	'CanEventType',0
+	.word	582
+	.byte	4,2,35,0,0,8
+	.byte	'Can_EventHandlingType',0,1,214,4,3
+	.word	1042
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L10:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,46,0,3,8,54,15,39,12,63,12,60,12,0,0,3,36,0,3,8,11,15
+	.byte	62,15,0,0,4,46,1,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,5,5,0,3,8,58,15,59,15,57,15,73,19,0
+	.byte	0,6,21,0,54,15,0,0,7,15,0,73,19,0,0,8,22,0,3,8,58,15,59,15,57,15,73,19,0,0,9,19,1,3,8,58,15,59,15,57,15
+	.byte	11,15,0,0,10,13,0,3,8,73,19,11,15,56,9,0,0,11,1,1,11,15,73,19,0,0,12,33,0,47,15,0,0,13,38,0,73,19,0,0
+	.byte	0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L11:
+	.word	.L31-.L30
+.L30:
+	.half	3
+	.word	.L33-.L32
+.L32:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\inc',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\inc',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general\\inc',0
+	.byte	0
+	.byte	'Can_17_MCanP.h',0,1,0,0
+	.byte	'..\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src\\Can_Irq.c',0,0,0,0
+	.byte	'Platform_Types.h',0,2,0,0
+	.byte	'ComStack_Types.h',0,3,0,0
+	.byte	'Can_GeneralTypes.h',0,4,0,0,0
+.L33:
+.L31:
+	.sdecl	'.debug_info',debug,cluster('CANSR0_ISR')
+	.sect	'.debug_info'
+.L12:
+	.word	252
+	.half	3
+	.word	.L13
+	.byte	4,1
+	.byte	'..\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src\\Can_Irq.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L15,.L14
+	.byte	2
+	.word	.L8
+	.byte	3
+	.byte	'CANSR0_ISR',0,1,98,1,1,1,1
+	.word	.L3,.L27,.L2
+	.byte	4
+	.word	.L3,.L27
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('CANSR0_ISR')
+	.sect	'.debug_abbrev'
+.L13:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('CANSR0_ISR')
+	.sect	'.debug_line'
+.L14:
+	.word	.L35-.L34
+.L34:
+	.half	3
+	.word	.L37-.L36
+.L36:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src\\Can_Irq.c',0,0,0,0,0
+.L37:
+	.byte	5,1,7,0,5,2
+	.word	.L3
+	.byte	3,225,0,1,5,3,9
+	.half	.L38-.L3
+	.byte	3,6,1,5,35,9
+	.half	.L39-.L38
+	.byte	3,4,1,5,1,9
+	.half	.L40-.L39
+	.byte	3,3,1,9
+	.half	.L16-.L40
+	.byte	0,1,1
+.L35:
+	.sdecl	'.debug_ranges',debug,cluster('CANSR0_ISR')
+	.sect	'.debug_ranges'
+.L15:
+	.word	-1,.L3,0,.L16-.L3,0,0
+	.sdecl	'.debug_info',debug,cluster('CANSR1_ISR')
+	.sect	'.debug_info'
+.L17:
+	.word	253
+	.half	3
+	.word	.L18
+	.byte	4,1
+	.byte	'..\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src\\Can_Irq.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L20,.L19
+	.byte	2
+	.word	.L8
+	.byte	3
+	.byte	'CANSR1_ISR',0,1,136,1,1,1,1,1
+	.word	.L5,.L28,.L4
+	.byte	4
+	.word	.L5,.L28
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('CANSR1_ISR')
+	.sect	'.debug_abbrev'
+.L18:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('CANSR1_ISR')
+	.sect	'.debug_line'
+.L19:
+	.word	.L42-.L41
+.L41:
+	.half	3
+	.word	.L44-.L43
+.L43:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src\\Can_Irq.c',0,0,0,0,0
+.L44:
+	.byte	5,1,7,0,5,2
+	.word	.L5
+	.byte	3,135,1,1,5,3,9
+	.half	.L45-.L5
+	.byte	3,6,1,5,35,9
+	.half	.L46-.L45
+	.byte	3,4,1,5,1,9
+	.half	.L47-.L46
+	.byte	3,3,1,9
+	.half	.L21-.L47
+	.byte	0,1,1
+.L42:
+	.sdecl	'.debug_ranges',debug,cluster('CANSR1_ISR')
+	.sect	'.debug_ranges'
+.L20:
+	.word	-1,.L5,0,.L21-.L5,0,0
+	.sdecl	'.debug_info',debug,cluster('CANSR2_ISR')
+	.sect	'.debug_info'
+.L22:
+	.word	253
+	.half	3
+	.word	.L23
+	.byte	4,1
+	.byte	'..\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src\\Can_Irq.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L25,.L24
+	.byte	2
+	.word	.L8
+	.byte	3
+	.byte	'CANSR2_ISR',0,1,174,1,1,1,1,1
+	.word	.L7,.L29,.L6
+	.byte	4
+	.word	.L7,.L29
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('CANSR2_ISR')
+	.sect	'.debug_abbrev'
+.L23:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('CANSR2_ISR')
+	.sect	'.debug_line'
+.L24:
+	.word	.L49-.L48
+.L48:
+	.half	3
+	.word	.L51-.L50
+.L50:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src\\Can_Irq.c',0,0,0,0,0
+.L51:
+	.byte	5,1,7,0,5,2
+	.word	.L7
+	.byte	3,173,1,1,5,3,9
+	.half	.L52-.L7
+	.byte	3,6,1,5,35,9
+	.half	.L53-.L52
+	.byte	3,4,1,5,1,9
+	.half	.L54-.L53
+	.byte	3,3,1,9
+	.half	.L26-.L54
+	.byte	0,1,1
+.L49:
+	.sdecl	'.debug_ranges',debug,cluster('CANSR2_ISR')
+	.sect	'.debug_ranges'
+.L25:
+	.word	-1,.L7,0,.L26-.L7,0,0
+	.sdecl	'.debug_loc',debug,cluster('CANSR0_ISR')
+	.sect	'.debug_loc'
+.L2:
+	.word	-1,.L3,0,.L27-.L3
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('CANSR1_ISR')
+	.sect	'.debug_loc'
+.L4:
+	.word	-1,.L5,0,.L28-.L5
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('CANSR2_ISR')
+	.sect	'.debug_loc'
+.L6:
+	.word	-1,.L7,0,.L29-.L7
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L55:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,27,8,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('CANSR0_ISR')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L55,.L3,.L27-.L3
+	.sdecl	'.debug_frame',debug,cluster('CANSR1_ISR')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L55,.L5,.L28-.L5
+	.sdecl	'.debug_frame',debug,cluster('CANSR2_ISR')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L55,.L7,.L29-.L7
+
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   188  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   189  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   190  
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   191  /******************************************************************************
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   192  ** Syntax : void CANSR3_ISR(void)                                          **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   193  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   194  ** Service ID: NA                                                            **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   195  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   196  ** Sync/Async: Synchronous                                                   **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   197  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   198  ** Reentrancy: Reentrant                                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   199  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   200  ** Parameters (in): None                                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   201  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   202  ** Parameters (out): None                                                    **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   203  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   204  ** Return value: None                                                        **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   205  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   206  ** Description : Service for CAN Controller 3 Transmission event                   **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   207  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   208  ******************************************************************************/
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   209  #if (IRQ_CAN3_EXIST == STD_ON)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   210  #if((IRQ_CAN_SR3_PRIO > 0) || (IRQ_CAN_SR3_CAT == IRQ_CAT23))
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   211  #if((IRQ_CAN_SR3_PRIO > 0) && (IRQ_CAN_SR3_CAT == IRQ_CAT1))
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   212  IFX_INTERRUPT(CANSR3_ISR, 0, IRQ_CAN_SR3_PRIO)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   213  #elif IRQ_CAN_SR3_CAT == IRQ_CAT23
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   214  ISR(CANSR3_ISR)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   215  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   216  {
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   217  #if (IRQ_CAN_SR3_CAT == IRQ_CAT1)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   218    Mcal_EnableAllInterrupts();
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   219  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   220    #ifdef CAN_TX_PROCESSING_HWCONTROLLER3
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   221    #if (CAN_TX_PROCESSING_HWCONTROLLER3 == CAN_INTERRUPT)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   222    Can_17_MCanP_IsrTransmitHandler(CAN_HWCONTROLLER3);
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   223    #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   224    #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   225  }
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   226  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   227  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   228  
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   229  /******************************************************************************
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   230  ** Syntax : void CANSR4_ISR(void)                                          **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   231  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   232  ** Service ID: NA                                                            **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   233  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   234  ** Sync/Async: Synchronous                                                   **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   235  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   236  ** Reentrancy: Reentrant                                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   237  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   238  ** Parameters (in): None                                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   239  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   240  ** Parameters (out): None                                                    **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   241  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   242  ** Return value: None                                                        **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   243  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   244  ** Description : Service for CAN Controller 0 Reception/Wakeup event         **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   245  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   246  ******************************************************************************/
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   247  #if (IRQ_CAN4_EXIST == STD_ON)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   248  #if((IRQ_CAN_SR4_PRIO > 0) || (IRQ_CAN_SR4_CAT == IRQ_CAT23))
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   249  #if((IRQ_CAN_SR4_PRIO > 0) && (IRQ_CAN_SR4_CAT == IRQ_CAT1))
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   250  IFX_INTERRUPT(CANSR4_ISR, 0, IRQ_CAN_SR4_PRIO)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   251  #elif IRQ_CAN_SR4_CAT == IRQ_CAT23
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   252  ISR(CANSR4_ISR)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   253  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   254  {
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   255  #if (IRQ_CAN_SR4_CAT == IRQ_CAT1)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   256    Mcal_EnableAllInterrupts();
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   257  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   258    #ifdef CAN_RX_PROCESSING_HWCONTROLLER0
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   259    #if (CAN_RX_PROCESSING_HWCONTROLLER0 == CAN_INTERRUPT)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   260    Can_17_MCanP_IsrReceiveHandler(CAN_HWCONTROLLER0);
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   261    #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   262    #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   263  }
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   264  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   265  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   266  
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   267  /******************************************************************************
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   268  ** Syntax : void CANSR5_ISR(void)                                          **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   269  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   270  ** Service ID: NA                                                            **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   271  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   272  ** Sync/Async: Synchronous                                                   **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   273  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   274  ** Reentrancy: Reentrant                                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   275  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   276  ** Parameters (in): None                                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   277  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   278  ** Parameters (out): None                                                    **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   279  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   280  ** Return value: None                                                        **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   281  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   282  ** Description : Service for CAN Controller 1 Reception/Wakeup event         **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   283  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   284  ******************************************************************************/
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   285  #if (IRQ_CAN5_EXIST == STD_ON)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   286  #if((IRQ_CAN_SR5_PRIO > 0) || (IRQ_CAN_SR5_CAT == IRQ_CAT23))
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   287  #if((IRQ_CAN_SR5_PRIO > 0) && (IRQ_CAN_SR5_CAT == IRQ_CAT1))
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   288  IFX_INTERRUPT(CANSR5_ISR, 0, IRQ_CAN_SR5_PRIO)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   289  #elif IRQ_CAN_SR5_CAT == IRQ_CAT23
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   290  ISR(CANSR5_ISR)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   291  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   292  {
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   293  #if (IRQ_CAN_SR5_CAT == IRQ_CAT1)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   294    Mcal_EnableAllInterrupts();
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   295  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   296    #ifdef CAN_RX_PROCESSING_HWCONTROLLER1
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   297    #if (CAN_RX_PROCESSING_HWCONTROLLER1 == CAN_INTERRUPT)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   298    Can_17_MCanP_IsrReceiveHandler(CAN_HWCONTROLLER1);
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   299    #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   300    #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   301  }
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   302  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   303  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   304  
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   305  /******************************************************************************
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   306  ** Syntax : void CANSR6_ISR(void)                                          **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   307  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   308  ** Service ID: NA                                                            **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   309  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   310  ** Sync/Async: Synchronous                                                   **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   311  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   312  ** Reentrancy: Reentrant                                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   313  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   314  ** Parameters (in): None                                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   315  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   316  ** Parameters (out): None                                                    **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   317  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   318  ** Return value: None                                                        **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   319  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   320  ** Description : Service for CAN Controller 2 Reception/Wakeup event         **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   321  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   322  ******************************************************************************/
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   323  #if (IRQ_CAN6_EXIST == STD_ON)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   324  #if((IRQ_CAN_SR6_PRIO > 0) || (IRQ_CAN_SR6_CAT == IRQ_CAT23))
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   325  #if((IRQ_CAN_SR6_PRIO > 0) && (IRQ_CAN_SR6_CAT == IRQ_CAT1))
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   326  IFX_INTERRUPT(CANSR6_ISR, 0, IRQ_CAN_SR6_PRIO)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   327  #elif IRQ_CAN_SR6_CAT == IRQ_CAT23
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   328  ISR(CANSR6_ISR)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   329  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   330  {
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   331  #if (IRQ_CAN_SR6_CAT == IRQ_CAT1)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   332    Mcal_EnableAllInterrupts();
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   333  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   334    #ifdef CAN_RX_PROCESSING_HWCONTROLLER2
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   335    #if (CAN_RX_PROCESSING_HWCONTROLLER2 == CAN_INTERRUPT)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   336    Can_17_MCanP_IsrReceiveHandler(CAN_HWCONTROLLER2);
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   337    #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   338    #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   339  }
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   340  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   341  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   342  
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   343  /******************************************************************************
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   344  ** Syntax : void CANSR7_ISR(void)                                          **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   345  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   346  ** Service ID: NA                                                            **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   347  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   348  ** Sync/Async: Synchronous                                                   **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   349  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   350  ** Reentrancy: Reentrant                                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   351  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   352  ** Parameters (in): None                                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   353  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   354  ** Parameters (out): None                                                    **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   355  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   356  ** Return value: None                                                        **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   357  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   358  ** Description : Service for CAN Controller 3 Reception/Wakeup event         **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   359  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   360  ******************************************************************************/
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   361  #if (IRQ_CAN7_EXIST == STD_ON)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   362  #if((IRQ_CAN_SR7_PRIO > 0) || (IRQ_CAN_SR7_CAT == IRQ_CAT23))
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   363  #if((IRQ_CAN_SR7_PRIO > 0) && (IRQ_CAN_SR7_CAT == IRQ_CAT1))
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   364  IFX_INTERRUPT(CANSR7_ISR, 0, IRQ_CAN_SR7_PRIO)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   365  #elif IRQ_CAN_SR7_CAT == IRQ_CAT23
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   366  ISR(CANSR7_ISR)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   367  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   368  {
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   369  #if (IRQ_CAN_SR7_CAT == IRQ_CAT1)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   370    Mcal_EnableAllInterrupts();
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   371  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   372    #ifdef CAN_RX_PROCESSING_HWCONTROLLER3
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   373    #if (CAN_RX_PROCESSING_HWCONTROLLER3 == CAN_INTERRUPT)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   374    Can_17_MCanP_IsrReceiveHandler(CAN_HWCONTROLLER3);
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   375    #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   376    #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   377  }
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   378  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   379  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   380  
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   381  /******************************************************************************
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   382  ** Syntax : void CANSR8_ISR(void)                                          **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   383  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   384  ** Service ID: NA                                                            **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   385  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   386  ** Sync/Async: Synchronous                                                   **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   387  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   388  ** Reentrancy: Reentrant                                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   389  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   390  ** Parameters (in): None                                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   391  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   392  ** Parameters (out): None                                                    **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   393  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   394  ** Return value: None                                                        **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   395  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   396  ** Description : Service for CAN Controller 0 Busoff event             **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   397  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   398  ******************************************************************************/
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   399  #if (IRQ_CAN8_EXIST == STD_ON)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   400  #if((IRQ_CAN_SR8_PRIO > 0) || (IRQ_CAN_SR8_CAT == IRQ_CAT23))
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   401  #if((IRQ_CAN_SR8_PRIO > 0) && (IRQ_CAN_SR8_CAT == IRQ_CAT1))
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   402  IFX_INTERRUPT(CANSR8_ISR, 0, IRQ_CAN_SR8_PRIO)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   403  #elif IRQ_CAN_SR8_CAT == IRQ_CAT23
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   404  ISR(CANSR8_ISR)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   405  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   406  {
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   407  #if (IRQ_CAN_SR8_CAT == IRQ_CAT1)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   408    Mcal_EnableAllInterrupts();
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   409  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   410    #ifdef CAN_BO_PROCESSING_HWCONTROLLER0
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   411    #if (CAN_BO_PROCESSING_HWCONTROLLER0 == CAN_INTERRUPT)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   412    Can_17_MCanP_IsrBusOffHandler(CAN_HWCONTROLLER0);
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   413    #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   414    #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   415  }
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   416  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   417  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   418  
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   419  /******************************************************************************
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   420  ** Syntax : void CANSR9_ISR(void)                                          **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   421  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   422  ** Service ID: NA                                                            **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   423  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   424  ** Sync/Async: Synchronous                                                   **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   425  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   426  ** Reentrancy: Reentrant                                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   427  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   428  ** Parameters (in): None                                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   429  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   430  ** Parameters (out): None                                                    **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   431  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   432  ** Return value: None                                                        **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   433  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   434  ** Description : Service for CAN Controller 1 Busoff event             **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   435  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   436  ******************************************************************************/
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   437  #if (IRQ_CAN9_EXIST == STD_ON)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   438  #if((IRQ_CAN_SR9_PRIO > 0) || (IRQ_CAN_SR9_CAT == IRQ_CAT23))
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   439  #if((IRQ_CAN_SR9_PRIO > 0) && (IRQ_CAN_SR9_CAT == IRQ_CAT1))
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   440  IFX_INTERRUPT(CANSR9_ISR, 0, IRQ_CAN_SR9_PRIO)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   441  #elif IRQ_CAN_SR9_CAT == IRQ_CAT23
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   442  ISR(CANSR9_ISR)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   443  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   444  {
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   445  #if (IRQ_CAN_SR9_CAT == IRQ_CAT1)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   446    Mcal_EnableAllInterrupts();
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   447  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   448    #ifdef CAN_BO_PROCESSING_HWCONTROLLER1
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   449    #if (CAN_BO_PROCESSING_HWCONTROLLER1 == CAN_INTERRUPT)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   450    Can_17_MCanP_IsrBusOffHandler(CAN_HWCONTROLLER1);
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   451    #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   452    #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   453  }
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   454  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   455  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   456  
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   457  /******************************************************************************
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   458  ** Syntax : void CANSR10_ISR(void)                                         **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   459  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   460  ** Service ID: NA                                                            **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   461  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   462  ** Sync/Async: Synchronous                                                   **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   463  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   464  ** Reentrancy: Reentrant                                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   465  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   466  ** Parameters (in): None                                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   467  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   468  ** Parameters (out): None                                                    **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   469  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   470  ** Return value: None                                                        **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   471  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   472  ** Description : Service for CAN Controller 2 Busoff event             **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   473  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   474  ******************************************************************************/
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   475  #if (IRQ_CAN10_EXIST == STD_ON)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   476  #if((IRQ_CAN_SR10_PRIO > 0) || (IRQ_CAN_SR10_CAT == IRQ_CAT23))
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   477  #if((IRQ_CAN_SR10_PRIO > 0) && (IRQ_CAN_SR10_CAT == IRQ_CAT1))
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   478  IFX_INTERRUPT(CANSR10_ISR, 0, IRQ_CAN_SR10_PRIO)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   479  #elif IRQ_CAN_SR10_CAT == IRQ_CAT23
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   480  ISR(CANSR10_ISR)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   481  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   482  {
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   483  #if (IRQ_CAN_SR10_CAT == IRQ_CAT1)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   484    Mcal_EnableAllInterrupts();
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   485  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   486    #ifdef CAN_BO_PROCESSING_HWCONTROLLER2
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   487    #if (CAN_BO_PROCESSING_HWCONTROLLER2 == CAN_INTERRUPT)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   488    Can_17_MCanP_IsrBusOffHandler(CAN_HWCONTROLLER2);
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   489    #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   490    #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   491  }
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   492  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   493  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   494  
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   495  /******************************************************************************
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   496  ** Syntax : void CANSR11_ISR(void)                                         **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   497  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   498  ** Service ID: NA                                                            **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   499  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   500  ** Sync/Async: Synchronous                                                   **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   501  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   502  ** Reentrancy: Reentrant                                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   503  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   504  ** Parameters (in): None                                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   505  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   506  ** Parameters (out): None                                                    **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   507  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   508  ** Return value: None                                                        **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   509  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   510  ** Description : Service for CAN Controller 3 Busoff event             **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   511  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   512  ******************************************************************************/
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   513  #if (IRQ_CAN11_EXIST == STD_ON)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   514  #if((IRQ_CAN_SR11_PRIO > 0) || (IRQ_CAN_SR11_CAT == IRQ_CAT23))
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   515  #if((IRQ_CAN_SR11_PRIO > 0) && (IRQ_CAN_SR11_CAT == IRQ_CAT1))
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   516  IFX_INTERRUPT(CANSR11_ISR, 0, IRQ_CAN_SR11_PRIO)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   517  #elif IRQ_CAN_SR11_CAT == IRQ_CAT23
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   518  ISR(CANSR11_ISR)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   519  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   520  {
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   521  #if (IRQ_CAN_SR11_CAT == IRQ_CAT1)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   522    Mcal_EnableAllInterrupts();
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   523  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   524    #ifdef CAN_BO_PROCESSING_HWCONTROLLER3
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   525    #if (CAN_BO_PROCESSING_HWCONTROLLER3 == CAN_INTERRUPT)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   526    Can_17_MCanP_IsrBusOffHandler(CAN_HWCONTROLLER3);
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   527    #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   528    #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   529  }
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   530  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   531  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   532  
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   533  /******************************************************************************
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   534  ** Syntax : void CANSR16_ISR(void)                                          **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   535  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   536  ** Service ID: NA                                                            **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   537  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   538  ** Sync/Async: Synchronous                                                   **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   539  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   540  ** Reentrancy: Reentrant                                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   541  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   542  ** Parameters (in): None                                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   543  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   544  ** Parameters (out): None                                                    **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   545  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   546  ** Return value: None                                                        **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   547  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   548  ** Description : Service for CAN Controller 4 Transmission event                   **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   549  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   550  ******************************************************************************/
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   551  #if (IRQ_CAN16_EXIST == STD_ON)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   552  #if((IRQ_CAN_SR16_PRIO > 0) || (IRQ_CAN_SR16_CAT == IRQ_CAT23))
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   553  #if((IRQ_CAN_SR16_PRIO > 0) && (IRQ_CAN_SR16_CAT == IRQ_CAT1))
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   554  IFX_INTERRUPT(CANSR16_ISR, 0, IRQ_CAN_SR16_PRIO)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   555  #elif IRQ_CAN_SR16_CAT == IRQ_CAT23
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   556  ISR(CANSR16_ISR)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   557  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   558  {
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   559  #if (IRQ_CAN_SR16_CAT == IRQ_CAT1)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   560    Mcal_EnableAllInterrupts();
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   561  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   562    #ifdef CAN_TX_PROCESSING_HWCONTROLLER4
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   563    #if (CAN_TX_PROCESSING_HWCONTROLLER4 == CAN_INTERRUPT)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   564    Can_17_MCanP_IsrTransmitHandler(CAN_HWCONTROLLER4);
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   565    #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   566    #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   567  }
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   568  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   569  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   570  
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   571  /******************************************************************************
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   572  ** Syntax : void CANSR17_ISR(void)                                          **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   573  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   574  ** Service ID: NA                                                            **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   575  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   576  ** Sync/Async: Synchronous                                                   **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   577  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   578  ** Reentrancy: Reentrant                                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   579  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   580  ** Parameters (in): None                                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   581  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   582  ** Parameters (out): None                                                    **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   583  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   584  ** Return value: None                                                        **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   585  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   586  ** Description : Service for CAN Controller 5 Transmission event                   **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   587  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   588  ******************************************************************************/
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   589  #if (IRQ_CAN17_EXIST == STD_ON)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   590  #if((IRQ_CAN_SR17_PRIO > 0) || (IRQ_CAN_SR17_CAT == IRQ_CAT23))
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   591  #if((IRQ_CAN_SR17_PRIO > 0) && (IRQ_CAN_SR17_CAT == IRQ_CAT1))
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   592  IFX_INTERRUPT(CANSR17_ISR, 0, IRQ_CAN_SR17_PRIO)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   593  #elif IRQ_CAN_SR17_CAT == IRQ_CAT23
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   594  ISR(CANSR17_ISR)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   595  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   596  {
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   597  #if (IRQ_CAN_SR17_CAT == IRQ_CAT1)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   598    Mcal_EnableAllInterrupts();
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   599  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   600    #ifdef CAN_TX_PROCESSING_HWCONTROLLER5
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   601    #if (CAN_TX_PROCESSING_HWCONTROLLER5 == CAN_INTERRUPT)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   602    Can_17_MCanP_IsrTransmitHandler(CAN_HWCONTROLLER5);
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   603    #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   604    #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   605  }
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   606  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   607  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   608  
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   609  /******************************************************************************
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   610  ** Syntax : void CANSR18_ISR(void)                                          **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   611  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   612  ** Service ID: NA                                                            **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   613  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   614  ** Sync/Async: Synchronous                                                   **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   615  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   616  ** Reentrancy: Reentrant                                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   617  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   618  ** Parameters (in): None                                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   619  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   620  ** Parameters (out): None                                                    **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   621  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   622  ** Return value: None                                                        **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   623  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   624  ** Description : Service for CAN Controller 4 Reception/Wakeup event         **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   625  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   626  ******************************************************************************/
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   627  #if (IRQ_CAN18_EXIST == STD_ON)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   628  #if((IRQ_CAN_SR18_PRIO > 0) || (IRQ_CAN_SR18_CAT == IRQ_CAT23))
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   629  #if((IRQ_CAN_SR18_PRIO > 0) && (IRQ_CAN_SR18_CAT == IRQ_CAT1))
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   630  IFX_INTERRUPT(CANSR18_ISR, 0, IRQ_CAN_SR18_PRIO)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   631  #elif IRQ_CAN_SR18_CAT == IRQ_CAT23
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   632  ISR(CANSR18_ISR)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   633  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   634  {
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   635  #if (IRQ_CAN_SR18_CAT == IRQ_CAT1)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   636    Mcal_EnableAllInterrupts();
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   637  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   638    #ifdef CAN_RX_PROCESSING_HWCONTROLLER4
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   639    #if (CAN_RX_PROCESSING_HWCONTROLLER4 == CAN_INTERRUPT)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   640    Can_17_MCanP_IsrReceiveHandler(CAN_HWCONTROLLER4);
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   641    #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   642    #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   643  }
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   644  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   645  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   646  
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   647  /******************************************************************************
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   648  ** Syntax : void CANSR19_ISR(void)                                          **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   649  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   650  ** Service ID: NA                                                            **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   651  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   652  ** Sync/Async: Synchronous                                                   **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   653  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   654  ** Reentrancy: Reentrant                                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   655  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   656  ** Parameters (in): None                                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   657  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   658  ** Parameters (out): None                                                    **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   659  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   660  ** Return value: None                                                        **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   661  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   662  ** Description : Service for CAN Controller 5 Reception/Wakeup event         **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   663  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   664  ******************************************************************************/
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   665  #if (IRQ_CAN19_EXIST == STD_ON)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   666  #if((IRQ_CAN_SR19_PRIO > 0) || (IRQ_CAN_SR19_CAT == IRQ_CAT23))
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   667  #if((IRQ_CAN_SR19_PRIO > 0) && (IRQ_CAN_SR19_CAT == IRQ_CAT1))
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   668  IFX_INTERRUPT(CANSR19_ISR, 0, IRQ_CAN_SR19_PRIO)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   669  #elif IRQ_CAN_SR19_CAT == IRQ_CAT23
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   670  ISR(CANSR19_ISR)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   671  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   672  {
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   673  #if (IRQ_CAN_SR19_CAT == IRQ_CAT1)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   674    Mcal_EnableAllInterrupts();
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   675  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   676    #ifdef CAN_RX_PROCESSING_HWCONTROLLER5
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   677    #if (CAN_RX_PROCESSING_HWCONTROLLER5 == CAN_INTERRUPT)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   678    Can_17_MCanP_IsrReceiveHandler(CAN_HWCONTROLLER5);
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   679    #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   680    #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   681  }
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   682  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   683  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   684  
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   685  /******************************************************************************
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   686  ** Syntax : void CANSR20_ISR(void)                                          **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   687  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   688  ** Service ID: NA                                                            **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   689  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   690  ** Sync/Async: Synchronous                                                   **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   691  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   692  ** Reentrancy: Reentrant                                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   693  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   694  ** Parameters (in): None                                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   695  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   696  ** Parameters (out): None                                                    **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   697  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   698  ** Return value: None                                                        **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   699  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   700  ** Description : Service for CAN Controller 4 Busoff event             **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   701  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   702  ******************************************************************************/
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   703  #if (IRQ_CAN20_EXIST == STD_ON)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   704  #if((IRQ_CAN_SR20_PRIO > 0) || (IRQ_CAN_SR20_CAT == IRQ_CAT23))
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   705  #if((IRQ_CAN_SR20_PRIO > 0) && (IRQ_CAN_SR20_CAT == IRQ_CAT1))
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   706  IFX_INTERRUPT(CANSR20_ISR, 0, IRQ_CAN_SR20_PRIO)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   707  #elif IRQ_CAN_SR20_CAT == IRQ_CAT23
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   708  ISR(CANSR20_ISR)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   709  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   710  {
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   711  #if (IRQ_CAN_SR20_CAT == IRQ_CAT1)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   712    Mcal_EnableAllInterrupts();
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   713  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   714    #ifdef CAN_BO_PROCESSING_HWCONTROLLER4
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   715    #if (CAN_BO_PROCESSING_HWCONTROLLER4 == CAN_INTERRUPT)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   716    Can_17_MCanP_IsrBusOffHandler(CAN_HWCONTROLLER4);
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   717    #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   718    #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   719  }
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   720  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   721  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   722  
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   723  /******************************************************************************
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   724  ** Syntax : void CANSR21_ISR(void)                                          **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   725  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   726  ** Service ID: NA                                                            **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   727  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   728  ** Sync/Async: Synchronous                                                   **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   729  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   730  ** Reentrancy: Reentrant                                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   731  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   732  ** Parameters (in): None                                                     **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   733  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   734  ** Parameters (out): None                                                    **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   735  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   736  ** Return value: None                                                        **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   737  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   738  ** Description : Service for CAN Controller 5 Busoff event             **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   739  **                                                                           **
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   740  ******************************************************************************/
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   741  #if (IRQ_CAN21_EXIST == STD_ON)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   742  #if((IRQ_CAN_SR21_PRIO > 0) || (IRQ_CAN_SR21_CAT == IRQ_CAT23))
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   743  #if((IRQ_CAN_SR21_PRIO > 0) && (IRQ_CAN_SR21_CAT == IRQ_CAT1))
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   744  IFX_INTERRUPT(CANSR21_ISR, 0, IRQ_CAN_SR21_PRIO)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   745  #elif IRQ_CAN_SR21_CAT == IRQ_CAT23
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   746  ISR(CANSR21_ISR)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   747  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   748  {
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   749  #if (IRQ_CAN_SR21_CAT == IRQ_CAT1)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   750    Mcal_EnableAllInterrupts();
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   751  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   752    #ifdef CAN_BO_PROCESSING_HWCONTROLLER5
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   753    #if (CAN_BO_PROCESSING_HWCONTROLLER5 == CAN_INTERRUPT)
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   754    Can_17_MCanP_IsrBusOffHandler(CAN_HWCONTROLLER5);
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   755    #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   756    #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   757  }
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   758  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   759  #endif
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   760  
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   761  #define IRQ_STOP_SEC_CODE
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   762  #include "MemMap.h"
+; ..\Aurix_MC-ISAR\irq_infineon_tricore\ssc\src\Can_Irq.c	   763  
+
+	; Module end

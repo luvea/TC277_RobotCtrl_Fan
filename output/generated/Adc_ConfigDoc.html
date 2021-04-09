@@ -1,0 +1,346 @@
+<!--
+*******************************************************************************
+**                                                                           **
+** Copyright (C) Infineon Technologies (2013)                                **
+**                                                                           **
+** All rights reserved.                                                      **
+**                                                                           **
+** This document contains proprietary information belonging to Infineon      **
+** Technologies. Passing on and copying of this document, and communication  **
+** of its contents is not permitted without prior written authorization.     **
+**                                                                           **
+*******************************************************************************
+**                                                                           **
+**  $FILENAME   : Adc_ConfigDoc.html $                                       **
+**                                                                           **
+**  $CC VERSION : \main\9 $                                                  **
+**                                                                           **
+**  $DATE       : 2015-04-28 $                                               **
+**                                                                           **
+**  AUTHOR      : DL-AUTOSAR-Engineering                                     **
+**                                                                           **
+**  VENDOR      : Infineon Technologies                                      **
+**                                                                           **
+**  DESCRIPTION : This file contains the information of                      **
+**                the HW SW mapping and MPU settings required for ADC driver **
+**                                                                           **
+**  MAY BE CHANGED BY USER [yes/no]: No                                      **
+**                                                                           **
+*******************************************************************************
+*******************************************************************************
+**  TRACEABILITY :[cover parentID=DS_MCAL_ADC_0410_0411,
+DS_NAS_ADC_PR115_PR131]                                                      **
+**  DESCRIPTION  : This file contains the information of                     **
+**                 the HW SW mapping and MPU settings required for ADC driver**
+**                [/cover]                                                   **
+*******************************************************************************
+-->
+
+
+<html>
+  <head>
+    <title>ADC Driver Details</title>
+  </head>
+  <body>
+    <style type="text/css">
+table{table-layout: fixed;width: 300px;}
+table.curvedEdges { border:10px solid ;-webkit-border-radius:13px;-moz-border-radius:13px;-ms-border-radius:13px;-o-border-radius:13px;border-radius:13px; }
+table.curvedEdges td, table.curvedEdges th { border-bottom:1px dotted black;overflow: hidden;width: 400px;padding:5px; }
+</style>
+    <style type="text/css">
+table{table-layout: fixed;width: 300px;}
+table.curvedEdgesAdc { border:10px solid ;-webkit-border-radius:13px;-moz-border-radius:13px;-ms-border-radius:13px;-o-border-radius:13px;border-radius:13px; }
+table.curvedEdgesAdc td, table.curvedEdgesAdc th { border-bottom:1px dotted black; padding:3px; }
+</style>
+<!-- Be sure to place the above styles (i.e. everything between the <style></style> tags) into the document 'head' (i.e. between the <head></head> tags. Everything below goes inside the <body></body> tags) -->		
+    <p>
+      &nbsp;</p>  
+    <h2>
+      /*****************************************ADC HW-SW MAP*****************************************/</h2>
+    <table border="3" cellpadding="5" cellspacing="0" class="curvedEdgesAdc">
+      <caption><strong>
+        Table 1: Configured Adc channel groups</strong></caption>
+      <thead>
+        <tr>
+          <th scope="col" width=425px>
+            Group Symbolic Name</th>
+          <th scope="col" width=150px>
+            Group ID</th>
+          <th scope="col" width=150px>
+            Adc Kernel Number</th>
+          <th scope="col" width=270px>
+            Adc Channel Number</th>
+          <th scope="col" width=200px>
+            Safety Level</th>
+        </tr>
+      </thead>
+      <tbody>
+
+
+        <tr>
+          <td>AdcConf_AdcGroup_G0_FOC_CUR_M1_U</td>
+          <td>0</td>
+          <td>0</td>
+          <td>
+
+
+  0, 
+
+
+  6, 
+
+
+  1, 
+
+
+  2, 
+
+
+  3, 
+
+
+  7
+          </td>
+          <td>QM</td>
+        </tr>
+
+
+
+        <tr>
+          <td>AdcConf_AdcGroup_G1_FOC_CUR_M1_V</td>
+          <td>32</td>
+          <td>1</td>
+          <td>
+
+
+  0, 
+
+
+  1, 
+
+
+  2, 
+
+
+  3, 
+
+
+  6, 
+
+
+  7
+          </td>
+          <td>QM</td>
+        </tr>
+
+
+        <tr>
+          <td>AdcConf_AdcGroup_G2_VOL_UPOWIN</td>
+          <td>64</td>
+          <td>2</td>
+          <td>
+
+
+  4, 
+
+
+  5
+          </td>
+          <td>QM</td>
+        </tr>
+
+
+        <tr>
+          <td>AdcConf_AdcGroup_G2_FOC_CUR_M1_W</td>
+          <td>65</td>
+          <td>2</td>
+          <td>
+
+
+  0, 
+
+
+  1, 
+
+
+  2, 
+
+
+  3
+          </td>
+          <td>QM</td>
+        </tr>
+
+
+        <tr>
+          <td>AdcConf_AdcGroup_G3_AI_3V3V</td>
+          <td>96</td>
+          <td>3</td>
+          <td>
+
+
+  0
+          </td>
+          <td>QM</td>
+        </tr>
+
+
+        <tr>
+          <td>AdcConf_AdcGroup_G3_AI_DC</td>
+          <td>97</td>
+          <td>3</td>
+          <td>
+
+
+  3, 
+
+
+  2
+          </td>
+          <td>QM</td>
+        </tr>
+
+
+        <tr>
+          <td>AdcConf_AdcGroup_G4_RES</td>
+          <td>128</td>
+          <td>4</td>
+          <td>
+
+
+  1
+          </td>
+          <td>QM</td>
+        </tr>
+
+
+
+        <tr>
+          <td>AdcConf_AdcGroup_G5_5V0_1V8</td>
+          <td>160</td>
+          <td>5</td>
+          <td>
+
+
+  7, 
+
+
+  5
+          </td>
+          <td>QM</td>
+        </tr>
+
+
+      </tbody>
+    </table>
+    <br><br>
+
+
+    <table border="3" cellpadding="5" cellspacing="0" class="curvedEdges">
+      <caption><strong>
+        Table 2: ADC SFR Usage per API</strong></caption>
+      <thead>
+        <tr>
+          <th scope="col">
+            API Name</th>
+          <th scope="col">
+            SFRs Used</th>
+          <th scope="col">
+            Remarks</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            Adc_Init</td>
+          <td>VADC_CLC, VADC_GLOBCFG, VADC_GLOBICLASS, VADC_GLOBEVNP, VADC_EMUXSEL, VADC_GxARBCFG, VADC_GxARBPR, VADC_GxICLASS
+, VADC_GxSEVNP
+, SRC_VADCGxSRm
+          </td>
+          <td>Where,<br> x is Adc Kernel number,<br> y is Adc Channel Number,<br> m is VADC Service Request Number.<br><br>
+          Refer Table 1 for the respective Group and Channels.</td>
+        </tr>
+        <tr>
+          <td>
+            Adc_SetupResultBuffer</td>
+          <td>-</td>
+          <td>No SFRs used</td>
+        </tr>
+        <tr>
+          <td>
+            Adc_StartGroupConversion</td>
+          <td>VADC_GxCHCTRy, VADC_GxRCRy, VADC_GxREVNP0,         
+VADC_GLOBEFLAG, VADC_GxSEFCLR, VADC_GxREFCLR, VADC_GxCEFCLR, VADC_GxVFR, VADC_BRSSELx, VADC_BRSMR, VADC_GxASSEL, VADC_GxASMR, VADC_GxQMR0, VADC_GxQINR0
+          </td>
+          <td>Where,<br> x is Adc Kernel number,<br> y is Adc Channel Number.<br><br>
+          Refer Table 1 for the respective Group and Channels.</td>
+        </tr>
+        <tr>
+          <td>
+            Adc_StopGroupConversion</td>
+          <td>VADC_GxCHCTRy, VADC_GxRCRy, VADC_GxREVNP0, VADC_GxARBCFG         
+VADC_GLOBEFLAG, VADC_GxSEFCLR, VADC_GxREFCLR, VADC_GxCEFCLR, VADC_GxVFR, VADC_BRSSELx, VADC_BRSMR, VADC_BRSCTRL, VADC_GxASSEL, VADC_GxASMR, VADC_GxASCTRL, VADC_GxQMR0, VADC_GxQCTRL0
+          </td>
+          <td>Where,<br> x is Adc Kernel number,<br> y is Adc Channel Number.<br><br>
+          Refer Table 1 for the respective Group and Channels.</td>
+        </tr>
+        <tr>
+          <td>
+            Adc_EnableHardwareTrigger</td>
+          <td>VADC_GxCHCTRy, VADC_GxRCRy, VADC_GxREVNP0,         
+VADC_GLOBEFLAG, VADC_GxSEFCLR, VADC_GxREFCLR, VADC_GxCEFCLR, VADC_GxVFR, VADC_BRSSELx, VADC_BRSMR, VADC_BRSCTRL, VADC_GxASSEL, VADC_GxASMR, VADC_GxASCTRL, VADC_GxQMR0, VADC_GxQINR0, VADC_GxQCTRL0
+
+
+
+
+          </td>
+          <td>Where,<br> x is Adc Kernel number,<br> y is Adc Channel Number
+          Refer Table 1 for the respective Group and Channels.</td>
+        </tr> 
+        <tr>
+          <td>
+            Adc_DisableHardwareTrigger</td>
+          <td>VADC_GxCHCTRy, VADC_GxRCRy, VADC_GxREVNP0,         
+VADC_GLOBEFLAG, VADC_GxSEFCLR, VADC_GxREFCLR, VADC_GxCEFCLR, VADC_GxVFR, VADC_BRSSELx, VADC_BRSMR, VADC_BRSCTRL, VADC_GxASSEL, VADC_GxASMR, VADC_GxASCTRL, VADC_GxQMR0, VADC_GxQINR0, VADC_GxQCTRL0
+          </td>
+          <td>Where,<br> x is Adc Kernel number,<br> y is Adc Channel Number
+          Refer Table 1 for the respective Group and Channels.</td>
+        </tr>
+
+        <tr>
+          <td>
+            Adc_ReadGroup</td>
+          <td>-</td>
+          <td>No SFRs used</td>
+        </tr>
+
+
+
+        <tr>
+          <td>
+            Adc_GetGroupStatus</td>
+          <td>-</td>
+          <td>No SFRs used</td>
+        </tr>
+
+        <tr>
+          <td>
+            Adc_GetStreamLastPointer</td>
+          <td>-</td>
+          <td>No SFRs used</td>
+        </tr>
+        <tr>
+          <td>
+            Adc_17_GetStartupCalStatus</td>
+          <td>VADC_GxARBCFG
+          </td>
+          <td>Where,<br> x is Adc Kernel Number.
+          </td>
+        </tr>
+
+      </tbody>
+    </table>    
+
+  </body>
+</html>                                    
+
