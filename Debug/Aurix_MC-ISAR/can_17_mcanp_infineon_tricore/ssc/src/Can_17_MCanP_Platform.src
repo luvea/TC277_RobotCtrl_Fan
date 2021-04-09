@@ -1,0 +1,4756 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.2r2 Build 18041957 SN 06692445"
+	.compiler_invocation	"ctc -f cc22956a --dep-file=Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src\\.Can_17_MCanP_Platform.o.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xc -D__CPU_TC27XC__ --core=tc1.6.x --fp-model=+float -D_TASKING_C_TRICORE_ -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\.settings -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Asw -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\compiler -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc\\TC27xC -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc\\TC27xC\\SupportDocuments -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\lib -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\obj -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Asw -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\dio_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\dio_infineon_tricore\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\integration_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\integration_general\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Hal_Sensor -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output\\generated -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output\\generated\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\PWM3Ph -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Qspi -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Adc_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Adc3ph_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Can_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TLE_9180_Drive -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\UART_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Hal_Sensor -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\Demo_Aurix -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\mak -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\PWM3Ph -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Qspi -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Adc_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Adc3ph_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Can_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TLE_9180_Drive -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\UART_Test -g2 --make-target=Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src\\Can_17_MCanP_Platform.o -t2 --language=-gcc,-volatile,+strings,-kanji --default-near-size=8 -O2 --default-a1-size=0 --default-a0-size=0 --source --align=0 --compact-max-size=200 --switch=auto --error-limit=42 -o Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src\\Can_17_MCanP_Platform.src ..\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src\\Can_17_MCanP_Platform.c"
+	.compiler_name		"ctc"
+	;source	'..\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src\\Can_17_MCanP_Platform.c'
+
+	
+$TC16X
+	.sdecl	'.zrodata.Can_17_MCanP_Platform..1.cnt',data,rom
+	.sect	'.zrodata.Can_17_MCanP_Platform..1.cnt'
+	.align	2
+.1.cnt:	.type	object
+	.size	.1.cnt,4
+	.word	-32769
+	.sdecl	'.zrodata.Can_17_MCanP_Platform..2.cnt',data,rom
+	.sect	'.zrodata.Can_17_MCanP_Platform..2.cnt'
+	.align	2
+.2.cnt:	.type	object
+	.size	.2.cnt,4
+	.word	-268336640
+	
+	.sdecl	'.text.Shared.DEFAULT_CODE_ROM',code,cluster('Can_lFrameInitialise')
+	.sect	'.text.Shared.DEFAULT_CODE_ROM'
+	.align	2
+	
+	.global	Can_lFrameInitialise
+
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	     1  /******************************************************************************
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	     2  **                                                                           **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	     3  ** Copyright (C) Infineon Technologies (2016)                                **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	     4  **                                                                           **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	     5  ** All rights reserved.                                                      **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	     6  **                                                                           **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	     7  ** This document contains proprietary information belonging to Infineon      **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	     8  ** Technologies. Passing on and copying of this document, and communication  **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	     9  ** of its contents is not permitted without prior written authorization.     **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    10  **                                                                           **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    11  *******************************************************************************
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    12  **                                                                           **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    13  **  $FILENAME   : Can_17_MCanP_Platform.c $                                  **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    14  **                                                                           **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    15  **  $CC VERSION : \main\dev_tc29xbc_as4.0.3\dev_tc29xbc_as4.0.3_kernel0\3 $  **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    16  **                                                                           **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    17  **  $DATE       : 2017-02-04 $                                               **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    18  **                                                                           **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    19  **  AUTHOR    : DL-AUTOSAR-Engineering                                       **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    20  **                                                                           **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    21  **  VENDOR    : Infineon Technologies                                        **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    22  **                                                                           **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    23  **  DESCRIPTION  : This file contains                                        **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    24  **                - CAN driver API implementation                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    25  **                                                                           **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    26  **  MAY BE CHANGED BY USER [yes/no]: No                                      **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    27  **                                                                           **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    28  ******************************************************************************/
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    29  /*******************************************************************************
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    30  **                      Includes                                              **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    31  *******************************************************************************/
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    32  
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    33  /* Register definition file for Aurix target */
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    34  #include "IfxCan_reg.h"
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    35  #include "IfxSrc_reg.h"
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    36  /*for proctected mode support macros */
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    37  #include "Can_17_MCanP.h"
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    38  /*including header file for Can_17_MCanP_Platform.c*/
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    39  #include "Can_17_MCanP_Platform.h"
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    40  
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    41  
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    42  /*******************************************************************************
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    43  **                      Private Macro Definitions                             **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    44  *******************************************************************************/
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    45  #define CAN_ONE                         (1U)
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    46  #define CAN_ZERO                        (0U)
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    47  #define CAN_17_MCANP_START_SEC_CONST_32BIT
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    48  /*IFX_MISRA_RULE_19_01_STATUS=File inclusion after pre-processor directive is
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    49   allowed only for MemMap.h*/
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    50  #include "MemMap.h"
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    51  
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    52  #ifdef CAN_MOD_R_AVAILABLE
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    53  #if (CAN_NUM_CONTROLLERS_IN_KERNEL1 == 3U )
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    54  /* CAN base address Kernel wise */
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    55  Ifx_CAN* const CAN_KER[] = { &MODULE_CAN, &MODULE_CAN1 };
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    56  #else
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    57  /* CAN base address Kernel wise */
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    58  Ifx_CAN* const CAN_KER[] = { &MODULE_CAN, &MODULE_CANR };
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    59  #endif
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    60  #else
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    61  /* CAN base address Kernel wise */
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    62  Ifx_CAN* const CAN_KER[] = { &MODULE_CAN };
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    63  #endif
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    64  
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    65  #if(CAN_PB_FIXEDADDR == STD_ON)
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    66  /* The config pointer is initialised to first instance of configuration */
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    67  extern const Can_17_MCanP_ConfigType* const Can_kConfigPtr;
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    68  #endif
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    69  
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    70  #define CAN_17_MCANP_STOP_SEC_CONST_32BIT
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    71  /*IFX_MISRA_RULE_19_01_STATUS=File inclusion after pre-processor directive is
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    72   allowed only for MemMap.h*/
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    73  #include "MemMap.h"
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    74  
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    75  #define CAN_17_MCANP_START_SEC_VAR_32BIT
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    76  /*IFX_MISRA_RULE_19_01_STATUS=File inclusion after pre-processor directive is
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    77   allowed only for MemMap.h*/
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    78  #include "MemMap.h"
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    79  
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    80  #if(CAN_PB_FIXEDADDR == STD_OFF)
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    81  /* Pointer to store config pointer */
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    82  extern const Can_17_MCanP_ConfigType* Can_kConfigPtr;
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    83  #endif
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    84  
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    85  #define CAN_17_MCANP_STOP_SEC_VAR_32BIT
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    86  /*IFX_MISRA_RULE_19_01_STATUS=File inclusion after pre-processor directive is
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    87   allowed only for MemMap.h*/
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    88  #include "MemMap.h"
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    89  
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    90  /* Memory map of the CAN driver code */
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    91  #define CAN_17_MCANP_START_SEC_CODE
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    92  /*IFX_MISRA_RULE_19_01_STATUS=File inclusion after pre-processor directive is
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    93   allowed only for MemMap.h*/
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    94  #include "MemMap.h"
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    95  
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    96  static void Can_lSetBaudrateRuntime(uint8 HwControllerId,\ 
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    97                                                     uint32 ControllerBaudrate);
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    98  
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	    99  #define CAN_17_MCANP_STOP_SEC_CODE
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   100  /*IFX_MISRA_RULE_19_01_STATUS=File inclusion after pre-processor directive is
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   101   allowed only for MemMap.h*/
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   102  #include "MemMap.h"
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   103  
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   104  /*******************************************************************************
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   105  **                      Global Function Definitions                           **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   106  *******************************************************************************/
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   107  
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   108  /* Memory map of the CAN driver code */
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   109  #define CAN_17_MCANP_START_SEC_CODE
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   110  /*IFX_MISRA_RULE_19_01_STATUS=File inclusion after pre-processor directive is
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   111   allowed only for MemMap.h*/
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   112  #include "MemMap.h"
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   113  /*******************************************************************************
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   114  ** Syntax           :                  void Can_lFrameInitialise              **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   115  **                                           (                                **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   116  **                                             uint8 KerIdx,                  **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   117  **                                             uint8 HwCtrlIDKer              **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   118  **                                             uint16 CanControllerFDBaudrate **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   119  **                                             uint16 CanControllerTxDelayComp**
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   120  **                                           )                                **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   121  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   122  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   123  ** Service ID       : None                                                    **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   124  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   125  ** Sync/Async       : Synchronous                                             **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   126  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   127  ** Reentrancy       : Reentrant                                               **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   128  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   129  ** Parameters (in)  : KerIdx - Associated CAN Kernal Id                       **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   130  **                    HwCtrlIDKer - Associated CAN Hardwarecontroller ID      **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   131  **                    CanControllerFDBaudrate                                 **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   132  **                      CanControllerTxDelayComp                              **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   133  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   134  ** Parameters (out) : None                                                    **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   135  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   136  ** Return value     : None                                                    **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   137  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   138  ** Description      :  this api is for FD frame ISO support                   **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   139  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   140  *******************************************************************************/
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   141  void Can_lFrameInitialise(uint8 KerIdx,uint8 HwCtrlIDKer,\ 
+; Function Can_lFrameInitialise
+.L17:
+Can_lFrameInitialise:	.type	func
+	mov	d15,d4
+	sub.a	a10,#8
+.L119:
+
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   142                   uint16 CanControllerFDBaudrate,uint16 CanControllerTxDelayComp)
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   143  {
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   144      volatile uint8 KerIndex = CAN_ZERO;
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   145  
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   146      CAN_SFR_INIT_USER_MODE_MODIFY32(CAN_KER[KerIdx]->N[HwCtrlIDKer].CR.U,\ 
+	mov	d0,#0
+	lea	a2,CAN_KER
+.L74:
+	addsc.a	a4,a2,d15,#2
+.L75:
+	st.b	[a10],d0
+.L76:
+	sha	d1,d5,#8
+	ld.a	a15,[a4]
+	addsc.a	a15,a15,d1,#0
+	ld.w	d0,[a15]512
+	insert	d0,d0,#1,#9,#1
+	st.w	[a15]512,d0
+.L77:
+
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   147                    CAN_NCR_FDEN_CLEARMASK,(uint32)CAN_ONE << CAN_NCR_FDEN_BITPOS)
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   148  
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   149      #if(CAN_HARDWARE_ISO_SUPPORT == STD_ON)
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   150      /*Depending on the configuration enable or disable the support of ISO frame
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   151      and protocol exception feature */
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   152  
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   153      while(KerIndex < CAN_ISO_NUM_KERNEL)
+	j	.L2
+.L3:
+
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   154      {
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   155          CAN_SFR_INIT_USER_MODE_MODIFY32(CAN_KER[KerIndex]->N[CAN_ZERO].CR.U,\ 
+	ld.bu	d15,[a10]
+	addsc.a	a15,a2,d15,#2
+	ld.a	a15,[a15]
+	ld.w	d15,[a15]512
+	or	d0,d15,#64
+	ld.bu	d15,[a10]
+.L120:
+	addsc.a	a15,a2,d15,#2
+	ld.a	a15,[a15]
+	st.w	[a15]512,d0
+.L80:
+
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   156                                        CAN_CR_CCE_CLEARMASK,CAN_CR_CCE_SETMASK)
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   157          CAN_SFR_INIT_USER_MODE_MODIFY32(CAN_KER[KerIndex]->N[CAN_ZERO].BTR.U,\ 
+	ld.bu	d15,[a10]
+	addsc.a	a15,a2,d15,#2
+	ld.bu	d15,[a10]
+	ld.a	a15,[a15]
+	ld.w	d0,[a15]528
+.L121:
+	addsc.a	a15,a2,d15,#2
+	insert	d0,d0,#0,#15,#1
+.L122:
+	ld.a	a15,[a15]
+	st.w	[a15]528,d0
+.L82:
+
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   158               CAN_BTR_DIV8_CLEARMASK,(uint32)CAN_ISO_FRAME<<CAN_BTR_DIV8_SHIFT)
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   159          CAN_SFR_INIT_USER_MODE_MODIFY32(CAN_KER[KerIndex]->N[CAN_ZERO].CR.U,\ 
+	ld.bu	d15,[a10]
+	addsc.a	a15,a2,d15,#2
+	ld.bu	d15,[a10]
+	ld.a	a15,[a15]
+	ld.w	d0,[a15]512
+.L123:
+	addsc.a	a15,a2,d15,#2
+	insert	d0,d0,#0,#6,#1
+.L124:
+	ld.a	a15,[a15]
+	st.w	[a15]512,d0
+.L84:
+
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   160                                         CAN_NCR_CCE_CLEARMASK,(uint32)CAN_ZERO)
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   161          CAN_SFR_INIT_USER_MODE_MODIFY32(CAN_KER[KerIndex]->N[CAN_ONE].CR.U,\ 
+	ld.bu	d15,[a10]
+	addsc.a	a15,a2,d15,#2
+	ld.a	a15,[a15]
+	ld.w	d15,[a15]768
+	or	d0,d15,#64
+	ld.bu	d15,[a10]
+.L125:
+	addsc.a	a15,a2,d15,#2
+	ld.a	a15,[a15]
+	st.w	[a15]768,d0
+.L86:
+
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   162                                         CAN_CR_CCE_CLEARMASK,CAN_CR_CCE_SETMASK)
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   163          CAN_SFR_INIT_USER_MODE_MODIFY32(CAN_KER[KerIndex]->N[CAN_ONE].BTR.U,\ 
+	ld.bu	d15,[a10]
+	addsc.a	a15,a2,d15,#2
+	ld.a	a15,[a15]
+	ld.w	d15,[a15]784
+	insert	d0,d15,#0,#15,#1
+	ld.bu	d15,[a10]
+.L126:
+	addsc.a	a15,a2,d15,#2
+	ld.a	a15,[a15]
+	st.w	[a15]784,d0
+.L88:
+
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   164                             CAN_BTR_DIV8_CLEARMASK,\ 
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   165                             (uint32)CAN_PROTOCAL_EXCEPTION<<CAN_BTR_DIV8_SHIFT)
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   166          CAN_SFR_INIT_USER_MODE_MODIFY32(CAN_KER[KerIndex]->N[CAN_ONE].CR.U,\ 
+	ld.bu	d15,[a10]
+	addsc.a	a15,a2,d15,#2
+	ld.a	a15,[a15]
+	ld.w	d15,[a15]768
+	insert	d0,d15,#0,#6,#1
+	ld.bu	d15,[a10]
+.L127:
+	addsc.a	a15,a2,d15,#2
+	ld.a	a15,[a15]
+	st.w	[a15]768,d0
+.L90:
+
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   167                                         CAN_NCR_CCE_CLEARMASK,(uint32)CAN_ZERO)
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   168          KerIndex++;
+	ld.bu	d15,[a10]
+.L151:
+	add	d15,#1
+	st.b	[a10],d15
+.L2:
+	ld.bu	d15,[a10]
+.L152:
+	jeq	d15,#0,.L3
+.L92:
+
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   169      }
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   170  
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   171      /*Unlocking CCE bit if it was locked while setting PED and ISO bit*/
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   172      CAN_SFR_INIT_USER_MODE_MODIFY32(CAN_KER[KerIdx]->N[HwCtrlIDKer].CR.U,\ 
+	ld.a	a15,[a4]
+	addsc.a	a15,a15,d1,#0
+	ld.w	d15,[a15]512
+.L128:
+	or	d15,#64
+	st.w	[a15]512,d15
+.L93:
+
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   173                                        CAN_CR_CCE_CLEARMASK,CAN_CR_CCE_SETMASK)
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   174      #endif
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   175      /* Set Fast Node Bit Timing value */
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   176      /*IFX_MISRA_RULE_17_04_STATUS=Pointer arithmetic used due to
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   177          PBConfigStructure and is within allowed range.*/
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   178      CAN_SFR_INIT_USER_MODE_WRITE32(CAN_KER[KerIdx]->N[HwCtrlIDKer].FBTR.U,\ 
+	ld.a	a15,[a4]
+	addsc.a	a15,a15,d1,#0
+	st.w	[a15]568,d6
+.L153:
+
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   179                                          (unsigned_int)CanControllerFDBaudrate);
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   180  
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   181      /* Set Transceiver Delay Compensation Offset values */
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   182      /*IFX_MISRA_RULE_17_04_STATUS=Pointer arithmetic used due to
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   183          PBConfigStructure and is within allowed range.*/
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   184      CAN_SFR_INIT_USER_MODE_WRITE32(CAN_KER[KerIdx]->N[HwCtrlIDKer].TDCR.U,\ 
+	ld.a	a15,[a4]
+	addsc.a	a15,a15,d1,#0
+	st.w	[a15]572,d7
+.L154:
+
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   185                                          (unsigned_int)CanControllerTxDelayComp);
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   186  }
+	ret
+.L64:
+	
+__Can_lFrameInitialise_function_end:
+	.size	Can_lFrameInitialise,__Can_lFrameInitialise_function_end-Can_lFrameInitialise
+.L36:
+	; End of function
+	
+	.sdecl	'.text.Shared.DEFAULT_CODE_ROM',code,cluster('Can_lSetBaudrate')
+	.sect	'.text.Shared.DEFAULT_CODE_ROM'
+	.align	2
+	
+	.global	Can_lSetBaudrate
+
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   187  
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   188  /*******************************************************************************
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   189  ** TRACEABILITY: [cover parentID=DS_AS_CAN419]                                **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   190  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   191  ** Syntax           : void Can_lSetBaudrate                                   **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   192  **                                               (                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   193  **                                                 uint8 HwControllerId,      **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   194  **                                                 uint32 ControllerBaudrate  **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   195  **                                                 uint8 ApiAccesId           **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   196  **                                               )                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   197  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   198  **                    [/cover]                                                **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   199  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   200  ** Service ID       : None                                                    **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   201  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   202  ** Sync/Async       : Synchronous                                             **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   203  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   204  ** Reentrancy       : Non-Reentrant                                           **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   205  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   206  ** Parameters (in)  : ControllerId - CAN Controller Id                        **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   207  **                    ControllerBaudrate - Register setting corresponding     **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   208  **                                         to the baudrate                    **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   209  **                    ApiAccesId  - To select from where it get called        **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   210  ** Parameters (out) : None                                                    **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   211  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   212  ** Return value     : None                                                    **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   213  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   214  ** Description      : Initializes the Node Bit Timing Register                **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   215  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   216  *******************************************************************************/
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   217  void Can_lSetBaudrate(uint8 HwControllerId,
+; Function Can_lSetBaudrate
+.L19:
+Can_lSetBaudrate:	.type	func
+
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   218                               uint32 ControllerBaudrate,uint8 ApiAccesId )
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   219  {
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   220    uint8 KerIdx;
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   221    uint8 HwCtrlIDKer;
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   222  
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   223    /* Calculate to which kernel, the controller belongs to*/
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   224    KerIdx = CAN_CALC_KERIDX(HwControllerId);
+	sha	d0,d4,#-2
+.L129:
+
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   225    HwCtrlIDKer = CAN_CALC_HWCTRLID(HwControllerId);
+	and	d15,d4,#3
+.L130:
+
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   226  
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   227    if (CAN_RUNTIME_ACCESS == ApiAccesId)
+	jne	d6,#1,.L4
+.L159:
+
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   228    {
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   229      Can_lSetBaudrateRuntime(HwControllerId,ControllerBaudrate);
+	j	Can_lSetBaudrateRuntime
+.L4:
+
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   230    }
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   231    else
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   232    {
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   233      /*
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   234      - Enable Configuration Change - NBTR, NPCR, NECNT can be written
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   235      - Take controller out of CAN traffic i.e put it in "stopped" state
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   236      - Enable Alert Interrupt. Used to detect bus off
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   237      */
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   238      CAN_SFR_INIT_USER_MODE_MODIFY32(CAN_KER[KerIdx]->N[HwCtrlIDKer].CR.U,\ 
+	fcall	.cocofun_3
+.L102:
+
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   239                     CAN_NCR_CCE_CLEARMASK,(uint32)CAN_ONE << CAN_NCR_CCE_BITPOS)
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   240  
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   241      /* Set Node Bit Timing value */
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   242      if((KerIdx < CAN_ISO_NUM_KERNEL)\ 
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   243             && ((HwCtrlIDKer == CAN_ZERO) || (HwCtrlIDKer == CAN_ONE)))
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   244      {
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   245        CAN_SFR_INIT_USER_MODE_MODIFY32(CAN_KER[KerIdx]->N[HwCtrlIDKer].BTR.U,\ 
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   246                               CAN_BTR_EXCPT_DIV8_CLEARMASK, ControllerBaudrate)
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   247      }
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   248      else
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   249      {
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   250        CAN_SFR_INIT_USER_MODE_WRITE32(CAN_KER[KerIdx]->N[HwCtrlIDKer].BTR.U,\ 
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   251                                                             ControllerBaudrate);
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   252      }
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   253  
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   254      /* Disable Configuration Change - NBTR, NPCR, NECNT can only be read */
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   255      CAN_SFR_INIT_USER_MODE_MODIFY32(CAN_KER[KerIdx]->N[HwCtrlIDKer].CR.U,\ 
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   256                                         CAN_NCR_CCE_CLEARMASK,(uint32)CAN_ZERO)
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   257    }
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   258  }
+	ret
+.L95:
+	
+__Can_lSetBaudrate_function_end:
+	.size	Can_lSetBaudrate,__Can_lSetBaudrate_function_end-Can_lSetBaudrate
+.L41:
+	; End of function
+	
+	.sdecl	'.text.Shared.DEFAULT_CODE_ROM',code,cluster('.cocofun_3')
+	.sect	'.text.Shared.DEFAULT_CODE_ROM'
+	.align	2
+; Function .cocofun_3
+.L21:
+.cocofun_3:	.type	func
+; Function body .cocofun_3, coco_iter:0
+	lea	a15,CAN_KER
+	addsc.a	a15,a15,d0,#2
+	sha	d1,d15,#8
+	ld.a	a2,[a15]
+	addsc.a	a2,a2,d1,#0
+	ld.w	d2,[a2]512
+.L139:
+	or	d2,d2,#64
+	st.w	[a2]512,d2
+.L134:
+	jne	d0,#0,.L6
+.L179:
+	jeq	d15,#0,.L7
+.L180:
+	jne	d15,#1,.L8
+.L7:
+	ld.w	d15,.2.cnt
+.L132:
+	add	d15,d1
+	add	d15,d15,#16
+	mov.a	a2,d15
+	ld.w	d15,[a2]
+	mov.u	d0,#32768
+.L133:
+	and	d15,d0
+.L136:
+	or	d15,d5
+	st.w	[a2],d15
+	j	.L9
+.L8:
+.L6:
+	ld.a	a2,[a15]
+	addsc.a	a2,a2,d1,#0
+	st.w	[a2]528,d5
+.L9:
+	ld.a	a15,[a15]
+	addsc.a	a15,a15,d1,#0
+	ld.w	d15,[a15]512
+.L142:
+	insert	d15,d15,#0,#6,#1
+	st.w	[a15]512,d15
+.L131:
+	fret
+.L61:
+	; End of function
+	.sdecl	'.text.Shared.DEFAULT_CODE_ROM',code,cluster('Can_lSetBaudrateRuntime')
+	.sect	'.text.Shared.DEFAULT_CODE_ROM'
+	.align	2
+	
+
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   259  /*******************************************************************************
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   260  ** TRACEABILITY: [cover parentID=]                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   261  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   262  ** Syntax           : static void Can_lSetBaudrateRuntime                     **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   263  **                                               (                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   264  **                                                 uint8 HwControllerId,      **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   265  **                                                 uint32 ControllerBaudrate  **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   266  **                                               )                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   267  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   268  **                    [/cover]                                                **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   269  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   270  ** Service ID       : None                                                    **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   271  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   272  ** Sync/Async       : Synchronous                                             **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   273  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   274  ** Reentrancy       : Non-Reentrant                                           **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   275  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   276  ** Parameters (in)  : ControllerId - CAN Controller Id                        **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   277  **                    ControllerBaudrate - Register setting corresponding     **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   278  **                                         to the baudrate                    **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   279  ** Parameters (out) : None                                                    **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   280  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   281  ** Return value     : None                                                    **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   282  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   283  ** Description      : Initializes the Node Bit Timing Register                **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   284  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   285  *******************************************************************************/
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   286  static void Can_lSetBaudrateRuntime(uint8 HwControllerId,\ 
+; Function Can_lSetBaudrateRuntime
+.L23:
+Can_lSetBaudrateRuntime:	.type	func
+
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   287                                                        uint32 ControllerBaudrate)
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   288  {
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   289    uint8 KerIdx;
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   290    uint8 HwCtrlIDKer;
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   291  
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   292    /* Calculate to which kernel, the controller belongs to*/
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   293    KerIdx = CAN_CALC_KERIDX(HwControllerId);
+	sha	d0,d4,#-2
+.L138:
+
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   294    HwCtrlIDKer = CAN_CALC_HWCTRLID(HwControllerId);
+	and	d15,d4,#3
+.L115:
+
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   295    /*
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   296    - Enable Configuration Change - NBTR, NPCR, NECNT can be written
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   297    - Take controller out of CAN traffic i.e put it in "stopped" state
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   298    - Enable Alert Interrupt. Used to detect bus off
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   299    */
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   300    CAN_SFR_RUNTIME_USER_MODE_MODIFY32(CAN_KER[KerIdx]->N[HwCtrlIDKer].CR.U,\ 
+	fcall	.cocofun_3
+.L116:
+
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   301                   CAN_NCR_CCE_CLEARMASK,(uint32)CAN_ONE << CAN_NCR_CCE_BITPOS)
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   302  
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   303    /* Set Node Bit Timing value */
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   304    if((KerIdx < CAN_ISO_NUM_KERNEL)\ 
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   305             && ((HwCtrlIDKer == CAN_ZERO) || (HwCtrlIDKer == CAN_ONE)))
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   306    {
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   307      CAN_SFR_RUNTIME_USER_MODE_MODIFY32(CAN_KER[KerIdx]->N[HwCtrlIDKer].BTR.U,\ 
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   308                               CAN_BTR_EXCPT_DIV8_CLEARMASK, ControllerBaudrate)
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   309    }
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   310    else
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   311    {
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   312      CAN_SFR_RUNTIME_USER_MODE_WRITE32(CAN_KER[KerIdx]->N[HwCtrlIDKer].BTR.U,\ 
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   313                                                           ControllerBaudrate);
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   314    }
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   315    /* Disable Configuration Change - NBTR, NPCR, NECNT can only be read */
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   316    CAN_SFR_RUNTIME_USER_MODE_MODIFY32(CAN_KER[KerIdx]->N[HwCtrlIDKer].CR.U,\ 
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   317                                         CAN_NCR_CCE_CLEARMASK,(uint32)CAN_ZERO)
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   318  }
+	ret
+.L110:
+	
+__Can_lSetBaudrateRuntime_function_end:
+	.size	Can_lSetBaudrateRuntime,__Can_lSetBaudrateRuntime_function_end-Can_lSetBaudrateRuntime
+.L56:
+	; End of function
+	
+	.sdecl	'.text.Shared.DEFAULT_CODE_ROM',code,cluster('Can_lGetHthIndex')
+	.sect	'.text.Shared.DEFAULT_CODE_ROM'
+	.align	2
+	
+	.global	Can_lGetHthIndex
+
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   319  /*******************************************************************************
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   320  ** TRACEABILITY: [cover parentID=]                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   321  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   322  ** Syntax           :  uint8 Can_lGetHthIndex                                 **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   323  **                                               (                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   324  **                                                 uint8 KerIdx,              **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   325  **                                                 uint8 HthIdx               **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   326  **                                               )                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   327  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   328  **                    [/cover]                                                **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   329  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   330  ** Service ID       : None                                                    **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   331  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   332  ** Sync/Async       : Synchronous                                             **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   333  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   334  ** Reentrancy       : Non-Reentrant                                           **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   335  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   336  ** Parameters (in)  : KerIdx - kernel ID                                      **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   337  **                    HthIdx - Starting value of HwObjectId                   **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   338  ** Parameters (out) : None                                                    **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   339  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   340  ** Return value     : TxMOIdx                                                 **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   341  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   342  ** Description      : Getting HTH index                                       **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   343  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   344  *******************************************************************************/
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   345  uint8 Can_lGetHthIndex(uint8 KerIdx,uint8 HthIdx)
+; Function Can_lGetHthIndex
+.L25:
+Can_lGetHthIndex:	.type	func
+
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   346  {
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   347    uint8 TxMOIdx = CAN_ZERO;
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   348    #if (CAN_TX_OBJECT_KER0 > CAN_ZERO)
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   349    /* Calculate the HTH Id mapped to corresponding HW Object ID */
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   350    /*IFX_MISRA_RULE_17_04_STATUS=Pointer arithmetic used due to
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   351    PBConfigStructure and is within allowed range.*/
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   352    TxMOIdx = Can_kConfigPtr->CanTxObjectHthKer0MapPtr[HthIdx];
+	ld.a	a15,Can_kConfigPtr
+.L164:
+	ld.a	a15,[a15]24
+.L165:
+	addsc.a	a15,a15,d5,#0
+	ld.bu	d2,[a15]
+.L166:
+
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   353    #endif
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   354    #if((CAN_TX_OBJECT_KER0 < CAN_ONE))
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   355    UNUSED_PARAMETER(HthIdx)
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   356    #endif
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   357    UNUSED_PARAMETER(KerIdx)
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   358    return TxMOIdx;
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   359  }
+	ret
+.L104:
+	
+__Can_lGetHthIndex_function_end:
+	.size	Can_lGetHthIndex,__Can_lGetHthIndex_function_end-Can_lGetHthIndex
+.L46:
+	; End of function
+	
+	.sdecl	'.text.Shared.DEFAULT_CODE_ROM',code,cluster('Can_lGetHrhIndex')
+	.sect	'.text.Shared.DEFAULT_CODE_ROM'
+	.align	2
+	
+	.global	Can_lGetHrhIndex
+
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   360  /*******************************************************************************
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   361  ** TRACEABILITY: [cover parentID=]                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   362  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   363  ** Syntax           :  uint8 Can_lGetHrhIndex                                 **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   364  **                                               (                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   365  **                                                 uint8 KerIdx,              **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   366  **                                                 uint8 HrhOffset            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   367  **                                               )                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   368  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   369  **                    [/cover]                                                **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   370  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   371  ** Service ID       : None                                                    **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   372  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   373  ** Sync/Async       : Synchronous                                             **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   374  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   375  ** Reentrancy       : Non-Reentrant                                           **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   376  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   377  ** Parameters (in)  : KerIdx - kernel ID                                      **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   378  **                    HrhOffset - Starting value of HwObjectId                **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   379  ** Parameters (out) : None                                                    **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   380  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   381  ** Return value     : Hrh                                                     **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   382  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   383  ** Description      : Getting Hrh index                                       **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   384  **                                                                            **
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   385  *******************************************************************************/
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   386  uint8 Can_lGetHrhIndex(uint8 KerIdx,uint8 HrhOffset)
+; Function Can_lGetHrhIndex
+.L27:
+Can_lGetHrhIndex:	.type	func
+
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   387  {
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   388    uint8 Hrh = 0U;
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   389    #if (CAN_RX_OBJECT_KER0 > CAN_ZERO)
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   390    /* Calculate the HTH Id mapped to corresponding HW Object ID */
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   391    /*IFX_MISRA_RULE_17_04_STATUS=Pointer arithmetic used due to
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   392    PBConfigStructure and is within allowed range.*/
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   393    Hrh = Can_kConfigPtr->CanRxObjectHrhKer0MapPtr[HrhOffset];
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   394    #endif
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   395    #if((CAN_RX_OBJECT_KER0 < CAN_ONE))
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   396    UNUSED_PARAMETER(HrhOffset)
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   397    #endif
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   398    UNUSED_PARAMETER(KerIdx)
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   399    return Hrh;
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   400  }
+	mov	d2,#0
+	ret
+.L107:
+	
+__Can_lGetHrhIndex_function_end:
+	.size	Can_lGetHrhIndex,__Can_lGetHrhIndex_function_end-Can_lGetHrhIndex
+.L51:
+	; End of function
+	
+	.sdecl	'.zrodata.Can_17_MCanP_Platform.CAN_KER',data,rom,cluster('CAN_KER')
+	.sect	'.zrodata.Can_17_MCanP_Platform.CAN_KER'
+	.global	CAN_KER
+	.align	4
+CAN_KER:	.type	object
+	.size	CAN_KER,4
+	.word	-268337152
+	.calls	'Can_lSetBaudrate','Can_lSetBaudrateRuntime'
+	.calls	'Can_lSetBaudrate','.cocofun_3'
+	.calls	'Can_lSetBaudrateRuntime','.cocofun_3'
+	.calls	'Can_lFrameInitialise','',8
+	.calls	'Can_lSetBaudrate','',0
+	.calls	'.cocofun_3','',0
+	.calls	'Can_lSetBaudrateRuntime','',0
+	.calls	'Can_lGetHthIndex','',0
+	.extern	Can_kConfigPtr
+	.calls	'Can_lGetHrhIndex','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L29:
+	.word	20428
+	.half	3
+	.word	.L30
+	.byte	4
+.L28:
+	.byte	1
+	.byte	'..\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src\\Can_17_MCanP_Platform.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L31
+.L65:
+	.byte	2
+	.byte	'unsigned char',0,1,8
+.L68:
+	.byte	2
+	.byte	'unsigned short int',0,2,7
+.L71:
+	.byte	3
+	.word	229
+.L78:
+	.byte	2
+	.byte	'unsigned long int',0,4,7,4,1,5
+	.word	294
+	.byte	6
+	.byte	'__codeptr',0,1,1,1
+	.word	296
+	.byte	7
+	.byte	'_Ifx_CAN_ACCEN0_Bits',0,2,49,16,4,8
+	.byte	'EN0',0,1
+	.word	229
+	.byte	1,7,2,35,0,8
+	.byte	'EN1',0,1
+	.word	229
+	.byte	1,6,2,35,0,8
+	.byte	'EN2',0,1
+	.word	229
+	.byte	1,5,2,35,0,8
+	.byte	'EN3',0,1
+	.word	229
+	.byte	1,4,2,35,0,8
+	.byte	'EN4',0,1
+	.word	229
+	.byte	1,3,2,35,0,8
+	.byte	'EN5',0,1
+	.word	229
+	.byte	1,2,2,35,0,8
+	.byte	'EN6',0,1
+	.word	229
+	.byte	1,1,2,35,0,8
+	.byte	'EN7',0,1
+	.word	229
+	.byte	1,0,2,35,0,8
+	.byte	'EN8',0,1
+	.word	229
+	.byte	1,7,2,35,1,8
+	.byte	'EN9',0,1
+	.word	229
+	.byte	1,6,2,35,1,8
+	.byte	'EN10',0,1
+	.word	229
+	.byte	1,5,2,35,1,8
+	.byte	'EN11',0,1
+	.word	229
+	.byte	1,4,2,35,1,8
+	.byte	'EN12',0,1
+	.word	229
+	.byte	1,3,2,35,1,8
+	.byte	'EN13',0,1
+	.word	229
+	.byte	1,2,2,35,1,8
+	.byte	'EN14',0,1
+	.word	229
+	.byte	1,1,2,35,1,8
+	.byte	'EN15',0,1
+	.word	229
+	.byte	1,0,2,35,1,8
+	.byte	'EN16',0,1
+	.word	229
+	.byte	1,7,2,35,2,8
+	.byte	'EN17',0,1
+	.word	229
+	.byte	1,6,2,35,2,8
+	.byte	'EN18',0,1
+	.word	229
+	.byte	1,5,2,35,2,8
+	.byte	'EN19',0,1
+	.word	229
+	.byte	1,4,2,35,2,8
+	.byte	'EN20',0,1
+	.word	229
+	.byte	1,3,2,35,2,8
+	.byte	'EN21',0,1
+	.word	229
+	.byte	1,2,2,35,2,8
+	.byte	'EN22',0,1
+	.word	229
+	.byte	1,1,2,35,2,8
+	.byte	'EN23',0,1
+	.word	229
+	.byte	1,0,2,35,2,8
+	.byte	'EN24',0,1
+	.word	229
+	.byte	1,7,2,35,3,8
+	.byte	'EN25',0,1
+	.word	229
+	.byte	1,6,2,35,3,8
+	.byte	'EN26',0,1
+	.word	229
+	.byte	1,5,2,35,3,8
+	.byte	'EN27',0,1
+	.word	229
+	.byte	1,4,2,35,3,8
+	.byte	'EN28',0,1
+	.word	229
+	.byte	1,3,2,35,3,8
+	.byte	'EN29',0,1
+	.word	229
+	.byte	1,2,2,35,3,8
+	.byte	'EN30',0,1
+	.word	229
+	.byte	1,1,2,35,3,8
+	.byte	'EN31',0,1
+	.word	229
+	.byte	1,0,2,35,3,0,6
+	.byte	'Ifx_CAN_ACCEN0_Bits',0,2,83,3
+	.word	319
+	.byte	2
+	.byte	'unsigned int',0,4,7,7
+	.byte	'_Ifx_CAN_ACCEN1_Bits',0,2,86,16,4,8
+	.byte	'reserved_0',0,4
+	.word	876
+	.byte	32,0,2,35,0,0,6
+	.byte	'Ifx_CAN_ACCEN1_Bits',0,2,89,3
+	.word	892
+	.byte	7
+	.byte	'_Ifx_CAN_CLC_Bits',0,2,92,16,4,8
+	.byte	'DISR',0,1
+	.word	229
+	.byte	1,7,2,35,0,8
+	.byte	'DISS',0,1
+	.word	229
+	.byte	1,6,2,35,0,8
+	.byte	'reserved_2',0,1
+	.word	229
+	.byte	1,5,2,35,0,8
+	.byte	'EDIS',0,1
+	.word	229
+	.byte	1,4,2,35,0,8
+	.byte	'reserved_4',0,4
+	.word	876
+	.byte	28,0,2,35,0,0,6
+	.byte	'Ifx_CAN_CLC_Bits',0,2,99,3
+	.word	969
+	.byte	7
+	.byte	'_Ifx_CAN_FDR_Bits',0,2,102,16,4,8
+	.byte	'STEP',0,2
+	.word	246
+	.byte	10,6,2,35,0,8
+	.byte	'reserved_10',0,1
+	.word	229
+	.byte	4,2,2,35,1,8
+	.byte	'DM',0,1
+	.word	229
+	.byte	2,0,2,35,1,8
+	.byte	'reserved_16',0,2
+	.word	246
+	.byte	16,0,2,35,2,0,6
+	.byte	'Ifx_CAN_FDR_Bits',0,2,108,3
+	.word	1110
+	.byte	7
+	.byte	'_Ifx_CAN_ID_Bits',0,2,111,16,4,8
+	.byte	'MOD_REV',0,1
+	.word	229
+	.byte	8,0,2,35,0,8
+	.byte	'MOD_TYPE',0,1
+	.word	229
+	.byte	8,0,2,35,1,8
+	.byte	'MODNUMBER',0,2
+	.word	246
+	.byte	16,0,2,35,2,0,6
+	.byte	'Ifx_CAN_ID_Bits',0,2,116,3
+	.word	1235
+	.byte	7
+	.byte	'_Ifx_CAN_KRST0_Bits',0,2,119,16,4,8
+	.byte	'RST',0,1
+	.word	229
+	.byte	1,7,2,35,0,8
+	.byte	'RSTSTAT',0,1
+	.word	229
+	.byte	1,6,2,35,0,8
+	.byte	'reserved_2',0,4
+	.word	876
+	.byte	30,0,2,35,0,0,6
+	.byte	'Ifx_CAN_KRST0_Bits',0,2,124,3
+	.word	1342
+	.byte	7
+	.byte	'_Ifx_CAN_KRST1_Bits',0,2,127,16,4,8
+	.byte	'RST',0,1
+	.word	229
+	.byte	1,7,2,35,0,8
+	.byte	'reserved_1',0,4
+	.word	876
+	.byte	31,0,2,35,0,0,6
+	.byte	'Ifx_CAN_KRST1_Bits',0,2,131,1,3
+	.word	1451
+	.byte	7
+	.byte	'_Ifx_CAN_KRSTCLR_Bits',0,2,134,1,16,4,8
+	.byte	'CLR',0,1
+	.word	229
+	.byte	1,7,2,35,0,8
+	.byte	'reserved_1',0,4
+	.word	876
+	.byte	31,0,2,35,0,0,6
+	.byte	'Ifx_CAN_KRSTCLR_Bits',0,2,138,1,3
+	.word	1542
+	.byte	7
+	.byte	'_Ifx_CAN_LIST_Bits',0,2,141,1,16,4,8
+	.byte	'BEGIN',0,1
+	.word	229
+	.byte	8,0,2,35,0,8
+	.byte	'END',0,1
+	.word	229
+	.byte	8,0,2,35,1,8
+	.byte	'SIZE',0,1
+	.word	229
+	.byte	8,0,2,35,2,8
+	.byte	'EMPTY',0,1
+	.word	229
+	.byte	1,7,2,35,3,8
+	.byte	'reserved_25',0,1
+	.word	229
+	.byte	7,0,2,35,3,0,6
+	.byte	'Ifx_CAN_LIST_Bits',0,2,148,1,3
+	.word	1638
+	.byte	7
+	.byte	'_Ifx_CAN_MCR_Bits',0,2,151,1,16,4,8
+	.byte	'CLKSEL',0,1
+	.word	229
+	.byte	4,4,2,35,0,8
+	.byte	'reserved_4',0,2
+	.word	246
+	.byte	8,4,2,35,0,8
+	.byte	'MPSEL',0,1
+	.word	229
+	.byte	4,0,2,35,1,8
+	.byte	'reserved_16',0,2
+	.word	246
+	.byte	16,0,2,35,2,0,6
+	.byte	'Ifx_CAN_MCR_Bits',0,2,157,1,3
+	.word	1779
+	.byte	7
+	.byte	'_Ifx_CAN_MECR_Bits',0,2,160,1,16,4,8
+	.byte	'TH',0,2
+	.word	246
+	.byte	16,0,2,35,0,8
+	.byte	'INP',0,1
+	.word	229
+	.byte	4,4,2,35,2,8
+	.byte	'NODE',0,1
+	.word	229
+	.byte	3,1,2,35,2,8
+	.byte	'reserved_23',0,1
+	.word	229
+	.byte	1,0,2,35,2,8
+	.byte	'ANYED',0,1
+	.word	229
+	.byte	1,7,2,35,3,8
+	.byte	'CAPEIE',0,1
+	.word	229
+	.byte	1,6,2,35,3,8
+	.byte	'reserved_26',0,1
+	.word	229
+	.byte	1,5,2,35,3,8
+	.byte	'DEPTH',0,1
+	.word	229
+	.byte	3,2,2,35,3,8
+	.byte	'SOF',0,1
+	.word	229
+	.byte	1,1,2,35,3,8
+	.byte	'reserved_31',0,1
+	.word	229
+	.byte	1,0,2,35,3,0,6
+	.byte	'Ifx_CAN_MECR_Bits',0,2,172,1,3
+	.word	1910
+	.byte	7
+	.byte	'_Ifx_CAN_MESTAT_Bits',0,2,175,1,16,4,8
+	.byte	'CAPT',0,2
+	.word	246
+	.byte	16,0,2,35,0,8
+	.byte	'CAPRED',0,1
+	.word	229
+	.byte	1,7,2,35,2,8
+	.byte	'CAPE',0,1
+	.word	229
+	.byte	1,6,2,35,2,8
+	.byte	'reserved_18',0,2
+	.word	246
+	.byte	14,0,2,35,2,0,6
+	.byte	'Ifx_CAN_MESTAT_Bits',0,2,181,1,3
+	.word	2144
+	.byte	7
+	.byte	'_Ifx_CAN_MITR_Bits',0,2,184,1,16,4,8
+	.byte	'IT',0,2
+	.word	246
+	.byte	16,0,2,35,0,8
+	.byte	'reserved_16',0,2
+	.word	246
+	.byte	16,0,2,35,2,0,6
+	.byte	'Ifx_CAN_MITR_Bits',0,2,188,1,3
+	.word	2274
+	.byte	7
+	.byte	'_Ifx_CAN_MO_AMR_Bits',0,2,191,1,16,4,8
+	.byte	'AM',0,4
+	.word	876
+	.byte	29,3,2,35,0,8
+	.byte	'MIDE',0,1
+	.word	229
+	.byte	1,2,2,35,3,8
+	.byte	'reserved_30',0,1
+	.word	229
+	.byte	2,0,2,35,3,0,6
+	.byte	'Ifx_CAN_MO_AMR_Bits',0,2,196,1,3
+	.word	2364
+	.byte	7
+	.byte	'_Ifx_CAN_MO_AR_Bits',0,2,199,1,16,4,8
+	.byte	'ID',0,4
+	.word	876
+	.byte	29,3,2,35,0,8
+	.byte	'IDE',0,1
+	.word	229
+	.byte	1,2,2,35,3,8
+	.byte	'PRI',0,1
+	.word	229
+	.byte	2,0,2,35,3,0,6
+	.byte	'Ifx_CAN_MO_AR_Bits',0,2,204,1,3
+	.word	2474
+	.byte	7
+	.byte	'_Ifx_CAN_MO_CTR_Bits',0,2,207,1,16,4,8
+	.byte	'RESRXPND',0,1
+	.word	229
+	.byte	1,7,2,35,0,8
+	.byte	'RESTXPND',0,1
+	.word	229
+	.byte	1,6,2,35,0,8
+	.byte	'RESRXUPD',0,1
+	.word	229
+	.byte	1,5,2,35,0,8
+	.byte	'RESNEWDAT',0,1
+	.word	229
+	.byte	1,4,2,35,0,8
+	.byte	'RESMSGLST',0,1
+	.word	229
+	.byte	1,3,2,35,0,8
+	.byte	'RESMSGVAL',0,1
+	.word	229
+	.byte	1,2,2,35,0,8
+	.byte	'RESRTSEL',0,1
+	.word	229
+	.byte	1,1,2,35,0,8
+	.byte	'RESRXEN',0,1
+	.word	229
+	.byte	1,0,2,35,0,8
+	.byte	'RESTXRQ',0,1
+	.word	229
+	.byte	1,7,2,35,1,8
+	.byte	'RESTXEN0',0,1
+	.word	229
+	.byte	1,6,2,35,1,8
+	.byte	'RESTXEN1',0,1
+	.word	229
+	.byte	1,5,2,35,1,8
+	.byte	'RESDIR',0,1
+	.word	229
+	.byte	1,4,2,35,1,8
+	.byte	'reserved_12',0,1
+	.word	229
+	.byte	4,0,2,35,1,8
+	.byte	'SETRXPND',0,1
+	.word	229
+	.byte	1,7,2,35,2,8
+	.byte	'SETTXPND',0,1
+	.word	229
+	.byte	1,6,2,35,2,8
+	.byte	'SETRXUPD',0,1
+	.word	229
+	.byte	1,5,2,35,2,8
+	.byte	'SETNEWDAT',0,1
+	.word	229
+	.byte	1,4,2,35,2,8
+	.byte	'SETMSGLST',0,1
+	.word	229
+	.byte	1,3,2,35,2,8
+	.byte	'SETMSGVAL',0,1
+	.word	229
+	.byte	1,2,2,35,2,8
+	.byte	'SETRTSEL',0,1
+	.word	229
+	.byte	1,1,2,35,2,8
+	.byte	'SETRXEN',0,1
+	.word	229
+	.byte	1,0,2,35,2,8
+	.byte	'SETTXRQ',0,1
+	.word	229
+	.byte	1,7,2,35,3,8
+	.byte	'SETTXEN0',0,1
+	.word	229
+	.byte	1,6,2,35,3,8
+	.byte	'SETTXEN1',0,1
+	.word	229
+	.byte	1,5,2,35,3,8
+	.byte	'SETDIR',0,1
+	.word	229
+	.byte	1,4,2,35,3,8
+	.byte	'reserved_28',0,1
+	.word	229
+	.byte	4,0,2,35,3,0,6
+	.byte	'Ifx_CAN_MO_CTR_Bits',0,2,235,1,3
+	.word	2573
+	.byte	7
+	.byte	'_Ifx_CAN_MO_DATAH_Bits',0,2,238,1,16,4,8
+	.byte	'DB4',0,1
+	.word	229
+	.byte	8,0,2,35,0,8
+	.byte	'DB5',0,1
+	.word	229
+	.byte	8,0,2,35,1,8
+	.byte	'DB6',0,1
+	.word	229
+	.byte	8,0,2,35,2,8
+	.byte	'DB7',0,1
+	.word	229
+	.byte	8,0,2,35,3,0,6
+	.byte	'Ifx_CAN_MO_DATAH_Bits',0,2,244,1,3
+	.word	3154
+	.byte	7
+	.byte	'_Ifx_CAN_MO_DATAL_Bits',0,2,247,1,16,4,8
+	.byte	'DB0',0,1
+	.word	229
+	.byte	8,0,2,35,0,8
+	.byte	'DB1',0,1
+	.word	229
+	.byte	8,0,2,35,1,8
+	.byte	'DB2',0,1
+	.word	229
+	.byte	8,0,2,35,2,8
+	.byte	'DB3',0,1
+	.word	229
+	.byte	8,0,2,35,3,0,6
+	.byte	'Ifx_CAN_MO_DATAL_Bits',0,2,253,1,3
+	.word	3275
+	.byte	7
+	.byte	'_Ifx_CAN_MO_EDATA0_Bits',0,2,128,2,16,4,8
+	.byte	'DB0',0,1
+	.word	229
+	.byte	8,0,2,35,0,8
+	.byte	'DB1',0,1
+	.word	229
+	.byte	8,0,2,35,1,8
+	.byte	'DB2',0,1
+	.word	229
+	.byte	8,0,2,35,2,8
+	.byte	'DB3',0,1
+	.word	229
+	.byte	8,0,2,35,3,0,6
+	.byte	'Ifx_CAN_MO_EDATA0_Bits',0,2,134,2,3
+	.word	3396
+	.byte	7
+	.byte	'_Ifx_CAN_MO_EDATA1_Bits',0,2,137,2,16,4,8
+	.byte	'DB0',0,1
+	.word	229
+	.byte	8,0,2,35,0,8
+	.byte	'DB1',0,1
+	.word	229
+	.byte	8,0,2,35,1,8
+	.byte	'DB2',0,1
+	.word	229
+	.byte	8,0,2,35,2,8
+	.byte	'DB3',0,1
+	.word	229
+	.byte	8,0,2,35,3,0,6
+	.byte	'Ifx_CAN_MO_EDATA1_Bits',0,2,143,2,3
+	.word	3519
+	.byte	7
+	.byte	'_Ifx_CAN_MO_EDATA2_Bits',0,2,146,2,16,4,8
+	.byte	'DB0',0,1
+	.word	229
+	.byte	8,0,2,35,0,8
+	.byte	'DB1',0,1
+	.word	229
+	.byte	8,0,2,35,1,8
+	.byte	'DB2',0,1
+	.word	229
+	.byte	8,0,2,35,2,8
+	.byte	'DB3',0,1
+	.word	229
+	.byte	8,0,2,35,3,0,6
+	.byte	'Ifx_CAN_MO_EDATA2_Bits',0,2,152,2,3
+	.word	3642
+	.byte	7
+	.byte	'_Ifx_CAN_MO_EDATA3_Bits',0,2,155,2,16,4,8
+	.byte	'DB0',0,1
+	.word	229
+	.byte	8,0,2,35,0,8
+	.byte	'DB1',0,1
+	.word	229
+	.byte	8,0,2,35,1,8
+	.byte	'DB2',0,1
+	.word	229
+	.byte	8,0,2,35,2,8
+	.byte	'DB3',0,1
+	.word	229
+	.byte	8,0,2,35,3,0,6
+	.byte	'Ifx_CAN_MO_EDATA3_Bits',0,2,161,2,3
+	.word	3765
+	.byte	7
+	.byte	'_Ifx_CAN_MO_EDATA4_Bits',0,2,164,2,16,4,8
+	.byte	'DB0',0,1
+	.word	229
+	.byte	8,0,2,35,0,8
+	.byte	'DB1',0,1
+	.word	229
+	.byte	8,0,2,35,1,8
+	.byte	'DB2',0,1
+	.word	229
+	.byte	8,0,2,35,2,8
+	.byte	'DB3',0,1
+	.word	229
+	.byte	8,0,2,35,3,0,6
+	.byte	'Ifx_CAN_MO_EDATA4_Bits',0,2,170,2,3
+	.word	3888
+	.byte	7
+	.byte	'_Ifx_CAN_MO_EDATA5_Bits',0,2,173,2,16,4,8
+	.byte	'DB0',0,1
+	.word	229
+	.byte	8,0,2,35,0,8
+	.byte	'DB1',0,1
+	.word	229
+	.byte	8,0,2,35,1,8
+	.byte	'DB2',0,1
+	.word	229
+	.byte	8,0,2,35,2,8
+	.byte	'DB3',0,1
+	.word	229
+	.byte	8,0,2,35,3,0,6
+	.byte	'Ifx_CAN_MO_EDATA5_Bits',0,2,179,2,3
+	.word	4011
+	.byte	7
+	.byte	'_Ifx_CAN_MO_EDATA6_Bits',0,2,182,2,16,4,8
+	.byte	'DB0',0,1
+	.word	229
+	.byte	8,0,2,35,0,8
+	.byte	'DB1',0,1
+	.word	229
+	.byte	8,0,2,35,1,8
+	.byte	'DB2',0,1
+	.word	229
+	.byte	8,0,2,35,2,8
+	.byte	'DB3',0,1
+	.word	229
+	.byte	8,0,2,35,3,0,6
+	.byte	'Ifx_CAN_MO_EDATA6_Bits',0,2,188,2,3
+	.word	4134
+	.byte	7
+	.byte	'_Ifx_CAN_MO_FCR_Bits',0,2,191,2,16,4,8
+	.byte	'MMC',0,1
+	.word	229
+	.byte	4,4,2,35,0,8
+	.byte	'RXTOE',0,1
+	.word	229
+	.byte	1,3,2,35,0,8
+	.byte	'BRS',0,1
+	.word	229
+	.byte	1,2,2,35,0,8
+	.byte	'FDF',0,1
+	.word	229
+	.byte	1,1,2,35,0,8
+	.byte	'reserved_7',0,1
+	.word	229
+	.byte	1,0,2,35,0,8
+	.byte	'GDFS',0,1
+	.word	229
+	.byte	1,7,2,35,1,8
+	.byte	'IDC',0,1
+	.word	229
+	.byte	1,6,2,35,1,8
+	.byte	'DLCC',0,1
+	.word	229
+	.byte	1,5,2,35,1,8
+	.byte	'DATC',0,1
+	.word	229
+	.byte	1,4,2,35,1,8
+	.byte	'reserved_12',0,1
+	.word	229
+	.byte	4,0,2,35,1,8
+	.byte	'RXIE',0,1
+	.word	229
+	.byte	1,7,2,35,2,8
+	.byte	'TXIE',0,1
+	.word	229
+	.byte	1,6,2,35,2,8
+	.byte	'OVIE',0,1
+	.word	229
+	.byte	1,5,2,35,2,8
+	.byte	'reserved_19',0,1
+	.word	229
+	.byte	1,4,2,35,2,8
+	.byte	'FRREN',0,1
+	.word	229
+	.byte	1,3,2,35,2,8
+	.byte	'RMM',0,1
+	.word	229
+	.byte	1,2,2,35,2,8
+	.byte	'SDT',0,1
+	.word	229
+	.byte	1,1,2,35,2,8
+	.byte	'STT',0,1
+	.word	229
+	.byte	1,0,2,35,2,8
+	.byte	'DLC',0,1
+	.word	229
+	.byte	4,4,2,35,3,8
+	.byte	'reserved_28',0,1
+	.word	229
+	.byte	4,0,2,35,3,0,6
+	.byte	'Ifx_CAN_MO_FCR_Bits',0,2,213,2,3
+	.word	4257
+	.byte	7
+	.byte	'_Ifx_CAN_MO_FGPR_Bits',0,2,216,2,16,4,8
+	.byte	'BOT',0,1
+	.word	229
+	.byte	8,0,2,35,0,8
+	.byte	'TOP',0,1
+	.word	229
+	.byte	8,0,2,35,1,8
+	.byte	'CUR',0,1
+	.word	229
+	.byte	8,0,2,35,2,8
+	.byte	'SEL',0,1
+	.word	229
+	.byte	8,0,2,35,3,0,6
+	.byte	'Ifx_CAN_MO_FGPR_Bits',0,2,222,2,3
+	.word	4655
+	.byte	7
+	.byte	'_Ifx_CAN_MO_IPR_Bits',0,2,225,2,16,4,8
+	.byte	'RXINP',0,1
+	.word	229
+	.byte	4,4,2,35,0,8
+	.byte	'TXINP',0,1
+	.word	229
+	.byte	4,0,2,35,0,8
+	.byte	'MPN',0,1
+	.word	229
+	.byte	8,0,2,35,1,8
+	.byte	'CFCVAL',0,2
+	.word	246
+	.byte	16,0,2,35,2,0,6
+	.byte	'Ifx_CAN_MO_IPR_Bits',0,2,231,2,3
+	.word	4774
+	.byte	7
+	.byte	'_Ifx_CAN_MO_STAT_Bits',0,2,234,2,16,4,8
+	.byte	'RXPND',0,1
+	.word	229
+	.byte	1,7,2,35,0,8
+	.byte	'TXPND',0,1
+	.word	229
+	.byte	1,6,2,35,0,8
+	.byte	'RXUPD',0,1
+	.word	229
+	.byte	1,5,2,35,0,8
+	.byte	'NEWDAT',0,1
+	.word	229
+	.byte	1,4,2,35,0,8
+	.byte	'MSGLST',0,1
+	.word	229
+	.byte	1,3,2,35,0,8
+	.byte	'MSGVAL',0,1
+	.word	229
+	.byte	1,2,2,35,0,8
+	.byte	'RTSEL',0,1
+	.word	229
+	.byte	1,1,2,35,0,8
+	.byte	'RXEN',0,1
+	.word	229
+	.byte	1,0,2,35,0,8
+	.byte	'TXRQ',0,1
+	.word	229
+	.byte	1,7,2,35,1,8
+	.byte	'TXEN0',0,1
+	.word	229
+	.byte	1,6,2,35,1,8
+	.byte	'TXEN1',0,1
+	.word	229
+	.byte	1,5,2,35,1,8
+	.byte	'DIR',0,1
+	.word	229
+	.byte	1,4,2,35,1,8
+	.byte	'LIST',0,1
+	.word	229
+	.byte	4,0,2,35,1,8
+	.byte	'PPREV',0,1
+	.word	229
+	.byte	8,0,2,35,2,8
+	.byte	'PNEXT',0,1
+	.word	229
+	.byte	8,0,2,35,3,0,6
+	.byte	'Ifx_CAN_MO_STAT_Bits',0,2,251,2,3
+	.word	4898
+	.byte	7
+	.byte	'_Ifx_CAN_MSID_Bits',0,2,254,2,16,4,8
+	.byte	'INDEX',0,1
+	.word	229
+	.byte	6,2,2,35,0,8
+	.byte	'reserved_6',0,4
+	.word	876
+	.byte	26,0,2,35,0,0,6
+	.byte	'Ifx_CAN_MSID_Bits',0,2,130,3,3
+	.word	5210
+	.byte	7
+	.byte	'_Ifx_CAN_MSIMASK_Bits',0,2,133,3,16,4,8
+	.byte	'IM',0,4
+	.word	876
+	.byte	32,0,2,35,0,0,6
+	.byte	'Ifx_CAN_MSIMASK_Bits',0,2,136,3,3
+	.word	5302
+	.byte	7
+	.byte	'_Ifx_CAN_MSPND_Bits',0,2,139,3,16,4,8
+	.byte	'PND',0,4
+	.word	876
+	.byte	32,0,2,35,0,0,6
+	.byte	'Ifx_CAN_MSPND_Bits',0,2,142,3,3
+	.word	5375
+	.byte	7
+	.byte	'_Ifx_CAN_N_BTEVR_Bits',0,2,145,3,16,4,8
+	.byte	'BRP',0,1
+	.word	229
+	.byte	6,2,2,35,0,8
+	.byte	'reserved_6',0,1
+	.word	229
+	.byte	2,0,2,35,0,8
+	.byte	'SJW',0,1
+	.word	229
+	.byte	4,4,2,35,1,8
+	.byte	'reserved_12',0,1
+	.word	229
+	.byte	3,1,2,35,1,8
+	.byte	'DIV8',0,1
+	.word	229
+	.byte	1,0,2,35,1,8
+	.byte	'TSEG2',0,1
+	.word	229
+	.byte	5,3,2,35,2,8
+	.byte	'reserved_21',0,1
+	.word	229
+	.byte	1,2,2,35,2,8
+	.byte	'TSEG1',0,2
+	.word	246
+	.byte	6,4,2,35,2,8
+	.byte	'reserved_28',0,1
+	.word	229
+	.byte	4,0,2,35,3,0,6
+	.byte	'Ifx_CAN_N_BTEVR_Bits',0,2,156,3,3
+	.word	5445
+	.byte	7
+	.byte	'_Ifx_CAN_N_BTR_Bits',0,2,159,3,16,4,8
+	.byte	'BRP',0,1
+	.word	229
+	.byte	6,2,2,35,0,8
+	.byte	'SJW',0,1
+	.word	229
+	.byte	2,0,2,35,0,8
+	.byte	'TSEG1',0,1
+	.word	229
+	.byte	4,4,2,35,1,8
+	.byte	'TSEG2',0,1
+	.word	229
+	.byte	3,1,2,35,1,8
+	.byte	'DIV8',0,1
+	.word	229
+	.byte	1,0,2,35,1,8
+	.byte	'reserved_16',0,2
+	.word	246
+	.byte	16,0,2,35,2,0,6
+	.byte	'Ifx_CAN_N_BTR_Bits',0,2,167,3,3
+	.word	5675
+	.byte	7
+	.byte	'_Ifx_CAN_N_CR_Bits',0,2,170,3,16,4,8
+	.byte	'INIT',0,1
+	.word	229
+	.byte	1,7,2,35,0,8
+	.byte	'TRIE',0,1
+	.word	229
+	.byte	1,6,2,35,0,8
+	.byte	'LECIE',0,1
+	.word	229
+	.byte	1,5,2,35,0,8
+	.byte	'ALIE',0,1
+	.word	229
+	.byte	1,4,2,35,0,8
+	.byte	'CANDIS',0,1
+	.word	229
+	.byte	1,3,2,35,0,8
+	.byte	'TXDIS',0,1
+	.word	229
+	.byte	1,2,2,35,0,8
+	.byte	'CCE',0,1
+	.word	229
+	.byte	1,1,2,35,0,8
+	.byte	'CALM',0,1
+	.word	229
+	.byte	1,0,2,35,0,8
+	.byte	'SUSEN',0,1
+	.word	229
+	.byte	1,7,2,35,1,8
+	.byte	'FDEN',0,1
+	.word	229
+	.byte	1,6,2,35,1,8
+	.byte	'reserved_10',0,4
+	.word	876
+	.byte	22,0,2,35,0,0,6
+	.byte	'Ifx_CAN_N_CR_Bits',0,2,183,3,3
+	.word	5833
+	.byte	7
+	.byte	'_Ifx_CAN_N_ECNT_Bits',0,2,186,3,16,4,8
+	.byte	'REC',0,1
+	.word	229
+	.byte	8,0,2,35,0,8
+	.byte	'TEC',0,1
+	.word	229
+	.byte	8,0,2,35,1,8
+	.byte	'EWRNLVL',0,1
+	.word	229
+	.byte	8,0,2,35,2,8
+	.byte	'LETD',0,1
+	.word	229
+	.byte	1,7,2,35,3,8
+	.byte	'LEINC',0,1
+	.word	229
+	.byte	1,6,2,35,3,8
+	.byte	'reserved_26',0,1
+	.word	229
+	.byte	6,0,2,35,3,0,6
+	.byte	'Ifx_CAN_N_ECNT_Bits',0,2,194,3,3
+	.word	6073
+	.byte	7
+	.byte	'_Ifx_CAN_N_FBTR_Bits',0,2,197,3,16,4,8
+	.byte	'FBRP',0,1
+	.word	229
+	.byte	6,2,2,35,0,8
+	.byte	'FSJW',0,1
+	.word	229
+	.byte	2,0,2,35,0,8
+	.byte	'FTSEG1',0,1
+	.word	229
+	.byte	4,4,2,35,1,8
+	.byte	'FTSEG2',0,1
+	.word	229
+	.byte	3,1,2,35,1,8
+	.byte	'reserved_15',0,4
+	.word	876
+	.byte	17,0,2,35,0,0,6
+	.byte	'Ifx_CAN_N_FBTR_Bits',0,2,204,3,3
+	.word	6235
+	.byte	7
+	.byte	'_Ifx_CAN_N_FCR_Bits',0,2,207,3,16,4,8
+	.byte	'CFC',0,2
+	.word	246
+	.byte	16,0,2,35,0,8
+	.byte	'CFSEL',0,1
+	.word	229
+	.byte	3,5,2,35,2,8
+	.byte	'CFMOD',0,1
+	.word	229
+	.byte	2,3,2,35,2,8
+	.byte	'reserved_21',0,1
+	.word	229
+	.byte	1,2,2,35,2,8
+	.byte	'CFCIE',0,1
+	.word	229
+	.byte	1,1,2,35,2,8
+	.byte	'CFCOV',0,1
+	.word	229
+	.byte	1,0,2,35,2,8
+	.byte	'reserved_24',0,1
+	.word	229
+	.byte	8,0,2,35,3,0,6
+	.byte	'Ifx_CAN_N_FCR_Bits',0,2,216,3,3
+	.word	6383
+	.byte	7
+	.byte	'_Ifx_CAN_N_IPR_Bits',0,2,219,3,16,4,8
+	.byte	'ALINP',0,1
+	.word	229
+	.byte	4,4,2,35,0,8
+	.byte	'LECINP',0,1
+	.word	229
+	.byte	4,0,2,35,0,8
+	.byte	'TRINP',0,1
+	.word	229
+	.byte	4,4,2,35,1,8
+	.byte	'CFCINP',0,1
+	.word	229
+	.byte	4,0,2,35,1,8
+	.byte	'TEINP',0,1
+	.word	229
+	.byte	4,4,2,35,2,8
+	.byte	'reserved_20',0,2
+	.word	246
+	.byte	12,0,2,35,2,0,6
+	.byte	'Ifx_CAN_N_IPR_Bits',0,2,227,3,3
+	.word	6567
+	.byte	7
+	.byte	'_Ifx_CAN_N_PCR_Bits',0,2,230,3,16,4,8
+	.byte	'RXSEL',0,1
+	.word	229
+	.byte	3,5,2,35,0,8
+	.byte	'reserved_3',0,1
+	.word	229
+	.byte	5,0,2,35,0,8
+	.byte	'LBM',0,1
+	.word	229
+	.byte	1,7,2,35,1,8
+	.byte	'reserved_9',0,4
+	.word	876
+	.byte	23,0,2,35,0,0,6
+	.byte	'Ifx_CAN_N_PCR_Bits',0,2,236,3,3
+	.word	6732
+	.byte	7
+	.byte	'_Ifx_CAN_N_SR_Bits',0,2,239,3,16,4,8
+	.byte	'LEC',0,1
+	.word	229
+	.byte	3,5,2,35,0,8
+	.byte	'TXOK',0,1
+	.word	229
+	.byte	1,4,2,35,0,8
+	.byte	'RXOK',0,1
+	.word	229
+	.byte	1,3,2,35,0,8
+	.byte	'ALERT',0,1
+	.word	229
+	.byte	1,2,2,35,0,8
+	.byte	'EWRN',0,1
+	.word	229
+	.byte	1,1,2,35,0,8
+	.byte	'BOFF',0,1
+	.word	229
+	.byte	1,0,2,35,0,8
+	.byte	'LLE',0,1
+	.word	229
+	.byte	1,7,2,35,1,8
+	.byte	'LOE',0,1
+	.word	229
+	.byte	1,6,2,35,1,8
+	.byte	'SUSACK',0,1
+	.word	229
+	.byte	1,5,2,35,1,8
+	.byte	'RESI',0,1
+	.word	229
+	.byte	1,4,2,35,1,8
+	.byte	'FLEC',0,1
+	.word	229
+	.byte	3,1,2,35,1,8
+	.byte	'reserved_15',0,4
+	.word	876
+	.byte	17,0,2,35,0,0,6
+	.byte	'Ifx_CAN_N_SR_Bits',0,2,253,3,3
+	.word	6863
+	.byte	7
+	.byte	'_Ifx_CAN_N_TCCR_Bits',0,2,128,4,16,4,8
+	.byte	'reserved_0',0,1
+	.word	229
+	.byte	8,0,2,35,0,8
+	.byte	'TPSC',0,1
+	.word	229
+	.byte	4,4,2,35,1,8
+	.byte	'reserved_12',0,4
+	.word	876
+	.byte	6,14,2,35,0,8
+	.byte	'TRIGSRC',0,1
+	.word	229
+	.byte	3,3,2,35,2,8
+	.byte	'reserved_21',0,2
+	.word	246
+	.byte	11,0,2,35,2,0,6
+	.byte	'Ifx_CAN_N_TCCR_Bits',0,2,135,4,3
+	.word	7115
+	.byte	7
+	.byte	'_Ifx_CAN_N_TDCR_Bits',0,2,138,4,16,4,8
+	.byte	'TDCV',0,1
+	.word	229
+	.byte	5,3,2,35,0,8
+	.byte	'reserved_5',0,1
+	.word	229
+	.byte	3,0,2,35,0,8
+	.byte	'TDCO',0,1
+	.word	229
+	.byte	4,4,2,35,1,8
+	.byte	'reserved_12',0,1
+	.word	229
+	.byte	3,1,2,35,1,8
+	.byte	'TDC',0,1
+	.word	229
+	.byte	1,0,2,35,1,8
+	.byte	'reserved_16',0,2
+	.word	246
+	.byte	16,0,2,35,2,0,6
+	.byte	'Ifx_CAN_N_TDCR_Bits',0,2,146,4,3
+	.word	7275
+	.byte	7
+	.byte	'_Ifx_CAN_N_TRTR_Bits',0,2,149,4,16,4,8
+	.byte	'RELOAD',0,2
+	.word	246
+	.byte	16,0,2,35,0,8
+	.byte	'reserved_16',0,1
+	.word	229
+	.byte	6,2,2,35,2,8
+	.byte	'TEIE',0,1
+	.word	229
+	.byte	1,1,2,35,2,8
+	.byte	'TE',0,1
+	.word	229
+	.byte	1,0,2,35,2,8
+	.byte	'reserved_24',0,1
+	.word	229
+	.byte	8,0,2,35,3,0,6
+	.byte	'Ifx_CAN_N_TRTR_Bits',0,2,156,4,3
+	.word	7447
+	.byte	7
+	.byte	'_Ifx_CAN_N_TTTR_Bits',0,2,159,4,16,4,8
+	.byte	'RELOAD',0,2
+	.word	246
+	.byte	16,0,2,35,0,8
+	.byte	'TXMO',0,1
+	.word	229
+	.byte	8,0,2,35,2,8
+	.byte	'STRT',0,1
+	.word	229
+	.byte	1,7,2,35,3,8
+	.byte	'reserved_25',0,1
+	.word	229
+	.byte	7,0,2,35,3,0,6
+	.byte	'Ifx_CAN_N_TTTR_Bits',0,2,165,4,3
+	.word	7598
+	.byte	7
+	.byte	'_Ifx_CAN_OCS_Bits',0,2,168,4,16,4,8
+	.byte	'TGS',0,1
+	.word	229
+	.byte	2,6,2,35,0,8
+	.byte	'TGB',0,1
+	.word	229
+	.byte	1,5,2,35,0,8
+	.byte	'TG_P',0,1
+	.word	229
+	.byte	1,4,2,35,0,8
+	.byte	'reserved_4',0,4
+	.word	876
+	.byte	20,8,2,35,0,8
+	.byte	'SUS',0,1
+	.word	229
+	.byte	4,4,2,35,3,8
+	.byte	'SUS_P',0,1
+	.word	229
+	.byte	1,3,2,35,3,8
+	.byte	'SUSSTA',0,1
+	.word	229
+	.byte	1,2,2,35,3,8
+	.byte	'reserved_30',0,1
+	.word	229
+	.byte	2,0,2,35,3,0,6
+	.byte	'Ifx_CAN_OCS_Bits',0,2,178,4,3
+	.word	7728
+	.byte	7
+	.byte	'_Ifx_CAN_PANCTR_Bits',0,2,181,4,16,4,8
+	.byte	'PANCMD',0,1
+	.word	229
+	.byte	8,0,2,35,0,8
+	.byte	'BUSY',0,1
+	.word	229
+	.byte	1,7,2,35,1,8
+	.byte	'RBUSY',0,1
+	.word	229
+	.byte	1,6,2,35,1,8
+	.byte	'reserved_10',0,1
+	.word	229
+	.byte	6,0,2,35,1,8
+	.byte	'PANAR1',0,1
+	.word	229
+	.byte	8,0,2,35,2,8
+	.byte	'PANAR2',0,1
+	.word	229
+	.byte	8,0,2,35,3,0,6
+	.byte	'Ifx_CAN_PANCTR_Bits',0,2,189,4,3
+	.word	7920
+	.byte	2
+	.byte	'int',0,4,5,9,2,197,4,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	319
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_ACCEN0',0,2,202,4,3
+	.word	8094
+	.byte	9,2,205,4,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	892
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_ACCEN1',0,2,210,4,3
+	.word	8158
+	.byte	9,2,213,4,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	969
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_CLC',0,2,218,4,3
+	.word	8222
+	.byte	9,2,221,4,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	1110
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_FDR',0,2,226,4,3
+	.word	8283
+	.byte	9,2,229,4,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	1235
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_ID',0,2,234,4,3
+	.word	8344
+	.byte	9,2,237,4,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	1342
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_KRST0',0,2,242,4,3
+	.word	8404
+	.byte	9,2,245,4,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	1451
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_KRST1',0,2,250,4,3
+	.word	8467
+	.byte	9,2,253,4,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	1542
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_KRSTCLR',0,2,130,5,3
+	.word	8530
+	.byte	9,2,133,5,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	1638
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_LIST',0,2,138,5,3
+	.word	8595
+	.byte	9,2,141,5,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	1779
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_MCR',0,2,146,5,3
+	.word	8657
+	.byte	9,2,149,5,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	1910
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_MECR',0,2,154,5,3
+	.word	8718
+	.byte	9,2,157,5,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	2144
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_MESTAT',0,2,162,5,3
+	.word	8780
+	.byte	9,2,165,5,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	2274
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_MITR',0,2,170,5,3
+	.word	8844
+	.byte	9,2,173,5,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	2364
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_MO_AMR',0,2,178,5,3
+	.word	8906
+	.byte	9,2,181,5,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	2474
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_MO_AR',0,2,186,5,3
+	.word	8970
+	.byte	9,2,189,5,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	2573
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_MO_CTR',0,2,194,5,3
+	.word	9033
+	.byte	9,2,197,5,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	3154
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_MO_DATAH',0,2,202,5,3
+	.word	9097
+	.byte	9,2,205,5,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	3275
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_MO_DATAL',0,2,210,5,3
+	.word	9163
+	.byte	9,2,213,5,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	3396
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_MO_EDATA0',0,2,218,5,3
+	.word	9229
+	.byte	9,2,221,5,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	3519
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_MO_EDATA1',0,2,226,5,3
+	.word	9296
+	.byte	9,2,229,5,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	3642
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_MO_EDATA2',0,2,234,5,3
+	.word	9363
+	.byte	9,2,237,5,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	3765
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_MO_EDATA3',0,2,242,5,3
+	.word	9430
+	.byte	9,2,245,5,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	3888
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_MO_EDATA4',0,2,250,5,3
+	.word	9497
+	.byte	9,2,253,5,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	4011
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_MO_EDATA5',0,2,130,6,3
+	.word	9564
+	.byte	9,2,133,6,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	4134
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_MO_EDATA6',0,2,138,6,3
+	.word	9631
+	.byte	9,2,141,6,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	4257
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_MO_FCR',0,2,146,6,3
+	.word	9698
+	.byte	9,2,149,6,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	4655
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_MO_FGPR',0,2,154,6,3
+	.word	9762
+	.byte	9,2,157,6,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	4774
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_MO_IPR',0,2,162,6,3
+	.word	9827
+	.byte	9,2,165,6,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	4898
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_MO_STAT',0,2,170,6,3
+	.word	9891
+	.byte	9,2,173,6,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	5210
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_MSID',0,2,178,6,3
+	.word	9956
+	.byte	9,2,181,6,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	5302
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_MSIMASK',0,2,186,6,3
+	.word	10018
+	.byte	9,2,189,6,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	5375
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_MSPND',0,2,194,6,3
+	.word	10083
+	.byte	9,2,197,6,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	5445
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_N_BTEVR',0,2,202,6,3
+	.word	10146
+	.byte	9,2,205,6,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	5675
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_N_BTR',0,2,210,6,3
+	.word	10211
+	.byte	9,2,213,6,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	5833
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_N_CR',0,2,218,6,3
+	.word	10274
+	.byte	9,2,221,6,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	6073
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_N_ECNT',0,2,226,6,3
+	.word	10336
+	.byte	9,2,229,6,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	6235
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_N_FBTR',0,2,234,6,3
+	.word	10400
+	.byte	9,2,237,6,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	6383
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_N_FCR',0,2,242,6,3
+	.word	10464
+	.byte	9,2,245,6,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	6567
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_N_IPR',0,2,250,6,3
+	.word	10527
+	.byte	9,2,253,6,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	6732
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_N_PCR',0,2,130,7,3
+	.word	10590
+	.byte	9,2,133,7,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	6863
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_N_SR',0,2,138,7,3
+	.word	10653
+	.byte	9,2,141,7,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	7115
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_N_TCCR',0,2,146,7,3
+	.word	10715
+	.byte	9,2,149,7,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	7275
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_N_TDCR',0,2,154,7,3
+	.word	10779
+	.byte	9,2,157,7,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	7447
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_N_TRTR',0,2,162,7,3
+	.word	10843
+	.byte	9,2,165,7,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	7598
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_N_TTTR',0,2,170,7,3
+	.word	10907
+	.byte	9,2,173,7,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	7728
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_OCS',0,2,178,7,3
+	.word	10971
+	.byte	9,2,181,7,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	7920
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_CAN_PANCTR',0,2,186,7,3
+	.word	11032
+	.byte	9,2,199,7,5,4,10
+	.byte	'EDATA0',0
+	.word	9229
+	.byte	4,2,35,0,10
+	.byte	'FCR',0
+	.word	9698
+	.byte	4,2,35,0,0,9,2,205,7,5,4,10
+	.byte	'EDATA1',0
+	.word	9296
+	.byte	4,2,35,0,10
+	.byte	'FGPR',0
+	.word	9762
+	.byte	4,2,35,0,0,9,2,211,7,5,4,10
+	.byte	'EDATA2',0
+	.word	9363
+	.byte	4,2,35,0,10
+	.byte	'IPR',0
+	.word	9827
+	.byte	4,2,35,0,0,9,2,217,7,5,4,10
+	.byte	'AMR',0
+	.word	8906
+	.byte	4,2,35,0,10
+	.byte	'EDATA3',0
+	.word	9430
+	.byte	4,2,35,0,0,9,2,223,7,5,4,10
+	.byte	'DATAL',0
+	.word	9163
+	.byte	4,2,35,0,10
+	.byte	'EDATA4',0
+	.word	9497
+	.byte	4,2,35,0,0,9,2,229,7,5,4,10
+	.byte	'DATAH',0
+	.word	9097
+	.byte	4,2,35,0,10
+	.byte	'EDATA5',0
+	.word	9564
+	.byte	4,2,35,0,0,9,2,235,7,5,4,10
+	.byte	'AR',0
+	.word	8970
+	.byte	4,2,35,0,10
+	.byte	'EDATA6',0
+	.word	9631
+	.byte	4,2,35,0,0,9,2,241,7,5,4,10
+	.byte	'CTR',0
+	.word	9033
+	.byte	4,2,35,0,10
+	.byte	'STAT',0
+	.word	9891
+	.byte	4,2,35,0,0,7
+	.byte	'_Ifx_CAN_MO',0,2,197,7,25,32,11
+	.word	11096
+	.byte	4,2,35,0,11
+	.word	11132
+	.byte	4,2,35,4,11
+	.word	11169
+	.byte	4,2,35,8,11
+	.word	11205
+	.byte	4,2,35,12,11
+	.word	11241
+	.byte	4,2,35,16,11
+	.word	11279
+	.byte	4,2,35,20,11
+	.word	11317
+	.byte	4,2,35,24,11
+	.word	11352
+	.byte	4,2,35,28,0,3
+	.word	11386
+	.byte	6
+	.byte	'Ifx_CAN_MO',0,2,247,7,3
+	.word	11477
+	.byte	9,2,128,8,5,4,10
+	.byte	'BTEVR',0
+	.word	10146
+	.byte	4,2,35,0,10
+	.byte	'BTR',0
+	.word	10211
+	.byte	4,2,35,0,0,12,8
+	.word	229
+	.byte	13,7,0,12,192,1
+	.word	229
+	.byte	13,191,1,0,7
+	.byte	'_Ifx_CAN_N',0,2,250,7,25,128,2,10
+	.byte	'CR',0
+	.word	10274
+	.byte	4,2,35,0,10
+	.byte	'SR',0
+	.word	10653
+	.byte	4,2,35,4,10
+	.byte	'IPR',0
+	.word	10527
+	.byte	4,2,35,8,10
+	.byte	'PCR',0
+	.word	10590
+	.byte	4,2,35,12,11
+	.word	11502
+	.byte	4,2,35,16,10
+	.byte	'ECNT',0
+	.word	10336
+	.byte	4,2,35,20,10
+	.byte	'FCR',0
+	.word	10464
+	.byte	4,2,35,24,10
+	.byte	'TCCR',0
+	.word	10715
+	.byte	4,2,35,28,10
+	.byte	'TRTR',0
+	.word	10843
+	.byte	4,2,35,32,10
+	.byte	'TATTR',0
+	.word	10907
+	.byte	4,2,35,36,10
+	.byte	'TBTTR',0
+	.word	10907
+	.byte	4,2,35,40,10
+	.byte	'TCTTR',0
+	.word	10907
+	.byte	4,2,35,44,10
+	.byte	'reserved_30',0
+	.word	11537
+	.byte	8,2,35,48,10
+	.byte	'FBTR',0
+	.word	10400
+	.byte	4,2,35,56,10
+	.byte	'TDCR',0
+	.word	10779
+	.byte	4,2,35,60,10
+	.byte	'reserved_40',0
+	.word	11546
+	.byte	192,1,2,35,64,0,3
+	.word	11557
+	.byte	6
+	.byte	'Ifx_CAN_N',0,2,145,8,3
+	.word	11806
+	.byte	12,4
+	.word	229
+	.byte	13,3,0,12,216,1
+	.word	229
+	.byte	13,215,1,0,12,64
+	.word	8595
+	.byte	13,15,0,12,32
+	.word	10083
+	.byte	13,7,0,12,32
+	.word	229
+	.byte	13,31,0,12,32
+	.word	9956
+	.byte	13,7,0,12,40
+	.word	229
+	.byte	13,39,0,12,128,8
+	.word	11557
+	.byte	13,3,0,3
+	.word	11895
+	.byte	12,128,20
+	.word	229
+	.byte	13,255,19,0,12,128,64
+	.word	11386
+	.byte	13,255,1,0,3
+	.word	11921
+	.byte	12,128,32
+	.word	229
+	.byte	13,255,31,0,7
+	.byte	'_Ifx_CAN',0,2,158,8,25,128,128,1,10
+	.byte	'CLC',0
+	.word	8222
+	.byte	4,2,35,0,10
+	.byte	'reserved_4',0
+	.word	11830
+	.byte	4,2,35,4,10
+	.byte	'ID',0
+	.word	8344
+	.byte	4,2,35,8,10
+	.byte	'FDR',0
+	.word	8283
+	.byte	4,2,35,12,10
+	.byte	'reserved_10',0
+	.word	11839
+	.byte	216,1,2,35,16,10
+	.byte	'OCS',0
+	.word	10971
+	.byte	4,3,35,232,1,10
+	.byte	'KRSTCLR',0
+	.word	8530
+	.byte	4,3,35,236,1,10
+	.byte	'KRST1',0
+	.word	8467
+	.byte	4,3,35,240,1,10
+	.byte	'KRST0',0
+	.word	8404
+	.byte	4,3,35,244,1,10
+	.byte	'ACCEN1',0
+	.word	8158
+	.byte	4,3,35,248,1,10
+	.byte	'ACCEN0',0
+	.word	8094
+	.byte	4,3,35,252,1,10
+	.byte	'LIST',0
+	.word	11850
+	.byte	64,3,35,128,2,10
+	.byte	'MSPND',0
+	.word	11859
+	.byte	32,3,35,192,2,10
+	.byte	'reserved_160',0
+	.word	11868
+	.byte	32,3,35,224,2,10
+	.byte	'MSID',0
+	.word	11877
+	.byte	32,3,35,128,3,10
+	.byte	'reserved_1A0',0
+	.word	11868
+	.byte	32,3,35,160,3,10
+	.byte	'MSIMASK',0
+	.word	10018
+	.byte	4,3,35,192,3,10
+	.byte	'PANCTR',0
+	.word	11032
+	.byte	4,3,35,196,3,10
+	.byte	'MCR',0
+	.word	8657
+	.byte	4,3,35,200,3,10
+	.byte	'MITR',0
+	.word	8844
+	.byte	4,3,35,204,3,10
+	.byte	'MECR',0
+	.word	8718
+	.byte	4,3,35,208,3,10
+	.byte	'MESTAT',0
+	.word	8780
+	.byte	4,3,35,212,3,10
+	.byte	'reserved_1D8',0
+	.word	11886
+	.byte	40,3,35,216,3,10
+	.byte	'N',0
+	.word	11905
+	.byte	128,8,3,35,128,4,10
+	.byte	'reserved_600',0
+	.word	11910
+	.byte	128,20,3,35,128,12,10
+	.byte	'MO',0
+	.word	11932
+	.byte	128,64,3,35,128,32,10
+	.byte	'reserved_3000',0
+	.word	11937
+	.byte	128,32,3,35,128,96,0,3
+	.word	11948
+	.byte	6
+	.byte	'Ifx_CAN',0,2,187,8,3
+	.word	12431
+	.byte	7
+	.byte	'_Ifx_SRC_SRCR_Bits',0,3,45,16,4,8
+	.byte	'SRPN',0,1
+	.word	229
+	.byte	8,0,2,35,0,8
+	.byte	'reserved_8',0,1
+	.word	229
+	.byte	2,6,2,35,1,8
+	.byte	'SRE',0,1
+	.word	229
+	.byte	1,5,2,35,1,8
+	.byte	'TOS',0,1
+	.word	229
+	.byte	2,3,2,35,1,8
+	.byte	'reserved_13',0,1
+	.word	229
+	.byte	3,0,2,35,1,8
+	.byte	'ECC',0,1
+	.word	229
+	.byte	6,2,2,35,2,8
+	.byte	'reserved_22',0,1
+	.word	229
+	.byte	2,0,2,35,2,8
+	.byte	'SRR',0,1
+	.word	229
+	.byte	1,7,2,35,3,8
+	.byte	'CLRR',0,1
+	.word	229
+	.byte	1,6,2,35,3,8
+	.byte	'SETR',0,1
+	.word	229
+	.byte	1,5,2,35,3,8
+	.byte	'IOV',0,1
+	.word	229
+	.byte	1,4,2,35,3,8
+	.byte	'IOVCLR',0,1
+	.word	229
+	.byte	1,3,2,35,3,8
+	.byte	'SWS',0,1
+	.word	229
+	.byte	1,2,2,35,3,8
+	.byte	'SWSCLR',0,1
+	.word	229
+	.byte	1,1,2,35,3,8
+	.byte	'reserved_31',0,1
+	.word	229
+	.byte	1,0,2,35,3,0,6
+	.byte	'Ifx_SRC_SRCR_Bits',0,3,62,3
+	.word	12453
+	.byte	9,3,70,9,4,10
+	.byte	'U',0
+	.word	876
+	.byte	4,2,35,0,10
+	.byte	'I',0
+	.word	8087
+	.byte	4,2,35,0,10
+	.byte	'B',0
+	.word	12453
+	.byte	4,2,35,0,0,6
+	.byte	'Ifx_SRC_SRCR',0,3,75,3
+	.word	12769
+	.byte	7
+	.byte	'_Ifx_SRC_AGBT',0,3,86,25,4,10
+	.byte	'SR',0
+	.word	12769
+	.byte	4,2,35,0,0,3
+	.word	12829
+	.byte	6
+	.byte	'Ifx_SRC_AGBT',0,3,89,3
+	.word	12861
+	.byte	7
+	.byte	'_Ifx_SRC_ASCLIN',0,3,92,25,12,10
+	.byte	'TX',0
+	.word	12769
+	.byte	4,2,35,0,10
+	.byte	'RX',0
+	.word	12769
+	.byte	4,2,35,4,10
+	.byte	'ERR',0
+	.word	12769
+	.byte	4,2,35,8,0,3
+	.word	12887
+	.byte	6
+	.byte	'Ifx_SRC_ASCLIN',0,3,97,3
+	.word	12946
+	.byte	7
+	.byte	'_Ifx_SRC_BCUSPB',0,3,100,25,4,10
+	.byte	'SBSRC',0
+	.word	12769
+	.byte	4,2,35,0,0,3
+	.word	12974
+	.byte	6
+	.byte	'Ifx_SRC_BCUSPB',0,3,103,3
+	.word	13011
+	.byte	12,64
+	.word	12769
+	.byte	13,15,0,7
+	.byte	'_Ifx_SRC_CAN',0,3,106,25,64,10
+	.byte	'INT',0
+	.word	13039
+	.byte	64,2,35,0,0,3
+	.word	13048
+	.byte	6
+	.byte	'Ifx_SRC_CAN',0,3,109,3
+	.word	13080
+	.byte	7
+	.byte	'_Ifx_SRC_CCU6',0,3,112,25,16,10
+	.byte	'SR0',0
+	.word	12769
+	.byte	4,2,35,0,10
+	.byte	'SR1',0
+	.word	12769
+	.byte	4,2,35,4,10
+	.byte	'SR2',0
+	.word	12769
+	.byte	4,2,35,8,10
+	.byte	'SR3',0
+	.word	12769
+	.byte	4,2,35,12,0,3
+	.word	13105
+	.byte	6
+	.byte	'Ifx_SRC_CCU6',0,3,118,3
+	.word	13177
+	.byte	12,8
+	.word	12769
+	.byte	13,1,0,7
+	.byte	'_Ifx_SRC_CERBERUS',0,3,121,25,8,10
+	.byte	'SR',0
+	.word	13203
+	.byte	8,2,35,0,0,3
+	.word	13212
+	.byte	6
+	.byte	'Ifx_SRC_CERBERUS',0,3,124,3
+	.word	13248
+	.byte	7
+	.byte	'_Ifx_SRC_CIF',0,3,127,25,16,10
+	.byte	'MI',0
+	.word	12769
+	.byte	4,2,35,0,10
+	.byte	'MIEP',0
+	.word	12769
+	.byte	4,2,35,4,10
+	.byte	'ISP',0
+	.word	12769
+	.byte	4,2,35,8,10
+	.byte	'MJPEG',0
+	.word	12769
+	.byte	4,2,35,12,0,3
+	.word	13278
+	.byte	6
+	.byte	'Ifx_SRC_CIF',0,3,133,1,3
+	.word	13351
+	.byte	7
+	.byte	'_Ifx_SRC_CPU',0,3,136,1,25,4,10
+	.byte	'SBSRC',0
+	.word	12769
+	.byte	4,2,35,0,0,3
+	.word	13377
+	.byte	6
+	.byte	'Ifx_SRC_CPU',0,3,139,1,3
+	.word	13412
+	.byte	12,24
+	.word	12769
+	.byte	13,5,0,7
+	.byte	'_Ifx_SRC_DAM',0,3,142,1,25,24,10
+	.byte	'SR',0
+	.word	13438
+	.byte	24,2,35,0,0,3
+	.word	13447
+	.byte	6
+	.byte	'Ifx_SRC_DAM',0,3,145,1,3
+	.word	13479
+	.byte	12,12
+	.word	229
+	.byte	13,11,0,12,128,2
+	.word	12769
+	.byte	13,63,0,7
+	.byte	'_Ifx_SRC_DMA',0,3,148,1,25,144,2,10
+	.byte	'ERR',0
+	.word	12769
+	.byte	4,2,35,0,10
+	.byte	'reserved_4',0
+	.word	13505
+	.byte	12,2,35,4,10
+	.byte	'CH',0
+	.word	13514
+	.byte	128,2,2,35,16,0,3
+	.word	13524
+	.byte	6
+	.byte	'Ifx_SRC_DMA',0,3,153,1,3
+	.word	13591
+	.byte	7
+	.byte	'_Ifx_SRC_DSADC',0,3,156,1,25,8,10
+	.byte	'SRM',0
+	.word	12769
+	.byte	4,2,35,0,10
+	.byte	'SRA',0
+	.word	12769
+	.byte	4,2,35,4,0,3
+	.word	13617
+	.byte	6
+	.byte	'Ifx_SRC_DSADC',0,3,160,1,3
+	.word	13665
+	.byte	7
+	.byte	'_Ifx_SRC_EMEM',0,3,163,1,25,4,10
+	.byte	'SR',0
+	.word	12769
+	.byte	4,2,35,0,0,3
+	.word	13693
+	.byte	6
+	.byte	'Ifx_SRC_EMEM',0,3,166,1,3
+	.word	13726
+	.byte	7
+	.byte	'_Ifx_SRC_ERAY',0,3,169,1,25,80,10
+	.byte	'INT',0
+	.word	13203
+	.byte	8,2,35,0,10
+	.byte	'TINT',0
+	.word	13203
+	.byte	8,2,35,8,10
+	.byte	'NDAT',0
+	.word	13203
+	.byte	8,2,35,16,10
+	.byte	'MBSC',0
+	.word	13203
+	.byte	8,2,35,24,10
+	.byte	'OBUSY',0
+	.word	12769
+	.byte	4,2,35,32,10
+	.byte	'IBUSY',0
+	.word	12769
+	.byte	4,2,35,36,10
+	.byte	'reserved_28',0
+	.word	11886
+	.byte	40,2,35,40,0,3
+	.word	13753
+	.byte	6
+	.byte	'Ifx_SRC_ERAY',0,3,178,1,3
+	.word	13880
+	.byte	7
+	.byte	'_Ifx_SRC_ETH',0,3,181,1,25,4,10
+	.byte	'SR',0
+	.word	12769
+	.byte	4,2,35,0,0,3
+	.word	13907
+	.byte	6
+	.byte	'Ifx_SRC_ETH',0,3,184,1,3
+	.word	13939
+	.byte	7
+	.byte	'_Ifx_SRC_FCE',0,3,187,1,25,4,10
+	.byte	'SR',0
+	.word	12769
+	.byte	4,2,35,0,0,3
+	.word	13965
+	.byte	6
+	.byte	'Ifx_SRC_FCE',0,3,190,1,3
+	.word	13997
+	.byte	12,16
+	.word	229
+	.byte	13,15,0,7
+	.byte	'_Ifx_SRC_GPSR',0,3,193,1,25,32,10
+	.byte	'SR0',0
+	.word	12769
+	.byte	4,2,35,0,10
+	.byte	'SR1',0
+	.word	12769
+	.byte	4,2,35,4,10
+	.byte	'SR2',0
+	.word	12769
+	.byte	4,2,35,8,10
+	.byte	'SR3',0
+	.word	12769
+	.byte	4,2,35,12,10
+	.byte	'reserved_10',0
+	.word	14023
+	.byte	16,2,35,16,0,3
+	.word	14032
+	.byte	6
+	.byte	'Ifx_SRC_GPSR',0,3,200,1,3
+	.word	14126
+	.byte	12,24
+	.word	229
+	.byte	13,23,0,7
+	.byte	'_Ifx_SRC_GPT12',0,3,203,1,25,48,10
+	.byte	'CIRQ',0
+	.word	12769
+	.byte	4,2,35,0,10
+	.byte	'T2',0
+	.word	12769
+	.byte	4,2,35,4,10
+	.byte	'T3',0
+	.word	12769
+	.byte	4,2,35,8,10
+	.byte	'T4',0
+	.word	12769
+	.byte	4,2,35,12,10
+	.byte	'T5',0
+	.word	12769
+	.byte	4,2,35,16,10
+	.byte	'T6',0
+	.word	12769
+	.byte	4,2,35,20,10
+	.byte	'reserved_18',0
+	.word	14153
+	.byte	24,2,35,24,0,3
+	.word	14162
+	.byte	6
+	.byte	'Ifx_SRC_GPT12',0,3,212,1,3
+	.word	14279
+	.byte	12,12
+	.word	12769
+	.byte	13,2,0,12,32
+	.word	12769
+	.byte	13,7,0,12,32
+	.word	14316
+	.byte	13,0,0,12,88
+	.word	229
+	.byte	13,87,0,12,108
+	.word	12769
+	.byte	13,26,0,12,96
+	.word	229
+	.byte	13,95,0,12,128,1
+	.word	14316
+	.byte	13,3,0,12,128,3
+	.word	229
+	.byte	13,255,2,0,12,96
+	.word	14316
+	.byte	13,2,0,12,160,3
+	.word	229
+	.byte	13,159,3,0,12,16
+	.word	12769
+	.byte	13,3,0,12,80
+	.word	14402
+	.byte	13,4,0,12,176,2
+	.word	229
+	.byte	13,175,2,0,12,48
+	.word	229
+	.byte	13,47,0,7
+	.byte	'_Ifx_SRC_GTM',0,3,215,1,25,208,18,10
+	.byte	'AEIIRQ',0
+	.word	12769
+	.byte	4,2,35,0,10
+	.byte	'ARUIRQ',0
+	.word	14307
+	.byte	12,2,35,4,10
+	.byte	'reserved_10',0
+	.word	11830
+	.byte	4,2,35,16,10
+	.byte	'BRCIRQ',0
+	.word	12769
+	.byte	4,2,35,20,10
+	.byte	'CMPIRQ',0
+	.word	12769
+	.byte	4,2,35,24,10
+	.byte	'SPEIRQ',0
+	.word	13203
+	.byte	8,2,35,28,10
+	.byte	'reserved_24',0
+	.word	11537
+	.byte	8,2,35,36,10
+	.byte	'PSM',0
+	.word	14325
+	.byte	32,2,35,44,10
+	.byte	'reserved_4C',0
+	.word	14334
+	.byte	88,2,35,76,10
+	.byte	'DPLL',0
+	.word	14343
+	.byte	108,3,35,164,1,10
+	.byte	'reserved_110',0
+	.word	14352
+	.byte	96,3,35,144,2,10
+	.byte	'ERR',0
+	.word	12769
+	.byte	4,3,35,240,2,10
+	.byte	'reserved_174',0
+	.word	13505
+	.byte	12,3,35,244,2,10
+	.byte	'TIM',0
+	.word	14361
+	.byte	128,1,3,35,128,3,10
+	.byte	'reserved_200',0
+	.word	14371
+	.byte	128,3,3,35,128,4,10
+	.byte	'MCS',0
+	.word	14361
+	.byte	128,1,3,35,128,7,10
+	.byte	'reserved_400',0
+	.word	14371
+	.byte	128,3,3,35,128,8,10
+	.byte	'TOM',0
+	.word	14382
+	.byte	96,3,35,128,11,10
+	.byte	'reserved_5E0',0
+	.word	14391
+	.byte	160,3,3,35,224,11,10
+	.byte	'ATOM',0
+	.word	14411
+	.byte	80,3,35,128,15,10
+	.byte	'reserved_7D0',0
+	.word	14420
+	.byte	176,2,3,35,208,15,10
+	.byte	'MCSW0',0
+	.word	14402
+	.byte	16,3,35,128,18,10
+	.byte	'reserved_910',0
+	.word	14431
+	.byte	48,3,35,144,18,10
+	.byte	'MCSW1',0
+	.word	14402
+	.byte	16,3,35,192,18,0,3
+	.word	14440
+	.byte	6
+	.byte	'Ifx_SRC_GTM',0,3,241,1,3
+	.word	14902
+	.byte	7
+	.byte	'_Ifx_SRC_HSCT',0,3,244,1,25,4,10
+	.byte	'SR',0
+	.word	12769
+	.byte	4,2,35,0,0,3
+	.word	14928
+	.byte	6
+	.byte	'Ifx_SRC_HSCT',0,3,247,1,3
+	.word	14961
+	.byte	7
+	.byte	'_Ifx_SRC_HSM',0,3,250,1,25,8,10
+	.byte	'HSM',0
+	.word	13203
+	.byte	8,2,35,0,0,3
+	.word	14988
+	.byte	6
+	.byte	'Ifx_SRC_HSM',0,3,253,1,3
+	.word	15021
+	.byte	7
+	.byte	'_Ifx_SRC_HSSL',0,3,128,2,25,16,10
+	.byte	'COK',0
+	.word	12769
+	.byte	4,2,35,0,10
+	.byte	'RDI',0
+	.word	12769
+	.byte	4,2,35,4,10
+	.byte	'ERR',0
+	.word	12769
+	.byte	4,2,35,8,10
+	.byte	'TRG',0
+	.word	12769
+	.byte	4,2,35,12,0,3
+	.word	15047
+	.byte	6
+	.byte	'Ifx_SRC_HSSL',0,3,134,2,3
+	.word	15120
+	.byte	12,56
+	.word	229
+	.byte	13,55,0,7
+	.byte	'_Ifx_SRC_I2C',0,3,137,2,25,80,10
+	.byte	'BREQ',0
+	.word	12769
+	.byte	4,2,35,0,10
+	.byte	'LBREQ',0
+	.word	12769
+	.byte	4,2,35,4,10
+	.byte	'SREQ',0
+	.word	12769
+	.byte	4,2,35,8,10
+	.byte	'LSREQ',0
+	.word	12769
+	.byte	4,2,35,12,10
+	.byte	'ERR',0
+	.word	12769
+	.byte	4,2,35,16,10
+	.byte	'P',0
+	.word	12769
+	.byte	4,2,35,20,10
+	.byte	'reserved_18',0
+	.word	15147
+	.byte	56,2,35,24,0,3
+	.word	15156
+	.byte	6
+	.byte	'Ifx_SRC_I2C',0,3,146,2,3
+	.word	15279
+	.byte	7
+	.byte	'_Ifx_SRC_LMU',0,3,149,2,25,4,10
+	.byte	'SR',0
+	.word	12769
+	.byte	4,2,35,0,0,3
+	.word	15305
+	.byte	6
+	.byte	'Ifx_SRC_LMU',0,3,152,2,3
+	.word	15337
+	.byte	7
+	.byte	'_Ifx_SRC_MSC',0,3,155,2,25,20,10
+	.byte	'SR0',0
+	.word	12769
+	.byte	4,2,35,0,10
+	.byte	'SR1',0
+	.word	12769
+	.byte	4,2,35,4,10
+	.byte	'SR2',0
+	.word	12769
+	.byte	4,2,35,8,10
+	.byte	'SR3',0
+	.word	12769
+	.byte	4,2,35,12,10
+	.byte	'SR4',0
+	.word	12769
+	.byte	4,2,35,16,0,3
+	.word	15363
+	.byte	6
+	.byte	'Ifx_SRC_MSC',0,3,162,2,3
+	.word	15448
+	.byte	7
+	.byte	'_Ifx_SRC_PMU',0,3,165,2,25,4,10
+	.byte	'SR',0
+	.word	12769
+	.byte	4,2,35,0,0,3
+	.word	15474
+	.byte	6
+	.byte	'Ifx_SRC_PMU',0,3,168,2,3
+	.word	15506
+	.byte	7
+	.byte	'_Ifx_SRC_PSI5',0,3,171,2,25,32,10
+	.byte	'SR',0
+	.word	14316
+	.byte	32,2,35,0,0,3
+	.word	15532
+	.byte	6
+	.byte	'Ifx_SRC_PSI5',0,3,174,2,3
+	.word	15565
+	.byte	7
+	.byte	'_Ifx_SRC_PSI5S',0,3,177,2,25,32,10
+	.byte	'SR',0
+	.word	14316
+	.byte	32,2,35,0,0,3
+	.word	15592
+	.byte	6
+	.byte	'Ifx_SRC_PSI5S',0,3,180,2,3
+	.word	15626
+	.byte	7
+	.byte	'_Ifx_SRC_QSPI',0,3,183,2,25,24,10
+	.byte	'TX',0
+	.word	12769
+	.byte	4,2,35,0,10
+	.byte	'RX',0
+	.word	12769
+	.byte	4,2,35,4,10
+	.byte	'ERR',0
+	.word	12769
+	.byte	4,2,35,8,10
+	.byte	'PT',0
+	.word	12769
+	.byte	4,2,35,12,10
+	.byte	'reserved_10',0
+	.word	11830
+	.byte	4,2,35,16,10
+	.byte	'U',0
+	.word	12769
+	.byte	4,2,35,20,0,3
+	.word	15654
+	.byte	6
+	.byte	'Ifx_SRC_QSPI',0,3,191,2,3
+	.word	15756
+	.byte	7
+	.byte	'_Ifx_SRC_SCU',0,3,194,2,25,20,10
+	.byte	'DTS',0
+	.word	12769
+	.byte	4,2,35,0,10
+	.byte	'ERU',0
+	.word	14402
+	.byte	16,2,35,4,0,3
+	.word	15783
+	.byte	6
+	.byte	'Ifx_SRC_SCU',0,3,198,2,3
+	.word	15829
+	.byte	12,40
+	.word	12769
+	.byte	13,9,0,7
+	.byte	'_Ifx_SRC_SENT',0,3,201,2,25,40,10
+	.byte	'SR',0
+	.word	15855
+	.byte	40,2,35,0,0,3
+	.word	15864
+	.byte	6
+	.byte	'Ifx_SRC_SENT',0,3,204,2,3
+	.word	15897
+	.byte	7
+	.byte	'_Ifx_SRC_SMU',0,3,207,2,25,12,10
+	.byte	'SR',0
+	.word	14307
+	.byte	12,2,35,0,0,3
+	.word	15924
+	.byte	6
+	.byte	'Ifx_SRC_SMU',0,3,210,2,3
+	.word	15956
+	.byte	7
+	.byte	'_Ifx_SRC_STM',0,3,213,2,25,8,10
+	.byte	'SR0',0
+	.word	12769
+	.byte	4,2,35,0,10
+	.byte	'SR1',0
+	.word	12769
+	.byte	4,2,35,4,0,3
+	.word	15982
+	.byte	6
+	.byte	'Ifx_SRC_STM',0,3,217,2,3
+	.word	16028
+	.byte	7
+	.byte	'_Ifx_SRC_VADCCG',0,3,220,2,25,16,10
+	.byte	'SR0',0
+	.word	12769
+	.byte	4,2,35,0,10
+	.byte	'SR1',0
+	.word	12769
+	.byte	4,2,35,4,10
+	.byte	'SR2',0
+	.word	12769
+	.byte	4,2,35,8,10
+	.byte	'SR3',0
+	.word	12769
+	.byte	4,2,35,12,0,3
+	.word	16054
+	.byte	6
+	.byte	'Ifx_SRC_VADCCG',0,3,226,2,3
+	.word	16129
+	.byte	7
+	.byte	'_Ifx_SRC_VADCG',0,3,229,2,25,16,10
+	.byte	'SR0',0
+	.word	12769
+	.byte	4,2,35,0,10
+	.byte	'SR1',0
+	.word	12769
+	.byte	4,2,35,4,10
+	.byte	'SR2',0
+	.word	12769
+	.byte	4,2,35,8,10
+	.byte	'SR3',0
+	.word	12769
+	.byte	4,2,35,12,0,3
+	.word	16158
+	.byte	6
+	.byte	'Ifx_SRC_VADCG',0,3,235,2,3
+	.word	16232
+	.byte	7
+	.byte	'_Ifx_SRC_XBAR',0,3,238,2,25,4,10
+	.byte	'SRC',0
+	.word	12769
+	.byte	4,2,35,0,0,3
+	.word	16260
+	.byte	6
+	.byte	'Ifx_SRC_XBAR',0,3,241,2,3
+	.word	16294
+	.byte	12,4
+	.word	12829
+	.byte	13,0,0,3
+	.word	16321
+	.byte	7
+	.byte	'_Ifx_SRC_GAGBT',0,3,254,2,25,4,10
+	.byte	'AGBT',0
+	.word	16330
+	.byte	4,2,35,0,0,3
+	.word	16335
+	.byte	6
+	.byte	'Ifx_SRC_GAGBT',0,3,129,3,3
+	.word	16371
+	.byte	12,48
+	.word	12887
+	.byte	13,3,0,3
+	.word	16399
+	.byte	7
+	.byte	'_Ifx_SRC_GASCLIN',0,3,132,3,25,48,10
+	.byte	'ASCLIN',0
+	.word	16408
+	.byte	48,2,35,0,0,3
+	.word	16413
+	.byte	6
+	.byte	'Ifx_SRC_GASCLIN',0,3,135,3,3
+	.word	16453
+	.byte	3
+	.word	12974
+	.byte	7
+	.byte	'_Ifx_SRC_GBCU',0,3,138,3,25,4,10
+	.byte	'SPB',0
+	.word	16483
+	.byte	4,2,35,0,0,3
+	.word	16488
+	.byte	6
+	.byte	'Ifx_SRC_GBCU',0,3,141,3,3
+	.word	16522
+	.byte	12,64
+	.word	13048
+	.byte	13,0,0,3
+	.word	16549
+	.byte	7
+	.byte	'_Ifx_SRC_GCAN',0,3,144,3,25,64,10
+	.byte	'CAN',0
+	.word	16558
+	.byte	64,2,35,0,0,3
+	.word	16563
+	.byte	6
+	.byte	'Ifx_SRC_GCAN',0,3,147,3,3
+	.word	16597
+	.byte	12,32
+	.word	13105
+	.byte	13,1,0,3
+	.word	16624
+	.byte	7
+	.byte	'_Ifx_SRC_GCCU6',0,3,150,3,25,32,10
+	.byte	'CCU6',0
+	.word	16633
+	.byte	32,2,35,0,0,3
+	.word	16638
+	.byte	6
+	.byte	'Ifx_SRC_GCCU6',0,3,153,3,3
+	.word	16674
+	.byte	3
+	.word	13212
+	.byte	7
+	.byte	'_Ifx_SRC_GCERBERUS',0,3,156,3,25,8,10
+	.byte	'CERBERUS',0
+	.word	16702
+	.byte	8,2,35,0,0,3
+	.word	16707
+	.byte	6
+	.byte	'Ifx_SRC_GCERBERUS',0,3,159,3,3
+	.word	16751
+	.byte	12,16
+	.word	13278
+	.byte	13,0,0,3
+	.word	16783
+	.byte	7
+	.byte	'_Ifx_SRC_GCIF',0,3,162,3,25,16,10
+	.byte	'CIF',0
+	.word	16792
+	.byte	16,2,35,0,0,3
+	.word	16797
+	.byte	6
+	.byte	'Ifx_SRC_GCIF',0,3,165,3,3
+	.word	16831
+	.byte	12,12
+	.word	13377
+	.byte	13,2,0,3
+	.word	16858
+	.byte	7
+	.byte	'_Ifx_SRC_GCPU',0,3,168,3,25,12,10
+	.byte	'CPU',0
+	.word	16867
+	.byte	12,2,35,0,0,3
+	.word	16872
+	.byte	6
+	.byte	'Ifx_SRC_GCPU',0,3,171,3,3
+	.word	16906
+	.byte	12,24
+	.word	13447
+	.byte	13,0,0,3
+	.word	16933
+	.byte	7
+	.byte	'_Ifx_SRC_GDAM',0,3,174,3,25,24,10
+	.byte	'DAM',0
+	.word	16942
+	.byte	24,2,35,0,0,3
+	.word	16947
+	.byte	6
+	.byte	'Ifx_SRC_GDAM',0,3,177,3,3
+	.word	16981
+	.byte	12,144,2
+	.word	13524
+	.byte	13,0,0,3
+	.word	17008
+	.byte	7
+	.byte	'_Ifx_SRC_GDMA',0,3,180,3,25,144,2,10
+	.byte	'DMA',0
+	.word	17018
+	.byte	144,2,2,35,0,0,3
+	.word	17023
+	.byte	6
+	.byte	'Ifx_SRC_GDMA',0,3,183,3,3
+	.word	17059
+	.byte	12,48
+	.word	13617
+	.byte	13,5,0,3
+	.word	17086
+	.byte	7
+	.byte	'_Ifx_SRC_GDSADC',0,3,186,3,25,48,10
+	.byte	'DSADC',0
+	.word	17095
+	.byte	48,2,35,0,0,3
+	.word	17100
+	.byte	6
+	.byte	'Ifx_SRC_GDSADC',0,3,189,3,3
+	.word	17138
+	.byte	12,4
+	.word	13693
+	.byte	13,0,0,3
+	.word	17167
+	.byte	7
+	.byte	'_Ifx_SRC_GEMEM',0,3,192,3,25,4,10
+	.byte	'EMEM',0
+	.word	17176
+	.byte	4,2,35,0,0,3
+	.word	17181
+	.byte	6
+	.byte	'Ifx_SRC_GEMEM',0,3,195,3,3
+	.word	17217
+	.byte	12,80
+	.word	13753
+	.byte	13,0,0,3
+	.word	17245
+	.byte	7
+	.byte	'_Ifx_SRC_GERAY',0,3,198,3,25,80,10
+	.byte	'ERAY',0
+	.word	17254
+	.byte	80,2,35,0,0,3
+	.word	17259
+	.byte	6
+	.byte	'Ifx_SRC_GERAY',0,3,201,3,3
+	.word	17295
+	.byte	12,4
+	.word	13907
+	.byte	13,0,0,3
+	.word	17323
+	.byte	7
+	.byte	'_Ifx_SRC_GETH',0,3,204,3,25,4,10
+	.byte	'ETH',0
+	.word	17332
+	.byte	4,2,35,0,0,3
+	.word	17337
+	.byte	6
+	.byte	'Ifx_SRC_GETH',0,3,207,3,3
+	.word	17371
+	.byte	12,4
+	.word	13965
+	.byte	13,0,0,3
+	.word	17398
+	.byte	7
+	.byte	'_Ifx_SRC_GFCE',0,3,210,3,25,4,10
+	.byte	'FCE',0
+	.word	17407
+	.byte	4,2,35,0,0,3
+	.word	17412
+	.byte	6
+	.byte	'Ifx_SRC_GFCE',0,3,213,3,3
+	.word	17446
+	.byte	12,96
+	.word	14032
+	.byte	13,2,0,3
+	.word	17473
+	.byte	7
+	.byte	'_Ifx_SRC_GGPSR',0,3,216,3,25,96,10
+	.byte	'GPSR',0
+	.word	17482
+	.byte	96,2,35,0,0,3
+	.word	17487
+	.byte	6
+	.byte	'Ifx_SRC_GGPSR',0,3,219,3,3
+	.word	17523
+	.byte	12,48
+	.word	14162
+	.byte	13,0,0,3
+	.word	17551
+	.byte	7
+	.byte	'_Ifx_SRC_GGPT12',0,3,222,3,25,48,10
+	.byte	'GPT12',0
+	.word	17560
+	.byte	48,2,35,0,0,3
+	.word	17565
+	.byte	6
+	.byte	'Ifx_SRC_GGPT12',0,3,225,3,3
+	.word	17603
+	.byte	12,208,18
+	.word	14440
+	.byte	13,0,0,3
+	.word	17632
+	.byte	7
+	.byte	'_Ifx_SRC_GGTM',0,3,228,3,25,208,18,10
+	.byte	'GTM',0
+	.word	17642
+	.byte	208,18,2,35,0,0,3
+	.word	17647
+	.byte	6
+	.byte	'Ifx_SRC_GGTM',0,3,231,3,3
+	.word	17683
+	.byte	12,4
+	.word	14928
+	.byte	13,0,0,3
+	.word	17710
+	.byte	7
+	.byte	'_Ifx_SRC_GHSCT',0,3,234,3,25,4,10
+	.byte	'HSCT',0
+	.word	17719
+	.byte	4,2,35,0,0,3
+	.word	17724
+	.byte	6
+	.byte	'Ifx_SRC_GHSCT',0,3,237,3,3
+	.word	17760
+	.byte	12,8
+	.word	14988
+	.byte	13,0,0,3
+	.word	17788
+	.byte	7
+	.byte	'_Ifx_SRC_GHSM',0,3,240,3,25,8,10
+	.byte	'HSM',0
+	.word	17797
+	.byte	8,2,35,0,0,3
+	.word	17802
+	.byte	6
+	.byte	'Ifx_SRC_GHSM',0,3,243,3,3
+	.word	17836
+	.byte	12,64
+	.word	15047
+	.byte	13,3,0,3
+	.word	17863
+	.byte	7
+	.byte	'_Ifx_SRC_GHSSL',0,3,246,3,25,68,10
+	.byte	'HSSL',0
+	.word	17872
+	.byte	64,2,35,0,10
+	.byte	'EXI',0
+	.word	12769
+	.byte	4,2,35,64,0,3
+	.word	17877
+	.byte	6
+	.byte	'Ifx_SRC_GHSSL',0,3,250,3,3
+	.word	17926
+	.byte	12,80
+	.word	15156
+	.byte	13,0,0,3
+	.word	17954
+	.byte	7
+	.byte	'_Ifx_SRC_GI2C',0,3,253,3,25,80,10
+	.byte	'I2C',0
+	.word	17963
+	.byte	80,2,35,0,0,3
+	.word	17968
+	.byte	6
+	.byte	'Ifx_SRC_GI2C',0,3,128,4,3
+	.word	18002
+	.byte	12,4
+	.word	15305
+	.byte	13,0,0,3
+	.word	18029
+	.byte	7
+	.byte	'_Ifx_SRC_GLMU',0,3,131,4,25,4,10
+	.byte	'LMU',0
+	.word	18038
+	.byte	4,2,35,0,0,3
+	.word	18043
+	.byte	6
+	.byte	'Ifx_SRC_GLMU',0,3,134,4,3
+	.word	18077
+	.byte	12,40
+	.word	15363
+	.byte	13,1,0,3
+	.word	18104
+	.byte	7
+	.byte	'_Ifx_SRC_GMSC',0,3,137,4,25,40,10
+	.byte	'MSC',0
+	.word	18113
+	.byte	40,2,35,0,0,3
+	.word	18118
+	.byte	6
+	.byte	'Ifx_SRC_GMSC',0,3,140,4,3
+	.word	18152
+	.byte	12,8
+	.word	15474
+	.byte	13,1,0,3
+	.word	18179
+	.byte	7
+	.byte	'_Ifx_SRC_GPMU',0,3,143,4,25,8,10
+	.byte	'PMU',0
+	.word	18188
+	.byte	8,2,35,0,0,3
+	.word	18193
+	.byte	6
+	.byte	'Ifx_SRC_GPMU',0,3,146,4,3
+	.word	18227
+	.byte	12,32
+	.word	15532
+	.byte	13,0,0,3
+	.word	18254
+	.byte	7
+	.byte	'_Ifx_SRC_GPSI5',0,3,149,4,25,32,10
+	.byte	'PSI5',0
+	.word	18263
+	.byte	32,2,35,0,0,3
+	.word	18268
+	.byte	6
+	.byte	'Ifx_SRC_GPSI5',0,3,152,4,3
+	.word	18304
+	.byte	12,32
+	.word	15592
+	.byte	13,0,0,3
+	.word	18332
+	.byte	7
+	.byte	'_Ifx_SRC_GPSI5S',0,3,155,4,25,32,10
+	.byte	'PSI5S',0
+	.word	18341
+	.byte	32,2,35,0,0,3
+	.word	18346
+	.byte	6
+	.byte	'Ifx_SRC_GPSI5S',0,3,158,4,3
+	.word	18384
+	.byte	12,96
+	.word	15654
+	.byte	13,3,0,3
+	.word	18413
+	.byte	7
+	.byte	'_Ifx_SRC_GQSPI',0,3,161,4,25,96,10
+	.byte	'QSPI',0
+	.word	18422
+	.byte	96,2,35,0,0,3
+	.word	18427
+	.byte	6
+	.byte	'Ifx_SRC_GQSPI',0,3,164,4,3
+	.word	18463
+	.byte	3
+	.word	15783
+	.byte	7
+	.byte	'_Ifx_SRC_GSCU',0,3,167,4,25,20,10
+	.byte	'SCU',0
+	.word	18491
+	.byte	20,2,35,0,0,3
+	.word	18496
+	.byte	6
+	.byte	'Ifx_SRC_GSCU',0,3,170,4,3
+	.word	18530
+	.byte	12,40
+	.word	15864
+	.byte	13,0,0,3
+	.word	18557
+	.byte	7
+	.byte	'_Ifx_SRC_GSENT',0,3,173,4,25,40,10
+	.byte	'SENT',0
+	.word	18566
+	.byte	40,2,35,0,0,3
+	.word	18571
+	.byte	6
+	.byte	'Ifx_SRC_GSENT',0,3,176,4,3
+	.word	18607
+	.byte	12,12
+	.word	15924
+	.byte	13,0,0,3
+	.word	18635
+	.byte	7
+	.byte	'_Ifx_SRC_GSMU',0,3,179,4,25,12,10
+	.byte	'SMU',0
+	.word	18644
+	.byte	12,2,35,0,0,3
+	.word	18649
+	.byte	6
+	.byte	'Ifx_SRC_GSMU',0,3,182,4,3
+	.word	18683
+	.byte	12,24
+	.word	15982
+	.byte	13,2,0,3
+	.word	18710
+	.byte	7
+	.byte	'_Ifx_SRC_GSTM',0,3,185,4,25,24,10
+	.byte	'STM',0
+	.word	18719
+	.byte	24,2,35,0,0,3
+	.word	18724
+	.byte	6
+	.byte	'Ifx_SRC_GSTM',0,3,188,4,3
+	.word	18758
+	.byte	12,128,1
+	.word	16158
+	.byte	13,7,0,3
+	.word	18785
+	.byte	12,160,1
+	.word	229
+	.byte	13,159,1,0,12,32
+	.word	16054
+	.byte	13,1,0,3
+	.word	18811
+	.byte	7
+	.byte	'_Ifx_SRC_GVADC',0,3,191,4,25,192,2,10
+	.byte	'G',0
+	.word	18795
+	.byte	128,1,2,35,0,10
+	.byte	'reserved_80',0
+	.word	18800
+	.byte	160,1,3,35,128,1,10
+	.byte	'CG',0
+	.word	18820
+	.byte	32,3,35,160,2,0,3
+	.word	18825
+	.byte	6
+	.byte	'Ifx_SRC_GVADC',0,3,196,4,3
+	.word	18896
+	.byte	3
+	.word	16260
+	.byte	7
+	.byte	'_Ifx_SRC_GXBAR',0,3,199,4,25,4,10
+	.byte	'XBAR',0
+	.word	18924
+	.byte	4,2,35,0,0,3
+	.word	18929
+	.byte	6
+	.byte	'Ifx_SRC_GXBAR',0,3,202,4,3
+	.word	18965
+	.byte	6
+	.byte	'uint8',0,4,90,29
+	.word	229
+	.byte	6
+	.byte	'uint16',0,4,92,29
+	.word	246
+	.byte	6
+	.byte	'uint32',0,4,94,29
+	.word	273
+	.byte	6
+	.byte	'PduIdType',0,5,72,22
+	.word	229
+	.byte	6
+	.byte	'PduLengthType',0,5,76,22
+	.word	246
+	.byte	6
+	.byte	'Can_IdType',0,6,45,16
+	.word	273
+	.byte	7
+	.byte	'Can_TxHwObjectConfigType',0,7,219,3,16,2,10
+	.byte	'MsgObjId',0
+	.word	229
+	.byte	1,2,35,0,10
+	.byte	'HwControllerId',0
+	.word	229
+	.byte	1,2,35,1,0,6
+	.byte	'Can_TxHwObjectConfigType',0,7,237,3,3
+	.word	19096
+	.byte	12,4
+	.word	229
+	.byte	13,3,0,7
+	.byte	'Can_ControllerMOMapConfigType',0,7,166,4,16,4,10
+	.byte	'ControllerMOMap',0
+	.word	19204
+	.byte	4,2,35,0,0,6
+	.byte	'Can_ControllerMOMapConfigType',0,7,169,4,3
+	.word	19213
+	.byte	7
+	.byte	'Can_NPCRValueType',0,7,173,4,16,2,10
+	.byte	'Can_NPCRValue',0
+	.word	246
+	.byte	2,2,35,0,0,6
+	.byte	'Can_NPCRValueType',0,7,176,4,3
+	.word	19314
+	.byte	7
+	.byte	'Can_17_MCanP_ControllerBaudrateConfigType',0,7,179,4,16,6,10
+	.byte	'CanControllerBaudrate',0
+	.word	273
+	.byte	4,2,35,0,10
+	.byte	'CanControllerBaudrateCfg',0
+	.word	246
+	.byte	2,2,35,4,0,6
+	.byte	'Can_17_MCanP_ControllerBaudrateConfigType',0,7,183,4,3
+	.word	19389
+	.byte	14
+	.word	19389
+	.byte	5
+	.word	19554
+	.byte	7
+	.byte	'Can_BaudrateConfigPtrType',0,7,186,4,16,4,10
+	.byte	'Can_kBaudrateConfigPtr',0
+	.word	19559
+	.byte	4,2,35,0,0,6
+	.byte	'Can_BaudrateConfigPtrType',0,7,189,4,3
+	.word	19564
+	.byte	7
+	.byte	'Can_EventHandlingType',0,7,211,4,16,4,10
+	.byte	'CanEventType',0
+	.word	19204
+	.byte	4,2,35,0,0,6
+	.byte	'Can_EventHandlingType',0,7,214,4,3
+	.word	19664
+	.byte	14
+	.word	19314
+	.byte	5
+	.word	19746
+	.byte	14
+	.word	19213
+	.byte	5
+	.word	19756
+	.byte	14
+	.word	19664
+	.byte	5
+	.word	19766
+	.byte	14
+	.word	19564
+	.byte	5
+	.word	19776
+	.byte	14
+	.word	19096
+	.byte	5
+	.word	19786
+	.byte	14
+	.word	229
+	.byte	5
+	.word	19796
+	.byte	12,1
+	.word	229
+	.byte	13,0,0,7
+	.byte	'Can_17_MCanP_ConfigType',0,7,221,4,16,48,10
+	.byte	'CanNpcrPtr',0
+	.word	19751
+	.byte	4,2,35,0,10
+	.byte	'CanControllerMOMapConfigPtr',0
+	.word	19761
+	.byte	4,2,35,4,10
+	.byte	'CanEventHandlingConfigPtr',0
+	.word	19771
+	.byte	4,2,35,8,10
+	.byte	'CanBaudrateConfigPtr',0
+	.word	19781
+	.byte	4,2,35,12,10
+	.byte	'CanDefaultBaudrateConfigPtr',0
+	.word	19559
+	.byte	4,2,35,16,10
+	.byte	'CanTxHwObjectConfigPtr',0
+	.word	19791
+	.byte	4,2,35,20,10
+	.byte	'CanTxObjectHthKer0MapPtr',0
+	.word	19801
+	.byte	4,2,35,24,10
+	.byte	'CanFdrSetting',0
+	.word	246
+	.byte	2,2,35,28,10
+	.byte	'CanNumController',0
+	.word	229
+	.byte	1,2,35,30,10
+	.byte	'CanHwControllerIdMap',0
+	.word	19204
+	.byte	4,2,35,31,10
+	.byte	'CanNumBaudrateCfgs',0
+	.word	19204
+	.byte	4,2,35,35,10
+	.byte	'CanNumTxHwObj',0
+	.word	246
+	.byte	2,2,35,40,10
+	.byte	'CanNumRxFifoMsgObj',0
+	.word	246
+	.byte	2,2,35,42,10
+	.byte	'CanTxHwObjCntKer',0
+	.word	19806
+	.byte	1,2,35,44,10
+	.byte	'CanFifoMsgObjCntKer',0
+	.word	19806
+	.byte	1,2,35,45,10
+	.byte	'CanTxFirstMspndIdx',0
+	.word	229
+	.byte	1,2,35,46,10
+	.byte	'CanTxLastMspndIdx',0
+	.word	229
+	.byte	1,2,35,47,0,6
+	.byte	'Can_17_MCanP_ConfigType',0,7,216,5,3
+	.word	19815
+	.byte	3
+	.word	11948
+	.byte	5
+	.word	20372
+	.byte	12,4
+	.word	20377
+	.byte	13,0,0
+.L118:
+	.byte	14
+	.word	20382
+	.byte	14
+	.word	19815
+	.byte	5
+	.word	20396
+	.byte	15
+	.byte	'Can_kConfigPtr',0,1,82,39
+	.word	20401
+	.byte	1,1,0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L30:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,53,0,73,19,0,0,4,21,0,54,15
+	.byte	0,0,5,15,0,73,19,0,0,6,22,0,3,8,58,15,59,15,57,15,73,19,0,0,7,19,1,3,8,58,15,59,15,57,15,11,15,0,0,8,13
+	.byte	0,3,8,11,15,73,19,13,15,12,15,56,9,0,0,9,23,1,58,15,59,15,57,15,11,15,0,0,10,13,0,3,8,73,19,11,15,56,9
+	.byte	0,0,11,13,0,73,19,11,15,56,9,0,0,12,1,1,11,15,73,19,0,0,13,33,0,47,15,0,0,14,38,0,73,19,0,0,15,52,0,3
+	.byte	8,58,15,59,15,57,15,73,19,63,12,60,12,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L31:
+	.word	.L144-.L143
+.L143:
+	.half	3
+	.word	.L146-.L145
+.L145:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc\\TC27xC',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\inc',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general\\inc',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\inc',0
+	.byte	0
+	.byte	'..\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src\\Can_17_MCanP_Platform.c',0,0,0,0
+	.byte	'IfxCan_regdef.h',0,1,0,0
+	.byte	'IfxSrc_regdef.h',0,1,0,0
+	.byte	'Platform_Types.h',0,2,0,0
+	.byte	'ComStack_Types.h',0,3,0,0
+	.byte	'Can_GeneralTypes.h',0,4,0,0
+	.byte	'Can_17_MCanP.h',0,5,0,0,0
+.L146:
+.L144:
+	.sdecl	'.debug_info',debug,cluster('Can_lFrameInitialise')
+	.sect	'.debug_info'
+.L32:
+	.word	641
+	.half	3
+	.word	.L33
+	.byte	4,1
+	.byte	'..\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src\\Can_17_MCanP_Platform.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L35,.L34
+	.byte	2
+	.word	.L28
+	.byte	3
+	.byte	'Can_lFrameInitialise',0,1,141,1,6,1,1,1
+	.word	.L17,.L64,.L16
+	.byte	4
+	.byte	'KerIdx',0,1,141,1,33
+	.word	.L65,.L66
+	.byte	4
+	.byte	'HwCtrlIDKer',0,1,141,1,46
+	.word	.L65,.L67
+	.byte	4
+	.byte	'CanControllerFDBaudrate',0,1,142,1,25
+	.word	.L68,.L69
+	.byte	4
+	.byte	'CanControllerTxDelayComp',0,1,142,1,56
+	.word	.L68,.L70
+	.byte	5
+	.word	.L17,.L64
+	.byte	6
+	.byte	'KerIndex',0,1,144,1,20
+	.word	.L71,.L72
+	.byte	7
+	.word	.L73
+	.byte	6
+	.byte	'val',0,1,146,1,5
+	.word	.L78,.L79
+	.byte	0,5
+	.word	.L3,.L80
+	.byte	6
+	.byte	'val',0,1,155,1,9
+	.word	.L78,.L81
+	.byte	0,5
+	.word	.L80,.L82
+	.byte	6
+	.byte	'val',0,1,157,1,9
+	.word	.L78,.L83
+	.byte	0,5
+	.word	.L82,.L84
+	.byte	6
+	.byte	'val',0,1,159,1,9
+	.word	.L78,.L85
+	.byte	0,5
+	.word	.L84,.L86
+	.byte	6
+	.byte	'val',0,1,161,1,9
+	.word	.L78,.L87
+	.byte	0,5
+	.word	.L86,.L88
+	.byte	6
+	.byte	'val',0,1,163,1,9
+	.word	.L78,.L89
+	.byte	0,5
+	.word	.L88,.L90
+	.byte	6
+	.byte	'val',0,1,166,1,9
+	.word	.L78,.L91
+	.byte	0,5
+	.word	.L92,.L93
+	.byte	6
+	.byte	'val',0,1,172,1,5
+	.word	.L78,.L94
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Can_lFrameInitialise')
+	.sect	'.debug_abbrev'
+.L33:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,7,11,1,85,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Can_lFrameInitialise')
+	.sect	'.debug_line'
+.L34:
+	.word	.L148-.L147
+.L147:
+	.half	3
+	.word	.L150-.L149
+.L149:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src\\Can_17_MCanP_Platform.c',0,0,0,0,0
+.L150:
+	.byte	5,6,7,0,5,2
+	.word	.L17
+	.byte	3,140,1,1,5,31,9
+	.half	.L119-.L17
+	.byte	3,3,1,5,5,3,2,1,5,29,9
+	.half	.L75-.L119
+	.byte	3,126,1,5,5,9
+	.half	.L76-.L75
+	.byte	3,2,1,5,40,9
+	.half	.L77-.L76
+	.byte	3,7,1,5,9,9
+	.half	.L3-.L77
+	.byte	3,2,1,9
+	.half	.L80-.L3
+	.byte	3,2,1,9
+	.half	.L82-.L80
+	.byte	3,2,1,9
+	.half	.L84-.L82
+	.byte	3,2,1,9
+	.half	.L86-.L84
+	.byte	3,2,1,9
+	.half	.L88-.L86
+	.byte	3,3,1,9
+	.half	.L90-.L88
+	.byte	3,2,1,5,17,9
+	.half	.L151-.L90
+	.byte	1,5,11,9
+	.half	.L2-.L151
+	.byte	3,113,1,5,40,9
+	.half	.L152-.L2
+	.byte	1,5,5,7,9
+	.half	.L92-.L152
+	.byte	3,19,1,9
+	.half	.L93-.L92
+	.byte	3,6,1,9
+	.half	.L153-.L93
+	.byte	3,6,1,5,1,9
+	.half	.L154-.L153
+	.byte	3,2,1,7,9
+	.half	.L36-.L154
+	.byte	0,1,1
+.L148:
+	.sdecl	'.debug_ranges',debug,cluster('Can_lFrameInitialise')
+	.sect	'.debug_ranges'
+.L35:
+	.word	-1,.L17,0,.L36-.L17,0,0
+.L73:
+	.word	-1,.L17,.L74-.L17,.L75-.L17,.L76-.L17,.L77-.L17,0,0
+	.sdecl	'.debug_info',debug,cluster('Can_lSetBaudrate')
+	.sect	'.debug_info'
+.L37:
+	.word	435
+	.half	3
+	.word	.L38
+	.byte	4,1
+	.byte	'..\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src\\Can_17_MCanP_Platform.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L40,.L39
+	.byte	2
+	.word	.L28
+	.byte	3
+	.byte	'Can_lSetBaudrate',0,1,217,1,6,1,1,1
+	.word	.L19,.L95,.L18
+	.byte	4
+	.byte	'HwControllerId',0,1,217,1,29
+	.word	.L65,.L96
+	.byte	4
+	.byte	'ControllerBaudrate',0,1,218,1,37
+	.word	.L78,.L97
+	.byte	4
+	.byte	'ApiAccesId',0,1,218,1,62
+	.word	.L65,.L98
+	.byte	5
+	.word	.L19,.L95
+	.byte	6
+	.byte	'KerIdx',0,1,220,1,9
+	.word	.L65,.L99
+	.byte	6
+	.byte	'HwCtrlIDKer',0,1,221,1,9
+	.word	.L65,.L100
+	.byte	7
+	.word	.L101
+	.byte	6
+	.byte	'val',0,1,238,1,5
+	.word	.L78,.L103
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Can_lSetBaudrate')
+	.sect	'.debug_abbrev'
+.L38:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,7,11,1,85,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Can_lSetBaudrate')
+	.sect	'.debug_line'
+.L39:
+	.word	.L156-.L155
+.L155:
+	.half	3
+	.word	.L158-.L157
+.L157:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src\\Can_17_MCanP_Platform.c',0,0,0,0,0
+.L158:
+	.byte	5,12,7,0,5,2
+	.word	.L19
+	.byte	3,223,1,1,5,17,9
+	.half	.L129-.L19
+	.byte	3,1,1,5,3,9
+	.half	.L130-.L129
+	.byte	3,2,1,5,44,7,9
+	.half	.L159-.L130
+	.byte	3,2,1,5,5,7,9
+	.half	.L4-.L159
+	.byte	3,9,1,5,1,9
+	.half	.L102-.L4
+	.byte	3,20,1,7,9
+	.half	.L41-.L102
+	.byte	0,1,1
+.L156:
+	.sdecl	'.debug_ranges',debug,cluster('Can_lSetBaudrate')
+	.sect	'.debug_ranges'
+.L40:
+	.word	-1,.L19,0,.L41-.L19,0,0
+.L101:
+	.word	-1,.L19,.L4-.L19,.L102-.L19,-1,.L21,0,.L61-.L21,0,0
+	.sdecl	'.debug_info',debug,cluster('Can_lGetHthIndex')
+	.sect	'.debug_info'
+.L42:
+	.word	326
+	.half	3
+	.word	.L43
+	.byte	4,1
+	.byte	'..\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src\\Can_17_MCanP_Platform.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L45,.L44
+	.byte	2
+	.word	.L28
+	.byte	3
+	.byte	'Can_lGetHthIndex',0,1,217,2,7
+	.word	.L65
+	.byte	1,1,1
+	.word	.L25,.L104,.L24
+	.byte	4
+	.byte	'KerIdx',0,1,217,2,30
+	.word	.L65,.L105
+	.byte	4
+	.byte	'HthIdx',0,1,217,2,43
+	.word	.L65,.L106
+	.byte	5
+	.word	.L25,.L104
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Can_lGetHthIndex')
+	.sect	'.debug_abbrev'
+.L43:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Can_lGetHthIndex')
+	.sect	'.debug_line'
+.L44:
+	.word	.L161-.L160
+.L160:
+	.half	3
+	.word	.L163-.L162
+.L162:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src\\Can_17_MCanP_Platform.c',0,0,0,0,0
+.L163:
+	.byte	5,13,7,0,5,2
+	.word	.L25
+	.byte	3,223,2,1,5,27,9
+	.half	.L164-.L25
+	.byte	1,5,53,9
+	.half	.L165-.L164
+	.byte	1,5,1,9
+	.half	.L166-.L165
+	.byte	3,7,1,7,9
+	.half	.L46-.L166
+	.byte	0,1,1
+.L161:
+	.sdecl	'.debug_ranges',debug,cluster('Can_lGetHthIndex')
+	.sect	'.debug_ranges'
+.L45:
+	.word	-1,.L25,0,.L46-.L25,0,0
+	.sdecl	'.debug_info',debug,cluster('Can_lGetHrhIndex')
+	.sect	'.debug_info'
+.L47:
+	.word	329
+	.half	3
+	.word	.L48
+	.byte	4,1
+	.byte	'..\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src\\Can_17_MCanP_Platform.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L50,.L49
+	.byte	2
+	.word	.L28
+	.byte	3
+	.byte	'Can_lGetHrhIndex',0,1,130,3,7
+	.word	.L65
+	.byte	1,1,1
+	.word	.L27,.L107,.L26
+	.byte	4
+	.byte	'KerIdx',0,1,130,3,30
+	.word	.L65,.L108
+	.byte	4
+	.byte	'HrhOffset',0,1,130,3,43
+	.word	.L65,.L109
+	.byte	5
+	.word	.L27,.L107
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Can_lGetHrhIndex')
+	.sect	'.debug_abbrev'
+.L48:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Can_lGetHrhIndex')
+	.sect	'.debug_line'
+.L49:
+	.word	.L168-.L167
+.L167:
+	.half	3
+	.word	.L170-.L169
+.L169:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src\\Can_17_MCanP_Platform.c',0,0,0,0,0
+.L170:
+	.byte	5,10,7,0,5,2
+	.word	.L27
+	.byte	3,142,3,1,5,1,3,1,1,7,9
+	.half	.L51-.L27
+	.byte	0,1,1
+.L168:
+	.sdecl	'.debug_ranges',debug,cluster('Can_lGetHrhIndex')
+	.sect	'.debug_ranges'
+.L50:
+	.word	-1,.L27,0,.L51-.L27,0,0
+	.sdecl	'.debug_info',debug,cluster('Can_lSetBaudrateRuntime')
+	.sect	'.debug_info'
+.L52:
+	.word	421
+	.half	3
+	.word	.L53
+	.byte	4,1
+	.byte	'..\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src\\Can_17_MCanP_Platform.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L55,.L54
+	.byte	2
+	.word	.L28
+	.byte	3
+	.byte	'Can_lSetBaudrateRuntime',0,1,158,2,13,1,1
+	.word	.L23,.L110,.L22
+	.byte	4
+	.byte	'HwControllerId',0,1,158,2,43
+	.word	.L65,.L111
+	.byte	4
+	.byte	'ControllerBaudrate',0,1,159,2,62
+	.word	.L78,.L112
+	.byte	5
+	.word	.L23,.L110
+	.byte	6
+	.byte	'KerIdx',0,1,161,2,9
+	.word	.L65,.L113
+	.byte	6
+	.byte	'HwCtrlIDKer',0,1,162,2,9
+	.word	.L65,.L114
+	.byte	5
+	.word	.L115,.L116
+	.byte	6
+	.byte	'val',0,1,172,2,3
+	.word	.L78,.L117
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Can_lSetBaudrateRuntime')
+	.sect	'.debug_abbrev'
+.L53:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3,8,58
+	.byte	15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Can_lSetBaudrateRuntime')
+	.sect	'.debug_line'
+.L54:
+	.word	.L172-.L171
+.L171:
+	.half	3
+	.word	.L174-.L173
+.L173:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src\\Can_17_MCanP_Platform.c',0,0,0,0,0
+.L174:
+	.byte	5,12,7,0,5,2
+	.word	.L23
+	.byte	3,164,2,1,5,17,9
+	.half	.L138-.L23
+	.byte	3,1,1,5,3,9
+	.half	.L115-.L138
+	.byte	3,6,1,5,1,9
+	.half	.L116-.L115
+	.byte	3,18,1,7,9
+	.half	.L56-.L116
+	.byte	0,1,1
+.L172:
+	.sdecl	'.debug_ranges',debug,cluster('Can_lSetBaudrateRuntime')
+	.sect	'.debug_ranges'
+.L55:
+	.word	-1,.L23,0,.L56-.L23,0,0
+	.sdecl	'.debug_info',debug,cluster('.cocofun_3')
+	.sect	'.debug_info'
+.L57:
+	.word	264
+	.half	3
+	.word	.L58
+	.byte	4,1
+	.byte	'..\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src\\Can_17_MCanP_Platform.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L60,.L59
+	.byte	2
+	.word	.L28
+	.byte	3
+	.byte	'.cocofun_3',0,1,217,1,6,1
+	.word	.L21,.L61,.L20
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('.cocofun_3')
+	.sect	'.debug_abbrev'
+.L58:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,0,3,8,58,15,59,15,57,15,54,15
+	.byte	17,1,18,1,64,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('.cocofun_3')
+	.sect	'.debug_line'
+.L59:
+	.word	.L176-.L175
+.L175:
+	.half	3
+	.word	.L178-.L177
+.L177:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src\\Can_17_MCanP_Platform.c',0,0,0,0,0
+.L178:
+	.byte	5,5,7,0,5,2
+	.word	.L21
+	.byte	3,237,1,1,5,8,9
+	.half	.L134-.L21
+	.byte	3,4,1,5,16,7,9
+	.half	.L179-.L134
+	.byte	3,1,1,5,58,7,9
+	.half	.L180-.L179
+	.byte	1,5,7,7,9
+	.half	.L7-.L180
+	.byte	3,2,1,9
+	.half	.L6-.L7
+	.byte	3,5,1,5,5,9
+	.half	.L9-.L6
+	.byte	3,5,1,9
+	.half	.L61-.L9
+	.byte	0,1,1,5,3,0,5,2
+	.word	.L21
+	.byte	3,171,2,1,5,6,9
+	.half	.L134-.L21
+	.byte	3,4,1,5,16,7,9
+	.half	.L179-.L134
+	.byte	3,1,1,5,58,7,9
+	.half	.L180-.L179
+	.byte	1,5,5,7,9
+	.half	.L7-.L180
+	.byte	3,2,1,9
+	.half	.L6-.L7
+	.byte	3,5,1,5,3,9
+	.half	.L9-.L6
+	.byte	3,4,1,5,5,9
+	.half	.L131-.L9
+	.byte	3,67,1,7,9
+	.half	.L61-.L131
+	.byte	0,1,1
+.L176:
+	.sdecl	'.debug_ranges',debug,cluster('.cocofun_3')
+	.sect	'.debug_ranges'
+.L60:
+	.word	-1,.L21,0,.L61-.L21,0,0
+	.sdecl	'.debug_info',debug,cluster('CAN_KER')
+	.sect	'.debug_info'
+.L62:
+	.word	250
+	.half	3
+	.word	.L63
+	.byte	4,1
+	.byte	'..\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src\\Can_17_MCanP_Platform.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1,2
+	.word	.L28
+	.byte	3
+	.byte	'CAN_KER',0,1,62,16
+	.word	.L118
+	.byte	1,5,3
+	.word	CAN_KER
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('CAN_KER')
+	.sect	'.debug_abbrev'
+.L63:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_loc',debug,cluster('.cocofun_3')
+	.sect	'.debug_loc'
+.L20:
+	.word	-1,.L21,0,.L61-.L21
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Can_lFrameInitialise')
+	.sect	'.debug_loc'
+.L69:
+	.word	-1,.L17,0,.L64-.L17
+	.half	1
+	.byte	86
+	.word	0,0
+.L70:
+	.word	-1,.L17,0,.L64-.L17
+	.half	1
+	.byte	87
+	.word	0,0
+.L16:
+	.word	-1,.L17,0,.L119-.L17
+	.half	2
+	.byte	138,0
+	.word	.L119-.L17,.L64-.L17
+	.half	2
+	.byte	138,8
+	.word	.L64-.L17,.L64-.L17
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L67:
+	.word	-1,.L17,0,.L64-.L17
+	.half	1
+	.byte	85
+	.word	0,0
+.L66:
+	.word	-1,.L17,0,.L64-.L17
+	.half	1
+	.byte	84
+	.word	.L119-.L17,.L3-.L17
+	.half	1
+	.byte	95
+	.word	0,0
+.L72:
+	.word	-1,.L17,0,.L64-.L17
+	.half	2
+	.byte	145,120
+	.word	0,0
+.L79:
+	.word	-1,.L17,.L77-.L17,.L3-.L17
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L81:
+	.word	-1,.L17,.L120-.L17,.L121-.L17
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L83:
+	.word	-1,.L17,.L122-.L17,.L123-.L17
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L85:
+	.word	-1,.L17,.L124-.L17,.L125-.L17
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L87:
+	.word	-1,.L17,.L125-.L17,.L126-.L17
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L89:
+	.word	-1,.L17,.L126-.L17,.L127-.L17
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L91:
+	.word	-1,.L17,.L127-.L17,.L2-.L17
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L94:
+	.word	-1,.L17,.L128-.L17,.L64-.L17
+	.half	1
+	.byte	95
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Can_lGetHrhIndex')
+	.sect	'.debug_loc'
+.L26:
+	.word	-1,.L27,0,.L107-.L27
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L109:
+	.word	-1,.L27,0,.L107-.L27
+	.half	1
+	.byte	85
+	.word	0,0
+.L108:
+	.word	-1,.L27,0,.L107-.L27
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Can_lGetHthIndex')
+	.sect	'.debug_loc'
+.L24:
+	.word	-1,.L25,0,.L104-.L25
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L106:
+	.word	-1,.L25,0,.L104-.L25
+	.half	1
+	.byte	85
+	.word	0,0
+.L105:
+	.word	-1,.L25,0,.L104-.L25
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Can_lSetBaudrate')
+	.sect	'.debug_loc'
+.L98:
+	.word	-1,.L19,.L21-.L19,.L131-.L19
+	.half	1
+	.byte	86
+	.word	0,.L95-.L19
+	.half	1
+	.byte	86
+	.word	0,0
+.L18:
+	.word	-1,.L19,0,.L95-.L19
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L97:
+	.word	-1,.L19,.L21-.L19,.L131-.L19
+	.half	1
+	.byte	85
+	.word	0,.L95-.L19
+	.half	1
+	.byte	85
+	.word	0,0
+.L96:
+	.word	-1,.L19,.L21-.L19,.L131-.L19
+	.half	1
+	.byte	84
+	.word	0,.L95-.L19
+	.half	1
+	.byte	84
+	.word	0,0
+.L100:
+	.word	-1,.L19,.L130-.L19,.L102-.L19
+	.half	1
+	.byte	95
+	.word	.L21-.L19,.L132-.L19
+	.half	1
+	.byte	95
+	.word	.L6-.L19,.L9-.L19
+	.half	1
+	.byte	95
+	.word	0,0
+.L99:
+	.word	-1,.L19,.L129-.L19,.L102-.L19
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L21-.L19,.L133-.L19
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L6-.L19,.L9-.L19
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L103:
+	.word	-1,.L19,.L134-.L19,.L131-.L19
+	.half	1
+	.byte	82
+	.word	.L102-.L19,.L95-.L19
+	.half	1
+	.byte	82
+	.word	0,0
+.L135:
+	.word	-1,.L19,.L136-.L19,.L6-.L19
+	.half	1
+	.byte	95
+	.word	0,0
+.L137:
+	.word	-1,.L19,.L102-.L19,.L95-.L19
+	.half	1
+	.byte	95
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Can_lSetBaudrateRuntime')
+	.sect	'.debug_loc'
+.L22:
+	.word	-1,.L23,0,.L110-.L23
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L112:
+	.word	-1,.L23,.L21-.L23,.L61-.L23
+	.half	1
+	.byte	85
+	.word	0,.L110-.L23
+	.half	1
+	.byte	85
+	.word	0,0
+.L111:
+	.word	-1,.L23,.L21-.L23,.L61-.L23
+	.half	1
+	.byte	84
+	.word	0,.L110-.L23
+	.half	1
+	.byte	84
+	.word	0,0
+.L114:
+	.word	-1,.L23,.L115-.L23,.L116-.L23
+	.half	1
+	.byte	95
+	.word	.L21-.L23,.L132-.L23
+	.half	1
+	.byte	95
+	.word	.L6-.L23,.L9-.L23
+	.half	1
+	.byte	95
+	.word	0,0
+.L113:
+	.word	-1,.L23,.L138-.L23,.L116-.L23
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L21-.L23,.L133-.L23
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L6-.L23,.L9-.L23
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L117:
+	.word	-1,.L23,.L139-.L23,.L61-.L23
+	.half	1
+	.byte	82
+	.word	.L116-.L23,.L110-.L23
+	.half	1
+	.byte	82
+	.word	0,0
+.L140:
+	.word	-1,.L23,.L136-.L23,.L6-.L23
+	.half	1
+	.byte	95
+	.word	0,0
+.L141:
+	.word	-1,.L23,.L142-.L23,.L61-.L23
+	.half	1
+	.byte	95
+	.word	.L116-.L23,.L110-.L23
+	.half	1
+	.byte	95
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L181:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,27,8,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('Can_lFrameInitialise')
+	.sect	'.debug_frame'
+	.word	44
+	.word	.L181,.L17,.L64-.L17
+	.byte	8,19,8,21,8,22,8,23,4
+	.word	(.L119-.L17)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L64-.L119)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('Can_lSetBaudrate')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L181,.L19,.L95-.L19
+	.sdecl	'.debug_frame',debug,cluster('Can_lSetBaudrateRuntime')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L181,.L23,.L110-.L23
+	.byte	8,19,8,20,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('Can_lGetHthIndex')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L181,.L25,.L104-.L25
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('Can_lGetHrhIndex')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L181,.L27,.L107-.L27
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L182:
+	.word	52
+	.word	-1
+	.byte	3,0,2,1,40,12,26,0,9,40,27,155,0,7,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36
+	.byte	8,37,8,38,8,39,0
+	.sdecl	'.debug_frame',debug,cluster('.cocofun_3')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L182,.L21,.L61-.L21
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   401  #define CAN_17_MCANP_STOP_SEC_CODE
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   402  /*IFX_MISRA_RULE_19_01_STATUS=File inclusion after pre-processor directive is
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   403   allowed only for MemMap.h*/
+; ..\Aurix_MC-ISAR\can_17_mcanp_infineon_tricore\ssc\src\Can_17_MCanP_Platform.c	   403  #include "MemMap.h"
+
+	; Module end

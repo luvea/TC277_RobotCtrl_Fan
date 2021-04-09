@@ -1,0 +1,1325 @@
+<!--
+******************************************************************************
+**                                                                           **
+** Copyright (C) Infineon Technologies (2013)                                **
+**                                                                           **
+** All rights reserved.                                                      **
+**                                                                           **
+** This document contains proprietary information belonging to Infineon      **
+** Technologies. Passing on and copying of this document, and communication  **
+** of its contents is not permitted without prior written authorization.     **
+**                                                                           **
+*******************************************************************************
+**                                                                           **
+**  $FILENAME   : Pwm_ConfigDoc.html $                                       **
+**                                                                           **
+**  $CC VERSION : \main\5 $                                                  **
+**                                                                           **
+**  $DATE       : 2014-05-21 $                                               **
+**                                                                           **
+**  AUTHOR      : DL-AUTOSAR-Engineering                                     **
+**                                                                           **
+**  VENDOR      : Infineon Technologies                                      **
+**                                                                           **
+**  DESCRIPTION : This file contains                                         **
+**                the Configuration description for PWM driver               **
+**                                                                           **
+**  MAY BE CHANGED BY USER [yes/no]: No                                      **
+**                                                                           **
+*******************************************************************************
+*******************************************************************************
+**  TRACEABILITY :                                                           **
+*******************************************************************************
+-->
+
+
+  <html>
+   <head>
+     <title>Pwm Driver Details</title>
+   </head>
+   <body>
+     <style type="text/css">
+table{table-layout: fixed;width: 300px;}
+table.curvedEdges { border:10px solid ;-webkit-border-radius:13px;-moz-border-radius:13px;-ms-border-radius:13px;-o-border-radius:13px;border-radius:13px; }
+table.curvedEdges td, table.curvedEdges th { border-bottom:1px dotted black;overflow: hidden;width: 400px;padding:5px; }
+</style>
+<!-- Be sure to place the above styles (i.e. everything between the <style></style> tags) into the document 'head' (i.e. between the <head></head> tags. Everything below goes inside the <body></body> tags) -->		
+    <p>
+      &nbsp;</p>  
+    <h2>
+      /*****************************************PWM HW-SW MAP*****************************************/</h2>
+    <table border="3" cellpadding="5" cellspacing="0" class="curvedEdges">
+      <caption><strong>
+        Table 1: PWM SFR Usage per API</strong></caption>
+      <thead>
+        <tr>
+          <th scope="col">
+            API Name</th>
+          <th scope="col">
+            SFRs Used</th>
+          <th scope="col">
+            Remarks</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            Pwm_17_Gtm_Init</td>
+          <td>
+TOMi_CHx_CTRL,TOMi_TGCy_GLB_CTRL,
+TOMi_CHx_CM0,TOMi_CHx_CM1,
+TOMi_CHx_CN0,TOMi_CHx_SR0,
+TOMi_CHx_SR1,TOMi_TGCy_ENDIS_STAT,
+TOMi_TGCy_ENDIS_CTRL,TOMi_TGCy_OUTEN_STAT,
+TOMi_TGCy_OUTEN_CTRL
+ATOMi_CHx_CTRL,ATOMi_AGC_GLB_CTRL,
+ATOMi_CHx_CM0,ATOMi_CHx_CM1,
+ATOMi_CHx_CN0,ATOMi_CHx_SR0,
+ATOMi_CHx_SR1,ATOMi_TGCy_ENDIS_STAT,
+ATOMi_AGC_ENDIS_CTRL,ATOMi_AGC_OUTEN_STAT,
+ATOMi_AGC_OUTEN_CTRL</td>
+          <td>Where i refers to TOM/ATOM module number, x refers to channel number and y refers to the TGC number(0 or 1)</td>
+        </tr>
+
+        <tr>
+          <td>
+            Pwm_17_Gtm_DeInit</td>
+          <td>
+TOMi_CHx_CTRL,
+TOMi_CHx_CM0,TOMi_CHx_CM1,
+TOMi_CHx_SR0,TOMi_CHx_SR1,
+TOMi_CHx_CN0
+ATOMi_CHx_CTRL,
+ATOMi_CHx_CM0,ATOMi_CHx_CM1,
+ATOMi_CHx_SR0,ATOMi_CHx_SR1,
+ATOMi_CHx_CN0</td>
+          <td>Where i refers to TOM/ATOM module number, x refers to channel number </td>
+        </tr>
+        <tr>
+          <td>
+            Pwm_17_Gtm_SetDutyCycle</td>
+          <td>
+TOMi_CHx_CTRL,
+TOMi_CHx_CM0,TOMi_CHx_CM1,
+TOMi_CHx_SR0,TOMi_CHx_SR1,
+TOMi_CHx_CN0
+ATOMi_CHx_CTRL,
+ATOMi_CHx_CM0,ATOMi_CHx_CM1,
+ATOMi_CHx_SR0,ATOMi_CHx_SR1,
+ATOMi_CHx_CN0
+          </td>
+          <td>Where i refers to TOM/ATOM module number, x refers to channel number</td>
+        </tr>
+        <tr>
+          <td>
+            Pwm_17_Gtm_SetDutyAndPeriod</td>
+          <td>
+TOMi_CHx_CTRL,
+TOMi_CHx_CM0,TOMi_CHx_CM1,
+TOMi_CHx_SR0,TOMi_CHx_SR1,
+TOMi_CHx_CN0
+ATOMi_CHx_CTRL,
+ATOMi_CHx_CM0,ATOMi_CHx_CM1,
+ATOMi_CHx_SR0,ATOMi_CHx_SR1,
+ATOMi_CHx_CN0
+          </td>
+          <td>Where i refers to TOM/ATOM module number, x refers to channel number</td>
+        </tr>
+        <tr>
+          <td>
+            Pwm_17_Gtm_SetOutputToIdle</td>
+          <td>
+TOMi_CHx_CTRL,
+TOMi_CHx_CM0,TOMi_CHx_CM1,
+TOMi_CHx_SR0,TOMi_CHx_SR1,
+TOMi_CHx_CN0
+ATOMi_CHx_CTRL,
+ATOMi_CHx_CM0,ATOMi_CHx_CM1,
+ATOMi_CHx_SR0,ATOMi_CHx_SR1,
+ATOMi_CHx_CN0
+          </td>
+          <td>Where i refers to TOM/ATOM module number, x refers to channel number</td>
+        </tr>
+        <tr>
+          <td>
+            Pwm_17_Gtm_GetOutputState</td>
+          <td>
+TOMi_CHx_STAT
+ATOMi_CHx_STAT
+          </td>
+          <td>Where i refers to TOM/ATOM module number, x refers to channel number</td>
+        </tr>
+        <tr>
+          <td>
+            Pwm_17_Gtm_EnableNotification</td>
+          <td>
+TOMi_CHx_IRQ_NOTIFY,TOMi_CHx_IRQ_EN
+ATOMi_CHx_IRQ_NOTIFY,ATOMi_CHx_IRQ_EN
+          </td>
+          <td>Where i refers to TOM/ATOM module number, x refers to channel number</td>
+        </tr> 
+        <tr>
+          <td>
+            Pwm_17_Gtm_DisableNotification</td>
+          <td>
+TOMi_CHx_IRQ_NOTIFY,TOMi_CHx_IRQ_EN
+ATOMi_CHx_IRQ_NOTIFY,ATOMi_CHx_IRQ_EN
+          </td>
+          <td>Where i refers to TOM/ATOM module number, x refers to channel number</td>
+        </tr> 
+      </tbody>
+    </table>    
+    <p>
+      &nbsp;</p>      
+    <h2>
+      /******************************************PWM MPU Settings******************************************/</h2>        
+<h3>
+      For MPU setting wrt SFR, refer HW manual for PWM module</h3>     
+    <table border="3" cellpadding="5" cellspacing="0" class="curvedEdges">
+      <caption><strong>
+        Table 2: PWM Memory Range</strong></caption>
+      <thead>
+        <tr>
+          <th scope="col">
+            Start Address</th>
+          <th scope="col">
+            End Address</th>
+          <th scope="col">
+            Remarks</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            PWM_17_GTM_START_SEC_CODE</td>
+          <td>
+            PWM_17_GTM_STOP_SEC_CODE</td>
+          <td>
+            PWM driver - Basic AUTOSAR functionality</td>
+        </tr>
+
+        <tr>
+          <td>
+            PWM_17_GTM_START_SEC_VAR_32BIT</td>
+          <td>
+            PWM_17_GTM_STOP_SEC_VAR_32BIT</td>
+          <td>
+            <p>
+              Pwm_kConfigPtr - 32 bit variables used by PWM driver</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      &nbsp;</p>  
+    <h2>
+      /*****************************************PWM Configuration Details*****************************************/</h2>
+    <table border="3" cellpadding="5" cellspacing="0" class="curvedEdges">
+      <caption><strong>
+        Table 3: PWM Configured Channels</strong></caption>
+        <thead>
+        <col width="250">
+        <col width="250">
+        <col width="150">
+        <col width="150">
+        <col width="150">
+                <th> PWM Configuration </th>
+        <th> PWM Channel </th>
+        <th> PWM Module </th>
+        <th> Module no </th>
+        <th> Channel no </th> 
+                </thead>
+        <tbody>
+        
+
+        <tr>
+        <td>PWM_Configuration_0</td>
+        <td>PWM_Channel_0</td>
+        <td>ATOM</td>
+        <td>1</td>
+        <td>0</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>PWM_Configuration_0</td>
+        <td>PWM_Channel_1</td>
+        <td>ATOM</td>
+        <td>1</td>
+        <td>1</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>PWM_Configuration_0</td>
+        <td>PWM_Channel_2</td>
+        <td>ATOM</td>
+        <td>1</td>
+        <td>2</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>PWM_Configuration_0</td>
+        <td>PWM_Channel_3</td>
+        <td>ATOM</td>
+        <td>1</td>
+        <td>3</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>PWM_Configuration_0</td>
+        <td>PWM_Channel_4</td>
+        <td>ATOM</td>
+        <td>1</td>
+        <td>4</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>PWM_Configuration_0</td>
+        <td>PWM_Channel_5</td>
+        <td>ATOM</td>
+        <td>1</td>
+        <td>5</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>PWM_Configuration_0</td>
+        <td>PWM_Channel_6</td>
+        <td>ATOM</td>
+        <td>1</td>
+        <td>6</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>PWM_Configuration_0</td>
+        <td>PWM_Channel_7</td>
+        <td>TOM</td>
+        <td>0</td>
+        <td>0</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>PWM_Configuration_0</td>
+        <td>PWM_Channel_8</td>
+        <td>TOM</td>
+        <td>0</td>
+        <td>1</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>PWM_Configuration_0</td>
+        <td>PWM_Channel_9</td>
+        <td>TOM</td>
+        <td>0</td>
+        <td>2</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>PWM_Configuration_0</td>
+        <td>PWM_Channel_10</td>
+        <td>TOM</td>
+        <td>0</td>
+        <td>3</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>PWM_Configuration_0</td>
+        <td>PWM_Channel_11</td>
+        <td>TOM</td>
+        <td>0</td>
+        <td>4</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>PWM_Configuration_0</td>
+        <td>PWM_Channel_12</td>
+        <td>TOM</td>
+        <td>0</td>
+        <td>5</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>PWM_Configuration_0</td>
+        <td>PWM_Channel_13</td>
+        <td>TOM</td>
+        <td>0</td>
+        <td>6</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>PWM_Configuration_0</td>
+        <td>PWM_Channel_14</td>
+        <td>ATOM</td>
+        <td>4</td>
+        <td>0</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>PWM_Configuration_0</td>
+        <td>PWM_Channel_15</td>
+        <td>ATOM</td>
+        <td>4</td>
+        <td>1</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>PWM_Configuration_0</td>
+        <td>PWM_Channel_16</td>
+        <td>ATOM</td>
+        <td>4</td>
+        <td>2</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>PWM_Configuration_0</td>
+        <td>PWM_Channel_17</td>
+        <td>ATOM</td>
+        <td>4</td>
+        <td>3</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>PWM_Configuration_0</td>
+        <td>PWM_Channel_18</td>
+        <td>ATOM</td>
+        <td>4</td>
+        <td>4</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>PWM_Configuration_0</td>
+        <td>PWM_Channel_19</td>
+        <td>ATOM</td>
+        <td>4</td>
+        <td>5</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>PWM_Configuration_0</td>
+        <td>PWM_Channel_20</td>
+        <td>ATOM</td>
+        <td>4</td>
+        <td>6</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>PWM_Configuration_0</td>
+        <td>PWM_Channel_21</td>
+        <td>ATOM</td>
+        <td>0</td>
+        <td>0</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>PWM_Configuration_0</td>
+        <td>PWM_Channel_22</td>
+        <td>ATOM</td>
+        <td>0</td>
+        <td>1</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>PWM_Configuration_0</td>
+        <td>PWM_Channel_23</td>
+        <td>ATOM</td>
+        <td>0</td>
+        <td>2</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>PWM_Configuration_0</td>
+        <td>PWM_Channel_24</td>
+        <td>ATOM</td>
+        <td>0</td>
+        <td>3</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>PWM_Configuration_0</td>
+        <td>PWM_Channel_25</td>
+        <td>ATOM</td>
+        <td>0</td>
+        <td>4</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>PWM_Configuration_0</td>
+        <td>PWM_Channel_26</td>
+        <td>ATOM</td>
+        <td>0</td>
+        <td>5</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>PWM_Configuration_0</td>
+        <td>PWM_Channel_27</td>
+        <td>ATOM</td>
+        <td>0</td>
+        <td>6</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>PWM_Configuration_0</td>
+        <td>PWM_Channel_28</td>
+        <td>ATOM</td>
+        <td>1</td>
+        <td>7</td>
+        
+        </tr>
+
+        </tbody>    
+        </table>    
+
+
+    <h2>
+      /*****************************************PWM TGC values*****************************************/</h2>
+    <table border="3" cellpadding="5" cellspacing="0" class="curvedEdges">
+      <caption><strong>
+        Table 3: PWM TGC values </strong></caption>
+        <thead>
+        <col width="250">
+        <col width="250">
+        <th> PWM TGC  </th>
+        <th> PWM TGC values </th>
+        </thead>
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+  
+     
+          
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+  
+                           
+
+
+
+
+
+
+
+          
+  
+                           
+
+
+
+
+
+
+
+          
+  
+                           
+
+
+
+
+
+
+
+          
+  
+                           
+
+
+
+
+
+
+
+          
+  
+                           
+
+
+
+
+
+
+
+          
+  
+                           
+
+
+
+
+
+
+
+          
+  
+                           
+
+
+
+
+
+
+
+          
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <tr>
+        
+<td>PwmTom0TGC0GlbCtrl</td>        <td>1073676288</td>
+</tr>
+<tr>
+<td>PwmTom0TGC1GlbCtrl</td>        <td>0</td></tr>
+<tr>
+<td>PwmTom1TGC0GlbCtrl</td>        <td>0</td></tr>
+<tr>
+<td>PwmTom1TGC1GlbCtrl</td>        <td>0</td></tr>
+<tr>
+<td>PwmTom2TGC0GlbCtrl</td>        <td>0</td></tr>
+<tr>
+<td>PwmTom2TGC1GlbCtrl</td>        <td>0</td></tr>
+<tr>
+<td>PwmTom3TGC0GlbCtrl</td>        <td>0</td></tr>
+<tr>
+<td>PwmTom3TGC1GlbCtrl</td>        <td>0</td></tr>
+<tr>
+<td>PwmTom4TGC0GlbCtrl</td>        <td>0</td></tr>
+<tr>
+<td>PwmTom4TGC1GlbCtrl</td>        <td>0</td></tr>
+<tr>
+<td>PwmTom5TGC0GlbCtrl</td>        <td>0</td></tr>
+<tr>
+<td>PwmTom5TGC1GlbCtrl</td>        <td>0</td></tr>
+<tr>
+                                           
+<td>PwmAtom0AGCGlbCtrl</td>        <td>1073676288</td> </tr>
+<tr>
+<td>PwmAtom1AGCGlbCtrl</td>        <td>4294901760</td> </tr>
+<tr>
+<td>PwmAtom2AGCGlbCtrl</td>        <td>0</td> </tr>
+<tr>
+<td>PwmAtom3AGCGlbCtrl</td>        <td>0</td> </tr>
+<tr>
+<td>PwmAtom4AGCGlbCtrl</td>        <td>1073676288</td> </tr>
+<tr>
+<td>PwmAtom5AGCGlbCtrl</td>        <td>0</td> </tr>
+<tr>
+<td>PwmAtom6AGCGlbCtrl</td>        <td>0</td> </tr>
+<tr>
+<td>PwmAtom7AGCGlbCtrl</td>        <td>0</td> </tr>
+<tr>
+<td>PwmAtom8AGCGlbCtrl</td>        <td>0</td> </tr>
+<tr>
+<td>PwmAtom9AGCGlbCtrl</td>        <td>0</td> </tr>
+<tr>
+                                                                      
+<td>PwmTom0TGC0Endis_Stat</td>        <td>16383</td>
+<tr><td>PwmTom0TGC1Endis_Stat</td>        <td>0</td>
+<tr><td>PwmTom1TGC0Endis_Stat</td>        <td>0</td></tr>
+<tr><td>PwmTom1TGC1Endis_Stat</td>        <td>0</td></tr>
+<tr><td>PwmTom2TGC0Endis_Stat</td>        <td>0</td></tr>
+<tr><td>PwmTom2TGC1Endis_Stat</td>        <td>0</td></tr>
+<tr><td>PwmTom3TGC0Endis_Stat</td>        <td>0</td></tr>
+<tr><td>PwmTom3TGC1Endis_Stat</td>        <td>0</td></tr>
+<tr><td>PwmTom4TGC0Endis_Stat</td>        <td>0</td></tr>
+<tr><td>PwmTom4TGC1Endis_Stat</td>        <td>0</td></tr>
+<tr><td>PwmTom5TGC0Endis_Stat</td>        <td>0</td></tr>
+<tr><td>PwmTom5TGC1Endis_Stat</td>        <td>0</td></tr>
+                                              
+<tr><td>PwmTom0TGC0Endis_ctrl</td>        <td>16383</td></tr>
+<tr><td>PwmTom0TGC1Endis_ctrl</td>        <td>0</td></tr>
+<tr><td>PwmTom1TGC0Endis_ctrl</td>        <td>0</td></tr>
+<tr><td>PwmTom1TGC1Endis_ctrl</td>        <td>0</td></tr>
+<tr><td>PwmTom2TGC0Endis_ctrl</td>        <td>0</td></tr>
+<tr><td>PwmTom2TGC1Endis_ctrl</td>        <td>0</td></tr>
+<tr><td>PwmTom3TGC0Endis_ctrl</td>        <td>0</td></tr>
+<tr><td>PwmTom3TGC1Endis_ctrl</td>        <td>0</td></tr>
+<tr><td>PwmTom4TGC0Endis_ctrl</td>        <td>0</td></tr>
+<tr><td>PwmTom4TGC1Endis_ctrl</td>        <td>0</td></tr>
+<tr><td>PwmTom5TGC0Endis_ctrl</td>        <td>0</td></tr>
+<tr><td>PwmTom5TGC1Endis_ctrl</td>        <td>0</td></tr>
+                                              
+<tr><td>PwmTom0TGC0Outen_Stat</td>        <td>16383</td></tr>
+<tr><td>PwmTom0TGC1Outen_Stat</td>        <td>0</td></tr>
+<tr><td>PwmTom1TGC0Outen_Stat</td>        <td>0</td></tr>
+<tr><td>PwmTom1TGC1Outen_Stat</td>        <td>0</td></tr>
+<tr><td>PwmTom2TGC0Outen_Stat</td>        <td>0</td></tr>
+<tr><td>PwmTom2TGC1Outen_Stat</td>        <td>0</td></tr>
+<tr><td>PwmTom3TGC0Outen_Stat</td>        <td>0</td></tr>
+<tr><td>PwmTom3TGC1Outen_Stat</td>        <td>0</td></tr>
+<tr><td>PwmTom4TGC0Outen_Stat</td>        <td>0</td></tr>
+<tr><td>PwmTom4TGC1Outen_Stat</td>        <td>0</td></tr>
+<tr><td>PwmTom5TGC0Outen_Stat</td>        <td>0</td></tr>
+<tr><td>PwmTom5TGC1Outen_Stat</td>        <td>0</td></tr>
+                                              
+<tr><td>PwmTom0TGC0Outen_ctrl</td>        <td>16383</td></tr>
+<tr><td>PwmTom0TGC1Outen_ctrl</td>        <td>0</td></tr>
+<tr><td>PwmTom1TGC0Outen_ctrl</td>        <td>0</td></tr>
+<tr><td>PwmTom1TGC1Outen_ctrl</td>        <td>0</td></tr>
+<tr><td>PwmTom2TGC0Outen_ctrl</td>        <td>0</td></tr>
+<tr><td>PwmTom2TGC1Outen_ctrl</td>        <td>0</td></tr>
+<tr><td>PwmTom3TGC0Outen_ctrl</td>        <td>0</td></tr>
+<tr><td>PwmTom3TGC1Outen_ctrl</td>        <td>0</td></tr>
+<tr><td>PwmTom4TGC0Outen_ctrl</td>        <td>0</td></tr>
+<tr><td>PwmTom4TGC1Outen_ctrl</td>        <td>0</td></tr>
+<tr><td>PwmTom5TGC0Outen_ctrl</td>        <td>0</td></tr>
+<tr><td>PwmTom5TGC1Endis_ctrl</td>        <td>0</td></tr>
+                                              
+<tr><td>PwmAtom0AGCOuten_ctrl</td>        <td>16383</td></tr>
+<tr><td>PwmAtom1AGCOuten_ctrl</td>        <td>65535</td></tr>
+<tr><td>PwmAtom2AGCOuten_ctrl</td>        <td>0</td></tr>
+<tr><td>PwmAtom3AGCOuten_ctrl</td>        <td>0</td></tr>
+<tr><td>PwmAtom4AGCOuten_ctrl</td>        <td>16383</td></tr>
+<tr><td>PwmAtom5AGCOuten_ctrl</td>        <td>0</td></tr>
+<tr><td>PwmAtom6AGCOuten_ctrl</td>        <td>0</td></tr>
+<tr><td>PwmAtom7AGCOuten_ctrl</td>        <td>0</td></tr>
+<tr><td>PwmAtom8AGCOuten_ctrl</td>        <td>0</td></tr>
+<tr><td>PwmAtom9AGCOuten_ctrl</td>        <td>0</td></tr>
+                                                                           
+<tr><td>PwmAtom0AGCOuten_Stat</td>        <td>16383</td></tr>
+<tr><td>PwmAtom1AGCOuten_Stat</td>        <td>65535</td></tr>
+<tr><td>PwmAtom2AGCOuten_Stat</td>        <td>0</td></tr>
+<tr><td>PwmAtom3AGCOuten_Stat</td>        <td>0</td></tr>
+<tr><td>PwmAtom4AGCOuten_Stat</td>        <td>16383</td></tr>
+<tr><td>PwmAtom5AGCOuten_Stat</td>        <td>0</td></tr>
+<tr><td>PwmAtom6AGCOuten_Stat</td>        <td>0</td></tr>
+<tr><td>PwmAtom7AGCOuten_Stat</td>        <td>0</td></tr>
+<tr><td>PwmAtom8AGCOuten_Stat</td>        <td>0</td></tr>
+<tr><td>PwmAtom9AGCOuten_ctrl</td>        <td>0</td></tr>
+                                                                           
+<tr><td>PwmAtom0AGCEndis_Stat</td>        <td>16383</td></tr>
+<tr><td>PwmAtom1AGCEndis_Stat</td>        <td>65535</td></tr>
+<tr><td>PwmAtom2AGCEndis_Stat</td>        <td>0</td></tr>
+<tr><td>PwmAtom3AGCEndis_Stat</td>        <td>0</td></tr>
+<tr><td>PwmAtom4AGCEndis_Stat</td>        <td>16383</td></tr>
+<tr><td>PwmAtom5AGCEndis_Stat</td>        <td>0</td></tr>
+<tr><td>PwmAtom6AGCEndis_Stat</td>        <td>0</td></tr>
+<tr><td>PwmAtom7AGCEndis_Stat</td>        <td>0</td></tr>
+<tr><td>PwmAtom8AGCEndis_Stat</td>        <td>0</td></tr>
+<tr><td>PwmAtom9AGCEndis_Stat</td>        <td>0</td></tr>
+                                                                           
+<tr><td>PwmAtom0AGCEndis_ctrl</td>        <td>16383</td></tr>
+<tr><td>PwmAtom1AGCEndis_ctrl</td>        <td>65535</td></tr>
+<tr><td>PwmAtom2AGCEndis_ctrl</td>        <td>0</td></tr>
+<tr><td>PwmAtom3AGCEndis_ctrl</td>        <td>0</td></tr>
+<tr><td>PwmAtom4AGCEndis_ctrl</td>        <td>16383</td></tr>
+<tr><td>PwmAtom5AGCEndis_ctrl</td>        <td>0</td></tr>
+<tr><td>PwmAtom6AGCEndis_ctrl</td>        <td>0</td></tr>
+<tr><td>PwmAtom7AGCEndis_ctrl</td>        <td>0</td></tr>
+<tr><td>PwmAtom8AGCEndis_ctrl</td>        <td>0</td></tr>
+<tr><td>PwmAtom9AGCEndis_ctrl</td>        <td>0</td></tr>
+                                                                           
+                                                            
+
+                                                                          
+        </tbody>    
+        </table> 
+  </body>
+</html>
+
+

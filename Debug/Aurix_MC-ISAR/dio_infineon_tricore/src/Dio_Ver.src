@@ -1,0 +1,2816 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.2r2 Build 18041957 SN 06692445"
+	.compiler_invocation	"ctc -f cc24520a --dep-file=Aurix_MC-ISAR\\dio_infineon_tricore\\src\\.Dio_Ver.o.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xc -D__CPU_TC27XC__ --core=tc1.6.x --fp-model=+float -D_TASKING_C_TRICORE_ -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\.settings -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Asw -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\compiler -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc\\TC27xC -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc\\TC27xC\\SupportDocuments -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\lib -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\obj -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Asw -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\dio_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\dio_infineon_tricore\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\integration_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\integration_general\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Hal_Sensor -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output\\generated -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output\\generated\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\PWM3Ph -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Qspi -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Adc_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Adc3ph_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Can_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TLE_9180_Drive -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\UART_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Hal_Sensor -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\Demo_Aurix -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\mak -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\PWM3Ph -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Qspi -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Adc_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Adc3ph_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Can_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TLE_9180_Drive -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\UART_Test -g2 --make-target=Aurix_MC-ISAR\\dio_infineon_tricore\\src\\Dio_Ver.o -t2 --language=-gcc,-volatile,+strings,-kanji --default-near-size=8 -O2 --default-a1-size=0 --default-a0-size=0 --source --align=0 --compact-max-size=200 --switch=auto --error-limit=42 -o Aurix_MC-ISAR\\dio_infineon_tricore\\src\\Dio_Ver.src ..\\Aurix_MC-ISAR\\dio_infineon_tricore\\src\\Dio_Ver.c"
+	.compiler_name		"ctc"
+	;source	'..\\Aurix_MC-ISAR\\dio_infineon_tricore\\src\\Dio_Ver.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.Shared.DEFAULT_CODE_ROM',code,cluster('Dio_Init')
+	.sect	'.text.Shared.DEFAULT_CODE_ROM'
+	.align	2
+	
+	.global	Dio_Init
+
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	     1  /******************************************************************************
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	     2  **                                                                           **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	     3  ** Copyright (C) Infineon Technologies (2014)                                **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	     4  **                                                                           **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	     5  ** All rights reserved.                                                      **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	     6  **                                                                           **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	     7  ** This document contains proprietary information belonging to Infineon      **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	     8  ** Technologies. Passing on and copying of this document, and communication  **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	     9  ** of its contents is not permitted without prior written authorization.     **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    10  **                                                                           **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    11  *******************************************************************************
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    12  **                                                                           **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    13  **  $FILENAME   : Dio_Ver.c $                                                **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    14  **                                                                           **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    15  **  $CC VERSION : \main\21 $                                                 **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    16  **                                                                           **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    17  **  $DATE       : 2016-07-01 $                                               **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    18  **                                                                           **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    19  **  AUTHOR      : DL-AUTOSAR-Engineering                                     **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    20  **                                                                           **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    21  **  VENDOR      : Infineon Technologies                                      **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    22  **                                                                           **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    23  **  DESCRIPTION : This contains the functionality for DIO driver             **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    24  **                                                                           **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    25  **  MAY BE CHANGED BY USER [yes/no]: No                                      **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    26  **                                                                           **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    27  *******************************************************************************
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    28  ** TRACEABILITY : [cover parentID= DS_NAS_DIO_PR699,DS_NAS_DIO_PR730,
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    29                                     DS_MCAL_DIO_0517,
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    30                                     DS_MCAL_DIO_0503_0504_0508,
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    31                                     DS_MCAL_DIO_0509_1_0513_0_0500]      **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    32  **                [/cover]                                                   **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    33  ******************************************************************************/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    34  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    35  /*******************************************************************************
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    36  **                      Includes                                              **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    37  *******************************************************************************/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    38  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    39  /* Own header file, this includes own configuration file also */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    40  /* DIO117: Inclusion structure */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    41  #include "Dio.h"
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    42  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    43  /* AS Version Specific header file */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    44  #include "Dio_Ver.h"
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    45  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    46  /*******************************************************************************
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    47  **                      Imported Compiler Switch Check                        **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    48  *******************************************************************************/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    49  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    50  /* Version checks */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    51  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    52  #ifndef DIO_AR_RELEASE_MAJOR_VERSION
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    53    #error "DIO_AR_RELEASE_MAJOR_VERSION is not defined. "
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    54  #endif
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    55  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    56  #ifndef DIO_AR_RELEASE_MINOR_VERSION
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    57    #error "DIO_AR_RELEASE_MINOR_VERSION is not defined. "
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    58  #endif
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    59  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    60  #ifndef DIO_AR_RELEASE_REVISION_VERSION
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    61    #error "DIO_AR_RELEASE_REVISION_VERSION is not defined. "
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    62  #endif
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    63  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    64  #if ( DIO_AR_RELEASE_MAJOR_VERSION != 4U)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    65    #error "DIO_AR_RELEASE_MAJOR_VERSION does not match. "
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    66  #endif
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    67  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    68  #if ( DIO_AR_RELEASE_MINOR_VERSION != 0U )
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    69    #error "DIO_AR_RELEASE_MINOR_VERSION does not match. "
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    70  #endif
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    71  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    72  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    73  #if (DIO_DEV_ERROR_DETECT == STD_ON)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    74  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    75  #ifndef DET_AR_RELEASE_MAJOR_VERSION
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    76    #error "DET_AR_RELEASE_MAJOR_VERSION is not defined. "
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    77  #endif
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    78  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    79  #ifndef DET_AR_RELEASE_MINOR_VERSION
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    80    #error "DET_AR_RELEASE_MINOR_VERSION is not defined. "
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    81  #endif
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    82  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    83  /* UTP AI00251674 fix */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    84  #if (IFX_DET_VERSION_CHECK == STD_ON)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    85  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    86  #if ( DET_AR_RELEASE_MAJOR_VERSION != 4U )
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    87    #error "DET_AR_RELEASE_MAJOR_VERSION does not match. "
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    88  #endif
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    89  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    90  #if ( DET_AR_RELEASE_MINOR_VERSION != 0U )
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    91    #error "DET_AR_RELEASE_MINOR_VERSION does not match. "
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    92  #endif
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    93  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    94  #endif /* (IFX_DET_VERSION_CHECK == STD_ON) */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    95  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    96  #endif /*#if (DIO_DEV_ERROR_DETECT == STD_ON)*/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    97  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    98  /*******************************************************************************
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	    99  **                      Private Variable macro                                **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   100  *******************************************************************************/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   101  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   102  /* IOCR0 register offset in Port_RegType */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   103  #define DIO_PORT_IOCR0_REG_OFFSET  (4U)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   104  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   105  /*******************************************************************************
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   106  **                      Private Variable Definitions                          **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   107  *******************************************************************************/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   108  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   109  #if((DIO_LOADABLE_USED == STD_ON) || (DIO_CONFIG_COUNT > 1U))
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   110    #define DIO_START_SEC_VAR_32BIT
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   111    #include "MemMap.h"
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   112  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   113    const Dio_ConfigType  *Dio_kConfigPtr;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   114  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   115    #define DIO_STOP_SEC_VAR_32BIT
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   116    /*IFX_MISRA_RULE_19_01_STATUS=File inclusion after pre-processor directives
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   117    is allowed only for MemMap.h*/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   118    #include "MemMap.h"
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   119  #else
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   120    #if((DIO_DEV_ERROR_DETECT == STD_ON) || (DIO_SAFETY_ENABLE == STD_ON))
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   121      #if(DIO_PB_FIXED_ADDRESS == STD_ON)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   122        #define DIO_START_SEC_CONST_32BIT
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   123        #include "MemMap.h"
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   124  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   125        const Dio_ConfigType * const Dio_kConfigPtr = &Dio_ConfigRoot[0];
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   126  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   127        #define DIO_STOP_SEC_CONST_32BIT
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   128        /*IFX_MISRA_RULE_19_01_STATUS=File inclusion after
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   129          pre-processor directives is allowed only for MemMap.h*/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   130        #include "MemMap.h"
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   131      #else
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   132        #define DIO_START_SEC_VAR_32BIT
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   133        #include "MemMap.h"
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   134  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   135        const Dio_ConfigType  *Dio_kConfigPtr;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   136  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   137        #define DIO_STOP_SEC_VAR_32BIT
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   138        /*IFX_MISRA_RULE_19_01_STATUS=File inclusion after
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   139          pre-processor directives is allowed only for MemMap.h*/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   140        #include "MemMap.h"
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   141      #endif /* DIO_PB_FIXED_ADDRESS == STD_ON */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   142    #endif /* DIO_DEV_ERROR_DETECT == STD_ON || DIO_SAFETY_ENABLE == STD_ON */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   143  #endif /* DIO_LOADABLE_USED == STD_ON */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   144  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   145  #if (DIO_DEV_ERROR_DETECT == STD_ON)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   146    #define DIO_START_SEC_VAR_8BIT
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   147    /*IFX_MISRA_RULE_19_01_STATUS=File inclusion after pre-processor directives
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   148      is allowed only for MemMap.h*/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   149    #include "MemMap.h"
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   150    /* Init Status Variable.
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   151       It has to be initialized to "0U" after every reset,
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   152       as "0" represents the deinitialized state */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   153    static  uint8 Dio_InitStatus;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   154    #define DIO_STOP_SEC_VAR_8BIT
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   155    /*IFX_MISRA_RULE_19_01_STATUS=File inclusion after pre-processor directives
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   156      is allowed only for MemMap.h*/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   157    #include "MemMap.h"
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   158  #endif /* DIO_DEV_ERROR_DETECT == STD_ON */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   159  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   160  /*******************************************************************************
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   161  **                      Private Function Declarations                         **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   162  *******************************************************************************/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   163  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   164  #if(DIO_DEV_ERROR_DETECT == STD_ON)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   165  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   166  /*Memory Map of the DIO Code*/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   167  #define DIO_START_SEC_CODE
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   168  /*mapping of code and data to specific memory sections via memory mapping file*/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   169  /*IFX_MISRA_RULE_19_01_STATUS=File inclusion after pre-processor directives
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   170    is allowed only for MemMap.h*/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   171  #include "MemMap.h"
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   172  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   173  /* This function returns the init status of DIO module */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   174  static uint8 Dio_lcheckDetStatus(uint8 ApiId);
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   175  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   176  /*Memory Map of the DIO Code*/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   177  #define DIO_STOP_SEC_CODE
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   178  /*mapping of code and data to specific memory sections via memory mapping file*/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   179  /*IFX_MISRA_RULE_19_01_STATUS=File inclusion after pre-processor directives
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   180    is allowed only for MemMap.h*/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   181  #include "MemMap.h"
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   182  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   183  #endif /* DIO_DEV_ERROR_DETECT */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   184  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   185  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   186  /*******************************************************************************
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   187  **                      Private Function Definition                           **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   188  *******************************************************************************/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   189  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   190  /*Memory Map of the DIO Code*/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   191  #define DIO_START_SEC_CODE
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   192  /*mapping of code and data to specific memory sections via memory mapping file*/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   193  /*IFX_MISRA_RULE_19_01_STATUS=File inclusion after pre-processor directives
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   194    is allowed only for MemMap.h*/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   195  #include "MemMap.h"
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   196  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   197  /*******************************************************************************
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   198  ** Traceability     : [cover parentID=DS_AS40X_DIO165,DS_AS40X_DIO166,
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   199                         DS_AS40X_DIO167_DIO176,DS_AS40X_DIO129,
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   200                         SAS_MCAL_AS4XX_DIO_0500]                               **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   201  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   202  ** Syntax           : void Dio_Init                                           **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   203  **                    (                                                       **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   204  **                      const Dio_ConfigType * ConfigPtr                      **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   205  **                    )                                                       **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   206  ** [/cover]                                                                   **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   207  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   208  ** Service ID       : 0x10                                                    **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   209  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   210  ** Sync/Async       : Synchronous                                             **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   211  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   212  ** Reentrancy       : non - reentrant                                         **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   213  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   214  ** Parameters(in)   : ConfigPtr - Pointer to DIO configuration                **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   215  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   216  ** Parameters (out) : none                                                    **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   217  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   218  ** Return value     : none                                                    **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   219  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   220  ** Description      : This function:                                          **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   221  **   - DIO166: Initializes all global variables of the Dio module             **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   222  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   223  *******************************************************************************/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   224  void Dio_Init(const Dio_ConfigType *ConfigPtr)
+; Function Dio_Init
+.L8:
+Dio_Init:	.type	func
+
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   225  {
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   226     #if((DIO_DEV_ERROR_DETECT == STD_ON) || (DIO_SAFETY_ENABLE == STD_ON))
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   227     uint8 DetError;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   228     #if(DIO_PB_FIXED_ADDRESS == STD_OFF)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   229       if (ConfigPtr == NULL_PTR)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   230       {
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   231          DetError = 1U;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   232       }
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   233     #else
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   234       if(ConfigPtr != Dio_kConfigPtr)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   235       {
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   236          DetError = 1U;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   237       }
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   238     #endif /*DIO_PB_FIXED_ADDRESS*/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   239  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   240     #if(DIO_SAFETY_ENABLE == STD_ON)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   241       else if((ConfigPtr->Dio_MarkerCheckValue) !=
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   242        (((uint32)DIO_MODULE_ID << DIO_MODULEID_SHIFT_VAL) | DIO_INSTANCE_ID))
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   243       {
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   244          DetError = 1U;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   245       }
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   246     #endif /* DIO_SAFETY_ENABLE == STD_ON */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   247     else
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   248     {
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   249        DetError = 0U;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   250     }
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   251     if(DetError != 1U)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   252     #endif /* (DIO_DEV_ERROR_DETECT) || (DIO_SAFETY_ENABLE == STD_ON)*/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   253     {
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   254     /* Store ConfigPtr to use in other APIs */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   255     #if((DIO_LOADABLE_USED == STD_ON) || (DIO_CONFIG_COUNT > 1U))
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   256      Dio_kConfigPtr = ConfigPtr;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   257     #else
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   258      #if((DIO_PB_FIXED_ADDRESS == STD_OFF) &&           \ 
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   259          ((DIO_DEV_ERROR_DETECT == STD_ON) || (DIO_SAFETY_ENABLE == STD_ON)))
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   260        Dio_kConfigPtr = ConfigPtr;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   261      #else
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   262        UNUSED_PARAMETER(ConfigPtr)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   263      #endif /* PBfixed && (DET || Safety) */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   264     #endif /* DIO_LOADABLE_USED */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   265  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   266     #if(DIO_DEV_ERROR_DETECT == STD_ON)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   267     Dio_InitStatus = DIO_INITIALIZED;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   268     #endif /* DIO_DEV_ERROR_DETECT == STD_ON */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   269     }
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   270     #if((DIO_DEV_ERROR_DETECT == STD_ON) || (DIO_SAFETY_ENABLE == STD_ON))
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   271     else
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   272     {
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   273      #if(DIO_DEV_ERROR_DETECT == STD_ON)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   274         /* Report DIO_E_PARAM_CONFIG DET */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   275         Det_ReportError(
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   276           (uint16)DIO_MODULE_ID,
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   277           DIO_INSTANCE_ID,
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   278           DIO_SID_INIT,
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   279           DIO_E_PARAM_CONFIG);
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   280      #endif /* DIO_DEV_ERROR_DETECT == STD_ON */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   281  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   282      #if(DIO_SAFETY_ENABLE == STD_ON)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   283         /* Report DIO_E_PARAM_CONFIG DET */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   284         SafeMcal_ReportError(
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   285           (uint16)DIO_MODULE_ID,
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   286           DIO_INSTANCE_ID,
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   287           DIO_SID_INIT,
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   288           DIO_E_PARAM_CONFIG);
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   289      #endif /* DIO_SAFETY_ENABLE == STD_ON */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   290     }
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   291     #endif
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   292     /* DIO_DEV_ERROR_DETECT == STD_ON) || (DIO_SAFETY_ENABLE == STD_ON */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   293  }/* Dio_Init */
+	ret
+.L25:
+	
+__Dio_Init_function_end:
+	.size	Dio_Init,__Dio_Init_function_end-Dio_Init
+.L19:
+	; End of function
+	
+	.sdecl	'.text.Shared.DEFAULT_CODE_ROM',code,cluster('Dio_FlipChannel')
+	.sect	'.text.Shared.DEFAULT_CODE_ROM'
+	.align	2
+	
+	.global	Dio_FlipChannel
+
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   294  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   295  #if (DIO_INITCHECK_API == STD_ON)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   296  /*******************************************************************************
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   297  ** Traceability     : [cover parentID= DS_MCAL_AS4XX_DIO_0528,
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   298                                         DS_AS4XX_DIO_PR912_4,
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   299  **                                     DS_MCAL_AS4XX_DIO_0520,
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   300  **                                     DS_MCAL_AS4XX_DIO_0523,
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   301  **                                     DS_MCAL_AS4XX_DIO_0521,
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   302  **                                     DS_MCAL_AS4XX_DIO_0522]           **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   303  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   304  ** Syntax           : Std_ReturnType Dio_InitCheck                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   305  **                    (                                                       **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   306  **                      const Dio_ConfigType * ConfigPtr                      **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   307  **                    )                                                       **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   308  ** [/cover]                                                                   **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   309  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   310  ** Service ID       : 0x10                                                    **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   311  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   312  ** Sync/Async       : Synchronous                                             **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   313  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   314  ** Reentrancy       : non - reentrant                                         **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   315  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   316  ** Parameters(in)   : ConfigPtr - Pointer to DIO configuration                **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   317  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   318  ** Parameters (out) : none                                                    **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   319  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   320  ** Return value     : RetVal                                                  **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   321  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   322  ** Description      : This function verifies the initialization               **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   323  **                    done by Dio_Init                                        **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   324  *******************************************************************************/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   325  Std_ReturnType Dio_InitCheck(const Dio_ConfigType *ConfigPtr)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   326  {
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   327    Std_ReturnType RetVal;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   328  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   329    RetVal = E_NOT_OK;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   330  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   331    if(Dio_kConfigPtr == ConfigPtr)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   332    {
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   333      RetVal = E_OK;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   334    }
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   335    return(RetVal);
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   336  }/* Dio_InitCheck */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   337  #endif /* (DIO_INITCHECK_API == STD_ON) */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   338  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   339  /* Enable / Disable the use of the function */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   340  #if (DIO_FLIP_CHANNEL_API == STD_ON)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   341  /*******************************************************************************
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   342  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   343  ** Traceability     : [cover parentID=DS_AS40X_DIO190,DS_AS40X_DIO191,
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   344                         DS_AS40X_DIO192,DS_AS40X_DIO193,DS_AS40X_DIO060_3,
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   345                         DS_AS_DIO089,DS_AS40X_DIO118_4,DS_AS4XX_DIO_PR912_1]   **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   346  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   347  ** Syntax           : Dio_LevelType Dio_FlipChannel                           **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   348  **                    (                                                       **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   349  **                      Dio_ChannelType ChannelId                             **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   350  **                    )                                                       **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   351  ** [/cover]                                                                   **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   352  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   353  ** Service ID       : 0x11                                                    **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   354  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   355  ** Sync/Async       : Synchronous                                             **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   356  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   357  ** Reentrancy       : Reentrant                                               **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   358  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   359  ** Parameters (in)  : ChannelId - ChannelId whose level to be inverted        **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   360  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   361  ** Parameters (out) : none                                                    **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   362  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   363  ** Return value     : Dio_LevelType - The function returns value or the level **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   364  **                  of the specified channel which is of type Dio_LevelType   **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   365  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   366  ** Description      : This function: Flip the channel level                   **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   367  **      - DIO191: returns the inverted level of specified output channel      **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   368  **      - DIO192: The specified channel is input, API shall have no influence **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   369  **                      on the physical output of the channel                 **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   370  **      - DIO193: The specified channel is input, API shall have no influence **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   371  **                      on the result of next Read service                    **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   372  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   373  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   374  *******************************************************************************/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   375  Dio_LevelType Dio_FlipChannel(Dio_ChannelType ChannelId)
+; Function Dio_FlipChannel
+.L10:
+Dio_FlipChannel:	.type	func
+	mov	d9,d4
+.L42:
+
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   376  {
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   377    Ifx_P           *GetPortAddressPtr;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   378    uint32           OmrVal;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   379    uint32           PinNumber;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   380    uint32           PinPosition;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   381    Dio_LevelType    RetVal;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   382    volatile uint32  *IocrRegPtr;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   383  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   384    RetVal = (Dio_LevelType)STD_LOW;
+	mov	d10,#0
+.L43:
+
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   385    OmrVal = DIO_OMR_RESET_BIT;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   386  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   387    #if(DIO_DEV_ERROR_DETECT == STD_ON)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   388    if(Dio_lcheckDetStatus(DIO_SID_FLIPCHANNEL) == DIO_NO_ERROR)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   389    #endif /* DIO_DEV_ERROR_DETECT == STD_ON */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   390    {
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   391      /* Check for the validity of symbolic channel ID
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   392         Reported DET if error detected */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   393    #if((DIO_SAFETY_ENABLE == STD_ON) || (DIO_DEV_ERROR_DETECT == STD_ON))
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   394      if(Dio_lCheckChannelId(DIO_SID_FLIPCHANNEL,ChannelId) ==
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   395                (uint8)DIO_NO_ERROR)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   396    #endif /*DIO_DEV_ERROR_DETECT == STD_ON || DIO_SAFETY_ENABLE == STD_ON*/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   397      {
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   398        /* GetPortAddressPtr will hold the port address */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   399        GetPortAddressPtr = Dio_lGetPortAdr(Dio_lGetPortNumber(ChannelId));
+	movh	d11,#1
+	call	Dio_lGetPortNumber
+.L41:
+	mov	d4,d2
+	call	Dio_lGetPortAdr
+.L44:
+	mov.aa	a15,a2
+.L46:
+
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   400  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   401        /* Get the IOCR0 register address of particular port */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   402        /*IFX_MISRA_RULE_17_04_STATUS=Pointer arithmetic used
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   403          due to GetPortAddressPtr pointing to a structure and
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   404          is within allowed range.*/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   405        IocrRegPtr = ((volatile uint32*)(volatile void*)GetPortAddressPtr +
+	lea	a12,[a15]16
+.L47:
+
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   406                                                   DIO_PORT_IOCR0_REG_OFFSET);
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   407        PinNumber = Dio_lGetPinNumber(ChannelId);
+	mov	d4,d9
+	call	Dio_lGetPinNumber
+.L45:
+	mov	d12,d2
+.L49:
+
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   408  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   409        /* Get the Pin position */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   410        PinPosition = ((uint32)0x01U << Dio_lGetPinNumber(ChannelId));
+	mov	d8,#1
+.L64:
+	mov	d4,d9
+	call	Dio_lGetPinNumber
+.L48:
+
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   411  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   412        /* Read the Channel level and decide the return value */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   413        if((PinPosition & (DIO_SFR_RUNTIME_USER_MODE_READ32\ 
+	sh	d8,d8,d2
+	ld.w	d15,[a15]36
+.L50:
+	and	d8,d15
+.L51:
+
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   414                             (GetPortAddressPtr->IN.U)))!= (Dio_LevelType)STD_LOW)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   415        {
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   416          /* current level of the channel*/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   417           RetVal = (Dio_LevelType)STD_HIGH;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   418        }
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   419        /*Check the channel is configured as output channel*/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   420        /*IFX_MISRA_RULE_17_04_STATUS=Pointer arithmetic used
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   421          due to IocrRegPtr pointing to a structure and
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   422          is within allowed range.*/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   423        if(((DIO_SFR_RUNTIME_USER_MODE_READ32(*(IocrRegPtr + \ 
+	insert	d15,d12,#0,#0,#2
+.L65:
+	seln	d10,d8,d10,#1
+.L66:
+	addsc.a	a2,a12,d15,#0
+.L67:
+
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   424             (PinNumber/DIO_NUM_FOUR))) >> DIO_IOCR0_BIT_SHIFT_COUNT(PinNumber))\ 
+	and	d15,d12,#3
+.L68:
+	ld.w	d0,[a2]
+.L69:
+	sh	d15,#3
+.L70:
+	rsub	d15,#0
+	sh	d0,d0,d15
+.L71:
+	jz.t	d0:7,.L3
+.L72:
+
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   425                     & (uint32)DIO_PORT_DIR_MSK) != (uint32)DIO_PORT_PIN_IN)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   426        {
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   427           /* Invert the Level of dio channel */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   428           if(RetVal == STD_LOW)
+	jne	d10,#0,.L4
+.L73:
+
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   429           {
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   430              RetVal = (Dio_LevelType)STD_HIGH;
+	mov	d10,#1
+.L74:
+
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   431              OmrVal = 0x01U;
+	mov	d11,d10
+	j	.L5
+.L4:
+
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   432           }
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   433           else
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   434           {
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   435              RetVal = (Dio_LevelType)STD_LOW;
+	mov	d10,#0
+.L5:
+
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   436           }
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   437           /* Write to the PORT OMR register to reflect at the channel*/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   438           DIO_SFR_RUNTIME_USER_MODE_WRITE32(GetPortAddressPtr->OMR.U, \ 
+	sh	d11,d11,d12
+	st.w	[a15]4,d11
+.L3:
+
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   439                                          (unsigned_int)(OmrVal << PinNumber));
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   440        }
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   441      }
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   442    }
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   443    return RetVal;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   444  }/* Dio_FlipChannel */
+	mov	d2,d10
+	ret
+.L29:
+	
+__Dio_FlipChannel_function_end:
+	.size	Dio_FlipChannel,__Dio_FlipChannel_function_end-Dio_FlipChannel
+.L24:
+	; End of function
+	
+	.calls	'Dio_FlipChannel','Dio_lGetPortNumber'
+	.calls	'Dio_FlipChannel','Dio_lGetPortAdr'
+	.calls	'Dio_FlipChannel','Dio_lGetPinNumber'
+	.calls	'Dio_Init','',0
+	.extern	Dio_lGetPortNumber
+	.extern	Dio_lGetPortAdr
+	.extern	Dio_lGetPinNumber
+	.calls	'Dio_FlipChannel','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L12:
+	.word	10087
+	.half	3
+	.word	.L13
+	.byte	4
+.L11:
+	.byte	1
+	.byte	'..\\Aurix_MC-ISAR\\dio_infineon_tricore\\src\\Dio_Ver.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L14
+.L34:
+	.byte	2
+	.byte	'unsigned long int',0,4,7,3
+	.byte	'Dio_PortChannelIdType',0,1,139,2,16,8,4
+	.byte	'Dio_PortIdConfig',0
+	.word	202
+	.byte	4,2,35,0,4
+	.byte	'Dio_ChannelConfig',0
+	.word	202
+	.byte	4,2,35,4,0,5
+	.word	223
+	.byte	6
+	.word	305
+.L30:
+	.byte	2
+	.byte	'unsigned short int',0,2,7
+.L28:
+	.byte	2
+	.byte	'unsigned char',0,1,8,3
+	.byte	'Dio_ChannelGroupType',0,1,129,2,16,4,4
+	.byte	'mask',0
+	.word	315
+	.byte	2,2,35,0,4
+	.byte	'offset',0
+	.word	337
+	.byte	1,2,35,2,4
+	.byte	'port',0
+	.word	337
+	.byte	1,2,35,3,0,5
+	.word	354
+	.byte	6
+	.word	426
+	.byte	3
+	.byte	'Dio_ConfigType',0,1,147,2,16,12,4
+	.byte	'Dio_PortChannelConfigPtr',0
+	.word	310
+	.byte	4,2,35,0,4
+	.byte	'Dio_ChannelGroupConfigPtr',0
+	.word	431
+	.byte	4,2,35,4,4
+	.byte	'Dio_ChannelGroupConfigSize',0
+	.word	202
+	.byte	4,2,35,8,0,5
+	.word	436
+.L26:
+	.byte	6
+	.word	563
+	.byte	2
+	.byte	'unsigned int',0,4,7,2
+	.byte	'int',0,4,5,3
+	.byte	'_Ifx_P_OUT_Bits',0,2,143,3,16,4,7
+	.byte	'P0',0,1
+	.word	337
+	.byte	1,7,2,35,0,7
+	.byte	'P1',0,1
+	.word	337
+	.byte	1,6,2,35,0,7
+	.byte	'P2',0,1
+	.word	337
+	.byte	1,5,2,35,0,7
+	.byte	'P3',0,1
+	.word	337
+	.byte	1,4,2,35,0,7
+	.byte	'P4',0,1
+	.word	337
+	.byte	1,3,2,35,0,7
+	.byte	'P5',0,1
+	.word	337
+	.byte	1,2,2,35,0,7
+	.byte	'P6',0,1
+	.word	337
+	.byte	1,1,2,35,0,7
+	.byte	'P7',0,1
+	.word	337
+	.byte	1,0,2,35,0,7
+	.byte	'P8',0,1
+	.word	337
+	.byte	1,7,2,35,1,7
+	.byte	'P9',0,1
+	.word	337
+	.byte	1,6,2,35,1,7
+	.byte	'P10',0,1
+	.word	337
+	.byte	1,5,2,35,1,7
+	.byte	'P11',0,1
+	.word	337
+	.byte	1,4,2,35,1,7
+	.byte	'P12',0,1
+	.word	337
+	.byte	1,3,2,35,1,7
+	.byte	'P13',0,1
+	.word	337
+	.byte	1,2,2,35,1,7
+	.byte	'P14',0,1
+	.word	337
+	.byte	1,1,2,35,1,7
+	.byte	'P15',0,1
+	.word	337
+	.byte	1,0,2,35,1,7
+	.byte	'reserved_16',0,2
+	.word	315
+	.byte	16,0,2,35,2,0,8,2,180,5,9,4,4
+	.byte	'U',0
+	.word	573
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	589
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	596
+	.byte	4,2,35,0,0,3
+	.byte	'_Ifx_P_OMR_Bits',0,2,169,2,16,4,7
+	.byte	'PS0',0,1
+	.word	337
+	.byte	1,7,2,35,0,7
+	.byte	'PS1',0,1
+	.word	337
+	.byte	1,6,2,35,0,7
+	.byte	'PS2',0,1
+	.word	337
+	.byte	1,5,2,35,0,7
+	.byte	'PS3',0,1
+	.word	337
+	.byte	1,4,2,35,0,7
+	.byte	'PS4',0,1
+	.word	337
+	.byte	1,3,2,35,0,7
+	.byte	'PS5',0,1
+	.word	337
+	.byte	1,2,2,35,0,7
+	.byte	'PS6',0,1
+	.word	337
+	.byte	1,1,2,35,0,7
+	.byte	'PS7',0,1
+	.word	337
+	.byte	1,0,2,35,0,7
+	.byte	'PS8',0,1
+	.word	337
+	.byte	1,7,2,35,1,7
+	.byte	'PS9',0,1
+	.word	337
+	.byte	1,6,2,35,1,7
+	.byte	'PS10',0,1
+	.word	337
+	.byte	1,5,2,35,1,7
+	.byte	'PS11',0,1
+	.word	337
+	.byte	1,4,2,35,1,7
+	.byte	'PS12',0,1
+	.word	337
+	.byte	1,3,2,35,1,7
+	.byte	'PS13',0,1
+	.word	337
+	.byte	1,2,2,35,1,7
+	.byte	'PS14',0,1
+	.word	337
+	.byte	1,1,2,35,1,7
+	.byte	'PS15',0,1
+	.word	337
+	.byte	1,0,2,35,1,7
+	.byte	'PCL0',0,1
+	.word	337
+	.byte	1,7,2,35,2,7
+	.byte	'PCL1',0,1
+	.word	337
+	.byte	1,6,2,35,2,7
+	.byte	'PCL2',0,1
+	.word	337
+	.byte	1,5,2,35,2,7
+	.byte	'PCL3',0,1
+	.word	337
+	.byte	1,4,2,35,2,7
+	.byte	'PCL4',0,1
+	.word	337
+	.byte	1,3,2,35,2,7
+	.byte	'PCL5',0,1
+	.word	337
+	.byte	1,2,2,35,2,7
+	.byte	'PCL6',0,1
+	.word	337
+	.byte	1,1,2,35,2,7
+	.byte	'PCL7',0,1
+	.word	337
+	.byte	1,0,2,35,2,7
+	.byte	'PCL8',0,1
+	.word	337
+	.byte	1,7,2,35,3,7
+	.byte	'PCL9',0,1
+	.word	337
+	.byte	1,6,2,35,3,7
+	.byte	'PCL10',0,1
+	.word	337
+	.byte	1,5,2,35,3,7
+	.byte	'PCL11',0,1
+	.word	337
+	.byte	1,4,2,35,3,7
+	.byte	'PCL12',0,1
+	.word	337
+	.byte	1,3,2,35,3,7
+	.byte	'PCL13',0,1
+	.word	337
+	.byte	1,2,2,35,3,7
+	.byte	'PCL14',0,1
+	.word	337
+	.byte	1,1,2,35,3,7
+	.byte	'PCL15',0,1
+	.word	337
+	.byte	1,0,2,35,3,0,8,2,132,5,9,4,4
+	.byte	'U',0
+	.word	573
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	589
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	912
+	.byte	4,2,35,0,0,3
+	.byte	'_Ifx_P_ID_Bits',0,2,110,16,4,7
+	.byte	'MODREV',0,1
+	.word	337
+	.byte	8,0,2,35,0,7
+	.byte	'MODTYPE',0,1
+	.word	337
+	.byte	8,0,2,35,1,7
+	.byte	'MODNUMBER',0,2
+	.word	315
+	.byte	16,0,2,35,2,0,8,2,147,4,9,4,4
+	.byte	'U',0
+	.word	573
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	589
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	1483
+	.byte	4,2,35,0,0,9,4
+	.word	337
+	.byte	10,3,0,3
+	.byte	'_Ifx_P_IOCR0_Bits',0,2,140,1,16,4,7
+	.byte	'reserved_0',0,1
+	.word	337
+	.byte	3,5,2,35,0,7
+	.byte	'PC0',0,1
+	.word	337
+	.byte	5,0,2,35,0,7
+	.byte	'reserved_8',0,1
+	.word	337
+	.byte	3,5,2,35,1,7
+	.byte	'PC1',0,1
+	.word	337
+	.byte	5,0,2,35,1,7
+	.byte	'reserved_16',0,1
+	.word	337
+	.byte	3,5,2,35,2,7
+	.byte	'PC2',0,1
+	.word	337
+	.byte	5,0,2,35,2,7
+	.byte	'reserved_24',0,1
+	.word	337
+	.byte	3,5,2,35,3,7
+	.byte	'PC3',0,1
+	.word	337
+	.byte	5,0,2,35,3,0,8,2,163,4,9,4,4
+	.byte	'U',0
+	.word	573
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	589
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	1611
+	.byte	4,2,35,0,0,3
+	.byte	'_Ifx_P_IOCR4_Bits',0,2,166,1,16,4,7
+	.byte	'reserved_0',0,1
+	.word	337
+	.byte	3,5,2,35,0,7
+	.byte	'PC4',0,1
+	.word	337
+	.byte	5,0,2,35,0,7
+	.byte	'reserved_8',0,1
+	.word	337
+	.byte	3,5,2,35,1,7
+	.byte	'PC5',0,1
+	.word	337
+	.byte	5,0,2,35,1,7
+	.byte	'reserved_16',0,1
+	.word	337
+	.byte	3,5,2,35,2,7
+	.byte	'PC6',0,1
+	.word	337
+	.byte	5,0,2,35,2,7
+	.byte	'reserved_24',0,1
+	.word	337
+	.byte	3,5,2,35,3,7
+	.byte	'PC7',0,1
+	.word	337
+	.byte	5,0,2,35,3,0,8,2,179,4,9,4,4
+	.byte	'U',0
+	.word	573
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	589
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	1826
+	.byte	4,2,35,0,0,3
+	.byte	'_Ifx_P_IOCR8_Bits',0,2,179,1,16,4,7
+	.byte	'reserved_0',0,1
+	.word	337
+	.byte	3,5,2,35,0,7
+	.byte	'PC8',0,1
+	.word	337
+	.byte	5,0,2,35,0,7
+	.byte	'reserved_8',0,1
+	.word	337
+	.byte	3,5,2,35,1,7
+	.byte	'PC9',0,1
+	.word	337
+	.byte	5,0,2,35,1,7
+	.byte	'reserved_16',0,1
+	.word	337
+	.byte	3,5,2,35,2,7
+	.byte	'PC10',0,1
+	.word	337
+	.byte	5,0,2,35,2,7
+	.byte	'reserved_24',0,1
+	.word	337
+	.byte	3,5,2,35,3,7
+	.byte	'PC11',0,1
+	.word	337
+	.byte	5,0,2,35,3,0,8,2,187,4,9,4,4
+	.byte	'U',0
+	.word	573
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	589
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	2041
+	.byte	4,2,35,0,0,3
+	.byte	'_Ifx_P_IOCR12_Bits',0,2,153,1,16,4,7
+	.byte	'reserved_0',0,1
+	.word	337
+	.byte	3,5,2,35,0,7
+	.byte	'PC12',0,1
+	.word	337
+	.byte	5,0,2,35,0,7
+	.byte	'reserved_8',0,1
+	.word	337
+	.byte	3,5,2,35,1,7
+	.byte	'PC13',0,1
+	.word	337
+	.byte	5,0,2,35,1,7
+	.byte	'reserved_16',0,1
+	.word	337
+	.byte	3,5,2,35,2,7
+	.byte	'PC14',0,1
+	.word	337
+	.byte	5,0,2,35,2,7
+	.byte	'reserved_24',0,1
+	.word	337
+	.byte	3,5,2,35,3,7
+	.byte	'PC15',0,1
+	.word	337
+	.byte	5,0,2,35,3,0,8,2,171,4,9,4,4
+	.byte	'U',0
+	.word	573
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	589
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	2258
+	.byte	4,2,35,0,0,3
+	.byte	'_Ifx_P_IN_Bits',0,2,118,16,4,7
+	.byte	'P0',0,1
+	.word	337
+	.byte	1,7,2,35,0,7
+	.byte	'P1',0,1
+	.word	337
+	.byte	1,6,2,35,0,7
+	.byte	'P2',0,1
+	.word	337
+	.byte	1,5,2,35,0,7
+	.byte	'P3',0,1
+	.word	337
+	.byte	1,4,2,35,0,7
+	.byte	'P4',0,1
+	.word	337
+	.byte	1,3,2,35,0,7
+	.byte	'P5',0,1
+	.word	337
+	.byte	1,2,2,35,0,7
+	.byte	'P6',0,1
+	.word	337
+	.byte	1,1,2,35,0,7
+	.byte	'P7',0,1
+	.word	337
+	.byte	1,0,2,35,0,7
+	.byte	'P8',0,1
+	.word	337
+	.byte	1,7,2,35,1,7
+	.byte	'P9',0,1
+	.word	337
+	.byte	1,6,2,35,1,7
+	.byte	'P10',0,1
+	.word	337
+	.byte	1,5,2,35,1,7
+	.byte	'P11',0,1
+	.word	337
+	.byte	1,4,2,35,1,7
+	.byte	'P12',0,1
+	.word	337
+	.byte	1,3,2,35,1,7
+	.byte	'P13',0,1
+	.word	337
+	.byte	1,2,2,35,1,7
+	.byte	'P14',0,1
+	.word	337
+	.byte	1,1,2,35,1,7
+	.byte	'P15',0,1
+	.word	337
+	.byte	1,0,2,35,1,7
+	.byte	'reserved_16',0,2
+	.word	315
+	.byte	16,0,2,35,2,0,8,2,155,4,9,4,4
+	.byte	'U',0
+	.word	573
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	589
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	2478
+	.byte	4,2,35,0,0,9,24
+	.word	337
+	.byte	10,23,0,3
+	.byte	'_Ifx_P_PDR0_Bits',0,2,204,3,16,4,7
+	.byte	'PD0',0,1
+	.word	337
+	.byte	3,5,2,35,0,7
+	.byte	'PL0',0,1
+	.word	337
+	.byte	1,4,2,35,0,7
+	.byte	'PD1',0,1
+	.word	337
+	.byte	3,1,2,35,0,7
+	.byte	'PL1',0,1
+	.word	337
+	.byte	1,0,2,35,0,7
+	.byte	'PD2',0,1
+	.word	337
+	.byte	3,5,2,35,1,7
+	.byte	'PL2',0,1
+	.word	337
+	.byte	1,4,2,35,1,7
+	.byte	'PD3',0,1
+	.word	337
+	.byte	3,1,2,35,1,7
+	.byte	'PL3',0,1
+	.word	337
+	.byte	1,0,2,35,1,7
+	.byte	'PD4',0,1
+	.word	337
+	.byte	3,5,2,35,2,7
+	.byte	'PL4',0,1
+	.word	337
+	.byte	1,4,2,35,2,7
+	.byte	'PD5',0,1
+	.word	337
+	.byte	3,1,2,35,2,7
+	.byte	'PL5',0,1
+	.word	337
+	.byte	1,0,2,35,2,7
+	.byte	'PD6',0,1
+	.word	337
+	.byte	3,5,2,35,3,7
+	.byte	'PL6',0,1
+	.word	337
+	.byte	1,4,2,35,3,7
+	.byte	'PD7',0,1
+	.word	337
+	.byte	3,1,2,35,3,7
+	.byte	'PL7',0,1
+	.word	337
+	.byte	1,0,2,35,3,0,8,2,204,5,9,4,4
+	.byte	'U',0
+	.word	573
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	589
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	2801
+	.byte	4,2,35,0,0,3
+	.byte	'_Ifx_P_PDR1_Bits',0,2,225,3,16,4,7
+	.byte	'PD8',0,1
+	.word	337
+	.byte	3,5,2,35,0,7
+	.byte	'PL8',0,1
+	.word	337
+	.byte	1,4,2,35,0,7
+	.byte	'PD9',0,1
+	.word	337
+	.byte	3,1,2,35,0,7
+	.byte	'PL9',0,1
+	.word	337
+	.byte	1,0,2,35,0,7
+	.byte	'PD10',0,1
+	.word	337
+	.byte	3,5,2,35,1,7
+	.byte	'PL10',0,1
+	.word	337
+	.byte	1,4,2,35,1,7
+	.byte	'PD11',0,1
+	.word	337
+	.byte	3,1,2,35,1,7
+	.byte	'PL11',0,1
+	.word	337
+	.byte	1,0,2,35,1,7
+	.byte	'PD12',0,1
+	.word	337
+	.byte	3,5,2,35,2,7
+	.byte	'PL12',0,1
+	.word	337
+	.byte	1,4,2,35,2,7
+	.byte	'PD13',0,1
+	.word	337
+	.byte	3,1,2,35,2,7
+	.byte	'PL13',0,1
+	.word	337
+	.byte	1,0,2,35,2,7
+	.byte	'PD14',0,1
+	.word	337
+	.byte	3,5,2,35,3,7
+	.byte	'PL14',0,1
+	.word	337
+	.byte	1,4,2,35,3,7
+	.byte	'PD15',0,1
+	.word	337
+	.byte	3,1,2,35,3,7
+	.byte	'PL15',0,1
+	.word	337
+	.byte	1,0,2,35,3,0,8,2,212,5,9,4,4
+	.byte	'U',0
+	.word	573
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	589
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	3105
+	.byte	4,2,35,0,0,9,8
+	.word	337
+	.byte	10,7,0,3
+	.byte	'_Ifx_P_ESR_Bits',0,2,88,16,4,7
+	.byte	'EN0',0,1
+	.word	337
+	.byte	1,7,2,35,0,7
+	.byte	'EN1',0,1
+	.word	337
+	.byte	1,6,2,35,0,7
+	.byte	'EN2',0,1
+	.word	337
+	.byte	1,5,2,35,0,7
+	.byte	'EN3',0,1
+	.word	337
+	.byte	1,4,2,35,0,7
+	.byte	'EN4',0,1
+	.word	337
+	.byte	1,3,2,35,0,7
+	.byte	'EN5',0,1
+	.word	337
+	.byte	1,2,2,35,0,7
+	.byte	'EN6',0,1
+	.word	337
+	.byte	1,1,2,35,0,7
+	.byte	'EN7',0,1
+	.word	337
+	.byte	1,0,2,35,0,7
+	.byte	'EN8',0,1
+	.word	337
+	.byte	1,7,2,35,1,7
+	.byte	'EN9',0,1
+	.word	337
+	.byte	1,6,2,35,1,7
+	.byte	'EN10',0,1
+	.word	337
+	.byte	1,5,2,35,1,7
+	.byte	'EN11',0,1
+	.word	337
+	.byte	1,4,2,35,1,7
+	.byte	'EN12',0,1
+	.word	337
+	.byte	1,3,2,35,1,7
+	.byte	'EN13',0,1
+	.word	337
+	.byte	1,2,2,35,1,7
+	.byte	'EN14',0,1
+	.word	337
+	.byte	1,1,2,35,1,7
+	.byte	'EN15',0,1
+	.word	337
+	.byte	1,0,2,35,1,7
+	.byte	'reserved_16',0,2
+	.word	315
+	.byte	16,0,2,35,2,0,8,2,139,4,9,4,4
+	.byte	'U',0
+	.word	573
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	589
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	3430
+	.byte	4,2,35,0,0,9,12
+	.word	337
+	.byte	10,11,0,3
+	.byte	'_Ifx_P_PDISC_Bits',0,2,182,3,16,4,7
+	.byte	'PDIS0',0,1
+	.word	337
+	.byte	1,7,2,35,0,7
+	.byte	'PDIS1',0,1
+	.word	337
+	.byte	1,6,2,35,0,7
+	.byte	'PDIS2',0,1
+	.word	337
+	.byte	1,5,2,35,0,7
+	.byte	'PDIS3',0,1
+	.word	337
+	.byte	1,4,2,35,0,7
+	.byte	'PDIS4',0,1
+	.word	337
+	.byte	1,3,2,35,0,7
+	.byte	'PDIS5',0,1
+	.word	337
+	.byte	1,2,2,35,0,7
+	.byte	'PDIS6',0,1
+	.word	337
+	.byte	1,1,2,35,0,7
+	.byte	'PDIS7',0,1
+	.word	337
+	.byte	1,0,2,35,0,7
+	.byte	'PDIS8',0,1
+	.word	337
+	.byte	1,7,2,35,1,7
+	.byte	'PDIS9',0,1
+	.word	337
+	.byte	1,6,2,35,1,7
+	.byte	'PDIS10',0,1
+	.word	337
+	.byte	1,5,2,35,1,7
+	.byte	'PDIS11',0,1
+	.word	337
+	.byte	1,4,2,35,1,7
+	.byte	'PDIS12',0,1
+	.word	337
+	.byte	1,3,2,35,1,7
+	.byte	'PDIS13',0,1
+	.word	337
+	.byte	1,2,2,35,1,7
+	.byte	'PDIS14',0,1
+	.word	337
+	.byte	1,1,2,35,1,7
+	.byte	'PDIS15',0,1
+	.word	337
+	.byte	1,0,2,35,1,7
+	.byte	'reserved_16',0,2
+	.word	315
+	.byte	16,0,2,35,2,0,8,2,196,5,9,4,4
+	.byte	'U',0
+	.word	573
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	589
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	3770
+	.byte	4,2,35,0,0,3
+	.byte	'_Ifx_P_PCSR_Bits',0,2,165,3,16,4,7
+	.byte	'SEL0',0,1
+	.word	337
+	.byte	1,7,2,35,0,7
+	.byte	'SEL1',0,1
+	.word	337
+	.byte	1,6,2,35,0,7
+	.byte	'SEL2',0,1
+	.word	337
+	.byte	1,5,2,35,0,7
+	.byte	'SEL3',0,1
+	.word	337
+	.byte	1,4,2,35,0,7
+	.byte	'SEL4',0,1
+	.word	337
+	.byte	1,3,2,35,0,7
+	.byte	'SEL5',0,1
+	.word	337
+	.byte	1,2,2,35,0,7
+	.byte	'SEL6',0,1
+	.word	337
+	.byte	1,1,2,35,0,7
+	.byte	'reserved_7',0,2
+	.word	315
+	.byte	3,6,2,35,0,7
+	.byte	'SEL10',0,1
+	.word	337
+	.byte	1,5,2,35,1,7
+	.byte	'SEL11',0,1
+	.word	337
+	.byte	1,4,2,35,1,7
+	.byte	'reserved_12',0,4
+	.word	573
+	.byte	19,1,2,35,0,7
+	.byte	'LCK',0,1
+	.word	337
+	.byte	1,0,2,35,3,0,8,2,188,5,9,4,4
+	.byte	'U',0
+	.word	573
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	589
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	4136
+	.byte	4,2,35,0,0,3
+	.byte	'_Ifx_P_OMSR0_Bits',0,2,206,2,16,4,7
+	.byte	'PS0',0,1
+	.word	337
+	.byte	1,7,2,35,0,7
+	.byte	'PS1',0,1
+	.word	337
+	.byte	1,6,2,35,0,7
+	.byte	'PS2',0,1
+	.word	337
+	.byte	1,5,2,35,0,7
+	.byte	'PS3',0,1
+	.word	337
+	.byte	1,4,2,35,0,7
+	.byte	'reserved_4',0,4
+	.word	573
+	.byte	28,0,2,35,0,0,8,2,148,5,9,4,4
+	.byte	'U',0
+	.word	573
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	589
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	4406
+	.byte	4,2,35,0,0,3
+	.byte	'_Ifx_P_OMSR4_Bits',0,2,227,2,16,4,7
+	.byte	'reserved_0',0,1
+	.word	337
+	.byte	4,4,2,35,0,7
+	.byte	'PS4',0,1
+	.word	337
+	.byte	1,3,2,35,0,7
+	.byte	'PS5',0,1
+	.word	337
+	.byte	1,2,2,35,0,7
+	.byte	'PS6',0,1
+	.word	337
+	.byte	1,1,2,35,0,7
+	.byte	'PS7',0,1
+	.word	337
+	.byte	1,0,2,35,0,7
+	.byte	'reserved_8',0,4
+	.word	573
+	.byte	24,0,2,35,0,0,8,2,164,5,9,4,4
+	.byte	'U',0
+	.word	573
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	589
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	4553
+	.byte	4,2,35,0,0,3
+	.byte	'_Ifx_P_OMSR8_Bits',0,2,238,2,16,4,7
+	.byte	'reserved_0',0,1
+	.word	337
+	.byte	8,0,2,35,0,7
+	.byte	'PS8',0,1
+	.word	337
+	.byte	1,7,2,35,1,7
+	.byte	'PS9',0,1
+	.word	337
+	.byte	1,6,2,35,1,7
+	.byte	'PS10',0,1
+	.word	337
+	.byte	1,5,2,35,1,7
+	.byte	'PS11',0,1
+	.word	337
+	.byte	1,4,2,35,1,7
+	.byte	'reserved_12',0,4
+	.word	573
+	.byte	20,0,2,35,0,0,8,2,172,5,9,4,4
+	.byte	'U',0
+	.word	573
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	589
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	4722
+	.byte	4,2,35,0,0,3
+	.byte	'_Ifx_P_OMSR12_Bits',0,2,216,2,16,4,7
+	.byte	'reserved_0',0,2
+	.word	315
+	.byte	12,4,2,35,0,7
+	.byte	'PS12',0,1
+	.word	337
+	.byte	1,3,2,35,1,7
+	.byte	'PS13',0,1
+	.word	337
+	.byte	1,2,2,35,1,7
+	.byte	'PS14',0,1
+	.word	337
+	.byte	1,1,2,35,1,7
+	.byte	'PS15',0,1
+	.word	337
+	.byte	1,0,2,35,1,7
+	.byte	'reserved_16',0,2
+	.word	315
+	.byte	16,0,2,35,2,0,8,2,156,5,9,4,4
+	.byte	'U',0
+	.word	573
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	589
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	4894
+	.byte	4,2,35,0,0,3
+	.byte	'_Ifx_P_OMCR0_Bits',0,2,232,1,16,4,7
+	.byte	'reserved_0',0,2
+	.word	315
+	.byte	16,0,2,35,0,7
+	.byte	'PCL0',0,1
+	.word	337
+	.byte	1,7,2,35,2,7
+	.byte	'PCL1',0,1
+	.word	337
+	.byte	1,6,2,35,2,7
+	.byte	'PCL2',0,1
+	.word	337
+	.byte	1,5,2,35,2,7
+	.byte	'PCL3',0,1
+	.word	337
+	.byte	1,4,2,35,2,7
+	.byte	'reserved_20',0,2
+	.word	315
+	.byte	12,0,2,35,2,0,8,2,228,4,9,4,4
+	.byte	'U',0
+	.word	573
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	589
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	5069
+	.byte	4,2,35,0,0,3
+	.byte	'_Ifx_P_OMCR4_Bits',0,2,253,1,16,4,7
+	.byte	'reserved_0',0,4
+	.word	573
+	.byte	20,12,2,35,0,7
+	.byte	'PCL4',0,1
+	.word	337
+	.byte	1,3,2,35,2,7
+	.byte	'PCL5',0,1
+	.word	337
+	.byte	1,2,2,35,2,7
+	.byte	'PCL6',0,1
+	.word	337
+	.byte	1,1,2,35,2,7
+	.byte	'PCL7',0,1
+	.word	337
+	.byte	1,0,2,35,2,7
+	.byte	'reserved_24',0,1
+	.word	337
+	.byte	8,0,2,35,3,0,8,2,244,4,9,4,4
+	.byte	'U',0
+	.word	573
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	589
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	5243
+	.byte	4,2,35,0,0,3
+	.byte	'_Ifx_P_OMCR8_Bits',0,2,136,2,16,4,7
+	.byte	'reserved_0',0,4
+	.word	573
+	.byte	24,8,2,35,0,7
+	.byte	'PCL8',0,1
+	.word	337
+	.byte	1,7,2,35,3,7
+	.byte	'PCL9',0,1
+	.word	337
+	.byte	1,6,2,35,3,7
+	.byte	'PCL10',0,1
+	.word	337
+	.byte	1,5,2,35,3,7
+	.byte	'PCL11',0,1
+	.word	337
+	.byte	1,4,2,35,3,7
+	.byte	'reserved_28',0,1
+	.word	337
+	.byte	4,0,2,35,3,0,8,2,252,4,9,4,4
+	.byte	'U',0
+	.word	573
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	589
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	5417
+	.byte	4,2,35,0,0,3
+	.byte	'_Ifx_P_OMCR12_Bits',0,2,243,1,16,4,7
+	.byte	'reserved_0',0,4
+	.word	573
+	.byte	28,4,2,35,0,7
+	.byte	'PCL12',0,1
+	.word	337
+	.byte	1,3,2,35,3,7
+	.byte	'PCL13',0,1
+	.word	337
+	.byte	1,2,2,35,3,7
+	.byte	'PCL14',0,1
+	.word	337
+	.byte	1,1,2,35,3,7
+	.byte	'PCL15',0,1
+	.word	337
+	.byte	1,0,2,35,3,0,8,2,236,4,9,4,4
+	.byte	'U',0
+	.word	573
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	589
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	5593
+	.byte	4,2,35,0,0,3
+	.byte	'_Ifx_P_OMSR_Bits',0,2,249,2,16,4,7
+	.byte	'PS0',0,1
+	.word	337
+	.byte	1,7,2,35,0,7
+	.byte	'PS1',0,1
+	.word	337
+	.byte	1,6,2,35,0,7
+	.byte	'PS2',0,1
+	.word	337
+	.byte	1,5,2,35,0,7
+	.byte	'PS3',0,1
+	.word	337
+	.byte	1,4,2,35,0,7
+	.byte	'PS4',0,1
+	.word	337
+	.byte	1,3,2,35,0,7
+	.byte	'PS5',0,1
+	.word	337
+	.byte	1,2,2,35,0,7
+	.byte	'PS6',0,1
+	.word	337
+	.byte	1,1,2,35,0,7
+	.byte	'PS7',0,1
+	.word	337
+	.byte	1,0,2,35,0,7
+	.byte	'PS8',0,1
+	.word	337
+	.byte	1,7,2,35,1,7
+	.byte	'PS9',0,1
+	.word	337
+	.byte	1,6,2,35,1,7
+	.byte	'PS10',0,1
+	.word	337
+	.byte	1,5,2,35,1,7
+	.byte	'PS11',0,1
+	.word	337
+	.byte	1,4,2,35,1,7
+	.byte	'PS12',0,1
+	.word	337
+	.byte	1,3,2,35,1,7
+	.byte	'PS13',0,1
+	.word	337
+	.byte	1,2,2,35,1,7
+	.byte	'PS14',0,1
+	.word	337
+	.byte	1,1,2,35,1,7
+	.byte	'PS15',0,1
+	.word	337
+	.byte	1,0,2,35,1,7
+	.byte	'reserved_16',0,2
+	.word	315
+	.byte	16,0,2,35,2,0,8,2,140,5,9,4,4
+	.byte	'U',0
+	.word	573
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	589
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	5749
+	.byte	4,2,35,0,0,3
+	.byte	'_Ifx_P_OMCR_Bits',0,2,147,2,16,4,7
+	.byte	'reserved_0',0,2
+	.word	315
+	.byte	16,0,2,35,0,7
+	.byte	'PCL0',0,1
+	.word	337
+	.byte	1,7,2,35,2,7
+	.byte	'PCL1',0,1
+	.word	337
+	.byte	1,6,2,35,2,7
+	.byte	'PCL2',0,1
+	.word	337
+	.byte	1,5,2,35,2,7
+	.byte	'PCL3',0,1
+	.word	337
+	.byte	1,4,2,35,2,7
+	.byte	'PCL4',0,1
+	.word	337
+	.byte	1,3,2,35,2,7
+	.byte	'PCL5',0,1
+	.word	337
+	.byte	1,2,2,35,2,7
+	.byte	'PCL6',0,1
+	.word	337
+	.byte	1,1,2,35,2,7
+	.byte	'PCL7',0,1
+	.word	337
+	.byte	1,0,2,35,2,7
+	.byte	'PCL8',0,1
+	.word	337
+	.byte	1,7,2,35,3,7
+	.byte	'PCL9',0,1
+	.word	337
+	.byte	1,6,2,35,3,7
+	.byte	'PCL10',0,1
+	.word	337
+	.byte	1,5,2,35,3,7
+	.byte	'PCL11',0,1
+	.word	337
+	.byte	1,4,2,35,3,7
+	.byte	'PCL12',0,1
+	.word	337
+	.byte	1,3,2,35,3,7
+	.byte	'PCL13',0,1
+	.word	337
+	.byte	1,2,2,35,3,7
+	.byte	'PCL14',0,1
+	.word	337
+	.byte	1,1,2,35,3,7
+	.byte	'PCL15',0,1
+	.word	337
+	.byte	1,0,2,35,3,0,8,2,220,4,9,4,4
+	.byte	'U',0
+	.word	573
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	589
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	6082
+	.byte	4,2,35,0,0,3
+	.byte	'_Ifx_P_LPCR0_Bits',0,2,192,1,16,4,7
+	.byte	'reserved_0',0,1
+	.word	337
+	.byte	1,7,2,35,0,7
+	.byte	'PS1',0,1
+	.word	337
+	.byte	1,6,2,35,0,7
+	.byte	'reserved_2',0,4
+	.word	573
+	.byte	30,0,2,35,0,0,8,2,195,4,9,4,4
+	.byte	'U',0
+	.word	573
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	589
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	6430
+	.byte	4,2,35,0,0,3
+	.byte	'_Ifx_P_LPCR1_Bits',0,2,200,1,16,4,7
+	.byte	'reserved_0',0,1
+	.word	337
+	.byte	1,7,2,35,0,7
+	.byte	'PS1',0,1
+	.word	337
+	.byte	1,6,2,35,0,7
+	.byte	'reserved_2',0,4
+	.word	573
+	.byte	30,0,2,35,0,0,3
+	.byte	'_Ifx_P_LPCR1_P21_Bits',0,2,208,1,16,4,7
+	.byte	'RDIS_CTRL',0,1
+	.word	337
+	.byte	1,7,2,35,0,7
+	.byte	'RX_DIS',0,1
+	.word	337
+	.byte	1,6,2,35,0,7
+	.byte	'TERM',0,1
+	.word	337
+	.byte	1,5,2,35,0,7
+	.byte	'LRXTERM',0,1
+	.word	337
+	.byte	5,0,2,35,0,7
+	.byte	'reserved_8',0,4
+	.word	573
+	.byte	24,0,2,35,0,0,8,2,203,4,9,4,4
+	.byte	'U',0
+	.word	573
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	589
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	6554
+	.byte	4,2,35,0,4
+	.byte	'B_P21',0
+	.word	6638
+	.byte	4,2,35,0,0,3
+	.byte	'_Ifx_P_LPCR2_Bits',0,2,218,1,16,4,7
+	.byte	'reserved_0',0,1
+	.word	337
+	.byte	8,0,2,35,0,7
+	.byte	'LVDSR',0,1
+	.word	337
+	.byte	1,7,2,35,1,7
+	.byte	'LVDSRL',0,1
+	.word	337
+	.byte	1,6,2,35,1,7
+	.byte	'reserved_10',0,1
+	.word	337
+	.byte	2,4,2,35,1,7
+	.byte	'TDIS_CTRL',0,1
+	.word	337
+	.byte	1,3,2,35,1,7
+	.byte	'TX_DIS',0,1
+	.word	337
+	.byte	1,2,2,35,1,7
+	.byte	'TX_PD',0,1
+	.word	337
+	.byte	1,1,2,35,1,7
+	.byte	'TX_PWDPD',0,1
+	.word	337
+	.byte	1,0,2,35,1,7
+	.byte	'reserved_16',0,2
+	.word	315
+	.byte	16,0,2,35,2,0,8,2,212,4,9,4,4
+	.byte	'U',0
+	.word	573
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	589
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	6818
+	.byte	4,2,35,0,0,9,76
+	.word	337
+	.byte	10,75,0,3
+	.byte	'_Ifx_P_ACCEN1_Bits',0,2,82,16,4,7
+	.byte	'reserved_0',0,4
+	.word	573
+	.byte	32,0,2,35,0,0,8,2,131,4,9,4,4
+	.byte	'U',0
+	.word	573
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	589
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	7071
+	.byte	4,2,35,0,0,3
+	.byte	'_Ifx_P_ACCEN0_Bits',0,2,45,16,4,7
+	.byte	'EN0',0,1
+	.word	337
+	.byte	1,7,2,35,0,7
+	.byte	'EN1',0,1
+	.word	337
+	.byte	1,6,2,35,0,7
+	.byte	'EN2',0,1
+	.word	337
+	.byte	1,5,2,35,0,7
+	.byte	'EN3',0,1
+	.word	337
+	.byte	1,4,2,35,0,7
+	.byte	'EN4',0,1
+	.word	337
+	.byte	1,3,2,35,0,7
+	.byte	'EN5',0,1
+	.word	337
+	.byte	1,2,2,35,0,7
+	.byte	'EN6',0,1
+	.word	337
+	.byte	1,1,2,35,0,7
+	.byte	'EN7',0,1
+	.word	337
+	.byte	1,0,2,35,0,7
+	.byte	'EN8',0,1
+	.word	337
+	.byte	1,7,2,35,1,7
+	.byte	'EN9',0,1
+	.word	337
+	.byte	1,6,2,35,1,7
+	.byte	'EN10',0,1
+	.word	337
+	.byte	1,5,2,35,1,7
+	.byte	'EN11',0,1
+	.word	337
+	.byte	1,4,2,35,1,7
+	.byte	'EN12',0,1
+	.word	337
+	.byte	1,3,2,35,1,7
+	.byte	'EN13',0,1
+	.word	337
+	.byte	1,2,2,35,1,7
+	.byte	'EN14',0,1
+	.word	337
+	.byte	1,1,2,35,1,7
+	.byte	'EN15',0,1
+	.word	337
+	.byte	1,0,2,35,1,7
+	.byte	'EN16',0,1
+	.word	337
+	.byte	1,7,2,35,2,7
+	.byte	'EN17',0,1
+	.word	337
+	.byte	1,6,2,35,2,7
+	.byte	'EN18',0,1
+	.word	337
+	.byte	1,5,2,35,2,7
+	.byte	'EN19',0,1
+	.word	337
+	.byte	1,4,2,35,2,7
+	.byte	'EN20',0,1
+	.word	337
+	.byte	1,3,2,35,2,7
+	.byte	'EN21',0,1
+	.word	337
+	.byte	1,2,2,35,2,7
+	.byte	'EN22',0,1
+	.word	337
+	.byte	1,1,2,35,2,7
+	.byte	'EN23',0,1
+	.word	337
+	.byte	1,0,2,35,2,7
+	.byte	'EN24',0,1
+	.word	337
+	.byte	1,7,2,35,3,7
+	.byte	'EN25',0,1
+	.word	337
+	.byte	1,6,2,35,3,7
+	.byte	'EN26',0,1
+	.word	337
+	.byte	1,5,2,35,3,7
+	.byte	'EN27',0,1
+	.word	337
+	.byte	1,4,2,35,3,7
+	.byte	'EN28',0,1
+	.word	337
+	.byte	1,3,2,35,3,7
+	.byte	'EN29',0,1
+	.word	337
+	.byte	1,2,2,35,3,7
+	.byte	'EN30',0,1
+	.word	337
+	.byte	1,1,2,35,3,7
+	.byte	'EN31',0,1
+	.word	337
+	.byte	1,0,2,35,3,0,8,2,251,3,9,4,4
+	.byte	'U',0
+	.word	573
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	589
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	7158
+	.byte	4,2,35,0,0,3
+	.byte	'_Ifx_P',0,2,228,5,25,128,2,4
+	.byte	'OUT',0
+	.word	872
+	.byte	4,2,35,0,4
+	.byte	'OMR',0
+	.word	1443
+	.byte	4,2,35,4,4
+	.byte	'ID',0
+	.word	1562
+	.byte	4,2,35,8,4
+	.byte	'reserved_C',0
+	.word	1602
+	.byte	4,2,35,12,4
+	.byte	'IOCR0',0
+	.word	1786
+	.byte	4,2,35,16,4
+	.byte	'IOCR4',0
+	.word	2001
+	.byte	4,2,35,20,4
+	.byte	'IOCR8',0
+	.word	2218
+	.byte	4,2,35,24,4
+	.byte	'IOCR12',0
+	.word	2438
+	.byte	4,2,35,28,4
+	.byte	'reserved_20',0
+	.word	1602
+	.byte	4,2,35,32,4
+	.byte	'IN',0
+	.word	2752
+	.byte	4,2,35,36,4
+	.byte	'reserved_28',0
+	.word	2792
+	.byte	24,2,35,40,4
+	.byte	'PDR0',0
+	.word	3065
+	.byte	4,2,35,64,4
+	.byte	'PDR1',0
+	.word	3381
+	.byte	4,2,35,68,4
+	.byte	'reserved_48',0
+	.word	3421
+	.byte	8,2,35,72,4
+	.byte	'ESR',0
+	.word	3721
+	.byte	4,2,35,80,4
+	.byte	'reserved_54',0
+	.word	3761
+	.byte	12,2,35,84,4
+	.byte	'PDISC',0
+	.word	4096
+	.byte	4,2,35,96,4
+	.byte	'PCSR',0
+	.word	4366
+	.byte	4,2,35,100,4
+	.byte	'reserved_68',0
+	.word	3421
+	.byte	8,2,35,104,4
+	.byte	'OMSR0',0
+	.word	4513
+	.byte	4,2,35,112,4
+	.byte	'OMSR4',0
+	.word	4682
+	.byte	4,2,35,116,4
+	.byte	'OMSR8',0
+	.word	4854
+	.byte	4,2,35,120,4
+	.byte	'OMSR12',0
+	.word	5029
+	.byte	4,2,35,124,4
+	.byte	'OMCR0',0
+	.word	5203
+	.byte	4,3,35,128,1,4
+	.byte	'OMCR4',0
+	.word	5377
+	.byte	4,3,35,132,1,4
+	.byte	'OMCR8',0
+	.word	5553
+	.byte	4,3,35,136,1,4
+	.byte	'OMCR12',0
+	.word	5709
+	.byte	4,3,35,140,1,4
+	.byte	'OMSR',0
+	.word	6042
+	.byte	4,3,35,144,1,4
+	.byte	'OMCR',0
+	.word	6390
+	.byte	4,3,35,148,1,4
+	.byte	'reserved_98',0
+	.word	3421
+	.byte	8,3,35,152,1,4
+	.byte	'LPCR0',0
+	.word	6514
+	.byte	4,3,35,160,1,4
+	.byte	'LPCR1',0
+	.word	6763
+	.byte	4,3,35,164,1,4
+	.byte	'LPCR2',0
+	.word	7022
+	.byte	4,3,35,168,1,4
+	.byte	'reserved_A4',0
+	.word	7062
+	.byte	76,3,35,172,1,4
+	.byte	'ACCEN1',0
+	.word	7118
+	.byte	4,3,35,248,1,4
+	.byte	'ACCEN0',0
+	.word	7685
+	.byte	4,3,35,252,1,0,11
+	.word	7725
+.L32:
+	.byte	6
+	.word	8328
+	.byte	11
+	.word	202
+.L39:
+	.byte	6
+	.word	8338
+	.byte	12
+	.byte	'Dio_lGetPortNumber',0,3,140,1,21
+	.word	337
+	.byte	1,1,1,1,13
+	.byte	'ChannelId',0,3,140,1,56
+	.word	315
+	.byte	0,12
+	.byte	'Dio_lGetPortAdr',0,3,143,1,15
+	.word	8333
+	.byte	1,1,1,1,13
+	.byte	'PortNumber',0,3,143,1,44
+	.word	337
+	.byte	0,12
+	.byte	'Dio_lGetPinNumber',0,3,147,1,14
+	.word	337
+	.byte	1,1,1,1,13
+	.byte	'ChannelId',0,3,147,1,48
+	.word	315
+	.byte	0,14,1,6
+	.word	8501
+	.byte	15
+	.byte	'__codeptr',0,4,1,1
+	.word	8503
+	.byte	15
+	.byte	'uint8',0,5,90,29
+	.word	337
+	.byte	15
+	.byte	'uint16',0,5,92,29
+	.word	315
+	.byte	15
+	.byte	'uint32',0,5,94,29
+	.word	202
+	.byte	15
+	.byte	'Ifx_P_ACCEN0_Bits',0,2,79,3
+	.word	7158
+	.byte	15
+	.byte	'Ifx_P_ACCEN1_Bits',0,2,85,3
+	.word	7071
+	.byte	15
+	.byte	'Ifx_P_ESR_Bits',0,2,107,3
+	.word	3430
+	.byte	15
+	.byte	'Ifx_P_ID_Bits',0,2,115,3
+	.word	1483
+	.byte	15
+	.byte	'Ifx_P_IN_Bits',0,2,137,1,3
+	.word	2478
+	.byte	15
+	.byte	'Ifx_P_IOCR0_Bits',0,2,150,1,3
+	.word	1611
+	.byte	15
+	.byte	'Ifx_P_IOCR12_Bits',0,2,163,1,3
+	.word	2258
+	.byte	15
+	.byte	'Ifx_P_IOCR4_Bits',0,2,176,1,3
+	.word	1826
+	.byte	15
+	.byte	'Ifx_P_IOCR8_Bits',0,2,189,1,3
+	.word	2041
+	.byte	15
+	.byte	'Ifx_P_LPCR0_Bits',0,2,197,1,3
+	.word	6430
+	.byte	15
+	.byte	'Ifx_P_LPCR1_Bits',0,2,205,1,3
+	.word	6554
+	.byte	15
+	.byte	'Ifx_P_LPCR1_P21_Bits',0,2,215,1,3
+	.word	6638
+	.byte	15
+	.byte	'Ifx_P_LPCR2_Bits',0,2,229,1,3
+	.word	6818
+	.byte	15
+	.byte	'Ifx_P_OMCR0_Bits',0,2,240,1,3
+	.word	5069
+	.byte	15
+	.byte	'Ifx_P_OMCR12_Bits',0,2,250,1,3
+	.word	5593
+	.byte	15
+	.byte	'Ifx_P_OMCR4_Bits',0,2,133,2,3
+	.word	5243
+	.byte	15
+	.byte	'Ifx_P_OMCR8_Bits',0,2,144,2,3
+	.word	5417
+	.byte	15
+	.byte	'Ifx_P_OMCR_Bits',0,2,166,2,3
+	.word	6082
+	.byte	15
+	.byte	'Ifx_P_OMR_Bits',0,2,203,2,3
+	.word	912
+	.byte	15
+	.byte	'Ifx_P_OMSR0_Bits',0,2,213,2,3
+	.word	4406
+	.byte	15
+	.byte	'Ifx_P_OMSR12_Bits',0,2,224,2,3
+	.word	4894
+	.byte	15
+	.byte	'Ifx_P_OMSR4_Bits',0,2,235,2,3
+	.word	4553
+	.byte	15
+	.byte	'Ifx_P_OMSR8_Bits',0,2,246,2,3
+	.word	4722
+	.byte	15
+	.byte	'Ifx_P_OMSR_Bits',0,2,140,3,3
+	.word	5749
+	.byte	15
+	.byte	'Ifx_P_OUT_Bits',0,2,162,3,3
+	.word	596
+	.byte	15
+	.byte	'Ifx_P_PCSR_Bits',0,2,179,3,3
+	.word	4136
+	.byte	15
+	.byte	'Ifx_P_PDISC_Bits',0,2,201,3,3
+	.word	3770
+	.byte	15
+	.byte	'Ifx_P_PDR0_Bits',0,2,222,3,3
+	.word	2801
+	.byte	15
+	.byte	'Ifx_P_PDR1_Bits',0,2,243,3,3
+	.word	3105
+	.byte	15
+	.byte	'Ifx_P_ACCEN0',0,2,128,4,3
+	.word	7685
+	.byte	15
+	.byte	'Ifx_P_ACCEN1',0,2,136,4,3
+	.word	7118
+	.byte	15
+	.byte	'Ifx_P_ESR',0,2,144,4,3
+	.word	3721
+	.byte	15
+	.byte	'Ifx_P_ID',0,2,152,4,3
+	.word	1562
+	.byte	15
+	.byte	'Ifx_P_IN',0,2,160,4,3
+	.word	2752
+	.byte	15
+	.byte	'Ifx_P_IOCR0',0,2,168,4,3
+	.word	1786
+	.byte	15
+	.byte	'Ifx_P_IOCR12',0,2,176,4,3
+	.word	2438
+	.byte	15
+	.byte	'Ifx_P_IOCR4',0,2,184,4,3
+	.word	2001
+	.byte	15
+	.byte	'Ifx_P_IOCR8',0,2,192,4,3
+	.word	2218
+	.byte	15
+	.byte	'Ifx_P_LPCR0',0,2,200,4,3
+	.word	6514
+	.byte	15
+	.byte	'Ifx_P_LPCR1',0,2,209,4,3
+	.word	6763
+	.byte	15
+	.byte	'Ifx_P_LPCR2',0,2,217,4,3
+	.word	7022
+	.byte	15
+	.byte	'Ifx_P_OMCR',0,2,225,4,3
+	.word	6390
+	.byte	15
+	.byte	'Ifx_P_OMCR0',0,2,233,4,3
+	.word	5203
+	.byte	15
+	.byte	'Ifx_P_OMCR12',0,2,241,4,3
+	.word	5709
+	.byte	15
+	.byte	'Ifx_P_OMCR4',0,2,249,4,3
+	.word	5377
+	.byte	15
+	.byte	'Ifx_P_OMCR8',0,2,129,5,3
+	.word	5553
+	.byte	15
+	.byte	'Ifx_P_OMR',0,2,137,5,3
+	.word	1443
+	.byte	15
+	.byte	'Ifx_P_OMSR',0,2,145,5,3
+	.word	6042
+	.byte	15
+	.byte	'Ifx_P_OMSR0',0,2,153,5,3
+	.word	4513
+	.byte	15
+	.byte	'Ifx_P_OMSR12',0,2,161,5,3
+	.word	5029
+	.byte	15
+	.byte	'Ifx_P_OMSR4',0,2,169,5,3
+	.word	4682
+	.byte	15
+	.byte	'Ifx_P_OMSR8',0,2,177,5,3
+	.word	4854
+	.byte	15
+	.byte	'Ifx_P_OUT',0,2,185,5,3
+	.word	872
+	.byte	15
+	.byte	'Ifx_P_PCSR',0,2,193,5,3
+	.word	4366
+	.byte	15
+	.byte	'Ifx_P_PDISC',0,2,201,5,3
+	.word	4096
+	.byte	15
+	.byte	'Ifx_P_PDR0',0,2,209,5,3
+	.word	3065
+	.byte	15
+	.byte	'Ifx_P_PDR1',0,2,217,5,3
+	.word	3381
+	.byte	11
+	.word	7725
+	.byte	15
+	.byte	'Ifx_P',0,2,138,6,3
+	.word	9888
+	.byte	15
+	.byte	'Dio_LevelType',0,1,237,1,17
+	.word	337
+	.byte	15
+	.byte	'Dio_ChannelType',0,1,243,1,17
+	.word	315
+	.byte	15
+	.byte	'Dio_PortType',0,1,249,1,17
+	.word	337
+	.byte	15
+	.byte	'Dio_PortLevelType',0,1,252,1,17
+	.word	315
+	.byte	15
+	.byte	'Dio_ChannelGroupType',0,1,137,2,3
+	.word	354
+	.byte	15
+	.byte	'Dio_PortChannelIdType',0,1,145,2,2
+	.word	223
+	.byte	15
+	.byte	'Dio_ConfigType',0,1,179,2,2
+	.word	436
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L13:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,19,1,3,8,58,15,59,15,57,15
+	.byte	11,15,0,0,4,13,0,3,8,73,19,11,15,56,9,0,0,5,38,0,73,19,0,0,6,15,0,73,19,0,0,7,13,0,3,8,11,15,73,19,13
+	.byte	15,12,15,56,9,0,0,8,23,1,58,15,59,15,57,15,11,15,0,0,9,1,1,11,15,73,19,0,0,10,33,0,47,15,0,0,11,53,0,73
+	.byte	19,0,0,12,46,1,3,8,58,15,59,15,57,15,73,19,54,15,39,12,63,12,60,12,0,0,13,5,0,3,8,58,15,59,15,57,15,73
+	.byte	19,0,0,14,21,0,54,15,0,0,15,22,0,3,8,58,15,59,15,57,15,73,19,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L14:
+	.word	.L53-.L52
+.L52:
+	.half	3
+	.word	.L55-.L54
+.L54:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore\\inc',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc\\TC27xC',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc',0
+	.byte	0
+	.byte	'Dio.h',0,1,0,0
+	.byte	'IfxPort_regdef.h',0,2,0,0
+	.byte	'Dio_Ver.h',0,1,0,0
+	.byte	'..\\Aurix_MC-ISAR\\dio_infineon_tricore\\src\\Dio_Ver.c',0,0,0,0
+	.byte	'Platform_Types.h',0,3,0,0,0
+.L55:
+.L53:
+	.sdecl	'.debug_info',debug,cluster('Dio_Init')
+	.sect	'.debug_info'
+.L15:
+	.word	270
+	.half	3
+	.word	.L16
+	.byte	4,1
+	.byte	'..\\Aurix_MC-ISAR\\dio_infineon_tricore\\src\\Dio_Ver.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L18,.L17
+	.byte	2
+	.word	.L11
+	.byte	3
+	.byte	'Dio_Init',0,1,224,1,6,1,1,1
+	.word	.L8,.L25,.L7
+	.byte	4
+	.byte	'ConfigPtr',0,1,224,1,37
+	.word	.L26,.L27
+	.byte	5
+	.word	.L8,.L25
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Dio_Init')
+	.sect	'.debug_abbrev'
+.L16:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Dio_Init')
+	.sect	'.debug_line'
+.L17:
+	.word	.L57-.L56
+.L56:
+	.half	3
+	.word	.L59-.L58
+.L58:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\Aurix_MC-ISAR\\dio_infineon_tricore\\src\\Dio_Ver.c',0,0,0,0,0
+.L59:
+	.byte	5,1,7,0,5,2
+	.word	.L8
+	.byte	3,164,2,1,7,9
+	.half	.L19-.L8
+	.byte	0,1,1
+.L57:
+	.sdecl	'.debug_ranges',debug,cluster('Dio_Init')
+	.sect	'.debug_ranges'
+.L18:
+	.word	-1,.L8,0,.L19-.L8,0,0
+	.sdecl	'.debug_info',debug,cluster('Dio_FlipChannel')
+	.sect	'.debug_info'
+.L20:
+	.word	425
+	.half	3
+	.word	.L21
+	.byte	4,1
+	.byte	'..\\Aurix_MC-ISAR\\dio_infineon_tricore\\src\\Dio_Ver.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L23,.L22
+	.byte	2
+	.word	.L11
+	.byte	3
+	.byte	'Dio_FlipChannel',0,1,247,2,15
+	.word	.L28
+	.byte	1,1,1
+	.word	.L10,.L29,.L9
+	.byte	4
+	.byte	'ChannelId',0,1,247,2,47
+	.word	.L30,.L31
+	.byte	5
+	.word	.L10,.L29
+	.byte	6
+	.byte	'GetPortAddressPtr',0,1,249,2,20
+	.word	.L32,.L33
+	.byte	6
+	.byte	'OmrVal',0,1,250,2,20
+	.word	.L34,.L35
+	.byte	6
+	.byte	'PinNumber',0,1,251,2,20
+	.word	.L34,.L36
+	.byte	6
+	.byte	'PinPosition',0,1,252,2,20
+	.word	.L34,.L37
+	.byte	6
+	.byte	'RetVal',0,1,253,2,20
+	.word	.L28,.L38
+	.byte	6
+	.byte	'IocrRegPtr',0,1,254,2,21
+	.word	.L39,.L40
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Dio_FlipChannel')
+	.sect	'.debug_abbrev'
+.L21:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Dio_FlipChannel')
+	.sect	'.debug_line'
+.L22:
+	.word	.L61-.L60
+.L60:
+	.half	3
+	.word	.L63-.L62
+.L62:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\Aurix_MC-ISAR\\dio_infineon_tricore\\src\\Dio_Ver.c',0,0,0,0,0
+.L63:
+	.byte	5,15,7,0,5,2
+	.word	.L10
+	.byte	3,246,2,1,5,10,9
+	.half	.L42-.L10
+	.byte	3,9,1,5,12,9
+	.half	.L43-.L42
+	.byte	3,1,1,5,62,3,14,1,5,61,9
+	.half	.L41-.L43
+	.byte	1,5,25,9
+	.half	.L44-.L41
+	.byte	1,5,73,9
+	.half	.L46-.L44
+	.byte	3,6,1,5,37,9
+	.half	.L47-.L46
+	.byte	3,2,1,5,17,9
+	.half	.L45-.L47
+	.byte	1,5,22,9
+	.half	.L49-.L45
+	.byte	3,3,1,5,57,9
+	.half	.L64-.L49
+	.byte	1,5,36,9
+	.half	.L48-.L64
+	.byte	1,5,26,3,3,1,5,23,9
+	.half	.L50-.L48
+	.byte	1,5,12,9
+	.half	.L51-.L50
+	.byte	3,10,1,5,17,9
+	.half	.L65-.L51
+	.byte	3,122,1,5,12,9
+	.half	.L66-.L65
+	.byte	3,6,1,5,42,9
+	.half	.L67-.L66
+	.byte	3,1,1,5,12,9
+	.half	.L68-.L67
+	.byte	3,127,1,5,42,9
+	.half	.L69-.L68
+	.byte	3,1,1,5,39,9
+	.half	.L70-.L69
+	.byte	1,5,7,9
+	.half	.L71-.L70
+	.byte	3,127,1,5,10,7,9
+	.half	.L72-.L71
+	.byte	3,5,1,5,20,7,9
+	.half	.L73-.L72
+	.byte	3,2,1,9
+	.half	.L74-.L73
+	.byte	3,1,1,5,45,3,127,1,5,20,9
+	.half	.L4-.L74
+	.byte	3,5,1,5,10,9
+	.half	.L5-.L4
+	.byte	3,3,1,5,3,9
+	.half	.L3-.L5
+	.byte	3,5,1,5,1,3,1,1,7,9
+	.half	.L24-.L3
+	.byte	0,1,1
+.L61:
+	.sdecl	'.debug_ranges',debug,cluster('Dio_FlipChannel')
+	.sect	'.debug_ranges'
+.L23:
+	.word	-1,.L10,0,.L24-.L10,0,0
+	.sdecl	'.debug_loc',debug,cluster('Dio_FlipChannel')
+	.sect	'.debug_loc'
+.L31:
+	.word	-1,.L10,0,.L41-.L10
+	.half	1
+	.byte	84
+	.word	.L42-.L10,.L29-.L10
+	.half	1
+	.byte	89
+	.word	0,0
+.L9:
+	.word	-1,.L10,0,.L29-.L10
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L33:
+	.word	-1,.L10,.L44-.L10,.L45-.L10
+	.half	1
+	.byte	98
+	.word	.L46-.L10,.L29-.L10
+	.half	1
+	.byte	111
+	.word	0,0
+.L40:
+	.word	-1,.L10,.L47-.L10,.L29-.L10
+	.half	1
+	.byte	108
+	.word	0,0
+.L35:
+	.word	-1,.L10,.L41-.L10,.L3-.L10
+	.half	1
+	.byte	91
+	.word	0,0
+.L36:
+	.word	-1,.L10,.L45-.L10,.L48-.L10
+	.half	1
+	.byte	82
+	.word	.L49-.L10,.L29-.L10
+	.half	1
+	.byte	92
+	.word	0,0
+.L37:
+	.word	-1,.L10,.L50-.L10,.L51-.L10
+	.half	1
+	.byte	88
+	.word	0,0
+.L38:
+	.word	-1,.L10,.L43-.L10,.L29-.L10
+	.half	1
+	.byte	90
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Dio_Init')
+	.sect	'.debug_loc'
+.L27:
+	.word	-1,.L8,0,.L25-.L8
+	.half	1
+	.byte	100
+	.word	0,0
+.L7:
+	.word	-1,.L8,0,.L25-.L8
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L75:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,27,8,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('Dio_Init')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L75,.L8,.L25-.L8
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('Dio_FlipChannel')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L75,.L10,.L29-.L10
+
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   445  #endif /*(DIO_FLIP_CHANNEL_API == STD_ON) */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   446  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   447  #if(DIO_DEV_ERROR_DETECT == STD_ON)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   448  /*******************************************************************************
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   449  ** Syntax           : static uint8 Dio_lcheckDetStatus                        **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   450  **                    (                                                       **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   451  **                      uint8 ApiId                                           **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   452  **                    )                                                       **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   453  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   454  ** Service ID       : None                                                    **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   455  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   456  ** Sync/Async       : Synchronous                                             **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   457  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   458  ** Reentrancy       : Reentrant                                           **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   459  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   460  ** Parameters (in)  : ApiId - Service ID                                      **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   461  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   462  ** Parameters (out) : None                                                    **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   463  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   464  ** Return value     : RetVal                                                  **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   465  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   466  ** Description      :                                                         **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   467  ** - This function returns the init status of DIO module                      **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   468  *******************************************************************************/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   469  static uint8 Dio_lcheckDetStatus(uint8 ApiId)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   470  {
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   471    if(Dio_InitStatus != DIO_INITIALIZED)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   472    {
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   473      Det_ReportError(
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   474        (uint16)DIO_MODULE_ID,
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   475        DIO_INSTANCE_ID,
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   476        ApiId,
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   477        DIO_E_UNINIT);
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   478    }
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   479    return Dio_InitStatus;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   480  }
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   481  #endif /* DIO_DEV_ERROR_DETECT */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   482  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   483  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   484  #if((DIO_DEV_ERROR_DETECT == STD_ON) || (DIO_SAFETY_ENABLE == STD_ON))
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   485  /*******************************************************************************
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   486  ** Syntax           : uint8 Dio_lErrorCheckChannelGroupDet                    **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   487  **                    (                                                       **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   488  **                      const Dio_ChannelGroupType *ChannelGroupIdPtr,        **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   489  **                      uint8 ApiId                                           **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   490  **                    )                                                       **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   491  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   492  ** Service ID       : None                                                    **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   493  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   494  ** Sync/Async       : Synchronous                                             **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   495  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   496  ** Reentrancy       : Reentrant                                           **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   497  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   498  ** Parameters (in)  : ApiId - Service ID                                      **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   499  **                    *ChannelGroupIdPtr - Pointer to the Group ofchannels    **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   500  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   501  ** Parameters (out) : None                                                    **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   502  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   503  ** Return value     : RetVal                                                  **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   504  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   505  ** Description      :                                                         **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   506  ** - This function returns the validity of the ChannelGroup                   **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   507  *******************************************************************************/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   508  uint8 Dio_lErrorCheckChannelGroupDet(
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   509               const Dio_ChannelGroupType *ChannelGroupIdPtr,
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   510               uint8 ApiId)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   511  {
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   512    uint8 RetVal;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   513    RetVal = DIO_ERROR;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   514  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   515    #if(DIO_DEV_ERROR_DETECT == STD_ON)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   516    if(Dio_lcheckDetStatus(ApiId) == (uint8)DIO_NO_ERROR)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   517    #endif /* DIO_DEV_ERROR_DETECT == STD_ON */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   518    {
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   519       /* Check for the validity of group configuration
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   520          Reports DET error if detected */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   521       if(Dio_lCheckGroupId(ApiId,ChannelGroupIdPtr) == (uint8)DIO_NO_ERROR)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   522       {
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   523          RetVal = DIO_NO_ERROR;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   524       }
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   525    }
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   526    return RetVal;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   527  }
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   528  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   529  /*******************************************************************************
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   530  ** Syntax           : uint8 Dio_lErrorCheckChannelDet                         **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   531  **                    (                                                       **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   532  **                      Dio_ChannelType ChannelId,                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   533  **                      uint8 ApiId                                           **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   534  **                    )                                                       **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   535  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   536  ** Service ID       : None                                                    **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   537  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   538  ** Sync/Async       : Synchronous                                             **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   539  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   540  ** Reentrancy       : Reentrant                                           **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   541  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   542  ** Parameters (in)  : ApiId - Service ID                                      **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   543  **                    ChannelId - Identifier for the PortPin                  **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   544  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   545  ** Parameters (out) : None                                                    **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   546  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   547  ** Return value     : RetVal                                                  **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   548  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   549  ** Description      :                                                         **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   550  ** - This function returns the validity of the ChannelId                      **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   551  *******************************************************************************/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   552  uint8 Dio_lErrorCheckChannelDet(
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   553               Dio_ChannelType ChannelId,
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   554               uint8 ApiId)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   555  {
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   556    uint8 RetVal;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   557  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   558    RetVal = DIO_ERROR;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   559  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   560    #if(DIO_DEV_ERROR_DETECT == STD_ON)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   561    if(Dio_lcheckDetStatus(ApiId) == (uint8)DIO_NO_ERROR)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   562    #endif /* DIO_DEV_ERROR_DETECT == STD_ON */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   563    {
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   564       /* Check for the validity of group configuration
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   565          Reports DET error if detected */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   566       if(Dio_lCheckChannelId(ApiId,ChannelId) == (uint8)DIO_NO_ERROR)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   567       {
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   568          RetVal = DIO_NO_ERROR;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   569       }
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   570    }
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   571    return RetVal;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   572  }
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   573  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   574  /*******************************************************************************
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   575  ** Syntax           : uint8 Dio_lErrorCheckPortDet                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   576  **                    (                                                       **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   577  **                      Dio_ChannelType PortId,                               **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   578  **                      uint8 ApiId                                           **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   579  **                    )                                                       **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   580  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   581  ** Service ID       : None                                                    **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   582  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   583  ** Sync/Async       : Synchronous                                             **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   584  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   585  ** Reentrancy       : Reentrant                                           **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   586  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   587  ** Parameters (in)  : ApiId - Service ID                                      **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   588  **                    PortId - Identifier for the Port                        **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   589  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   590  ** Parameters (out) : None                                                    **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   591  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   592  ** Return value     : RetVal                                                  **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   593  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   594  ** Description      :                                                         **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   595  ** - This function returns the validity of the PortId                         **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   596  *******************************************************************************/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   597  uint8 Dio_lErrorCheckPortDet(Dio_PortType PortId, uint8 ApiId)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   598  {
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   599    uint8 RetVal;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   600    RetVal = DIO_ERROR;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   601  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   602    #if(DIO_DEV_ERROR_DETECT == STD_ON)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   603    if(Dio_lcheckDetStatus(ApiId) == (uint8)DIO_NO_ERROR)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   604    #endif /* DIO_DEV_ERROR_DETECT == STD_ON */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   605    {
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   606       /* Check for the validity of group configuration
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   607          Reports DET error if detected */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   608       if(Dio_lCheckPortId(ApiId,PortId) == (uint8)DIO_NO_ERROR)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   609       {
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   610          RetVal = DIO_NO_ERROR;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   611       }
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   612    }
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   613    return RetVal;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   614  }
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   615  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   616  /*******************************************************************************
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   617  ** Syntax           : uint8 Dio_lCheckChGrpValue                              **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   618  **                    (                                                       **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   619  **                      const Dio_ChannelGroupType *GroupIdPtr                **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   620  **                    )                                                       **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   621  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   622  ** Service ID       : None                                                    **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   623  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   624  ** Sync/Async       : Synchronous                                             **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   625  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   626  ** Reentrancy       : Reentrant                                           **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   627  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   628  ** Parameters (in)  : ApiId - Service ID                                      **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   629  **                    ChGroupId - Identifier for the Channel Group            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   630  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   631  ** Parameters (out) : None                                                    **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   632  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   633  ** Return value     : RetVal                                                  **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   634  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   635  ** Description      :                                                         **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   636  ** - This function returns the validity of the ChGrpId                        **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   637  *******************************************************************************/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   638  uint8 Dio_lCheckChGrpValue(const Dio_ChannelGroupType *GroupIdPtr)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   639  {
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   640  #if((DIO_CONFIG_COUNT == 1U) || (DIO_CH_GRP_SET_U > 1U))
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   641     uint32 Index;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   642  #endif
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   643     uint8  ErrStatus = DIO_ERROR;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   644  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   645  #if(DIO_CONFIG_COUNT == 1U)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   646     for(Index = 0U;Index < (Dio_kConfigPtr->Dio_ChannelGroupConfigSize);Index++)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   647     {
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   648       /*IFX_MISRA_RULE_17_04_STATUS=Pointer arithmetic used
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   649         due to PBConfigStructure and is within allowed range.*/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   650       if (GroupIdPtr == &(Dio_kConfigPtr->Dio_ChannelGroupConfigPtr[Index]))
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   651       {
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   652       /*DIO114: channel group is valid within the current configuration*/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   653         ErrStatus = (uint8)DIO_NO_ERROR;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   654         break;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   655       }
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   656     }
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   657  #else
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   658    #if(DIO_CH_GRP_SET_U == 1U)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   659     if (GroupIdPtr == &(Dio_kConfigPtr->Dio_ChGrpIdMap[0U]))
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   660     {
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   661     /*DIO114: channel group is valid within the current configuration*/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   662       ErrStatus = (uint8)DIO_NO_ERROR;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   663     }
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   664    #elif(DIO_CH_GRP_SET_U > 1U)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   665     for(Index = 0U; Index < (DIO_CH_GRP_SET_U); Index++)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   666     {
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   667       if (GroupIdPtr == &(Dio_kConfigPtr->Dio_ChGrpIdMap[Index]))
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   668       {
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   669       /*DIO114: channel group is valid within the current configuration*/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   670         ErrStatus = (uint8)DIO_NO_ERROR;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   671         break;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   672       }
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   673     }
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   674    #else
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   675     UNUSED_PARAMETER(GroupIdPtr)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   676    #endif /* DIO_CH_GRP_SET_U > 1U */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   677  #endif
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   678  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   679     return ErrStatus;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   680  }
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   681  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   682  /*******************************************************************************
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   683  ** Syntax           : uint8 Dio_lCheckAnalogChannel                           **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   684  **                    (                                                       **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   685  **                      uint8 ApiId, uint32 PortReadOnly                      **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   686  **                    )                                                       **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   687  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   688  ** Service ID       : None                                                    **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   689  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   690  ** Sync/Async       : Synchronous                                             **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   691  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   692  ** Reentrancy       : Reentrant                                           **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   693  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   694  ** Parameters (in)  : ApiId - Service ID                                      **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   695  **                    PortReadOnly - Flag to represent Analog PortPins        **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   696  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   697  ** Parameters (out) : None                                                    **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   698  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   699  ** Return value     : RetVal                                                  **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   700  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   701  ** Description      :                                                         **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   702  ** - This function returns status for Read/Write Called on Analog Ports       **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   703  *******************************************************************************/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   704  uint8 Dio_lCheckAnalogChannel(uint8 ApiId, uint32 PortReadOnly)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   705  {
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   706     uint8 ErrStatus;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   707     ErrStatus = (uint8)DIO_NO_ERROR;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   708  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   709     #if( DIO_FLIP_CHANNEL_API == STD_ON )
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   710     if( ( (ApiId == DIO_SID_WRITECHANNEL) ||
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   711           (ApiId == DIO_SID_FLIPCHANNEL)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   712         ) &&  (PortReadOnly != 0U)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   713       )
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   714       {
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   715         /* Error status = Error has occurred */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   716         ErrStatus = (uint8)DIO_ERROR;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   717       }
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   718     #else
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   719     if( (ApiId == DIO_SID_WRITECHANNEL) &&  (PortReadOnly != 0U) )
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   720     {
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   721       /* Error status = Error has occurred */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   722       ErrStatus = (uint8)DIO_ERROR;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   723     }
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   724     #endif
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   725     return ErrStatus;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   726  }
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   727  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   728  /*******************************************************************************
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   729  ** Syntax           : uint8 Dio_lCheckAnalogPort                              **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   730  **                    (                                                       **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   731  **                      uint8 ApiId, uint32 PortReadOnly                      **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   732  **                    )                                                       **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   733  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   734  ** Service ID       : None                                                    **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   735  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   736  ** Sync/Async       : Synchronous                                             **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   737  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   738  ** Reentrancy       : Reentrant                                           **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   739  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   740  ** Parameters (in)  : ApiId - Service ID                                      **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   741  **                    PortReadOnly - Flag to represent Analog PortPins        **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   742  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   743  ** Parameters (out) : None                                                    **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   744  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   745  ** Return value     : RetVal                                                  **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   746  **                                                                            **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   747  ** Description      :                                                         **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   748  ** - This function returns status for Read/Write Called on Analog Ports       **
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   749  *******************************************************************************/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   750  uint8 Dio_lCheckAnalogPort(uint8 ApiId, uint32 PortReadOnly)
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   751  {
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   752     uint8 ErrStatus;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   753     ErrStatus = (uint8)DIO_NO_ERROR;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   754  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   755     if( (ApiId == DIO_SID_WRITEPORT) &&  (PortReadOnly != 0U) )
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   756     {
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   757       /* Error status = Error has occurred */
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   758       ErrStatus = (uint8)DIO_ERROR;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   759     }
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   760     return ErrStatus;
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   761  }
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   762  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   763  #endif /* DIO_DEV_ERROR_DETECT == STD_ON || DIO_SAFETY_ENABLE == STD_ON*/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   764  
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   765  /*Memory Map of the DIO Code*/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   766  #define DIO_STOP_SEC_CODE
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   767  /*mapping of code and data to specific memory sections via memory mapping file*/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   768  /*IFX_MISRA_RULE_19_01_STATUS=File inclusion after pre-processor directives
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   769    is allowed only for MemMap.h*/
+; ..\Aurix_MC-ISAR\dio_infineon_tricore\src\Dio_Ver.c	   770  #include "MemMap.h"
+
+	; Module end

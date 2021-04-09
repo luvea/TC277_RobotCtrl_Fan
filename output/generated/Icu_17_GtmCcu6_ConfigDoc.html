@@ -1,0 +1,436 @@
+
+
+
+<html>
+  <head>
+    <title>ICU Driver Details</title>
+  </head>
+  <body>
+    <style type="text/css">
+table{table-layout: fixed;width: 300px;}
+table.curvedEdges { border:10px solid ;-webkit-border-radius:13px;-moz-border-radius:13px;-ms-border-radius:13px;-o-border-radius:13px;border-radius:13px; }
+table.curvedEdges td, table.curvedEdges th { border-bottom:1px dotted black;overflow: hidden;width: 400px;padding:5px; }
+</style>
+<!-- Be sure to place the above styles (i.e. everything between the <style></style> tags) into the document 'head' (i.e. between the <head></head> tags. Everything below goes inside the <body></body> tags) -->       
+    <p>
+      &nbsp;</p>  
+    <h2>
+      /*****************************************ICU HW-SW MAP*****************************************/</h2>
+    <table border="1" cellpadding="5" cellspacing="0" class="curvedEdges" width="100%">
+      <caption><strong>
+        Table 1: Api Usage and SFR access</strong></caption>
+      <thead>
+        <col width="300">
+        <col width="700">
+        <col width="300"> 
+        <tr>
+          <th scope="col">
+            API Name</th>
+          <th scope="col">
+            SFRs Used</th>
+          <th scope="col">
+            Remarks</th>
+        </tr>
+      </thead>
+
+	  <tr>
+	  <td>Icu_17_GtmCcu6_EnableEdgeDetection </td>
+	  <td>
+	       GTM<li>TIMi_CHx_CTRL</li><li>TIMi_CHx_IRQ_NOTIFY</li> 
+	     
+              
+      </td>
+	  <td>
+        Where i refers to TIM module number and x refers to channel number
+      
+	  </tr>
+	   <tr>
+	  <td> Icu_17_GtmCcu6_DisableEdgeDetection</td>
+	  <td> <li>
+	       GTM<li>TIMi_CHx_CTRL</li>
+	     
+        
+		  
+	  <td>
+        Where i refers to TIM module number and x refers to channel number
+      
+	  </tr>
+        
+          
+ 
+ 	   <tr>
+	  <td> Icu_17_GtmCcu6_Init </td>
+	  <td> 
+	       GTM<li>TIMi_CHx_FLT_RE</li><li>TIMi_CHx_IRQ_MODE</li><li>TIMi_CHx_IRQ_NOTIFY</li><li>TIMi_CHx_CTRL </li>
+	     
+       
+      
+	  <td>        Where i refers to TIM module number and x refers to channel number
+      
+	  </tr>
+  	   <tr>
+	  <td> Icu_17_GtmCcu6_SetMode </td>
+	  <td>
+	       GTM<li>CH_CTRL</li><li>TIMi_CH_IRQ_NOTIFY </li><li>TIMi_CH_CTRL </li>
+		   
+       
+		   	  <td>        Where i refers to TIM module number and x refers to channel number
+      
+       </td>  
+	  </tr>
+	   <tr>
+	  <td>  Icu_17_GtmCcu6_CheckWakeup</td>
+	  <td> None</td>
+	  <td>None</td>
+	  </tr>
+	   <tr>
+	  <td> Icu_17_GtmCcu6_EnableNotification </td>
+	  <td>
+	  GTM<li>TIMi_CH_IRQ_NOTIFY</li><li>TIMi_CHx_IRQ_EN </li>
+        
+	  <td>        Where i refers to TIM module number and x refers to channel number
+      
+   </td>       
+	  </tr>
+	   <tr>
+	  <td> Icu_17_GtmCcu6_DisableNotification </td>
+	  <td>
+	  GTM<li> TIMi_CHx_IRQ_EN</li>
+            
+	  <td>        Where i refers to TIM module number and x refers to channel number
+      
+   </td>        
+	  </tr> 
+	  <tr>
+	  <td> Icu_17_GtmCcu6_GetInputState </td>
+	  <td>
+	  GTM<li>TIMi_CHx_CNTS</li><li>TIMi_CH_IRQ_NOTIFY </li>
+            
+	  <td>        Where i refers to TIM module number and x refers to channel number
+      
+         </td>  
+	  </tr>
+	  <tr>
+	  <td> Icu_17_GtmCcu6_SetActivationCondition </td>
+	  <td> 
+	       GTM<li>TIMi_CH_CTRL</li> 
+		        
+		   
+	  <td>        Where i refers to TIM module number and x refers to channel number
+      
+	  </tr>
+        
+        
+    	  <tr>
+	  <td> Icu_17_GtmCcu6_Isr </td>
+	  <td>GTM<li>TIMi_CH_CTRL</li> </td>
+	  <td>        Where i refers to TIM module number and x refers to channel number
+		  
+	  </tr>
+
+    
+      <tbody>
+	  </tbody>
+	  </table>
+	  
+	  
+	  
+	  
+	  
+	  <table border="3" cellpadding="5" cellspacing="0" class="curvedEdges">
+      <caption><strong>
+        Table 2: ICU Configured Channels</strong></caption>
+        <thead>
+        <col width="250">
+        <col width="250">
+        <col width="250">
+        <col width="250">
+        
+        <th> ICU Channel </th>
+        <th> Used peripheral </th>
+        <th> Module no </th>        
+        <th> Channel no </th> 
+        
+        </thead>
+        <tbody> 
+
+
+        <tr>
+        <td>ICU_Channel_0</td>
+        <td>GTM</td>
+        <td>TIM1</td>
+        <td>3</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>ICU_Channel_1</td>
+        <td>GTM</td>
+        <td>TIM1</td>
+        <td>4</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>ICU_Channel_2</td>
+        <td>GTM</td>
+        <td>TIM1</td>
+        <td>6</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>ICU_Channel_3</td>
+        <td>GTM</td>
+        <td>TIM2</td>
+        <td>1</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>ICU_Channel_4</td>
+        <td>GTM</td>
+        <td>TIM2</td>
+        <td>4</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>ICU_Channel_5</td>
+        <td>GTM</td>
+        <td>TIM2</td>
+        <td>5</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>ICU_Channel_6</td>
+        <td>GTM</td>
+        <td>TIM2</td>
+        <td>6</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>ICU_Channel_7</td>
+        <td>GTM</td>
+        <td>TIM2</td>
+        <td>7</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>ICU_Channel_8</td>
+        <td>GTM</td>
+        <td>TIM2</td>
+        <td>0</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>ICU_Channel_9</td>
+        <td>GTM</td>
+        <td>TIM1</td>
+        <td>7</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>ICU_Channel_10</td>
+        <td>GTM</td>
+        <td>TIM3</td>
+        <td>0</td>
+        
+        </tr>
+
+
+        <tr>
+        <td>ICU_Channel_11</td>
+        <td>GTM</td>
+        <td>TIM3</td>
+        <td>1</td>
+        
+        </tr>
+
+
+		<tr>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		</tr>
+		<tr>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		</tr><tr>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		</tr><tr>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		</tr>
+		<tbody>
+		</table>
+		
+		
+		
+		
+		
+		 /******************************************ICU MPU Settings******************************************/</h2>     
+    <table border="3" cellpadding="5" cellspacing="0" class="curvedEdges">
+      <caption><strong>
+        Table 3: Common SFR and Memory Range</strong></caption>
+      <thead>
+        <col width="500">
+        <col width="500">
+        <col width="300">
+        <tr>
+          <th scope="col">
+            Start Address</th>
+          <th scope="col">
+            End Address</th>
+          <th scope="col">
+            Remarks</th>
+        </tr>
+      </thead>
+       <tbody>
+        <tr>
+          <td>
+            GTM_TIMi_CHx_GPR0</td>
+          <td>
+            GTM_TIMi_CHx_IRQ_MODE</td>
+          <td>
+            Refer Table 2 for respective GTM Module, Module number(i) and Channel number(x)</td>
+        </tr>
+        <tr>
+          <td>
+            CCUx_CLC</td>
+          <td>
+            CCUx_IEN</td>
+          <td>
+            Refer Table 2 for respective CCU Module and Channel </td>
+        </tr>
+          <td>
+            SCU_EICR0</td>
+          <td>
+            SCU_DTSLIM</td>
+          <td>
+            Refer Table 2 for respective ERU Channel </td>
+        </tr>  
+       
+        <tr>        
+          <td>
+            SRC_GTMTIM00</td>
+          <td>
+            SRC_GTMMCS00</td>
+          <td>
+            Service request control registers for GTM </td>
+        </tr> 
+                </tr>  
+       
+       
+        <tr>
+          <td>
+            ICU_17_GTMCCU6_START_SEC_VAR_32BIT</td>
+          <td>
+            ICU_17_GTMCCU6_STOP_SEC_VAR_32BIT</td>
+          <td>All 32-bit varaibles used in ICU driver</td>
+        </tr>
+        
+        <tr>
+          <td>
+            ICU_17_GTMCCU6_START_SEC_VAR_8BIT</td>
+          <td>
+            ICU_17_GTMCCU6_STOP_SEC_VAR_8BIT</td>
+          <td>All 8-bit varaibles used in ICU driver</td>
+        </tr>
+
+        <tr>
+          <td>
+            ICU_17_GTMCCU6_START_SEC_CONST_32BIT</td>
+          <td>
+            ICU_17_GTMCCU6_STOP_SEC_CONST_32BIT</td>
+          <td>All 32-bit const varaibles used in ICU driver</td>
+        </tr>
+
+        <tr>
+          <td>
+            ICU_17_GTMCCU6_START_SEC_CODE</td>
+          <td>
+            ICU_17_GTMCCU6_STOP_SEC_CODE</td>
+          <td>All text data</td>
+        </tr>
+        
+        <tr>
+          <td>
+            ICU_17_GTMCCU6_START_SEC_POSTBUILDCFG</td>
+          <td>
+            ICU_17_GTMCCU6_STOP_SEC_POSTBUILDCFG</td>
+          <td>All post build configuration data</td>
+        </tr>
+        
+        <tr>
+          <td>
+            ICU_17_GTMCCU6_START_SEC_CALLOUT_CODE</td>
+          <td>
+            ICU_17_GTMCCU6_STOP_SEC_CALLOUT_CODE</td>
+          <td>All ISR section defined in ICU driver </td>
+        </tr>        
+        </tbody>
+    </table>
+    
+     <p>
+      &nbsp;</p>       
+
+ 
+    <p>
+      &nbsp;</p>        
+
+
+
+    <p>
+      &nbsp;</p>    
+     
+        <table border="3" cellpadding="5" cellspacing="0" class="curvedEdges">
+      <caption><strong>
+        Table 6:  QM SFR and Memory Range</strong></caption>
+      <thead>
+        <col width="500">
+        <col width="500">
+        <col width="300">
+        <tr>
+          <th scope="col">
+            Start Address</th>
+          <th scope="col">
+            End Address</th>
+          <th scope="col">
+            Remarks</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            ICU_17_GTMCCU6_START_SEC_VAR_UNSPECIFIED</td>
+          <td>
+            ICU_17_GTMCCU6_STOP_SEC_VAR_UNSPECIFIED</td>
+          <td> QM channels variables section</td>
+        </tr>
+
+      </tbody>      
+    </table>

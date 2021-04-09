@@ -1,0 +1,3368 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.2r2 Build 18041957 SN 06692445"
+	.compiler_invocation	"ctc -f cc24036a --dep-file=Qspi\\.AuirxQspi.o.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xc -D__CPU_TC27XC__ --core=tc1.6.x --fp-model=+float -D_TASKING_C_TRICORE_ -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\.settings -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Asw -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\compiler -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc\\TC27xC -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc\\TC27xC\\SupportDocuments -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\lib -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\obj -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Asw -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\dio_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\dio_infineon_tricore\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\integration_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\integration_general\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Hal_Sensor -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output\\generated -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output\\generated\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\PWM3Ph -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Qspi -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Adc_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Adc3ph_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Can_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TLE_9180_Drive -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\UART_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Hal_Sensor -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\Demo_Aurix -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\mak -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\PWM3Ph -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Qspi -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Adc_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Adc3ph_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Can_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TLE_9180_Drive -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\UART_Test -g2 --make-target=Qspi\\AuirxQspi.o -t2 --language=-gcc,-volatile,+strings,-kanji --default-near-size=8 -O2 --default-a1-size=0 --default-a0-size=0 --source --align=0 --compact-max-size=200 --switch=auto --error-limit=42 -o Qspi\\AuirxQspi.src ..\\Qspi\\AuirxQspi.c"
+	.compiler_name		"ctc"
+	;source	'..\\Qspi\\AuirxQspi.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.AuirxQspi.AurixQspi_Init',code,cluster('AurixQspi_Init')
+	.sect	'.text.AuirxQspi.AurixQspi_Init'
+	.align	2
+	
+	.global	AurixQspi_Init
+
+; ..\Qspi\AuirxQspi.c	     1  /*******************************************************************************
+; ..\Qspi\AuirxQspi.c	     2  **----------------------------------------------------------------------------**
+; ..\Qspi\AuirxQspi.c	     3  ** Copyright (c) 2017 by G-Pulse.		All rights reserved.
+; ..\Qspi\AuirxQspi.c	     4  ** This software is copyright protected and proprietary to G-Pulse.
+; ..\Qspi\AuirxQspi.c	     5  ** G-Pulse grants to you only those rights as set out in the license conditions.
+; ..\Qspi\AuirxQspi.c	     6  ** All other rights remain with G-Pulse.
+; ..\Qspi\AuirxQspi.c	     7  **----------------------------------------------------------------------------**
+; ..\Qspi\AuirxQspi.c	     8  **
+; ..\Qspi\AuirxQspi.c	     9  * Administrative Information
+; ..\Qspi\AuirxQspi.c	    10  * $Namespace_: \CddDrv\AurixQspi$
+; ..\Qspi\AuirxQspi.c	    11  * $Class_____: C$
+; ..\Qspi\AuirxQspi.c	    12  * $Name______: AurixQspi.c$
+; ..\Qspi\AuirxQspi.c	    13  * $Variant___: 1.0.4$
+; ..\Qspi\AuirxQspi.c	    14  * $Revision__: 0$
+; ..\Qspi\AuirxQspi.c	    15  * $Author____: YM$
+; ..\Qspi\AuirxQspi.c	    16  **
+; ..\Qspi\AuirxQspi.c	    17  **----------------------------------------------------------------------------**
+; ..\Qspi\AuirxQspi.c	    18  ** MAY BE CHANGED BY USER [Yes/No]: No
+; ..\Qspi\AuirxQspi.c	    19  **----------------------------------------------------------------------------**
+; ..\Qspi\AuirxQspi.c	    20  ** DESCRIPTION:
+; ..\Qspi\AuirxQspi.c	    21  ** AURIX QSPI manual driver source code
+; ..\Qspi\AuirxQspi.c	    22  *******************************************************************************/
+; ..\Qspi\AuirxQspi.c	    23  
+; ..\Qspi\AuirxQspi.c	    24  /*******************************************************************************
+; ..\Qspi\AuirxQspi.c	    25  **                      Other Header File Inclusion                           **
+; ..\Qspi\AuirxQspi.c	    26  *******************************************************************************/
+; ..\Qspi\AuirxQspi.c	    27  #include "AuirxQspi.h"
+; ..\Qspi\AuirxQspi.c	    28  #include "Mcal_WdgLib.h"
+; ..\Qspi\AuirxQspi.c	    29  #include "IfxQspi_reg.h"
+; ..\Qspi\AuirxQspi.c	    30  
+; ..\Qspi\AuirxQspi.c	    31  /*******************************************************************************
+; ..\Qspi\AuirxQspi.c	    32  **                          Macro Definition                         		  **
+; ..\Qspi\AuirxQspi.c	    33  *******************************************************************************/
+; ..\Qspi\AuirxQspi.c	    34  /*SPI MODULE ADDRESS*/
+; ..\Qspi\AuirxQspi.c	    35  #define AURIX_QSPI_MODULE 				((volatile Ifx_QSPI*) &(MODULE_QSPI0))
+; ..\Qspi\AuirxQspi.c	    36  
+; ..\Qspi\AuirxQspi.c	    37  /*QSPI模块CLC寄存器MASK*/
+; ..\Qspi\AuirxQspi.c	    38  #define AURIX_QSPI_ENABLE_CLOCK_MASK		((uint32)0x00000008U)
+; ..\Qspi\AuirxQspi.c	    39  
+; ..\Qspi\AuirxQspi.c	    40  /*QSPI模块使能BIT MASK*/
+; ..\Qspi\AuirxQspi.c	    41  #define	AURIX_QSPI_GLOBALCON_ENBIT_MASK		((uint32)0x01000000U)
+; ..\Qspi\AuirxQspi.c	    42  
+; ..\Qspi\AuirxQspi.c	    43  /*QSPI模块清所有标志位MASK*/
+; ..\Qspi\AuirxQspi.c	    44  #define AURIX_QSPI_FLAGSCLEAR_ALL_MASK		((uint32)0x0000FFFFU)
+; ..\Qspi\AuirxQspi.c	    45  
+; ..\Qspi\AuirxQspi.c	    46  /*QSPI模块清除RX标志位MASK*/
+; ..\Qspi\AuirxQspi.c	    47  #define AURIX_QSPI_FLAGSCLEAR_RXF_MASK		((uint32)0x00000400U)
+; ..\Qspi\AuirxQspi.c	    48  
+; ..\Qspi\AuirxQspi.c	    49  /*QSPI模块RX状态标志位MASK*/
+; ..\Qspi\AuirxQspi.c	    50  #define AURIX_QSPI_STATUS_RXF_MASK			((uint32)0x00000400U)
+; ..\Qspi\AuirxQspi.c	    51  
+; ..\Qspi\AuirxQspi.c	    52  /*QSPI模块错误状态标志位MASK*/
+; ..\Qspi\AuirxQspi.c	    53  #define AURIX_QSPI_STATUS_ERRORFLAGS_MASK	((uint32)0x000001FFU)
+; ..\Qspi\AuirxQspi.c	    54  
+; ..\Qspi\AuirxQspi.c	    55  /*******************************************************************************
+; ..\Qspi\AuirxQspi.c	    56  **                          Typedef Definition                         		  **
+; ..\Qspi\AuirxQspi.c	    57  *******************************************************************************/
+; ..\Qspi\AuirxQspi.c	    58  
+; ..\Qspi\AuirxQspi.c	    59  /*******************************************************************************
+; ..\Qspi\AuirxQspi.c	    60  **                   Static Local Variables Definition              		  **
+; ..\Qspi\AuirxQspi.c	    61  *******************************************************************************/
+; ..\Qspi\AuirxQspi.c	    62  /* SPI 数据内部变量 */
+; ..\Qspi\AuirxQspi.c	    63  static AurixQspi_DataType AurixQspi_Data_st[AURIX_QSPI_CHANNEL_USE_NUM];
+; ..\Qspi\AuirxQspi.c	    64  
+; ..\Qspi\AuirxQspi.c	    65  /*******************************************************************************
+; ..\Qspi\AuirxQspi.c	    66  **                     Global Variables Definition              		      **
+; ..\Qspi\AuirxQspi.c	    67  *******************************************************************************/
+; ..\Qspi\AuirxQspi.c	    68  
+; ..\Qspi\AuirxQspi.c	    69  /*******************************************************************************
+; ..\Qspi\AuirxQspi.c	    70  **                  Static Local Function Declaration            		      **
+; ..\Qspi\AuirxQspi.c	    71  *******************************************************************************/
+; ..\Qspi\AuirxQspi.c	    72  static void AurixQspi_SendData
+; ..\Qspi\AuirxQspi.c	    73  (
+; ..\Qspi\AuirxQspi.c	    74  	const AurixQspi_ChannelType *AurixQspi_Channel_Ptr,\ 
+; ..\Qspi\AuirxQspi.c	    75  	AurixQspi_DataType *AurixQspi_Data_Ptr
+; ..\Qspi\AuirxQspi.c	    76  );
+; ..\Qspi\AuirxQspi.c	    77  static void AurixQspi_ReceiveData
+; ..\Qspi\AuirxQspi.c	    78  (
+; ..\Qspi\AuirxQspi.c	    79  	const AurixQspi_ChannelType *AurixQspi_Channel_Ptr,\ 
+; ..\Qspi\AuirxQspi.c	    80  	AurixQspi_DataType *AurixQspi_Data_Ptr
+; ..\Qspi\AuirxQspi.c	    81  );
+; ..\Qspi\AuirxQspi.c	    82  static Std_ReturnType AurixQspi_CheckStatus(uint8 arg_QspiIndex_u8);
+; ..\Qspi\AuirxQspi.c	    83  
+; ..\Qspi\AuirxQspi.c	    84  /*******************************************************************************
+; ..\Qspi\AuirxQspi.c	    85  **                 		  Function Source Code            		              **
+; ..\Qspi\AuirxQspi.c	    86  *******************************************************************************/
+; ..\Qspi\AuirxQspi.c	    87  
+; ..\Qspi\AuirxQspi.c	    88  /*******************************************************************************
+; ..\Qspi\AuirxQspi.c	    89  ** Function Name	: AurixQspi_Init
+; ..\Qspi\AuirxQspi.c	    90  ** Parameter[in] 	: const AurixQspi_HWCfgType *arg_HWCfg_pst
+; ..\Qspi\AuirxQspi.c	    91  ** Parameter[out] 	: None
+; ..\Qspi\AuirxQspi.c	    92  ** Return Value	  	: Std_ReturnType Status
+; ..\Qspi\AuirxQspi.c	    93  ** Note	  			: None
+; ..\Qspi\AuirxQspi.c	    94  ** Description	  	: AURIX QSPI模块 初始化
+; ..\Qspi\AuirxQspi.c	    95  *******************************************************************************/
+; ..\Qspi\AuirxQspi.c	    96  Std_ReturnType AurixQspi_Init(const AurixQspi_HWCfgType *arg_HWCfg_pst)
+; Function AurixQspi_Init
+.L33:
+AurixQspi_Init:	.type	func
+
+; ..\Qspi\AuirxQspi.c	    97  {
+; ..\Qspi\AuirxQspi.c	    98  	Std_ReturnType Status = E_NOT_OK;
+; ..\Qspi\AuirxQspi.c	    99  
+; ..\Qspi\AuirxQspi.c	   100  	uint8 QspiMoudleCnt_u8;
+; ..\Qspi\AuirxQspi.c	   101  	uint32 GLOBALCON_Temp_ui32;
+; ..\Qspi\AuirxQspi.c	   102  	const AurixQspi_MoudleType *AurixQspi_Moudle_ptr;
+; ..\Qspi\AuirxQspi.c	   103  
+; ..\Qspi\AuirxQspi.c	   104  	if(arg_HWCfg_pst != NULL_PTR)
+	jz.a	a4,.L2
+.L185:
+
+; ..\Qspi\AuirxQspi.c	   105  	{
+; ..\Qspi\AuirxQspi.c	   106  		/*配置并使能所有需要用到的QSPI模块*/
+; ..\Qspi\AuirxQspi.c	   107  		for(QspiMoudleCnt_u8=0U;QspiMoudleCnt_u8<AURIX_QSPI_MOUDLE_USE_NUM;\ 
+; ..\Qspi\AuirxQspi.c	   108  			QspiMoudleCnt_u8++)
+; ..\Qspi\AuirxQspi.c	   109  		{
+; ..\Qspi\AuirxQspi.c	   110  			AurixQspi_Moudle_ptr = \ 
+; ..\Qspi\AuirxQspi.c	   111  					arg_HWCfg_pst->HW_MoudleCfg_ptr[QspiMoudleCnt_u8];
+	ld.a	a12,[a4]
+.L157:
+
+; ..\Qspi\AuirxQspi.c	   112  			/* Enable Module Request,Disable Sleep Mode */
+; ..\Qspi\AuirxQspi.c	   113  			Mcal_ResetENDINIT();
+	call	Mcal_ResetENDINIT
+.L156:
+
+; ..\Qspi\AuirxQspi.c	   114  			AURIX_QSPI_MODULE[AurixQspi_Moudle_ptr->ModuleIndx_u8].CLC.U =\ 
+	lea	a13,0xf0001c00
+.L186:
+	fcall	.cocofun_2
+.L187:
+
+; ..\Qspi\AuirxQspi.c	   115  										AURIX_QSPI_ENABLE_CLOCK_MASK;
+	mov	d15,#8
+	st.w	[a15],d15
+.L188:
+
+; ..\Qspi\AuirxQspi.c	   116  	        Mcal_SetENDINIT();
+	call	Mcal_SetENDINIT
+.L189:
+
+; ..\Qspi\AuirxQspi.c	   117  
+; ..\Qspi\AuirxQspi.c	   118  			/*配置GLOBALCON*/
+; ..\Qspi\AuirxQspi.c	   119  			AURIX_QSPI_MODULE[AurixQspi_Moudle_ptr->ModuleIndx_u8].GLOBALCON.U =\ 
+	fcall	.cocofun_2
+.L190:
+
+; ..\Qspi\AuirxQspi.c	   120  					AurixQspi_Moudle_ptr->GLOBALCON_u32;
+	ld.w	d15,[a12]2
+.L191:
+	st.w	[a15]16,d15
+.L192:
+
+; ..\Qspi\AuirxQspi.c	   121  
+; ..\Qspi\AuirxQspi.c	   122  			/*配置GLOBALCON1*/
+; ..\Qspi\AuirxQspi.c	   123  			AURIX_QSPI_MODULE[AurixQspi_Moudle_ptr->ModuleIndx_u8].GLOBALCON1.U =\ 
+	fcall	.cocofun_2
+.L193:
+
+; ..\Qspi\AuirxQspi.c	   124  					AurixQspi_Moudle_ptr->GLOBALCON1_u32;
+	ld.w	d15,[a12]6
+.L194:
+	st.w	[a15]20,d15
+.L195:
+
+; ..\Qspi\AuirxQspi.c	   125  
+; ..\Qspi\AuirxQspi.c	   126  			/*使能QSPI模块*/
+; ..\Qspi\AuirxQspi.c	   127  			GLOBALCON_Temp_ui32 = \ 
+; ..\Qspi\AuirxQspi.c	   128  				AURIX_QSPI_MODULE[AurixQspi_Moudle_ptr->ModuleIndx_u8].GLOBALCON.U;
+	fcall	.cocofun_2
+.L196:
+	ld.w	d15,[a15]16
+.L197:
+
+; ..\Qspi\AuirxQspi.c	   129  			GLOBALCON_Temp_ui32 |= AURIX_QSPI_GLOBALCON_ENBIT_MASK;
+; ..\Qspi\AuirxQspi.c	   130  			AURIX_QSPI_MODULE[AurixQspi_Moudle_ptr->ModuleIndx_u8].GLOBALCON.U =\ 
+	insert	d15,d15,#1,#24,#1
+	st.w	[a15]16,d15
+.L158:
+
+; ..\Qspi\AuirxQspi.c	   131  					GLOBALCON_Temp_ui32;
+; ..\Qspi\AuirxQspi.c	   132  
+; ..\Qspi\AuirxQspi.c	   133  			/*清除中断、错误标志*/
+; ..\Qspi\AuirxQspi.c	   134  			AURIX_QSPI_MODULE[AurixQspi_Moudle_ptr->ModuleIndx_u8].FLAGSCLEAR.U =\ 
+	fcall	.cocofun_2
+.L160:
+
+; ..\Qspi\AuirxQspi.c	   135  										AURIX_QSPI_FLAGSCLEAR_ALL_MASK;
+	mov.u	d15,#65535
+	st.w	[a15]84,d15
+.L198:
+
+; ..\Qspi\AuirxQspi.c	   136  		}
+; ..\Qspi\AuirxQspi.c	   137  
+; ..\Qspi\AuirxQspi.c	   138  		Status = E_OK;	/*初始化成功*/
+; ..\Qspi\AuirxQspi.c	   139  	}
+; ..\Qspi\AuirxQspi.c	   140  	else
+; ..\Qspi\AuirxQspi.c	   141  	{
+; ..\Qspi\AuirxQspi.c	   142  		Status = E_NOT_OK;/*初始化失败*/
+; ..\Qspi\AuirxQspi.c	   143  	}
+; ..\Qspi\AuirxQspi.c	   144  
+; ..\Qspi\AuirxQspi.c	   145  	return Status;
+; ..\Qspi\AuirxQspi.c	   146  }
+	mov	d2,#0
+	ret
+.L2:
+	mov	d2,#1
+	ret
+.L116:
+	
+__AurixQspi_Init_function_end:
+	.size	AurixQspi_Init,__AurixQspi_Init_function_end-AurixQspi_Init
+.L62:
+	; End of function
+	
+	.sdecl	'.text.AuirxQspi..cocofun_2',code,cluster('.cocofun_2')
+	.sect	'.text.AuirxQspi..cocofun_2'
+	.align	2
+; Function .cocofun_2
+.L35:
+.cocofun_2:	.type	func
+; Function body .cocofun_2, coco_iter:0
+	ld.bu	d15,[a12]
+.L159:
+	sha	d15,d15,#8
+.L322:
+	addsc.a	a15,a13,d15,#0
+.L323:
+	fret
+.L97:
+	; End of function
+	.sdecl	'.text.AuirxQspi.AurixQspi_ChannelCfg',code,cluster('AurixQspi_ChannelCfg')
+	.sect	'.text.AuirxQspi.AurixQspi_ChannelCfg'
+	.align	2
+	
+	.global	AurixQspi_ChannelCfg
+
+; ..\Qspi\AuirxQspi.c	   147  
+; ..\Qspi\AuirxQspi.c	   148  /*******************************************************************************
+; ..\Qspi\AuirxQspi.c	   149  ** Function Name	: AurixQspi_ChannelCfg
+; ..\Qspi\AuirxQspi.c	   150  ** Parameter[in] 	: uint8 arg_SeqNum_u8,uint32 *arg_TxBuff_u32,
+; ..\Qspi\AuirxQspi.c	   151  					  uint32 *arg_RxBuff_u32,uint16 arg_Datalen_u16
+; ..\Qspi\AuirxQspi.c	   152  ** Parameter[out] 	: None
+; ..\Qspi\AuirxQspi.c	   153  ** Return Value	  	: None
+; ..\Qspi\AuirxQspi.c	   154  ** Note	  			: None
+; ..\Qspi\AuirxQspi.c	   155  ** Description	  	: 配置 SPI通道
+; ..\Qspi\AuirxQspi.c	   156  *******************************************************************************/
+; ..\Qspi\AuirxQspi.c	   157  void AurixQspi_ChannelCfg
+; Function AurixQspi_ChannelCfg
+.L37:
+AurixQspi_ChannelCfg:	.type	func
+
+; ..\Qspi\AuirxQspi.c	   158  (
+; ..\Qspi\AuirxQspi.c	   159  	uint8 arg_SeqNum_u8,uint32 *arg_TxBuff_u32,\ 
+; ..\Qspi\AuirxQspi.c	   160  	uint32 *arg_RxBuff_u32,uint16 arg_Datalen_u16
+; ..\Qspi\AuirxQspi.c	   161  )
+; ..\Qspi\AuirxQspi.c	   162  
+; ..\Qspi\AuirxQspi.c	   163  {
+; ..\Qspi\AuirxQspi.c	   164  	uint8 QspiChannel_u8;
+; ..\Qspi\AuirxQspi.c	   165  	const AurixQspi_ChannelType *arg_ChannelCfg_pst;                                           //channelType 类型的指针arg_channelCfg_pst
+; ..\Qspi\AuirxQspi.c	   166  
+; ..\Qspi\AuirxQspi.c	   167  	/*获取通道信息*/
+; ..\Qspi\AuirxQspi.c	   168  	arg_ChannelCfg_pst = &AurixQspi_Channel_cst[arg_SeqNum_u8];
+	fcall	.cocofun_4
+.L162:
+	addsc.a	a2,a15,d15,#0
+.L161:
+
+; ..\Qspi\AuirxQspi.c	   169  
+; ..\Qspi\AuirxQspi.c	   170      /*配置PISEL*/
+; ..\Qspi\AuirxQspi.c	   171  	AURIX_QSPI_MODULE[arg_ChannelCfg_pst->ModuleIndx_u8].PISEL.U =\ 
+	lea	a6,0xf0001c00
+.L203:
+	fcall	.cocofun_5
+.L204:
+
+; ..\Qspi\AuirxQspi.c	   172  						arg_ChannelCfg_pst->PISEL_u32;
+	ld.w	d15,[a2]12
+.L205:
+	st.w	[a15]4,d15
+.L206:
+
+; ..\Qspi\AuirxQspi.c	   173      /*写入ECON*/
+; ..\Qspi\AuirxQspi.c	   174  	QspiChannel_u8 = arg_ChannelCfg_pst->Qspi_Channel_u8 % 8U;
+; ..\Qspi\AuirxQspi.c	   175  	AURIX_QSPI_MODULE[arg_ChannelCfg_pst->ModuleIndx_u8].\ 
+	fcall	.cocofun_5
+.L207:
+	ld.bu	d15,[a2]1
+	and	d15,#7
+.L208:
+
+; ..\Qspi\AuirxQspi.c	   176  						ECON[QspiChannel_u8].U = arg_ChannelCfg_pst->ECON_u32;
+	addsc.a	a15,a15,d15,#2
+.L209:
+	ld.w	d15,[a2]8
+.L210:
+	st.w	[a15]32,d15
+.L211:
+
+; ..\Qspi\AuirxQspi.c	   177  	/*写入SSOC*/
+; ..\Qspi\AuirxQspi.c	   178  	AURIX_QSPI_MODULE[arg_ChannelCfg_pst->ModuleIndx_u8].SSOC.U =\ 
+	fcall	.cocofun_5
+.L212:
+
+; ..\Qspi\AuirxQspi.c	   179  						arg_ChannelCfg_pst->SSOC_u32;
+	ld.w	d15,[a2]16
+.L213:
+	st.w	[a15]72,d15
+.L214:
+
+; ..\Qspi\AuirxQspi.c	   180  
+; ..\Qspi\AuirxQspi.c	   181  	/*清空计数值;写入数据长度值*/
+; ..\Qspi\AuirxQspi.c	   182  	AurixQspi_Data_st[arg_SeqNum_u8].DataCnt_u16 = 0U;
+	mul	d15,d4,#28
+	movh.a	a15,#@his(AurixQspi_Data_st)
+	lea	a15,[a15]@los(AurixQspi_Data_st)
+.L215:
+	addsc.a	a15,a15,d15,#0
+.L216:
+	mov	d0,#0
+.L217:
+	st.h	[a15]2,d0
+.L218:
+
+; ..\Qspi\AuirxQspi.c	   183  	AurixQspi_Data_st[arg_SeqNum_u8].DataLen_u16 = arg_Datalen_u16;
+	st.h	[a15],d5
+.L219:
+
+; ..\Qspi\AuirxQspi.c	   184  
+; ..\Qspi\AuirxQspi.c	   185  
+; ..\Qspi\AuirxQspi.c	   186  
+; ..\Qspi\AuirxQspi.c	   187  
+; ..\Qspi\AuirxQspi.c	   188  
+; ..\Qspi\AuirxQspi.c	   189  	/*链接SPI BUFFER指针*/
+; ..\Qspi\AuirxQspi.c	   190  	switch(arg_ChannelCfg_pst->Data_Length)                                                   //判断指针中的Data_Length
+	ld.bu	d15,[a2]2
+.L220:
+
+; ..\Qspi\AuirxQspi.c	   191  	{
+; ..\Qspi\AuirxQspi.c	   192  		case AURIX_QSPI_DATA_LENGTH_8:/*SPI 数据宽度为8*/
+	jeq	d15,d0,.L5
+.L221:
+
+; ..\Qspi\AuirxQspi.c	   193  		{
+; ..\Qspi\AuirxQspi.c	   194  			AurixQspi_Data_st[arg_SeqNum_u8].TxBuffer_pu8 =\ 
+; ..\Qspi\AuirxQspi.c	   195  					(uint8*)arg_TxBuff_u32;
+; ..\Qspi\AuirxQspi.c	   196  			AurixQspi_Data_st[arg_SeqNum_u8].RxBuffer_pu8 =\ 
+; ..\Qspi\AuirxQspi.c	   197  					(uint8*)arg_RxBuff_u32;
+; ..\Qspi\AuirxQspi.c	   198  			break;
+; ..\Qspi\AuirxQspi.c	   199  		}
+; ..\Qspi\AuirxQspi.c	   200  		case AURIX_QSPI_DATA_LENGTH_16:/*SPI 数据宽度为16*/
+	jeq	d15,#1,.L6
+.L222:
+	j	.L7
+.L5:
+	st.a	[a15]20,a4
+.L223:
+	st.a	[a15]24,a5
+.L224:
+
+; ..\Qspi\AuirxQspi.c	   201  		{
+; ..\Qspi\AuirxQspi.c	   202  			AurixQspi_Data_st[arg_SeqNum_u8].TxBuffer_pu16 =\ 
+; ..\Qspi\AuirxQspi.c	   203  					(uint16*)arg_TxBuff_u32;
+; ..\Qspi\AuirxQspi.c	   204  			AurixQspi_Data_st[arg_SeqNum_u8].RxBuffer_pu16 =\ 
+; ..\Qspi\AuirxQspi.c	   205  					(uint16*)arg_RxBuff_u32;
+; ..\Qspi\AuirxQspi.c	   206  			break;
+; ..\Qspi\AuirxQspi.c	   207  		}
+; ..\Qspi\AuirxQspi.c	   208  		case AURIX_QSPI_DATA_LENGTH_32:/*SPI 数据宽度为32*/
+; ..\Qspi\AuirxQspi.c	   209  		{
+; ..\Qspi\AuirxQspi.c	   210  			AurixQspi_Data_st[arg_SeqNum_u8].TxBuffer_pu32 = arg_TxBuff_u32;
+; ..\Qspi\AuirxQspi.c	   211  			AurixQspi_Data_st[arg_SeqNum_u8].RxBuffer_pu32 = arg_RxBuff_u32;
+; ..\Qspi\AuirxQspi.c	   212  			break;
+; ..\Qspi\AuirxQspi.c	   213  		}
+; ..\Qspi\AuirxQspi.c	   214  		default:/*SPI 默认数据宽度为32*/
+; ..\Qspi\AuirxQspi.c	   215  		{
+; ..\Qspi\AuirxQspi.c	   216  			AurixQspi_Data_st[arg_SeqNum_u8].TxBuffer_pu32 = arg_TxBuff_u32;
+; ..\Qspi\AuirxQspi.c	   217  			AurixQspi_Data_st[arg_SeqNum_u8].RxBuffer_pu32 = arg_RxBuff_u32;
+; ..\Qspi\AuirxQspi.c	   218  			break;
+; ..\Qspi\AuirxQspi.c	   219  		}
+; ..\Qspi\AuirxQspi.c	   220  	}
+; ..\Qspi\AuirxQspi.c	   221  }
+	ret
+.L6:
+	st.a	[a15]12,a4
+.L225:
+	st.a	[a15]16,a5
+.L226:
+	ret
+.L7:
+	st.a	[a15]4,a4
+.L227:
+	st.a	[a15]8,a5
+.L228:
+	ret
+.L125:
+	
+__AurixQspi_ChannelCfg_function_end:
+	.size	AurixQspi_ChannelCfg,__AurixQspi_ChannelCfg_function_end-AurixQspi_ChannelCfg
+.L67:
+	; End of function
+	
+	.sdecl	'.text.AuirxQspi..cocofun_5',code,cluster('.cocofun_5')
+	.sect	'.text.AuirxQspi..cocofun_5'
+	.align	2
+; Function .cocofun_5
+.L39:
+.cocofun_5:	.type	func
+; Function body .cocofun_5, coco_iter:0
+	ld.bu	d15,[a2]
+	sha	d15,d15,#8
+.L341:
+	addsc.a	a15,a6,d15,#0
+.L342:
+	fret
+.L112:
+	; End of function
+	.sdecl	'.text.AuirxQspi..cocofun_4',code,cluster('.cocofun_4')
+	.sect	'.text.AuirxQspi..cocofun_4'
+	.align	2
+; Function .cocofun_4
+.L41:
+.cocofun_4:	.type	func
+; Function body .cocofun_4, coco_iter:0
+	mul	d15,d4,#20
+	movh.a	a15,#@his(AurixQspi_Channel_cst)
+	lea	a15,[a15]@los(AurixQspi_Channel_cst)
+.L336:
+	fret
+.L107:
+	; End of function
+	.sdecl	'.text.AuirxQspi.AurixQspi_Transmit',code,cluster('AurixQspi_Transmit')
+	.sect	'.text.AuirxQspi.AurixQspi_Transmit'
+	.align	2
+	
+	.global	AurixQspi_Transmit
+
+; ..\Qspi\AuirxQspi.c	   222  
+; ..\Qspi\AuirxQspi.c	   223  /*******************************************************************************
+; ..\Qspi\AuirxQspi.c	   224  ** Function Name	: AurixQspi_Transmit
+; ..\Qspi\AuirxQspi.c	   225  ** Parameter[in] 	: uint8 arg_SeqNum_u8
+; ..\Qspi\AuirxQspi.c	   226  ** Parameter[out] 	: None
+; ..\Qspi\AuirxQspi.c	   227  ** Return Value	  	: None
+; ..\Qspi\AuirxQspi.c	   228  ** Note	  			: 发送一个10M,16BIT数据,耗时约 2.81US(CPU时钟300M)
+; ..\Qspi\AuirxQspi.c	   229  ** Description	  	: QSPI 同步 数据传输
+; ..\Qspi\AuirxQspi.c	   230  *******************************************************************************/
+; ..\Qspi\AuirxQspi.c	   231  Std_ReturnType AurixQspi_Transmit(uint8 arg_SeqNum_u8)
+; Function AurixQspi_Transmit
+.L43:
+AurixQspi_Transmit:	.type	func
+
+; ..\Qspi\AuirxQspi.c	   232  {
+; ..\Qspi\AuirxQspi.c	   233  	Std_ReturnType Status = E_NOT_OK;
+; ..\Qspi\AuirxQspi.c	   234  	uint8 QspiMoudleIndex_u8;
+; ..\Qspi\AuirxQspi.c	   235  
+; ..\Qspi\AuirxQspi.c	   236  	/*获取通道配置信息*/
+; ..\Qspi\AuirxQspi.c	   237  	const AurixQspi_ChannelType *AurixQspi_Channel_pst =\ 
+; ..\Qspi\AuirxQspi.c	   238  			&AurixQspi_Channel_cst[arg_SeqNum_u8];
+	mov	d9,#1
+	fcall	.cocofun_4
+	addsc.a	a12,a15,d15,#0
+.L164:
+
+; ..\Qspi\AuirxQspi.c	   239  
+; ..\Qspi\AuirxQspi.c	   240  	/*获取通道数据信息*/
+; ..\Qspi\AuirxQspi.c	   241  	AurixQspi_DataType *AurixQspi_Data_pst = &AurixQspi_Data_st[arg_SeqNum_u8];
+	mul	d15,d4,#28
+	movh.a	a2,#@his(AurixQspi_Data_st)
+	lea	a2,[a2]@los(AurixQspi_Data_st)
+.L233:
+	addsc.a	a15,a2,d15,#0
+.L165:
+
+; ..\Qspi\AuirxQspi.c	   242  
+; ..\Qspi\AuirxQspi.c	   243  	/*清空计数值*/
+; ..\Qspi\AuirxQspi.c	   244  	AurixQspi_Data_pst->DataCnt_u16 = 0U;
+	mov	d15,#0
+.L234:
+	st.h	[a15]2,d15
+.L235:
+
+; ..\Qspi\AuirxQspi.c	   245  
+; ..\Qspi\AuirxQspi.c	   246  	/*清空所有状态标志*/
+; ..\Qspi\AuirxQspi.c	   247  	AURIX_QSPI_MODULE[AurixQspi_Channel_pst->ModuleIndx_u8].FLAGSCLEAR.U =\ 
+	lea	a13,0xf0001c00
+.L236:
+	ld.bu	d0,[a12]
+	sha	d15,d0,#8
+.L237:
+	addsc.a	a2,a13,d15,#0
+.L238:
+
+; ..\Qspi\AuirxQspi.c	   248  						AURIX_QSPI_FLAGSCLEAR_ALL_MASK;
+	mov.u	d0,#65535
+.L239:
+	st.w	[a2]84,d0
+.L240:
+
+; ..\Qspi\AuirxQspi.c	   249  
+; ..\Qspi\AuirxQspi.c	   250  	/*循环发送数据*/
+; ..\Qspi\AuirxQspi.c	   251  	while(AurixQspi_Data_pst->DataCnt_u16 < AurixQspi_Data_pst->DataLen_u16)
+; ..\Qspi\AuirxQspi.c	   252  	{
+; ..\Qspi\AuirxQspi.c	   253  		if((AurixQspi_Data_pst->DataCnt_u16) <\ 
+; ..\Qspi\AuirxQspi.c	   254  				(uint16)(AurixQspi_Data_pst->DataLen_u16-1U))/*非最后一位数据*/
+; ..\Qspi\AuirxQspi.c	   255  		{
+; ..\Qspi\AuirxQspi.c	   256  			/*写入BACON配置*/
+; ..\Qspi\AuirxQspi.c	   257  			AURIX_QSPI_MODULE[AurixQspi_Channel_pst->ModuleIndx_u8].\ 
+; ..\Qspi\AuirxQspi.c	   258  				BACONENTRY.U = AurixQspi_Channel_pst->BACON_u32;
+; ..\Qspi\AuirxQspi.c	   259  		}
+; ..\Qspi\AuirxQspi.c	   260  		else/*最后一位数据*/
+; ..\Qspi\AuirxQspi.c	   261  		{
+; ..\Qspi\AuirxQspi.c	   262  			/*LAST 位置1*/
+; ..\Qspi\AuirxQspi.c	   263  			AURIX_QSPI_MODULE[AurixQspi_Channel_pst->ModuleIndx_u8].\ 
+; ..\Qspi\AuirxQspi.c	   264  			BACONENTRY.U = AurixQspi_Channel_pst->BACON_u32 | 1U;
+; ..\Qspi\AuirxQspi.c	   265  		}
+; ..\Qspi\AuirxQspi.c	   266  
+; ..\Qspi\AuirxQspi.c	   267  		/*发送数据*/
+; ..\Qspi\AuirxQspi.c	   268  		AurixQspi_SendData(AurixQspi_Channel_pst,AurixQspi_Data_pst);
+; ..\Qspi\AuirxQspi.c	   269  
+; ..\Qspi\AuirxQspi.c	   270  		/*检查状态（等待接收标志位、检查错误状态）*/
+; ..\Qspi\AuirxQspi.c	   271  		QspiMoudleIndex_u8 = AurixQspi_Channel_pst->ModuleIndx_u8;
+; ..\Qspi\AuirxQspi.c	   272  		Status = AurixQspi_CheckStatus(QspiMoudleIndex_u8);
+; ..\Qspi\AuirxQspi.c	   273  
+; ..\Qspi\AuirxQspi.c	   274  		if(Status == E_OK)/*接收到数据并且无错误*/
+; ..\Qspi\AuirxQspi.c	   275  		{
+; ..\Qspi\AuirxQspi.c	   276  			/*清除接收数据标志*/
+; ..\Qspi\AuirxQspi.c	   277  			AURIX_QSPI_MODULE[AurixQspi_Channel_pst->ModuleIndx_u8].FLAGSCLEAR.U =\ 
+; ..\Qspi\AuirxQspi.c	   278  					AURIX_QSPI_FLAGSCLEAR_RXF_MASK;
+	mov	d8,#1024
+	j	.L10
+.L11:
+	ld.bu	d0,[a12]
+.L241:
+	ld.hu	d1,[a15]2
+.L242:
+	sha	d0,d0,#8
+	ld.w	d15,[a12]4
+.L243:
+	addsc.a	a2,a13,d0,#0
+.L244:
+	ld.hu	d0,[a15]0
+.L245:
+	lea	a2,[a2]96
+.L246:
+	add	d0,#-1
+.L247:
+	extr.u	d0,d0,#0,#16
+.L248:
+	jlt.u	d1,d0,.L13
+.L249:
+	or	d15,#1
+.L13:
+	st.w	[a2],d15
+.L250:
+	mov.aa	a4,a12
+.L166:
+	mov.aa	a5,a15
+.L168:
+	call	AurixQspi_SendData
+.L167:
+	ld.bu	d4,[a12]
+.L169:
+	call	AurixQspi_CheckStatus
+.L163:
+	mov	d9,d2
+.L171:
+	jne	d9,#0,.L14
+.L251:
+	ld.bu	d15,[a12]
+.L252:
+
+; ..\Qspi\AuirxQspi.c	   279  
+; ..\Qspi\AuirxQspi.c	   280  			/*读取接收数据*/
+; ..\Qspi\AuirxQspi.c	   281  			AurixQspi_ReceiveData(AurixQspi_Channel_pst,AurixQspi_Data_pst);
+	mov.aa	a4,a12
+.L172:
+	sha	d15,d15,#8
+	mov.aa	a5,a15
+.L173:
+	addsc.a	a2,a13,d15,#0
+.L253:
+	st.w	[a2]84,d8
+.L254:
+	call	AurixQspi_ReceiveData
+.L170:
+
+; ..\Qspi\AuirxQspi.c	   282  
+; ..\Qspi\AuirxQspi.c	   283  			/*接收数据计数自加*/
+; ..\Qspi\AuirxQspi.c	   284  			AurixQspi_Data_pst->DataCnt_u16++;
+	ld.hu	d15,[a15]2
+.L255:
+	add	d15,#1
+	st.h	[a15]2,d15
+.L10:
+	ld.hu	d15,[a15]2
+.L256:
+	ld.hu	d0,[a15]0
+.L257:
+	jlt.u	d15,d0,.L11
+.L14:
+
+; ..\Qspi\AuirxQspi.c	   285  		}
+; ..\Qspi\AuirxQspi.c	   286  		else/*状态检查失败*/
+; ..\Qspi\AuirxQspi.c	   287  		{
+; ..\Qspi\AuirxQspi.c	   288  			break;/*跳出循环*/
+; ..\Qspi\AuirxQspi.c	   289  		}
+; ..\Qspi\AuirxQspi.c	   290  	}
+; ..\Qspi\AuirxQspi.c	   291  
+; ..\Qspi\AuirxQspi.c	   292  	return Status;
+; ..\Qspi\AuirxQspi.c	   293  }
+	mov	d2,d9
+	ret
+.L135:
+	
+__AurixQspi_Transmit_function_end:
+	.size	AurixQspi_Transmit,__AurixQspi_Transmit_function_end-AurixQspi_Transmit
+.L72:
+	; End of function
+	
+	.sdecl	'.text.AuirxQspi.AurixQspi_SendData',code,cluster('AurixQspi_SendData')
+	.sect	'.text.AuirxQspi.AurixQspi_SendData'
+	.align	2
+	
+
+; ..\Qspi\AuirxQspi.c	   294  
+; ..\Qspi\AuirxQspi.c	   295  /*******************************************************************************
+; ..\Qspi\AuirxQspi.c	   296  ** Function Name	: AurixQspi_SendData
+; ..\Qspi\AuirxQspi.c	   297  ** Parameter[in] 	: const AurixQspi_ChannelType *AurixQspi_Channel_Ptr,
+; ..\Qspi\AuirxQspi.c	   298  **					  AurixQspi_DataType *AurixQspi_Data_Ptr
+; ..\Qspi\AuirxQspi.c	   299  ** Parameter[out] 	: None
+; ..\Qspi\AuirxQspi.c	   300  ** Return Value	  	: None
+; ..\Qspi\AuirxQspi.c	   301  ** Note	  			: None
+; ..\Qspi\AuirxQspi.c	   302  ** Description	  	: QSPI 发送数据,写DATAENTRY寄存器
+; ..\Qspi\AuirxQspi.c	   303  *******************************************************************************/
+; ..\Qspi\AuirxQspi.c	   304  static void AurixQspi_SendData
+; Function AurixQspi_SendData
+.L45:
+AurixQspi_SendData:	.type	func
+
+; ..\Qspi\AuirxQspi.c	   305  (
+; ..\Qspi\AuirxQspi.c	   306  	const AurixQspi_ChannelType *AurixQspi_Channel_Ptr,\ 
+; ..\Qspi\AuirxQspi.c	   307  	AurixQspi_DataType *AurixQspi_Data_Ptr
+; ..\Qspi\AuirxQspi.c	   308  )
+; ..\Qspi\AuirxQspi.c	   309  {
+; ..\Qspi\AuirxQspi.c	   310  	switch(AurixQspi_Channel_Ptr->Data_Length)/*判断数据位宽*/
+	ld.bu	d15,[a4]2
+.L262:
+
+; ..\Qspi\AuirxQspi.c	   311  	{
+; ..\Qspi\AuirxQspi.c	   312  		case AURIX_QSPI_DATA_LENGTH_8:/*SPI 数据宽度为8*/
+	jeq	d15,#0,.L16
+.L263:
+
+; ..\Qspi\AuirxQspi.c	   313  		{
+; ..\Qspi\AuirxQspi.c	   314  			AURIX_QSPI_MODULE[AurixQspi_Channel_Ptr->ModuleIndx_u8].\ 
+; ..\Qspi\AuirxQspi.c	   315  			DATAENTRY[0U].U = (uint32)AurixQspi_Data_Ptr->\ 
+; ..\Qspi\AuirxQspi.c	   316  					TxBuffer_pu8[AurixQspi_Data_Ptr->DataCnt_u16];
+; ..\Qspi\AuirxQspi.c	   317  			break;
+; ..\Qspi\AuirxQspi.c	   318  		}
+; ..\Qspi\AuirxQspi.c	   319  		case AURIX_QSPI_DATA_LENGTH_16:/*SPI 数据宽度为16*/
+	jeq	d15,#1,.L17
+.L264:
+	j	.L18
+.L16:
+	fcall	.cocofun_3
+.L265:
+	ld.a	a2,[a5]20
+.L266:
+	ld.hu	d15,[a5]2
+.L267:
+	addsc.a	a2,a2,d15,#0
+	ld.bu	d15,[a2]
+.L268:
+	j	.L19
+.L17:
+
+; ..\Qspi\AuirxQspi.c	   320  		{
+; ..\Qspi\AuirxQspi.c	   321  			AURIX_QSPI_MODULE[AurixQspi_Channel_Ptr->ModuleIndx_u8].\ 
+	fcall	.cocofun_3
+.L269:
+
+; ..\Qspi\AuirxQspi.c	   322  			DATAENTRY[0U].U = (uint32)AurixQspi_Data_Ptr->\ 
+	ld.a	a2,[a5]12
+.L270:
+
+; ..\Qspi\AuirxQspi.c	   323  					TxBuffer_pu16[AurixQspi_Data_Ptr->DataCnt_u16];
+	ld.hu	d15,[a5]2
+.L271:
+	addsc.a	a2,a2,d15,#1
+	ld.hu	d15,[a2]0
+.L272:
+
+; ..\Qspi\AuirxQspi.c	   324  			break;
+	j	.L20
+
+; ..\Qspi\AuirxQspi.c	   325  		}
+; ..\Qspi\AuirxQspi.c	   326  		case AURIX_QSPI_DATA_LENGTH_32:/*SPI 数据宽度为32*/
+; ..\Qspi\AuirxQspi.c	   327  		{
+; ..\Qspi\AuirxQspi.c	   328  			AURIX_QSPI_MODULE[AurixQspi_Channel_Ptr->ModuleIndx_u8].\ 
+; ..\Qspi\AuirxQspi.c	   329  			DATAENTRY[0U].U = (uint32)AurixQspi_Data_Ptr->\ 
+; ..\Qspi\AuirxQspi.c	   330  					TxBuffer_pu32[AurixQspi_Data_Ptr->DataCnt_u16];
+; ..\Qspi\AuirxQspi.c	   331  			break;
+; ..\Qspi\AuirxQspi.c	   332  		}
+; ..\Qspi\AuirxQspi.c	   333  		default:/*SPI 默认数据宽度为32*/
+.L18:
+
+; ..\Qspi\AuirxQspi.c	   334  		{
+; ..\Qspi\AuirxQspi.c	   335  			AURIX_QSPI_MODULE[AurixQspi_Channel_Ptr->ModuleIndx_u8].\ 
+	fcall	.cocofun_3
+.L273:
+
+; ..\Qspi\AuirxQspi.c	   336  			DATAENTRY[0U].U = (uint32)AurixQspi_Data_Ptr->\ 
+	ld.a	a2,[a5]4
+.L274:
+
+; ..\Qspi\AuirxQspi.c	   337  					TxBuffer_pu32[AurixQspi_Data_Ptr->DataCnt_u16];
+	ld.hu	d15,[a5]2
+.L275:
+	addsc.a	a2,a2,d15,#2
+	ld.w	d15,[a2]
+
+; ..\Qspi\AuirxQspi.c	   338  			break;
+; ..\Qspi\AuirxQspi.c	   339  		}
+; ..\Qspi\AuirxQspi.c	   340  	}
+; ..\Qspi\AuirxQspi.c	   341  }
+.L19:
+.L20:
+	st.w	[a15]100,d15
+.L276:
+	ret
+.L142:
+	
+__AurixQspi_SendData_function_end:
+	.size	AurixQspi_SendData,__AurixQspi_SendData_function_end-AurixQspi_SendData
+.L77:
+	; End of function
+	
+	.sdecl	'.text.AuirxQspi..cocofun_3',code,cluster('.cocofun_3')
+	.sect	'.text.AuirxQspi..cocofun_3'
+	.align	2
+; Function .cocofun_3
+.L47:
+.cocofun_3:	.type	func
+; Function body .cocofun_3, coco_iter:0
+	ld.bu	d15,[a4]
+.L328:
+	lea	a15,0xf0001c00
+.L329:
+	sha	d15,d15,#8
+.L330:
+	addsc.a	a15,a15,d15,#0
+.L331:
+	fret
+.L102:
+	; End of function
+	.sdecl	'.text.AuirxQspi.AurixQspi_ReceiveData',code,cluster('AurixQspi_ReceiveData')
+	.sect	'.text.AuirxQspi.AurixQspi_ReceiveData'
+	.align	2
+	
+
+; ..\Qspi\AuirxQspi.c	   342  
+; ..\Qspi\AuirxQspi.c	   343  /*******************************************************************************
+; ..\Qspi\AuirxQspi.c	   344  ** Function Name	: AurixQspi_ReceiveData
+; ..\Qspi\AuirxQspi.c	   345  ** Parameter[in] 	: const AurixQspi_ChannelType *AurixQspi_Channel_Ptr,
+; ..\Qspi\AuirxQspi.c	   346  **					  AurixQspi_DataType *AurixQspi_Data_Ptr
+; ..\Qspi\AuirxQspi.c	   347  ** Parameter[out] 	: None
+; ..\Qspi\AuirxQspi.c	   348  ** Return Value	  	: None
+; ..\Qspi\AuirxQspi.c	   349  ** Note	  			: None
+; ..\Qspi\AuirxQspi.c	   350  ** Description	  	: QSPI 接收数据,读RXEXIT寄存器
+; ..\Qspi\AuirxQspi.c	   351  *******************************************************************************/
+; ..\Qspi\AuirxQspi.c	   352  static void AurixQspi_ReceiveData
+; Function AurixQspi_ReceiveData
+.L49:
+AurixQspi_ReceiveData:	.type	func
+
+; ..\Qspi\AuirxQspi.c	   353  (
+; ..\Qspi\AuirxQspi.c	   354  	const AurixQspi_ChannelType *AurixQspi_Channel_Ptr,\ 
+; ..\Qspi\AuirxQspi.c	   355  	AurixQspi_DataType *AurixQspi_Data_Ptr
+; ..\Qspi\AuirxQspi.c	   356  )
+; ..\Qspi\AuirxQspi.c	   357  {
+; ..\Qspi\AuirxQspi.c	   358  	switch(AurixQspi_Channel_Ptr->Data_Length)/*判断数据位宽*/
+	ld.bu	d15,[a4]2
+.L281:
+
+; ..\Qspi\AuirxQspi.c	   359  	{
+; ..\Qspi\AuirxQspi.c	   360  		case AURIX_QSPI_DATA_LENGTH_8:/*SPI 数据宽度为8*/
+	jeq	d15,#0,.L21
+.L282:
+
+; ..\Qspi\AuirxQspi.c	   361  		{
+; ..\Qspi\AuirxQspi.c	   362  			AurixQspi_Data_Ptr->\ 
+; ..\Qspi\AuirxQspi.c	   363  			RxBuffer_pu8[AurixQspi_Data_Ptr->DataCnt_u16] = \ 
+; ..\Qspi\AuirxQspi.c	   364  			(uint8)AURIX_QSPI_MODULE[AurixQspi_Channel_Ptr->ModuleIndx_u8].\ 
+; ..\Qspi\AuirxQspi.c	   365  																RXEXIT.U;
+; ..\Qspi\AuirxQspi.c	   366  			break;
+; ..\Qspi\AuirxQspi.c	   367  		}
+; ..\Qspi\AuirxQspi.c	   368  		case AURIX_QSPI_DATA_LENGTH_16:/*SPI 数据宽度为16*/
+	jeq	d15,#1,.L22
+.L283:
+	j	.L23
+.L21:
+	ld.a	a15,[a5]24
+.L284:
+	ld.hu	d15,[a5]2
+.L285:
+	addsc.a	a15,a15,d15,#0
+.L286:
+	fcall	.cocofun_1
+.L287:
+	st.b	[a15],d15
+.L288:
+
+; ..\Qspi\AuirxQspi.c	   369  		{
+; ..\Qspi\AuirxQspi.c	   370  			AurixQspi_Data_Ptr->\ 
+; ..\Qspi\AuirxQspi.c	   371  			RxBuffer_pu16[AurixQspi_Data_Ptr->DataCnt_u16] =\ 
+; ..\Qspi\AuirxQspi.c	   372  			(uint16)AURIX_QSPI_MODULE[AurixQspi_Channel_Ptr->ModuleIndx_u8].\ 
+; ..\Qspi\AuirxQspi.c	   373  																RXEXIT.U;
+; ..\Qspi\AuirxQspi.c	   374  			break;
+; ..\Qspi\AuirxQspi.c	   375  		}
+; ..\Qspi\AuirxQspi.c	   376  		case AURIX_QSPI_DATA_LENGTH_32:/*SPI 数据宽度为32*/
+; ..\Qspi\AuirxQspi.c	   377  		{
+; ..\Qspi\AuirxQspi.c	   378  			AurixQspi_Data_Ptr->\ 
+; ..\Qspi\AuirxQspi.c	   379  			RxBuffer_pu32[AurixQspi_Data_Ptr->DataCnt_u16] =\ 
+; ..\Qspi\AuirxQspi.c	   380  			(uint32)AURIX_QSPI_MODULE[AurixQspi_Channel_Ptr->ModuleIndx_u8].\ 
+; ..\Qspi\AuirxQspi.c	   381  																RXEXIT.U;
+; ..\Qspi\AuirxQspi.c	   382  			break;
+; ..\Qspi\AuirxQspi.c	   383  		}
+; ..\Qspi\AuirxQspi.c	   384  		default:/*SPI 默认数据宽度为32*/
+; ..\Qspi\AuirxQspi.c	   385  		{
+; ..\Qspi\AuirxQspi.c	   386  			AurixQspi_Data_Ptr->\ 
+; ..\Qspi\AuirxQspi.c	   387  			RxBuffer_pu32[AurixQspi_Data_Ptr->DataCnt_u16] =\ 
+; ..\Qspi\AuirxQspi.c	   388  			(uint32)AURIX_QSPI_MODULE[AurixQspi_Channel_Ptr->ModuleIndx_u8].\ 
+; ..\Qspi\AuirxQspi.c	   389  																RXEXIT.U;
+; ..\Qspi\AuirxQspi.c	   390  			break;
+; ..\Qspi\AuirxQspi.c	   391  		}
+; ..\Qspi\AuirxQspi.c	   392  	}
+; ..\Qspi\AuirxQspi.c	   393  }
+	ret
+.L22:
+	ld.a	a15,[a5]16
+.L289:
+	ld.hu	d15,[a5]2
+.L290:
+	addsc.a	a15,a15,d15,#1
+.L291:
+	fcall	.cocofun_1
+.L292:
+	st.h	[a15],d15
+.L293:
+	ret
+.L23:
+	ld.a	a15,[a5]8
+.L294:
+	ld.hu	d15,[a5]2
+.L295:
+	addsc.a	a15,a15,d15,#2
+.L296:
+	fcall	.cocofun_1
+.L297:
+	st.w	[a15],d15
+.L298:
+	ret
+.L146:
+	
+__AurixQspi_ReceiveData_function_end:
+	.size	AurixQspi_ReceiveData,__AurixQspi_ReceiveData_function_end-AurixQspi_ReceiveData
+.L82:
+	; End of function
+	
+	.sdecl	'.text.AuirxQspi..cocofun_1',code,cluster('.cocofun_1')
+	.sect	'.text.AuirxQspi..cocofun_1'
+	.align	2
+; Function .cocofun_1
+.L51:
+.cocofun_1:	.type	func
+; Function body .cocofun_1, coco_iter:0
+	ld.bu	d15,[a4]
+.L313:
+	lea	a2,0xf0001c00
+.L314:
+	sha	d15,d15,#8
+.L315:
+	addsc.a	a2,a2,d15,#0
+.L316:
+	ld.w	d15,[a2]144
+.L317:
+	fret
+.L92:
+	; End of function
+	.sdecl	'.text.AuirxQspi.AurixQspi_CheckStatus',code,cluster('AurixQspi_CheckStatus')
+	.sect	'.text.AuirxQspi.AurixQspi_CheckStatus'
+	.align	2
+	
+
+; ..\Qspi\AuirxQspi.c	   394  
+; ..\Qspi\AuirxQspi.c	   395  /*******************************************************************************
+; ..\Qspi\AuirxQspi.c	   396  ** Function Name	: AurixQspi_CheckStatus
+; ..\Qspi\AuirxQspi.c	   397  ** Parameter[in] 	: uint8 arg_QspiIndex_u8
+; ..\Qspi\AuirxQspi.c	   398  ** Parameter[out] 	: None
+; ..\Qspi\AuirxQspi.c	   399  ** Return Value	  	: Std_ReturnType Status
+; ..\Qspi\AuirxQspi.c	   400  ** Note	  			: None
+; ..\Qspi\AuirxQspi.c	   401  ** Description	  	: AURIX QSPI 检查状态
+; ..\Qspi\AuirxQspi.c	   402  *******************************************************************************/
+; ..\Qspi\AuirxQspi.c	   403  static Std_ReturnType AurixQspi_CheckStatus(uint8 arg_QspiIndex_u8)
+; Function AurixQspi_CheckStatus
+.L53:
+AurixQspi_CheckStatus:	.type	func
+
+; ..\Qspi\AuirxQspi.c	   404  {
+; ..\Qspi\AuirxQspi.c	   405  	Std_ReturnType Status = E_NOT_OK;
+; ..\Qspi\AuirxQspi.c	   406  	uint16 OverTimeCnt_u16;
+; ..\Qspi\AuirxQspi.c	   407  	uint32 StatusTemp_u32;
+; ..\Qspi\AuirxQspi.c	   408  
+; ..\Qspi\AuirxQspi.c	   409  	/*循环获取并检测STATUS*/
+; ..\Qspi\AuirxQspi.c	   410  	for(OverTimeCnt_u16=0U;OverTimeCnt_u16 < \ 
+; ..\Qspi\AuirxQspi.c	   411  		AURIX_QSPI_STATUS_CHECK_NUM_MAX;OverTimeCnt_u16++)
+; ..\Qspi\AuirxQspi.c	   412  	{
+; ..\Qspi\AuirxQspi.c	   413  		/*获取STATUS寄存器数据 */
+; ..\Qspi\AuirxQspi.c	   414  		StatusTemp_u32 =\ 
+; ..\Qspi\AuirxQspi.c	   415  				AURIX_QSPI_MODULE[arg_QspiIndex_u8].STATUS.U;
+	sha	d15,d4,#8
+	lea	a15,0xf0001c00
+.L303:
+	addsc.a	a15,a15,d15,#0
+.L304:
+	mov	d0,#0
+	lea	a2,499
+.L174:
+	mov	d1,#500
+	lea	a15,[a15]64
+.L26:
+	ld.w	d15,[a15]
+.L175:
+
+; ..\Qspi\AuirxQspi.c	   416  		/*判断接收数据标志是否建立*/
+; ..\Qspi\AuirxQspi.c	   417  		if((StatusTemp_u32 & AURIX_QSPI_STATUS_RXF_MASK) == \ 
+	jnz.t	d15:10,.L27
+.L305:
+	add	d0,#1
+	loop	a2,.L26
+
+; ..\Qspi\AuirxQspi.c	   418  				AURIX_QSPI_STATUS_RXF_MASK)
+; ..\Qspi\AuirxQspi.c	   419  		{
+; ..\Qspi\AuirxQspi.c	   420  			break;	/*接收数据标志建立，跳出循环*/
+; ..\Qspi\AuirxQspi.c	   421  		}
+; ..\Qspi\AuirxQspi.c	   422  	}
+; ..\Qspi\AuirxQspi.c	   423  
+; ..\Qspi\AuirxQspi.c	   424  	/*获取STATUS寄存器数据 */
+; ..\Qspi\AuirxQspi.c	   425  	StatusTemp_u32 = AURIX_QSPI_MODULE[arg_QspiIndex_u8].STATUS.U;
+.L27:
+	ld.w	d15,[a15]
+.L306:
+
+; ..\Qspi\AuirxQspi.c	   426  
+; ..\Qspi\AuirxQspi.c	   427  	/*检查获取接收数据标志是否超时、是否有错误产生*/
+; ..\Qspi\AuirxQspi.c	   428  	if((OverTimeCnt_u16 < AURIX_QSPI_STATUS_CHECK_NUM_MAX)\ 
+	jge.u	d0,d1,.L28
+.L307:
+
+; ..\Qspi\AuirxQspi.c	   429  	&&((StatusTemp_u32&AURIX_QSPI_STATUS_ERRORFLAGS_MASK)==0U))
+	and	d15,d15,#511
+.L176:
+	jne	d15,#0,.L29
+.L308:
+
+; ..\Qspi\AuirxQspi.c	   430  	{
+; ..\Qspi\AuirxQspi.c	   431  		Status = E_OK;	/*检查通过*/
+; ..\Qspi\AuirxQspi.c	   432  	}
+; ..\Qspi\AuirxQspi.c	   433  	else
+; ..\Qspi\AuirxQspi.c	   434  	{
+; ..\Qspi\AuirxQspi.c	   435  		Status = E_NOT_OK;	/*检查不通过*/
+; ..\Qspi\AuirxQspi.c	   436  	}
+; ..\Qspi\AuirxQspi.c	   437  
+; ..\Qspi\AuirxQspi.c	   438  	return Status;
+; ..\Qspi\AuirxQspi.c	   439  }
+	mov	d2,#0
+	ret
+.L29:
+.L28:
+	mov	d2,#1
+	ret
+.L150:
+	
+__AurixQspi_CheckStatus_function_end:
+	.size	AurixQspi_CheckStatus,__AurixQspi_CheckStatus_function_end-AurixQspi_CheckStatus
+.L87:
+	; End of function
+	
+	.sdecl	'.bss.AuirxQspi.AurixQspi_Data_st',data,cluster('AurixQspi_Data_st')
+	.sect	'.bss.AuirxQspi.AurixQspi_Data_st'
+	.align	4
+AurixQspi_Data_st:	.type	object
+	.size	AurixQspi_Data_st,112
+	.space	112
+	.calls	'AurixQspi_Init','Mcal_ResetENDINIT'
+	.calls	'AurixQspi_Init','Mcal_SetENDINIT'
+	.calls	'AurixQspi_Transmit','AurixQspi_SendData'
+	.calls	'AurixQspi_Transmit','AurixQspi_CheckStatus'
+	.calls	'AurixQspi_Transmit','AurixQspi_ReceiveData'
+	.calls	'AurixQspi_Init','.cocofun_2'
+	.calls	'AurixQspi_ChannelCfg','.cocofun_4'
+	.calls	'AurixQspi_ChannelCfg','.cocofun_5'
+	.calls	'AurixQspi_Transmit','.cocofun_4'
+	.calls	'AurixQspi_SendData','.cocofun_3'
+	.calls	'AurixQspi_ReceiveData','.cocofun_1'
+	.calls	'AurixQspi_Init','',0
+	.calls	'.cocofun_2','',0
+	.calls	'AurixQspi_ChannelCfg','',0
+	.calls	'.cocofun_5','',0
+	.calls	'.cocofun_4','',0
+	.calls	'AurixQspi_Transmit','',0
+	.calls	'AurixQspi_SendData','',0
+	.calls	'.cocofun_3','',0
+	.calls	'AurixQspi_ReceiveData','',0
+	.calls	'.cocofun_1','',0
+	.extern	AurixQspi_Channel_cst
+	.extern	Mcal_ResetENDINIT
+	.extern	Mcal_SetENDINIT
+	.calls	'AurixQspi_CheckStatus','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L55:
+	.word	6485
+	.half	3
+	.word	.L56
+	.byte	4
+.L54:
+	.byte	1
+	.byte	'..\\Qspi\\AuirxQspi.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L57
+.L115:
+	.byte	2
+	.byte	'unsigned char',0,1,8
+.L121:
+	.byte	2
+	.byte	'unsigned long int',0,4,7,3
+	.byte	'AurixQspi_Moudle',0,2,44,16,12,4
+	.byte	'ModuleIndx_u8',0
+	.word	170
+	.byte	1,2,35,0,4
+	.byte	'GLOBALCON_u32',0
+	.word	187
+	.byte	4,2,35,2,4
+	.byte	'GLOBALCON1_u32',0
+	.word	187
+	.byte	4,2,35,6,0,5
+	.word	208
+.L123:
+	.byte	6
+	.word	301
+	.byte	7,4
+	.word	306
+	.byte	8,0,0,3
+	.byte	'AurixQspi_HWCfg',0,1,55,16,4,4
+	.byte	'HW_MoudleCfg_ptr',0
+	.word	311
+	.byte	4,2,35,0,0,5
+	.word	320
+.L117:
+	.byte	6
+	.word	368
+.L127:
+	.byte	6
+	.word	187
+.L130:
+	.byte	2
+	.byte	'unsigned short int',0,2,7,3
+	.byte	'AurixQspi_Channel',0,2,52,16,20,4
+	.byte	'ModuleIndx_u8',0
+	.word	170
+	.byte	1,2,35,0,4
+	.byte	'Qspi_Channel_u8',0
+	.word	170
+	.byte	1,2,35,1,4
+	.byte	'Data_Length',0
+	.word	170
+	.byte	1,2,35,2,4
+	.byte	'BACON_u32',0
+	.word	187
+	.byte	4,2,35,4,4
+	.byte	'ECON_u32',0
+	.word	187
+	.byte	4,2,35,8,4
+	.byte	'PISEL_u32',0
+	.word	187
+	.byte	4,2,35,12,4
+	.byte	'SSOC_u32',0
+	.word	187
+	.byte	4,2,35,16,0,5
+	.word	405
+.L133:
+	.byte	6
+	.word	572
+	.byte	6
+	.word	383
+	.byte	6
+	.word	170
+	.byte	3
+	.byte	'AurixQspi_Data',0,2,66,16,28,4
+	.byte	'DataLen_u16',0
+	.word	383
+	.byte	2,2,35,0,4
+	.byte	'DataCnt_u16',0
+	.word	383
+	.byte	2,2,35,2,4
+	.byte	'TxBuffer_pu32',0
+	.word	378
+	.byte	4,2,35,4,4
+	.byte	'RxBuffer_pu32',0
+	.word	378
+	.byte	4,2,35,8,4
+	.byte	'TxBuffer_pu16',0
+	.word	582
+	.byte	4,2,35,12,4
+	.byte	'RxBuffer_pu16',0
+	.word	582
+	.byte	4,2,35,16,4
+	.byte	'TxBuffer_pu8',0
+	.word	587
+	.byte	4,2,35,20,4
+	.byte	'RxBuffer_pu8',0
+	.word	587
+	.byte	4,2,35,24,0
+.L140:
+	.byte	6
+	.word	592
+	.byte	9
+	.byte	'Mcal_ResetENDINIT',0,3,119,13,1,1,1,1,9
+	.byte	'Mcal_SetENDINIT',0,3,146,1,13,1,1,1,1,10,1,6
+	.word	847
+	.byte	11
+	.byte	'__codeptr',0,4,1,1
+	.word	849
+	.byte	11
+	.byte	'uint8',0,5,90,29
+	.word	170
+	.byte	11
+	.byte	'uint16',0,5,92,29
+	.word	383
+	.byte	11
+	.byte	'uint32',0,5,94,29
+	.word	187
+	.byte	11
+	.byte	'Std_ReturnType',0,6,113,15
+	.word	170
+	.byte	11
+	.byte	'AurixQspi_MoudleType',0,2,49,2
+	.word	208
+	.byte	11
+	.byte	'AurixQspi_ChannelType',0,2,63,2
+	.word	405
+	.byte	11
+	.byte	'AurixQspi_DataType',0,2,76,2
+	.word	592
+	.byte	11
+	.byte	'AurixQspi_HWCfgType',0,1,58,2
+	.word	320
+	.byte	7,80
+	.word	405
+	.byte	8,3,0,5
+	.word	1053
+	.byte	12
+	.byte	'AurixQspi_Channel_cst',0,1,72,4
+	.word	1062
+	.byte	1,1,3
+	.byte	'_Ifx_QSPI_ACCEN0_Bits',0,7,45,16,4,13
+	.byte	'EN0',0,1
+	.word	170
+	.byte	1,7,2,35,0,13
+	.byte	'EN1',0,1
+	.word	170
+	.byte	1,6,2,35,0,13
+	.byte	'EN2',0,1
+	.word	170
+	.byte	1,5,2,35,0,13
+	.byte	'EN3',0,1
+	.word	170
+	.byte	1,4,2,35,0,13
+	.byte	'EN4',0,1
+	.word	170
+	.byte	1,3,2,35,0,13
+	.byte	'EN5',0,1
+	.word	170
+	.byte	1,2,2,35,0,13
+	.byte	'EN6',0,1
+	.word	170
+	.byte	1,1,2,35,0,13
+	.byte	'EN7',0,1
+	.word	170
+	.byte	1,0,2,35,0,13
+	.byte	'EN8',0,1
+	.word	170
+	.byte	1,7,2,35,1,13
+	.byte	'EN9',0,1
+	.word	170
+	.byte	1,6,2,35,1,13
+	.byte	'EN10',0,1
+	.word	170
+	.byte	1,5,2,35,1,13
+	.byte	'EN11',0,1
+	.word	170
+	.byte	1,4,2,35,1,13
+	.byte	'EN12',0,1
+	.word	170
+	.byte	1,3,2,35,1,13
+	.byte	'EN13',0,1
+	.word	170
+	.byte	1,2,2,35,1,13
+	.byte	'EN14',0,1
+	.word	170
+	.byte	1,1,2,35,1,13
+	.byte	'EN15',0,1
+	.word	170
+	.byte	1,0,2,35,1,13
+	.byte	'EN16',0,1
+	.word	170
+	.byte	1,7,2,35,2,13
+	.byte	'EN17',0,1
+	.word	170
+	.byte	1,6,2,35,2,13
+	.byte	'EN18',0,1
+	.word	170
+	.byte	1,5,2,35,2,13
+	.byte	'EN19',0,1
+	.word	170
+	.byte	1,4,2,35,2,13
+	.byte	'EN20',0,1
+	.word	170
+	.byte	1,3,2,35,2,13
+	.byte	'EN21',0,1
+	.word	170
+	.byte	1,2,2,35,2,13
+	.byte	'EN22',0,1
+	.word	170
+	.byte	1,1,2,35,2,13
+	.byte	'EN23',0,1
+	.word	170
+	.byte	1,0,2,35,2,13
+	.byte	'EN24',0,1
+	.word	170
+	.byte	1,7,2,35,3,13
+	.byte	'EN25',0,1
+	.word	170
+	.byte	1,6,2,35,3,13
+	.byte	'EN26',0,1
+	.word	170
+	.byte	1,5,2,35,3,13
+	.byte	'EN27',0,1
+	.word	170
+	.byte	1,4,2,35,3,13
+	.byte	'EN28',0,1
+	.word	170
+	.byte	1,3,2,35,3,13
+	.byte	'EN29',0,1
+	.word	170
+	.byte	1,2,2,35,3,13
+	.byte	'EN30',0,1
+	.word	170
+	.byte	1,1,2,35,3,13
+	.byte	'EN31',0,1
+	.word	170
+	.byte	1,0,2,35,3,0,11
+	.byte	'Ifx_QSPI_ACCEN0_Bits',0,7,79,3
+	.word	1099
+	.byte	2
+	.byte	'unsigned int',0,4,7,3
+	.byte	'_Ifx_QSPI_ACCEN1_Bits',0,7,82,16,4,13
+	.byte	'reserved_0',0,4
+	.word	1658
+	.byte	32,0,2,35,0,0,11
+	.byte	'Ifx_QSPI_ACCEN1_Bits',0,7,85,3
+	.word	1674
+	.byte	3
+	.byte	'_Ifx_QSPI_BACON_Bits',0,7,88,16,4,13
+	.byte	'LAST',0,1
+	.word	170
+	.byte	1,7,2,35,0,13
+	.byte	'IPRE',0,1
+	.word	170
+	.byte	3,4,2,35,0,13
+	.byte	'IDLE',0,1
+	.word	170
+	.byte	3,1,2,35,0,13
+	.byte	'LPRE',0,2
+	.word	383
+	.byte	3,6,2,35,0,13
+	.byte	'LEAD',0,1
+	.word	170
+	.byte	3,3,2,35,1,13
+	.byte	'TPRE',0,1
+	.word	170
+	.byte	3,0,2,35,1,13
+	.byte	'TRAIL',0,1
+	.word	170
+	.byte	3,5,2,35,2,13
+	.byte	'PARTYP',0,1
+	.word	170
+	.byte	1,4,2,35,2,13
+	.byte	'UINT',0,1
+	.word	170
+	.byte	1,3,2,35,2,13
+	.byte	'MSB',0,1
+	.word	170
+	.byte	1,2,2,35,2,13
+	.byte	'BYTE',0,1
+	.word	170
+	.byte	1,1,2,35,2,13
+	.byte	'DL',0,2
+	.word	383
+	.byte	5,4,2,35,2,13
+	.byte	'CS',0,1
+	.word	170
+	.byte	4,0,2,35,3,0,11
+	.byte	'Ifx_QSPI_BACON_Bits',0,7,103,3
+	.word	1753
+	.byte	3
+	.byte	'_Ifx_QSPI_BACONENTRY_Bits',0,7,106,16,4,13
+	.byte	'E',0,4
+	.word	1658
+	.byte	32,0,2,35,0,0,11
+	.byte	'Ifx_QSPI_BACONENTRY_Bits',0,7,109,3
+	.word	2014
+	.byte	3
+	.byte	'_Ifx_QSPI_CLC_Bits',0,7,112,16,4,13
+	.byte	'DISR',0,1
+	.word	170
+	.byte	1,7,2,35,0,13
+	.byte	'DISS',0,1
+	.word	170
+	.byte	1,6,2,35,0,13
+	.byte	'reserved_2',0,1
+	.word	170
+	.byte	1,5,2,35,0,13
+	.byte	'EDIS',0,1
+	.word	170
+	.byte	1,4,2,35,0,13
+	.byte	'reserved_4',0,4
+	.word	1658
+	.byte	28,0,2,35,0,0,11
+	.byte	'Ifx_QSPI_CLC_Bits',0,7,119,3
+	.word	2092
+	.byte	3
+	.byte	'_Ifx_QSPI_DATAENTRY_Bits',0,7,122,16,4,13
+	.byte	'E',0,4
+	.word	1658
+	.byte	32,0,2,35,0,0,11
+	.byte	'Ifx_QSPI_DATAENTRY_Bits',0,7,125,3
+	.word	2235
+	.byte	3
+	.byte	'_Ifx_QSPI_ECON_Bits',0,7,128,1,16,4,13
+	.byte	'Q',0,1
+	.word	170
+	.byte	6,2,2,35,0,13
+	.byte	'A',0,1
+	.word	170
+	.byte	2,0,2,35,0,13
+	.byte	'B',0,1
+	.word	170
+	.byte	2,6,2,35,1,13
+	.byte	'C',0,1
+	.word	170
+	.byte	2,4,2,35,1,13
+	.byte	'CPH',0,1
+	.word	170
+	.byte	1,3,2,35,1,13
+	.byte	'CPOL',0,1
+	.word	170
+	.byte	1,2,2,35,1,13
+	.byte	'PAREN',0,1
+	.word	170
+	.byte	1,1,2,35,1,13
+	.byte	'reserved_15',0,4
+	.word	1658
+	.byte	15,2,2,35,0,13
+	.byte	'BE',0,1
+	.word	170
+	.byte	2,0,2,35,3,0,11
+	.byte	'Ifx_QSPI_ECON_Bits',0,7,139,1,3
+	.word	2311
+	.byte	3
+	.byte	'_Ifx_QSPI_FLAGSCLEAR_Bits',0,7,142,1,16,4,13
+	.byte	'ERRORCLEARS',0,2
+	.word	383
+	.byte	9,7,2,35,0,13
+	.byte	'TXC',0,1
+	.word	170
+	.byte	1,6,2,35,1,13
+	.byte	'RXC',0,1
+	.word	170
+	.byte	1,5,2,35,1,13
+	.byte	'PT1C',0,1
+	.word	170
+	.byte	1,4,2,35,1,13
+	.byte	'PT2C',0,1
+	.word	170
+	.byte	1,3,2,35,1,13
+	.byte	'reserved_13',0,1
+	.word	170
+	.byte	2,1,2,35,1,13
+	.byte	'USRC',0,1
+	.word	170
+	.byte	1,0,2,35,1,13
+	.byte	'reserved_16',0,2
+	.word	383
+	.byte	16,0,2,35,2,0,11
+	.byte	'Ifx_QSPI_FLAGSCLEAR_Bits',0,7,152,1,3
+	.word	2503
+	.byte	3
+	.byte	'_Ifx_QSPI_GLOBALCON1_Bits',0,7,155,1,16,4,13
+	.byte	'ERRORENS',0,2
+	.word	383
+	.byte	9,7,2,35,0,13
+	.byte	'TXEN',0,1
+	.word	170
+	.byte	1,6,2,35,1,13
+	.byte	'RXEN',0,1
+	.word	170
+	.byte	1,5,2,35,1,13
+	.byte	'PT1EN',0,1
+	.word	170
+	.byte	1,4,2,35,1,13
+	.byte	'PT2EN',0,1
+	.word	170
+	.byte	1,3,2,35,1,13
+	.byte	'reserved_13',0,1
+	.word	170
+	.byte	2,1,2,35,1,13
+	.byte	'USREN',0,1
+	.word	170
+	.byte	1,0,2,35,1,13
+	.byte	'TXFIFOINT',0,1
+	.word	170
+	.byte	2,6,2,35,2,13
+	.byte	'RXFIFOINT',0,1
+	.word	170
+	.byte	2,4,2,35,2,13
+	.byte	'PT1',0,1
+	.word	170
+	.byte	3,1,2,35,2,13
+	.byte	'PT2',0,2
+	.word	383
+	.byte	3,6,2,35,2,13
+	.byte	'TXFM',0,1
+	.word	170
+	.byte	2,4,2,35,3,13
+	.byte	'RXFM',0,1
+	.word	170
+	.byte	2,2,2,35,3,13
+	.byte	'reserved_30',0,1
+	.word	170
+	.byte	2,0,2,35,3,0,11
+	.byte	'Ifx_QSPI_GLOBALCON1_Bits',0,7,171,1,3
+	.word	2717
+	.byte	3
+	.byte	'_Ifx_QSPI_GLOBALCON_Bits',0,7,174,1,16,4,13
+	.byte	'TQ',0,1
+	.word	170
+	.byte	8,0,2,35,0,13
+	.byte	'reserved_8',0,1
+	.word	170
+	.byte	1,7,2,35,1,13
+	.byte	'SI',0,1
+	.word	170
+	.byte	1,6,2,35,1,13
+	.byte	'EXPECT',0,1
+	.word	170
+	.byte	4,2,2,35,1,13
+	.byte	'LB',0,1
+	.word	170
+	.byte	1,1,2,35,1,13
+	.byte	'DEL0',0,1
+	.word	170
+	.byte	1,0,2,35,1,13
+	.byte	'STROBE',0,1
+	.word	170
+	.byte	5,3,2,35,2,13
+	.byte	'SRF',0,1
+	.word	170
+	.byte	1,2,2,35,2,13
+	.byte	'STIP',0,1
+	.word	170
+	.byte	1,1,2,35,2,13
+	.byte	'reserved_23',0,1
+	.word	170
+	.byte	1,0,2,35,2,13
+	.byte	'EN',0,1
+	.word	170
+	.byte	1,7,2,35,3,13
+	.byte	'MS',0,1
+	.word	170
+	.byte	2,5,2,35,3,13
+	.byte	'AREN',0,1
+	.word	170
+	.byte	1,4,2,35,3,13
+	.byte	'RESETS',0,1
+	.word	170
+	.byte	4,0,2,35,3,0,11
+	.byte	'Ifx_QSPI_GLOBALCON_Bits',0,7,190,1,3
+	.word	3037
+	.byte	3
+	.byte	'_Ifx_QSPI_ID_Bits',0,7,193,1,16,4,13
+	.byte	'MODREV',0,1
+	.word	170
+	.byte	8,0,2,35,0,13
+	.byte	'MODTYPE',0,1
+	.word	170
+	.byte	8,0,2,35,1,13
+	.byte	'MODNUMBER',0,2
+	.word	383
+	.byte	16,0,2,35,2,0,11
+	.byte	'Ifx_QSPI_ID_Bits',0,7,198,1,3
+	.word	3334
+	.byte	3
+	.byte	'_Ifx_QSPI_KRST0_Bits',0,7,201,1,16,4,13
+	.byte	'RST',0,1
+	.word	170
+	.byte	1,7,2,35,0,13
+	.byte	'RSTSTAT',0,1
+	.word	170
+	.byte	1,6,2,35,0,13
+	.byte	'reserved_2',0,4
+	.word	1658
+	.byte	30,0,2,35,0,0,11
+	.byte	'Ifx_QSPI_KRST0_Bits',0,7,206,1,3
+	.word	3443
+	.byte	3
+	.byte	'_Ifx_QSPI_KRST1_Bits',0,7,209,1,16,4,13
+	.byte	'RST',0,1
+	.word	170
+	.byte	1,7,2,35,0,13
+	.byte	'reserved_1',0,4
+	.word	1658
+	.byte	31,0,2,35,0,0,11
+	.byte	'Ifx_QSPI_KRST1_Bits',0,7,213,1,3
+	.word	3556
+	.byte	3
+	.byte	'_Ifx_QSPI_KRSTCLR_Bits',0,7,216,1,16,4,13
+	.byte	'CLR',0,1
+	.word	170
+	.byte	1,7,2,35,0,13
+	.byte	'reserved_1',0,4
+	.word	1658
+	.byte	31,0,2,35,0,0,11
+	.byte	'Ifx_QSPI_KRSTCLR_Bits',0,7,220,1,3
+	.word	3650
+	.byte	3
+	.byte	'_Ifx_QSPI_MIXENTRY_Bits',0,7,223,1,16,4,13
+	.byte	'E',0,4
+	.word	1658
+	.byte	32,0,2,35,0,0,11
+	.byte	'Ifx_QSPI_MIXENTRY_Bits',0,7,226,1,3
+	.word	3748
+	.byte	3
+	.byte	'_Ifx_QSPI_OCS_Bits',0,7,229,1,16,4,13
+	.byte	'reserved_0',0,4
+	.word	1658
+	.byte	24,8,2,35,0,13
+	.byte	'SUS',0,1
+	.word	170
+	.byte	4,4,2,35,3,13
+	.byte	'SUS_P',0,1
+	.word	170
+	.byte	1,3,2,35,3,13
+	.byte	'SUSSTA',0,1
+	.word	170
+	.byte	1,2,2,35,3,13
+	.byte	'reserved_30',0,1
+	.word	170
+	.byte	2,0,2,35,3,0,11
+	.byte	'Ifx_QSPI_OCS_Bits',0,7,236,1,3
+	.word	3824
+	.byte	3
+	.byte	'_Ifx_QSPI_PISEL_Bits',0,7,239,1,16,4,13
+	.byte	'MRIS',0,1
+	.word	170
+	.byte	3,5,2,35,0,13
+	.byte	'reserved_3',0,1
+	.word	170
+	.byte	1,4,2,35,0,13
+	.byte	'SRIS',0,1
+	.word	170
+	.byte	3,1,2,35,0,13
+	.byte	'reserved_7',0,1
+	.word	170
+	.byte	1,0,2,35,0,13
+	.byte	'SCIS',0,1
+	.word	170
+	.byte	3,5,2,35,1,13
+	.byte	'reserved_11',0,1
+	.word	170
+	.byte	1,4,2,35,1,13
+	.byte	'SLSIS',0,1
+	.word	170
+	.byte	3,1,2,35,1,13
+	.byte	'reserved_15',0,4
+	.word	1658
+	.byte	17,0,2,35,0,0,11
+	.byte	'Ifx_QSPI_PISEL_Bits',0,7,249,1,3
+	.word	3972
+	.byte	3
+	.byte	'_Ifx_QSPI_RXEXIT_Bits',0,7,252,1,16,4,13
+	.byte	'E',0,4
+	.word	1658
+	.byte	32,0,2,35,0,0,11
+	.byte	'Ifx_QSPI_RXEXIT_Bits',0,7,255,1,3
+	.word	4184
+	.byte	3
+	.byte	'_Ifx_QSPI_RXEXITD_Bits',0,7,130,2,16,4,13
+	.byte	'E',0,4
+	.word	1658
+	.byte	32,0,2,35,0,0,11
+	.byte	'Ifx_QSPI_RXEXITD_Bits',0,7,133,2,3
+	.word	4256
+	.byte	3
+	.byte	'_Ifx_QSPI_SSOC_Bits',0,7,136,2,16,4,13
+	.byte	'AOL',0,2
+	.word	383
+	.byte	16,0,2,35,0,13
+	.byte	'OEN',0,2
+	.word	383
+	.byte	16,0,2,35,2,0,11
+	.byte	'Ifx_QSPI_SSOC_Bits',0,7,140,2,3
+	.word	4330
+	.byte	3
+	.byte	'_Ifx_QSPI_STATUS1_Bits',0,7,143,2,16,4,13
+	.byte	'BITCOUNT',0,1
+	.word	170
+	.byte	8,0,2,35,0,13
+	.byte	'reserved_8',0,4
+	.word	1658
+	.byte	20,4,2,35,0,13
+	.byte	'BRDEN',0,1
+	.word	170
+	.byte	1,3,2,35,3,13
+	.byte	'BRD',0,1
+	.word	170
+	.byte	1,2,2,35,3,13
+	.byte	'SPDEN',0,1
+	.word	170
+	.byte	1,1,2,35,3,13
+	.byte	'SPD',0,1
+	.word	170
+	.byte	1,0,2,35,3,0,11
+	.byte	'Ifx_QSPI_STATUS1_Bits',0,7,151,2,3
+	.word	4415
+	.byte	3
+	.byte	'_Ifx_QSPI_STATUS_Bits',0,7,154,2,16,4,13
+	.byte	'ERRORFLAGS',0,2
+	.word	383
+	.byte	9,7,2,35,0,13
+	.byte	'TXF',0,1
+	.word	170
+	.byte	1,6,2,35,1,13
+	.byte	'RXF',0,1
+	.word	170
+	.byte	1,5,2,35,1,13
+	.byte	'PT1F',0,1
+	.word	170
+	.byte	1,4,2,35,1,13
+	.byte	'PT2F',0,1
+	.word	170
+	.byte	1,3,2,35,1,13
+	.byte	'reserved_13',0,1
+	.word	170
+	.byte	2,1,2,35,1,13
+	.byte	'USRF',0,1
+	.word	170
+	.byte	1,0,2,35,1,13
+	.byte	'TXFIFOLEVEL',0,1
+	.word	170
+	.byte	3,5,2,35,2,13
+	.byte	'RXFIFOLEVEL',0,1
+	.word	170
+	.byte	3,2,2,35,2,13
+	.byte	'SLAVESEL',0,2
+	.word	383
+	.byte	4,6,2,35,2,13
+	.byte	'RPV',0,1
+	.word	170
+	.byte	1,5,2,35,3,13
+	.byte	'TPV',0,1
+	.word	170
+	.byte	1,4,2,35,3,13
+	.byte	'PHASE',0,1
+	.word	170
+	.byte	4,0,2,35,3,0,11
+	.byte	'Ifx_QSPI_STATUS_Bits',0,7,169,2,3
+	.word	4582
+	.byte	3
+	.byte	'_Ifx_QSPI_XXLCON_Bits',0,7,172,2,16,4,13
+	.byte	'XDL',0,2
+	.word	383
+	.byte	16,0,2,35,0,13
+	.byte	'BYTECOUNT',0,2
+	.word	383
+	.byte	16,0,2,35,2,0,11
+	.byte	'Ifx_QSPI_XXLCON_Bits',0,7,176,2,3
+	.word	4877
+	.byte	2
+	.byte	'int',0,4,5,14,7,184,2,9,4,4
+	.byte	'U',0
+	.word	1658
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	4972
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	1099
+	.byte	4,2,35,0,0,11
+	.byte	'Ifx_QSPI_ACCEN0',0,7,189,2,3
+	.word	4979
+	.byte	14,7,192,2,9,4,4
+	.byte	'U',0
+	.word	1658
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	4972
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	1674
+	.byte	4,2,35,0,0,11
+	.byte	'Ifx_QSPI_ACCEN1',0,7,197,2,3
+	.word	5044
+	.byte	14,7,200,2,9,4,4
+	.byte	'U',0
+	.word	1658
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	4972
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	1753
+	.byte	4,2,35,0,0,11
+	.byte	'Ifx_QSPI_BACON',0,7,205,2,3
+	.word	5109
+	.byte	14,7,208,2,9,4,4
+	.byte	'U',0
+	.word	1658
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	4972
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	2014
+	.byte	4,2,35,0,0,11
+	.byte	'Ifx_QSPI_BACONENTRY',0,7,213,2,3
+	.word	5173
+	.byte	14,7,216,2,9,4,4
+	.byte	'U',0
+	.word	1658
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	4972
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	2092
+	.byte	4,2,35,0,0,11
+	.byte	'Ifx_QSPI_CLC',0,7,221,2,3
+	.word	5242
+	.byte	14,7,224,2,9,4,4
+	.byte	'U',0
+	.word	1658
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	4972
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	2235
+	.byte	4,2,35,0,0,11
+	.byte	'Ifx_QSPI_DATAENTRY',0,7,229,2,3
+	.word	5304
+	.byte	14,7,232,2,9,4,4
+	.byte	'U',0
+	.word	1658
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	4972
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	2311
+	.byte	4,2,35,0,0,11
+	.byte	'Ifx_QSPI_ECON',0,7,237,2,3
+	.word	5372
+	.byte	14,7,240,2,9,4,4
+	.byte	'U',0
+	.word	1658
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	4972
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	2503
+	.byte	4,2,35,0,0,11
+	.byte	'Ifx_QSPI_FLAGSCLEAR',0,7,245,2,3
+	.word	5435
+	.byte	14,7,248,2,9,4,4
+	.byte	'U',0
+	.word	1658
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	4972
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	3037
+	.byte	4,2,35,0,0,11
+	.byte	'Ifx_QSPI_GLOBALCON',0,7,253,2,3
+	.word	5504
+	.byte	14,7,128,3,9,4,4
+	.byte	'U',0
+	.word	1658
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	4972
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	2717
+	.byte	4,2,35,0,0,11
+	.byte	'Ifx_QSPI_GLOBALCON1',0,7,133,3,3
+	.word	5572
+	.byte	14,7,136,3,9,4,4
+	.byte	'U',0
+	.word	1658
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	4972
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	3334
+	.byte	4,2,35,0,0,11
+	.byte	'Ifx_QSPI_ID',0,7,141,3,3
+	.word	5641
+	.byte	14,7,144,3,9,4,4
+	.byte	'U',0
+	.word	1658
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	4972
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	3443
+	.byte	4,2,35,0,0,11
+	.byte	'Ifx_QSPI_KRST0',0,7,149,3,3
+	.word	5702
+	.byte	14,7,152,3,9,4,4
+	.byte	'U',0
+	.word	1658
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	4972
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	3556
+	.byte	4,2,35,0,0,11
+	.byte	'Ifx_QSPI_KRST1',0,7,157,3,3
+	.word	5766
+	.byte	14,7,160,3,9,4,4
+	.byte	'U',0
+	.word	1658
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	4972
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	3650
+	.byte	4,2,35,0,0,11
+	.byte	'Ifx_QSPI_KRSTCLR',0,7,165,3,3
+	.word	5830
+	.byte	14,7,168,3,9,4,4
+	.byte	'U',0
+	.word	1658
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	4972
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	3748
+	.byte	4,2,35,0,0,11
+	.byte	'Ifx_QSPI_MIXENTRY',0,7,173,3,3
+	.word	5896
+	.byte	14,7,176,3,9,4,4
+	.byte	'U',0
+	.word	1658
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	4972
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	3824
+	.byte	4,2,35,0,0,11
+	.byte	'Ifx_QSPI_OCS',0,7,181,3,3
+	.word	5963
+	.byte	14,7,184,3,9,4,4
+	.byte	'U',0
+	.word	1658
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	4972
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	3972
+	.byte	4,2,35,0,0,11
+	.byte	'Ifx_QSPI_PISEL',0,7,189,3,3
+	.word	6025
+	.byte	14,7,192,3,9,4,4
+	.byte	'U',0
+	.word	1658
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	4972
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	4184
+	.byte	4,2,35,0,0,11
+	.byte	'Ifx_QSPI_RXEXIT',0,7,197,3,3
+	.word	6089
+	.byte	14,7,200,3,9,4,4
+	.byte	'U',0
+	.word	1658
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	4972
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	4256
+	.byte	4,2,35,0,0,11
+	.byte	'Ifx_QSPI_RXEXITD',0,7,205,3,3
+	.word	6154
+	.byte	14,7,208,3,9,4,4
+	.byte	'U',0
+	.word	1658
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	4972
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	4330
+	.byte	4,2,35,0,0,11
+	.byte	'Ifx_QSPI_SSOC',0,7,213,3,3
+	.word	6220
+	.byte	14,7,216,3,9,4,4
+	.byte	'U',0
+	.word	1658
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	4972
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	4582
+	.byte	4,2,35,0,0,11
+	.byte	'Ifx_QSPI_STATUS',0,7,221,3,3
+	.word	6283
+	.byte	14,7,224,3,9,4,4
+	.byte	'U',0
+	.word	1658
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	4972
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	4415
+	.byte	4,2,35,0,0,11
+	.byte	'Ifx_QSPI_STATUS1',0,7,229,3,3
+	.word	6348
+	.byte	14,7,232,3,9,4,4
+	.byte	'U',0
+	.word	1658
+	.byte	4,2,35,0,4
+	.byte	'I',0
+	.word	4972
+	.byte	4,2,35,0,4
+	.byte	'B',0
+	.word	4877
+	.byte	4,2,35,0,0,11
+	.byte	'Ifx_QSPI_XXLCON',0,7,237,3,3
+	.word	6414
+.L155:
+	.byte	7,112
+	.word	592
+	.byte	8,3,0,0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L56:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,19,1,3,8,58,15,59,15,57,15
+	.byte	11,15,0,0,4,13,0,3,8,73,19,11,15,56,9,0,0,5,38,0,73,19,0,0,6,15,0,73,19,0,0,7,1,1,11,15,73,19,0,0,8,33
+	.byte	0,47,15,0,0,9,46,0,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,10,21,0,54,15,0,0,11,22,0,3,8,58
+	.byte	15,59,15,57,15,73,19,0,0,12,52,0,3,8,58,15,59,15,57,15,73,19,63,12,60,12,0,0,13,13,0,3,8,11,15,73,19,13
+	.byte	15,12,15,56,9,0,0,14,23,1,58,15,59,15,57,15,11,15,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L57:
+	.word	.L178-.L177
+.L177:
+	.half	3
+	.word	.L180-.L179
+.L179:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc\\inc',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\inc',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc\\TC27xC',0
+	.byte	0
+	.byte	'..\\Qspi\\AurixQspi_Cfg.h',0,0,0,0
+	.byte	'..\\Qspi\\AurixQspi_Types.h',0,0,0,0
+	.byte	'Mcal_WdgLib.h',0,1,0,0
+	.byte	'..\\Qspi\\AuirxQspi.c',0,0,0,0
+	.byte	'Platform_Types.h',0,2,0,0
+	.byte	'Std_Types.h',0,3,0,0
+	.byte	'IfxQspi_regdef.h',0,4,0,0,0
+.L180:
+.L178:
+	.sdecl	'.debug_info',debug,cluster('AurixQspi_Init')
+	.sect	'.debug_info'
+.L58:
+	.word	331
+	.half	3
+	.word	.L59
+	.byte	4,1
+	.byte	'..\\Qspi\\AuirxQspi.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L61,.L60
+	.byte	2
+	.word	.L54
+	.byte	3
+	.byte	'AurixQspi_Init',0,1,96,16
+	.word	.L115
+	.byte	1,1,1
+	.word	.L33,.L116,.L32
+	.byte	4
+	.byte	'arg_HWCfg_pst',0,1,96,58
+	.word	.L117,.L118
+	.byte	5
+	.word	.L119
+	.byte	6
+	.byte	'Status',0,1,98,17
+	.word	.L115,.L120
+	.byte	6
+	.byte	'GLOBALCON_Temp_ui32',0,1,101,9
+	.word	.L121,.L122
+	.byte	6
+	.byte	'AurixQspi_Moudle_ptr',0,1,102,30
+	.word	.L123,.L124
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('AurixQspi_Init')
+	.sect	'.debug_abbrev'
+.L59:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,85,6,0,0,6,52,0
+	.byte	3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('AurixQspi_Init')
+	.sect	'.debug_line'
+.L60:
+	.word	.L182-.L181
+.L181:
+	.half	3
+	.word	.L184-.L183
+.L183:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\Qspi\\AuirxQspi.c',0,0,0,0,0
+.L184:
+	.byte	5,2,7,0,5,2
+	.word	.L33
+	.byte	3,231,0,1,5,37,7,9
+	.half	.L185-.L33
+	.byte	3,7,1,5,21,9
+	.half	.L157-.L185
+	.byte	3,2,1,5,4,9
+	.half	.L156-.L157
+	.byte	3,1,1,5,42,9
+	.half	.L186-.L156
+	.byte	1,5,11,9
+	.half	.L187-.L186
+	.byte	3,1,1,5,65,3,127,1,5,25,9
+	.half	.L188-.L187
+	.byte	3,2,1,5,42,9
+	.half	.L189-.L188
+	.byte	3,3,1,5,26,9
+	.half	.L190-.L189
+	.byte	3,1,1,5,71,9
+	.half	.L191-.L190
+	.byte	3,127,1,5,42,9
+	.half	.L192-.L191
+	.byte	3,4,1,5,26,9
+	.half	.L193-.L192
+	.byte	3,1,1,5,72,9
+	.half	.L194-.L193
+	.byte	3,127,1,5,43,9
+	.half	.L195-.L194
+	.byte	3,5,1,5,69,9
+	.half	.L196-.L195
+	.byte	1,5,24,9
+	.half	.L197-.L196
+	.byte	3,1,1,5,71,3,1,1,5,42,9
+	.half	.L158-.L197
+	.byte	3,4,1,5,11,9
+	.half	.L160-.L158
+	.byte	3,1,1,5,72,3,127,1,5,10,9
+	.half	.L198-.L160
+	.byte	3,4,1,5,1,3,8,1,5,10,7,9
+	.half	.L2-.L198
+	.byte	3,124,1,5,1,3,4,1,7,9
+	.half	.L62-.L2
+	.byte	0,1,1
+.L182:
+	.sdecl	'.debug_ranges',debug,cluster('AurixQspi_Init')
+	.sect	'.debug_ranges'
+.L61:
+	.word	-1,.L33,0,.L62-.L33,0,0
+.L119:
+	.word	-1,.L33,0,.L116-.L33,-1,.L35,0,.L97-.L35,0,0
+	.sdecl	'.debug_info',debug,cluster('AurixQspi_ChannelCfg')
+	.sect	'.debug_info'
+.L63:
+	.word	368
+	.half	3
+	.word	.L64
+	.byte	4,1
+	.byte	'..\\Qspi\\AuirxQspi.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L66,.L65
+	.byte	2
+	.word	.L54
+	.byte	3
+	.byte	'AurixQspi_ChannelCfg',0,1,157,1,6,1,1,1
+	.word	.L37,.L125,.L36
+	.byte	4
+	.byte	'arg_SeqNum_u8',0,1,159,1,8
+	.word	.L115,.L126
+	.byte	4
+	.byte	'arg_TxBuff_u32',0,1,159,1,30
+	.word	.L127,.L128
+	.byte	4
+	.byte	'arg_RxBuff_u32',0,1,160,1,10
+	.word	.L127,.L129
+	.byte	4
+	.byte	'arg_Datalen_u16',0,1,160,1,32
+	.word	.L130,.L131
+	.byte	5
+	.word	.L132
+	.byte	6
+	.byte	'arg_ChannelCfg_pst',0,1,165,1,31
+	.word	.L133,.L134
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('AurixQspi_ChannelCfg')
+	.sect	'.debug_abbrev'
+.L64:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,85,6,0,0,6,52,0,3,8,58
+	.byte	15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('AurixQspi_ChannelCfg')
+	.sect	'.debug_line'
+.L65:
+	.word	.L200-.L199
+.L199:
+	.half	3
+	.word	.L202-.L201
+.L201:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\Qspi\\AuirxQspi.c',0,0,0,0,0
+.L202:
+	.byte	5,45,7,0,5,2
+	.word	.L37
+	.byte	3,167,1,1,5,2,9
+	.half	.L161-.L37
+	.byte	3,3,1,5,38,9
+	.half	.L203-.L161
+	.byte	1,5,25,9
+	.half	.L204-.L203
+	.byte	3,1,1,5,63,9
+	.half	.L205-.L204
+	.byte	3,127,1,5,38,9
+	.half	.L206-.L205
+	.byte	3,4,1,5,37,9
+	.half	.L207-.L206
+	.byte	3,127,1,5,11,9
+	.half	.L208-.L207
+	.byte	3,2,1,5,50,9
+	.half	.L209-.L208
+	.byte	1,5,30,9
+	.half	.L210-.L209
+	.byte	1,5,38,9
+	.half	.L211-.L210
+	.byte	3,2,1,5,25,9
+	.half	.L212-.L211
+	.byte	3,1,1,5,62,9
+	.half	.L213-.L212
+	.byte	3,127,1,5,19,9
+	.half	.L214-.L213
+	.byte	3,4,1,5,2,1,5,19,9
+	.half	.L215-.L214
+	.byte	1,5,49,9
+	.half	.L216-.L215
+	.byte	1,5,47,9
+	.half	.L217-.L216
+	.byte	1,9
+	.half	.L218-.L217
+	.byte	3,1,1,5,27,9
+	.half	.L219-.L218
+	.byte	3,7,1,5,8,9
+	.half	.L220-.L219
+	.byte	3,2,1,7,9
+	.half	.L221-.L220
+	.byte	3,8,1,7,9
+	.half	.L222-.L221
+	.byte	1,5,50,9
+	.half	.L5-.L222
+	.byte	3,122,1,9
+	.half	.L223-.L5
+	.byte	3,2,1,5,1,9
+	.half	.L224-.L223
+	.byte	3,25,1,5,51,7,9
+	.half	.L6-.L224
+	.byte	3,109,1,9
+	.half	.L225-.L6
+	.byte	3,2,1,5,1,9
+	.half	.L226-.L225
+	.byte	3,17,1,5,51,7,9
+	.half	.L7-.L226
+	.byte	3,123,1,9
+	.half	.L227-.L7
+	.byte	3,1,1,5,1,9
+	.half	.L228-.L227
+	.byte	3,4,1,7,9
+	.half	.L67-.L228
+	.byte	0,1,1
+.L200:
+	.sdecl	'.debug_ranges',debug,cluster('AurixQspi_ChannelCfg')
+	.sect	'.debug_ranges'
+.L66:
+	.word	-1,.L37,0,.L67-.L37,0,0
+.L132:
+	.word	-1,.L37,0,.L125-.L37,-1,.L39,0,.L112-.L39,-1,.L41,0,.L107-.L41,0,0
+	.sdecl	'.debug_info',debug,cluster('AurixQspi_Transmit')
+	.sect	'.debug_info'
+.L68:
+	.word	376
+	.half	3
+	.word	.L69
+	.byte	4,1
+	.byte	'..\\Qspi\\AuirxQspi.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L71,.L70
+	.byte	2
+	.word	.L54
+	.byte	3
+	.byte	'AurixQspi_Transmit',0,1,231,1,16
+	.word	.L115
+	.byte	1,1,1
+	.word	.L43,.L135,.L42
+	.byte	4
+	.byte	'arg_SeqNum_u8',0,1,231,1,41
+	.word	.L115,.L136
+	.byte	5
+	.word	.L43,.L135
+	.byte	6
+	.byte	'Status',0,1,233,1,17
+	.word	.L115,.L137
+	.byte	6
+	.byte	'QspiMoudleIndex_u8',0,1,234,1,8
+	.word	.L115,.L138
+	.byte	6
+	.byte	'AurixQspi_Channel_pst',0,1,237,1,31
+	.word	.L133,.L139
+	.byte	6
+	.byte	'AurixQspi_Data_pst',0,1,241,1,22
+	.word	.L140,.L141
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('AurixQspi_Transmit')
+	.sect	'.debug_abbrev'
+.L69:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('AurixQspi_Transmit')
+	.sect	'.debug_line'
+.L70:
+	.word	.L230-.L229
+.L229:
+	.half	3
+	.word	.L232-.L231
+.L231:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\Qspi\\AuirxQspi.c',0,0,0,0,0
+.L232:
+	.byte	5,24,7,0,5,2
+	.word	.L43
+	.byte	3,232,1,1,5,26,3,5,1,5,61,9
+	.half	.L164-.L43
+	.byte	3,3,1,5,44,1,5,61,9
+	.half	.L233-.L164
+	.byte	1,5,36,9
+	.half	.L165-.L233
+	.byte	3,3,1,5,34,9
+	.half	.L234-.L165
+	.byte	1,5,2,9
+	.half	.L235-.L234
+	.byte	3,3,1,5,41,9
+	.half	.L236-.L235
+	.byte	1,5,19,9
+	.half	.L237-.L236
+	.byte	1,5,7,9
+	.half	.L238-.L237
+	.byte	3,1,1,5,71,9
+	.half	.L239-.L238
+	.byte	3,127,1,5,6,9
+	.half	.L240-.L239
+	.byte	3,31,1,5,73,3,101,1,5,43,9
+	.half	.L11-.L240
+	.byte	3,6,1,5,25,9
+	.half	.L241-.L11
+	.byte	3,124,1,5,43,9
+	.half	.L242-.L241
+	.byte	3,4,1,5,41,3,1,1,5,21,9
+	.half	.L243-.L242
+	.byte	3,127,1,5,32,9
+	.half	.L244-.L243
+	.byte	3,125,1,5,59,9
+	.half	.L245-.L244
+	.byte	3,3,1,5,45,9
+	.half	.L246-.L245
+	.byte	3,125,1,5,5,9
+	.half	.L247-.L246
+	.byte	1,5,3,9
+	.half	.L248-.L247
+	.byte	3,127,1,5,52,7,9
+	.half	.L249-.L248
+	.byte	3,11,1,5,17,9
+	.half	.L13-.L249
+	.byte	1,5,44,9
+	.half	.L250-.L13
+	.byte	3,4,1,5,45,9
+	.half	.L167-.L250
+	.byte	3,3,1,5,34,9
+	.half	.L169-.L167
+	.byte	3,1,1,5,10,9
+	.half	.L163-.L169
+	.byte	1,5,3,9
+	.half	.L171-.L163
+	.byte	3,2,1,5,43,7,9
+	.half	.L251-.L171
+	.byte	3,3,1,5,48,9
+	.half	.L252-.L251
+	.byte	3,4,1,5,43,9
+	.half	.L172-.L252
+	.byte	3,124,1,5,48,3,4,1,5,21,9
+	.half	.L173-.L172
+	.byte	3,124,1,5,73,9
+	.half	.L253-.L173
+	.byte	1,5,48,9
+	.half	.L254-.L253
+	.byte	3,4,1,5,22,9
+	.half	.L170-.L254
+	.byte	3,3,1,5,35,9
+	.half	.L255-.L170
+	.byte	1,5,26,9
+	.half	.L10-.L255
+	.byte	3,95,1,5,60,9
+	.half	.L256-.L10
+	.byte	1,5,73,9
+	.half	.L257-.L256
+	.byte	1,5,2,7,9
+	.half	.L14-.L257
+	.byte	3,41,1,5,1,3,1,1,7,9
+	.half	.L72-.L14
+	.byte	0,1,1
+.L230:
+	.sdecl	'.debug_ranges',debug,cluster('AurixQspi_Transmit')
+	.sect	'.debug_ranges'
+.L71:
+	.word	-1,.L43,0,.L72-.L43,0,0
+	.sdecl	'.debug_info',debug,cluster('AurixQspi_SendData')
+	.sect	'.debug_info'
+.L73:
+	.word	287
+	.half	3
+	.word	.L74
+	.byte	4,1
+	.byte	'..\\Qspi\\AuirxQspi.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L76,.L75
+	.byte	2
+	.word	.L54
+	.byte	3
+	.byte	'AurixQspi_SendData',0,1,176,2,13,1,1
+	.word	.L45,.L142,.L44
+	.byte	4
+	.byte	'AurixQspi_Channel_Ptr',0,1,178,2,31
+	.word	.L133,.L143
+	.byte	4
+	.byte	'AurixQspi_Data_Ptr',0,1,179,2,22
+	.word	.L140,.L144
+	.byte	5
+	.word	.L145
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('AurixQspi_SendData')
+	.sect	'.debug_abbrev'
+.L74:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,85,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('AurixQspi_SendData')
+	.sect	'.debug_line'
+.L75:
+	.word	.L259-.L258
+.L258:
+	.half	3
+	.word	.L261-.L260
+.L260:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\Qspi\\AuirxQspi.c',0,0,0,0,0
+.L261:
+	.byte	5,30,7,0,5,2
+	.word	.L45
+	.byte	3,181,2,1,5,8,9
+	.half	.L262-.L45
+	.byte	3,2,1,7,9
+	.half	.L263-.L262
+	.byte	3,7,1,7,9
+	.half	.L264-.L263
+	.byte	1,5,4,9
+	.half	.L16-.L264
+	.byte	3,123,1,5,48,9
+	.half	.L265-.L16
+	.byte	3,1,1,5,37,9
+	.half	.L266-.L265
+	.byte	3,1,1,5,18,9
+	.half	.L267-.L266
+	.byte	1,5,4,9
+	.half	.L268-.L267
+	.byte	3,1,1,9
+	.half	.L17-.L268
+	.byte	3,4,1,5,48,9
+	.half	.L269-.L17
+	.byte	3,1,1,5,38,9
+	.half	.L270-.L269
+	.byte	3,1,1,5,19,9
+	.half	.L271-.L270
+	.byte	1,5,4,9
+	.half	.L272-.L271
+	.byte	3,1,1,9
+	.half	.L18-.L272
+	.byte	3,11,1,5,48,9
+	.half	.L273-.L18
+	.byte	3,1,1,5,38,9
+	.half	.L274-.L273
+	.byte	3,1,1,5,19,9
+	.half	.L275-.L274
+	.byte	1,5,20,9
+	.half	.L20-.L275
+	.byte	3,127,1,5,1,9
+	.half	.L276-.L20
+	.byte	3,5,1,7,9
+	.half	.L77-.L276
+	.byte	0,1,1
+.L259:
+	.sdecl	'.debug_ranges',debug,cluster('AurixQspi_SendData')
+	.sect	'.debug_ranges'
+.L76:
+	.word	-1,.L45,0,.L77-.L45,0,0
+.L145:
+	.word	-1,.L45,0,.L142-.L45,-1,.L47,0,.L102-.L47,0,0
+	.sdecl	'.debug_info',debug,cluster('AurixQspi_ReceiveData')
+	.sect	'.debug_info'
+.L78:
+	.word	290
+	.half	3
+	.word	.L79
+	.byte	4,1
+	.byte	'..\\Qspi\\AuirxQspi.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L81,.L80
+	.byte	2
+	.word	.L54
+	.byte	3
+	.byte	'AurixQspi_ReceiveData',0,1,224,2,13,1,1
+	.word	.L49,.L146,.L48
+	.byte	4
+	.byte	'AurixQspi_Channel_Ptr',0,1,226,2,31
+	.word	.L133,.L147
+	.byte	4
+	.byte	'AurixQspi_Data_Ptr',0,1,227,2,22
+	.word	.L140,.L148
+	.byte	5
+	.word	.L149
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('AurixQspi_ReceiveData')
+	.sect	'.debug_abbrev'
+.L79:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,85,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('AurixQspi_ReceiveData')
+	.sect	'.debug_line'
+.L80:
+	.word	.L278-.L277
+.L277:
+	.half	3
+	.word	.L280-.L279
+.L279:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\Qspi\\AuirxQspi.c',0,0,0,0,0
+.L280:
+	.byte	5,30,7,0,5,2
+	.word	.L49
+	.byte	3,229,2,1,5,8,9
+	.half	.L281-.L49
+	.byte	3,2,1,7,9
+	.half	.L282-.L281
+	.byte	3,8,1,7,9
+	.half	.L283-.L282
+	.byte	1,5,22,9
+	.half	.L21-.L283
+	.byte	3,122,1,5,35,9
+	.half	.L284-.L21
+	.byte	3,1,1,5,16,9
+	.half	.L285-.L284
+	.byte	1,5,11,9
+	.half	.L286-.L285
+	.byte	3,1,1,5,50,9
+	.half	.L287-.L286
+	.byte	3,127,1,5,1,9
+	.half	.L288-.L287
+	.byte	3,30,1,5,22,7,9
+	.half	.L22-.L288
+	.byte	3,105,1,5,36,9
+	.half	.L289-.L22
+	.byte	3,1,1,5,17,9
+	.half	.L290-.L289
+	.byte	1,5,12,9
+	.half	.L291-.L290
+	.byte	3,1,1,5,51,9
+	.half	.L292-.L291
+	.byte	3,127,1,5,1,9
+	.half	.L293-.L292
+	.byte	3,22,1,5,22,7,9
+	.half	.L23-.L293
+	.byte	3,121,1,5,36,9
+	.half	.L294-.L23
+	.byte	3,1,1,5,17,9
+	.half	.L295-.L294
+	.byte	1,5,12,9
+	.half	.L296-.L295
+	.byte	3,1,1,5,51,9
+	.half	.L297-.L296
+	.byte	3,127,1,5,1,9
+	.half	.L298-.L297
+	.byte	3,6,1,7,9
+	.half	.L82-.L298
+	.byte	0,1,1
+.L278:
+	.sdecl	'.debug_ranges',debug,cluster('AurixQspi_ReceiveData')
+	.sect	'.debug_ranges'
+.L81:
+	.word	-1,.L49,0,.L82-.L49,0,0
+.L149:
+	.word	-1,.L49,0,.L146-.L49,-1,.L51,0,.L92-.L51,0,0
+	.sdecl	'.debug_info',debug,cluster('AurixQspi_CheckStatus')
+	.sect	'.debug_info'
+.L83:
+	.word	339
+	.half	3
+	.word	.L84
+	.byte	4,1
+	.byte	'..\\Qspi\\AuirxQspi.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L86,.L85
+	.byte	2
+	.word	.L54
+	.byte	3
+	.byte	'AurixQspi_CheckStatus',0,1,147,3,23
+	.word	.L115
+	.byte	1,1
+	.word	.L53,.L150,.L52
+	.byte	4
+	.byte	'arg_QspiIndex_u8',0,1,147,3,51
+	.word	.L115,.L151
+	.byte	5
+	.word	.L53,.L150
+	.byte	6
+	.byte	'Status',0,1,149,3,17
+	.word	.L115,.L152
+	.byte	6
+	.byte	'OverTimeCnt_u16',0,1,150,3,9
+	.word	.L130,.L153
+	.byte	6
+	.byte	'StatusTemp_u32',0,1,151,3,9
+	.word	.L121,.L154
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('AurixQspi_CheckStatus')
+	.sect	'.debug_abbrev'
+.L84:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('AurixQspi_CheckStatus')
+	.sect	'.debug_line'
+.L85:
+	.word	.L300-.L299
+.L299:
+	.half	3
+	.word	.L302-.L301
+.L301:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\Qspi\\AuirxQspi.c',0,0,0,0,0
+.L302:
+	.byte	5,23,7,0,5,2
+	.word	.L53
+	.byte	3,158,3,1,5,5,1,5,22,9
+	.half	.L303-.L53
+	.byte	1,5,21,9
+	.half	.L304-.L303
+	.byte	3,123,1,5,34,3,1,1,5,24,9
+	.half	.L174-.L304
+	.byte	3,122,1,5,40,3,10,1,5,47,9
+	.half	.L26-.L174
+	.byte	1,5,3,9
+	.half	.L175-.L26
+	.byte	3,2,1,5,50,7,9
+	.half	.L305-.L175
+	.byte	3,122,1,5,34,1,5,61,7,9
+	.half	.L27-.L305
+	.byte	3,14,1,5,5,9
+	.half	.L306-.L27
+	.byte	3,3,1,5,20,7,9
+	.half	.L307-.L306
+	.byte	3,1,1,5,55,9
+	.half	.L176-.L307
+	.byte	1,5,10,7,9
+	.half	.L308-.L176
+	.byte	3,2,1,5,1,3,8,1,5,10,7,9
+	.half	.L28-.L308
+	.byte	3,124,1,5,1,3,4,1,7,9
+	.half	.L87-.L28
+	.byte	0,1,1
+.L300:
+	.sdecl	'.debug_ranges',debug,cluster('AurixQspi_CheckStatus')
+	.sect	'.debug_ranges'
+.L86:
+	.word	-1,.L53,0,.L87-.L53,0,0
+	.sdecl	'.debug_info',debug,cluster('.cocofun_1')
+	.sect	'.debug_info'
+.L88:
+	.word	205
+	.half	3
+	.word	.L89
+	.byte	4,1
+	.byte	'..\\Qspi\\AuirxQspi.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L91,.L90
+	.byte	2
+	.word	.L54
+	.byte	3
+	.byte	'.cocofun_1',0,1,224,2,13,1
+	.word	.L51,.L92,.L50
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('.cocofun_1')
+	.sect	'.debug_abbrev'
+.L89:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,0,3,8,58,15,59,15,57,15,54,15
+	.byte	17,1,18,1,64,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('.cocofun_1')
+	.sect	'.debug_line'
+.L90:
+	.word	.L310-.L309
+.L309:
+	.half	3
+	.word	.L312-.L311
+.L311:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\Qspi\\AuirxQspi.c',0,0,0,0,0
+.L312:
+	.byte	5,50,7,0,5,2
+	.word	.L51
+	.byte	3,235,2,1,5,11,9
+	.half	.L313-.L51
+	.byte	1,5,50,9
+	.half	.L314-.L313
+	.byte	1,5,28,9
+	.half	.L315-.L314
+	.byte	1,5,23,9
+	.half	.L316-.L315
+	.byte	3,1,1,9
+	.half	.L92-.L316
+	.byte	0,1,1,5,51,0,5,2
+	.word	.L51
+	.byte	3,243,2,1,5,12,9
+	.half	.L313-.L51
+	.byte	1,5,51,9
+	.half	.L314-.L313
+	.byte	1,5,29,9
+	.half	.L315-.L314
+	.byte	1,5,23,9
+	.half	.L316-.L315
+	.byte	3,1,1,9
+	.half	.L317-.L316
+	.byte	3,120,1,7,9
+	.half	.L92-.L317
+	.byte	0,1,1,5,51,0,5,2
+	.word	.L51
+	.byte	3,131,3,1,5,12,9
+	.half	.L313-.L51
+	.byte	1,5,51,9
+	.half	.L314-.L313
+	.byte	1,5,29,9
+	.half	.L315-.L314
+	.byte	1,5,23,9
+	.half	.L316-.L315
+	.byte	3,1,1,9
+	.half	.L317-.L316
+	.byte	3,104,1,7,9
+	.half	.L92-.L317
+	.byte	0,1,1
+.L310:
+	.sdecl	'.debug_ranges',debug,cluster('.cocofun_1')
+	.sect	'.debug_ranges'
+.L91:
+	.word	-1,.L51,0,.L92-.L51,0,0
+	.sdecl	'.debug_info',debug,cluster('.cocofun_2')
+	.sect	'.debug_info'
+.L93:
+	.word	204
+	.half	3
+	.word	.L94
+	.byte	4,1
+	.byte	'..\\Qspi\\AuirxQspi.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L96,.L95
+	.byte	2
+	.word	.L54
+	.byte	3
+	.byte	'.cocofun_2',0,1,96,16,1
+	.word	.L35,.L97,.L34
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('.cocofun_2')
+	.sect	'.debug_abbrev'
+.L94:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,0,3,8,58,15,59,15,57,15,54,15
+	.byte	17,1,18,1,64,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('.cocofun_2')
+	.sect	'.debug_line'
+.L95:
+	.word	.L319-.L318
+.L318:
+	.half	3
+	.word	.L321-.L320
+.L320:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\Qspi\\AuirxQspi.c',0,0,0,0,0
+.L321:
+	.byte	5,42,7,0,5,2
+	.word	.L35
+	.byte	3,241,0,1,5,21,9
+	.half	.L322-.L35
+	.byte	1,9
+	.half	.L97-.L322
+	.byte	0,1,1,5,42,0,5,2
+	.word	.L35
+	.byte	3,246,0,1,5,21,9
+	.half	.L322-.L35
+	.byte	1,9
+	.half	.L323-.L322
+	.byte	3,123,1,7,9
+	.half	.L97-.L323
+	.byte	0,1,1,5,42,0,5,2
+	.word	.L35
+	.byte	3,250,0,1,5,21,9
+	.half	.L322-.L35
+	.byte	1,9
+	.half	.L323-.L322
+	.byte	3,119,1,7,9
+	.half	.L97-.L323
+	.byte	0,1,1,5,43,0,5,2
+	.word	.L35
+	.byte	3,255,0,1,5,22,9
+	.half	.L322-.L35
+	.byte	1,5,21,9
+	.half	.L323-.L322
+	.byte	3,114,1,7,9
+	.half	.L97-.L323
+	.byte	0,1,1,5,42,0,5,2
+	.word	.L35
+	.byte	3,133,1,1,5,21,9
+	.half	.L322-.L35
+	.byte	1,9
+	.half	.L323-.L322
+	.byte	3,108,1,7,9
+	.half	.L97-.L323
+	.byte	0,1,1
+.L319:
+	.sdecl	'.debug_ranges',debug,cluster('.cocofun_2')
+	.sect	'.debug_ranges'
+.L96:
+	.word	-1,.L35,0,.L97-.L35,0,0
+	.sdecl	'.debug_info',debug,cluster('.cocofun_3')
+	.sect	'.debug_info'
+.L98:
+	.word	205
+	.half	3
+	.word	.L99
+	.byte	4,1
+	.byte	'..\\Qspi\\AuirxQspi.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L101,.L100
+	.byte	2
+	.word	.L54
+	.byte	3
+	.byte	'.cocofun_3',0,1,176,2,13,1
+	.word	.L47,.L102,.L46
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('.cocofun_3')
+	.sect	'.debug_abbrev'
+.L99:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,0,3,8,58,15,59,15,57,15,54,15
+	.byte	17,1,18,1,64,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('.cocofun_3')
+	.sect	'.debug_line'
+.L100:
+	.word	.L325-.L324
+.L324:
+	.half	3
+	.word	.L327-.L326
+.L326:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\Qspi\\AuirxQspi.c',0,0,0,0,0
+.L327:
+	.byte	5,43,7,0,5,2
+	.word	.L47
+	.byte	3,185,2,1,5,4,9
+	.half	.L328-.L47
+	.byte	1,5,43,9
+	.half	.L329-.L328
+	.byte	1,5,21,9
+	.half	.L330-.L329
+	.byte	1,9
+	.half	.L102-.L330
+	.byte	0,1,1,5,43,0,5,2
+	.word	.L47
+	.byte	3,192,2,1,5,4,9
+	.half	.L328-.L47
+	.byte	1,5,43,9
+	.half	.L329-.L328
+	.byte	1,5,21,9
+	.half	.L330-.L329
+	.byte	1,9
+	.half	.L331-.L330
+	.byte	3,121,1,7,9
+	.half	.L102-.L331
+	.byte	0,1,1,5,43,0,5,2
+	.word	.L47
+	.byte	3,206,2,1,5,4,9
+	.half	.L328-.L47
+	.byte	1,5,43,9
+	.half	.L329-.L328
+	.byte	1,5,21,9
+	.half	.L330-.L329
+	.byte	1,9
+	.half	.L331-.L330
+	.byte	3,107,1,7,9
+	.half	.L102-.L331
+	.byte	0,1,1
+.L325:
+	.sdecl	'.debug_ranges',debug,cluster('.cocofun_3')
+	.sect	'.debug_ranges'
+.L101:
+	.word	-1,.L47,0,.L102-.L47,0,0
+	.sdecl	'.debug_info',debug,cluster('.cocofun_4')
+	.sect	'.debug_info'
+.L103:
+	.word	205
+	.half	3
+	.word	.L104
+	.byte	4,1
+	.byte	'..\\Qspi\\AuirxQspi.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L106,.L105
+	.byte	2
+	.word	.L54
+	.byte	3
+	.byte	'.cocofun_4',0,1,157,1,6,1
+	.word	.L41,.L107,.L40
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('.cocofun_4')
+	.sect	'.debug_abbrev'
+.L104:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,0,3,8,58,15,59,15,57,15,54,15
+	.byte	17,1,18,1,64,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('.cocofun_4')
+	.sect	'.debug_line'
+.L105:
+	.word	.L333-.L332
+.L332:
+	.half	3
+	.word	.L335-.L334
+.L334:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\Qspi\\AuirxQspi.c',0,0,0,0,0
+.L335:
+	.byte	5,45,7,0,5,2
+	.word	.L41
+	.byte	3,167,1,1,5,24,1,9
+	.half	.L107-.L41
+	.byte	0,1,1,5,26,0,5,2
+	.word	.L41
+	.byte	3,237,1,1,5,5,1,5,24,9
+	.half	.L336-.L41
+	.byte	3,186,127,1,7,9
+	.half	.L107-.L336
+	.byte	0,1,1
+.L333:
+	.sdecl	'.debug_ranges',debug,cluster('.cocofun_4')
+	.sect	'.debug_ranges'
+.L106:
+	.word	-1,.L41,0,.L107-.L41,0,0
+	.sdecl	'.debug_info',debug,cluster('.cocofun_5')
+	.sect	'.debug_info'
+.L108:
+	.word	205
+	.half	3
+	.word	.L109
+	.byte	4,1
+	.byte	'..\\Qspi\\AuirxQspi.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L111,.L110
+	.byte	2
+	.word	.L54
+	.byte	3
+	.byte	'.cocofun_5',0,1,157,1,6,1
+	.word	.L39,.L112,.L38
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('.cocofun_5')
+	.sect	'.debug_abbrev'
+.L109:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,0,3,8,58,15,59,15,57,15,54,15
+	.byte	17,1,18,1,64,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('.cocofun_5')
+	.sect	'.debug_line'
+.L110:
+	.word	.L338-.L337
+.L337:
+	.half	3
+	.word	.L340-.L339
+.L339:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\Qspi\\AuirxQspi.c',0,0,0,0,0
+.L340:
+	.byte	5,38,7,0,5,2
+	.word	.L39
+	.byte	3,170,1,1,5,19,9
+	.half	.L341-.L39
+	.byte	1,9
+	.half	.L112-.L341
+	.byte	0,1,1,5,38,0,5,2
+	.word	.L39
+	.byte	3,174,1,1,5,19,9
+	.half	.L341-.L39
+	.byte	1,9
+	.half	.L342-.L341
+	.byte	3,124,1,7,9
+	.half	.L112-.L342
+	.byte	0,1,1,5,38,0,5,2
+	.word	.L39
+	.byte	3,177,1,1,5,19,9
+	.half	.L341-.L39
+	.byte	1,9
+	.half	.L342-.L341
+	.byte	3,121,1,7,9
+	.half	.L112-.L342
+	.byte	0,1,1
+.L338:
+	.sdecl	'.debug_ranges',debug,cluster('.cocofun_5')
+	.sect	'.debug_ranges'
+.L111:
+	.word	-1,.L39,0,.L112-.L39,0,0
+	.sdecl	'.debug_info',debug,cluster('AurixQspi_Data_st')
+	.sect	'.debug_info'
+.L113:
+	.word	200
+	.half	3
+	.word	.L114
+	.byte	4,1
+	.byte	'..\\Qspi\\AuirxQspi.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1,2
+	.word	.L54
+	.byte	3
+	.byte	'AurixQspi_Data_st',0,4,63,27
+	.word	.L155
+	.byte	5,3
+	.word	AurixQspi_Data_st
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('AurixQspi_Data_st')
+	.sect	'.debug_abbrev'
+.L114:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_loc',debug,cluster('.cocofun_1')
+	.sect	'.debug_loc'
+.L50:
+	.word	-1,.L51,0,.L92-.L51
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('.cocofun_2')
+	.sect	'.debug_loc'
+.L34:
+	.word	-1,.L35,0,.L97-.L35
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('.cocofun_3')
+	.sect	'.debug_loc'
+.L46:
+	.word	-1,.L47,0,.L102-.L47
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('.cocofun_4')
+	.sect	'.debug_loc'
+.L40:
+	.word	-1,.L41,0,.L107-.L41
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('.cocofun_5')
+	.sect	'.debug_loc'
+.L38:
+	.word	-1,.L39,0,.L112-.L39
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('AurixQspi_ChannelCfg')
+	.sect	'.debug_loc'
+.L36:
+	.word	-1,.L37,0,.L125-.L37
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L134:
+	.word	-1,.L37,.L39-.L37,.L112-.L37
+	.half	1
+	.byte	98
+	.word	.L161-.L37,.L125-.L37
+	.half	1
+	.byte	98
+	.word	0,0
+.L131:
+	.word	-1,.L37,.L41-.L37,.L107-.L37
+	.half	1
+	.byte	85
+	.word	.L39-.L37,.L112-.L37
+	.half	1
+	.byte	85
+	.word	.L162-.L37,.L125-.L37
+	.half	1
+	.byte	85
+	.word	0,0
+.L129:
+	.word	-1,.L37,.L41-.L37,.L107-.L37
+	.half	1
+	.byte	101
+	.word	.L39-.L37,.L112-.L37
+	.half	1
+	.byte	101
+	.word	.L162-.L37,.L125-.L37
+	.half	1
+	.byte	101
+	.word	0,0
+.L126:
+	.word	-1,.L37,.L41-.L37,.L107-.L37
+	.half	1
+	.byte	84
+	.word	.L39-.L37,.L112-.L37
+	.half	1
+	.byte	84
+	.word	.L162-.L37,.L125-.L37
+	.half	1
+	.byte	84
+	.word	0,0
+.L128:
+	.word	-1,.L37,.L41-.L37,.L107-.L37
+	.half	1
+	.byte	100
+	.word	.L39-.L37,.L112-.L37
+	.half	1
+	.byte	100
+	.word	.L162-.L37,.L125-.L37
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('AurixQspi_CheckStatus')
+	.sect	'.debug_loc'
+.L52:
+	.word	-1,.L53,0,.L150-.L53
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L153:
+	.word	-1,.L53,.L174-.L53,.L150-.L53
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L152:
+	.word	0,0
+.L154:
+	.word	-1,.L53,.L175-.L53,.L176-.L53
+	.half	1
+	.byte	95
+	.word	0,0
+.L151:
+	.word	-1,.L53,0,.L150-.L53
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('AurixQspi_Init')
+	.sect	'.debug_loc'
+.L32:
+	.word	-1,.L33,0,.L116-.L33
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L124:
+	.word	-1,.L33,.L35-.L33,.L97-.L33
+	.half	1
+	.byte	108
+	.word	.L157-.L33,.L158-.L33
+	.half	1
+	.byte	108
+	.word	.L160-.L33,.L2-.L33
+	.half	1
+	.byte	108
+	.word	0,0
+.L122:
+	.word	-1,.L33,.L35-.L33,.L159-.L33
+	.half	1
+	.byte	95
+	.word	0,0
+.L120:
+	.word	0,0
+.L118:
+	.word	-1,.L33,0,.L156-.L33
+	.half	1
+	.byte	100
+	.word	.L2-.L33,.L116-.L33
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('AurixQspi_ReceiveData')
+	.sect	'.debug_loc'
+.L147:
+	.word	-1,.L49,.L51-.L49,.L92-.L49
+	.half	1
+	.byte	100
+	.word	0,.L146-.L49
+	.half	1
+	.byte	100
+	.word	0,0
+.L148:
+	.word	-1,.L49,.L51-.L49,.L92-.L49
+	.half	1
+	.byte	101
+	.word	0,.L146-.L49
+	.half	1
+	.byte	101
+	.word	0,0
+.L48:
+	.word	-1,.L49,0,.L146-.L49
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('AurixQspi_SendData')
+	.sect	'.debug_loc'
+.L143:
+	.word	-1,.L45,.L47-.L45,.L102-.L45
+	.half	1
+	.byte	100
+	.word	0,.L142-.L45
+	.half	1
+	.byte	100
+	.word	0,0
+.L144:
+	.word	-1,.L45,.L47-.L45,.L102-.L45
+	.half	1
+	.byte	101
+	.word	0,.L142-.L45
+	.half	1
+	.byte	101
+	.word	0,0
+.L44:
+	.word	-1,.L45,0,.L142-.L45
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('AurixQspi_Transmit')
+	.sect	'.debug_loc'
+.L139:
+	.word	-1,.L43,.L164-.L43,.L135-.L43
+	.half	1
+	.byte	108
+	.word	.L166-.L43,.L167-.L43
+	.half	1
+	.byte	100
+	.word	.L172-.L43,.L170-.L43
+	.half	1
+	.byte	100
+	.word	0,0
+.L141:
+	.word	-1,.L43,.L165-.L43,.L135-.L43
+	.half	1
+	.byte	111
+	.word	.L168-.L43,.L167-.L43
+	.half	1
+	.byte	101
+	.word	.L173-.L43,.L170-.L43
+	.half	1
+	.byte	101
+	.word	0,0
+.L42:
+	.word	-1,.L43,0,.L135-.L43
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L138:
+	.word	-1,.L43,.L169-.L43,.L163-.L43
+	.half	1
+	.byte	84
+	.word	0,0
+.L137:
+	.word	-1,.L43,.L41-.L43,.L107-.L43
+	.half	1
+	.byte	89
+	.word	0,.L163-.L43
+	.half	1
+	.byte	89
+	.word	.L163-.L43,.L170-.L43
+	.half	1
+	.byte	82
+	.word	.L171-.L43,.L135-.L43
+	.half	1
+	.byte	89
+	.word	0,0
+.L136:
+	.word	-1,.L43,.L41-.L43,.L107-.L43
+	.half	1
+	.byte	84
+	.word	0,.L11-.L43
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L343:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,27,8,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('AurixQspi_Init')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L343,.L33,.L116-.L33
+	.sdecl	'.debug_frame',debug,cluster('AurixQspi_ChannelCfg')
+	.sect	'.debug_frame'
+	.word	16
+	.word	.L343,.L37,.L125-.L37
+	.byte	8,19,8,23
+	.sdecl	'.debug_frame',debug,cluster('AurixQspi_Transmit')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L343,.L43,.L135-.L43
+	.sdecl	'.debug_frame',debug,cluster('AurixQspi_SendData')
+	.sect	'.debug_frame'
+	.word	20
+	.word	.L343,.L45,.L142-.L45
+	.byte	8,19,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('AurixQspi_ReceiveData')
+	.sect	'.debug_frame'
+	.word	20
+	.word	.L343,.L49,.L146-.L49
+	.byte	8,19,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('AurixQspi_CheckStatus')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L343,.L53,.L150-.L53
+	.byte	8,19,8,20,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L344:
+	.word	52
+	.word	-1
+	.byte	3,0,2,1,40,12,26,0,9,40,27,155,0,7,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36
+	.byte	8,37,8,38,8,39,0
+	.sdecl	'.debug_frame',debug,cluster('.cocofun_2')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L344,.L35,.L97-.L35
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('.cocofun_5')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L344,.L39,.L112-.L39
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('.cocofun_4')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L344,.L41,.L107-.L41
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('.cocofun_3')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L344,.L47,.L102-.L47
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('.cocofun_1')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L344,.L51,.L92-.L51
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+
+; ..\Qspi\AuirxQspi.c	   440  
+; ..\Qspi\AuirxQspi.c	   441  /*******************************************************************************
+; ..\Qspi\AuirxQspi.c	   442  * $History__:$
+; ..\Qspi\AuirxQspi.c	   443  * V1.0.0; 0     02.06.2017 YM
+; ..\Qspi\AuirxQspi.c	   444  *  N: new created
+; ..\Qspi\AuirxQspi.c	   445  * V1.0.1; 0     14.08.2017 YM
+; ..\Qspi\AuirxQspi.c	   446  *  I:  修复部分BUG
+; ..\Qspi\AuirxQspi.c	   447  * V1.0.2; 0     22.08.2017 YM
+; ..\Qspi\AuirxQspi.c	   448  *  I:  修复BUG,添加注释
+; ..\Qspi\AuirxQspi.c	   449  * V1.0.3; 0     25.08.2017 YM
+; ..\Qspi\AuirxQspi.c	   450  *  I:  更改配置文件部分结构体,增加注释
+; ..\Qspi\AuirxQspi.c	   451  * V1.0.4; 0     1.09.2017 YM
+; ..\Qspi\AuirxQspi.c	   452  *  I:  修改同步传输一帧发送多个数据存在的BUG,增加发送接收内部静态函数,修改配置说明
+; ..\Qspi\AuirxQspi.c	   453  *******************************************************************************/
+
+	; Module end

@@ -1,0 +1,231 @@
+
+<html>
+  <head>
+    <title>MCU Driver Details</title>
+  </head>
+  <body>
+    <style type="text/css">
+table{table-layout: fixed;width: 300px;}
+table.curvedEdges { border:10px solid ;-webkit-border-radius:13px;-moz-border-radius:13px;-ms-border-radius:13px;-o-border-radius:13px;border-radius:13px; }
+table.curvedEdges td, table.curvedEdges th { border-bottom:1px dotted black;overflow: hidden;width: 400px;padding:5px; }
+</style>
+<!-- Be sure to place the above styles (i.e. everything between the <style></style> tags) into the document 'head' (i.e. between the <head></head> tags. Everything below goes inside the <body></body> tags) -->		
+    <p>
+      &nbsp;</p>  
+    <h2>
+      /*****************************************MCU HW-SW MAP*****************************************/</h2>
+    <table border="3" cellpadding="5" cellspacing="0" class="curvedEdges">
+      <caption><strong>
+        Table 1: MCU SFR Usage per API</strong></caption>
+      <thead>
+        <tr>
+          <th scope="col">
+            API Name</th>
+          <th scope="col">
+            SFRs Used</th>
+          <th scope="col">
+            Remarks</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            Mcu_Init</td>
+          <td>
+            SCU_RSTSTAT, SCU_RSTCON, SCU_RSTCON2, SCU_PMSWCR1, SCU_ARSTDIS
+                        , GTM SFRs done by Gtm_Init()
+                                                , DMA_CLC, DMA_ERRINTR
+                        
+            </td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>
+            Mcu_InitRamSection</td>
+          <td>-</td>
+          <td>
+            No SFRs used
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Mcu_InitClock</td>
+          <td>
+            SMU_KEYS, SMU_CMD, SMU_AG3, SMU_AGCF3_0, SMU_AGCF3_1, SMU_AGCF3_2, SCU_TRAPCLR,
+            SCU_CCUCON0, SCU_CCUCON1, SCU_OSCCON, SCU_PLLSTAT, SCU_PLLCON0, SCU_PLLCON1,
+            SCU_PLLERAYCON0, SCU_CCUCON2, SCU_CCUCON5, SCU_CCUCON6, SCU_CCUCON7
+            , SCU_CCUCON8
+                                                , SCU_PLLERAYCON1, SCU_PLLERAYSTAT
+                      </td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>
+            Mcu_DistributePllClock</td>
+          <td>
+            SMU_KEYS, SMU_CMD, SMU_AG3, SMU_AGCF3_0, SMU_AGCF3_1, SMU_AGCF3_2, SCU_PLLCON0, SCU_PLLCON1
+            
+          </td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>
+            Mcu_GetPllStatus</td>
+          <td>
+            SCU_PLLSTAT           
+          </td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>
+            Mcu_GetResetReason</td>
+          <td>-</td>
+          <td>
+            No SFRs used
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Mcu_GetResetRawValue</td>
+          <td>-</td>
+          <td>
+            No SFRs used
+          </td>
+        </tr> 
+        <tr>
+          <td>
+            Mcu_SetMode</td>
+          <td>
+            SCU_PMSWCR1, SCU_PMCSR0, SCU_PMCSR1, SCU_PMCSR2
+                        
+          </td>
+          <td>-</td>          
+        </tr>   
+                        <tr>
+          <td>
+            Mcu_InitCheck</td>
+          <td>
+            Refer SFRs used by Mcu_Init(), Mcu_InitClock(), Mcu_GetPllStatus() and Mcu_DistributePllClock()</td>
+          <td>-</td>
+        </tr>
+                        <tr>
+          <td>
+            Mcu_GetMode</td>
+          <td>
+            SCU_PMCSR0, SCU_PMCSR1, SCU_PMCSR2
+          <td>-</td>
+        </tr>
+                                <tr>
+          <td>
+            Mcu_ChkWkpStdby</td>
+          <td>
+            SCU_PMSWSTAT
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>
+            Mcu_ClrWkpStdby</td>
+          <td>
+            SCU_PMSWSTATCLR
+          <td>-</td>
+        </tr>         
+                <tr>
+          <td>
+            Gtm_Init</td>
+          <td>
+            GTM_CLC, GTM_CMU_GCLK_NUM, GTM_CMU_GCLK_DEN, GTM_CMU_CLK_EN, GTM_CMU_CLK0_0_CTRL,
+            GTM_CMU_CLK0_1_CTRL, GTM_CMU_CLK0_2_CTRL, GTM_CMU_CLK0_3_CTRL, GTM_CMU_CLK0_4_CTRL,
+            GTM_CMU_CLK0_5_CTRL, GTM_CMU_CLK0_6_CTRL, GTM_CMU_CLK0_7_CTRL, GTM_CMU_ECLK0_NUM,
+            GTM_CMU_ECLK1_NUM, GTM_CMU_ECLK2_NUM, GTM_CMU_ECLK0_DEN, GTM_CMU_ECLK1_DEN,
+            GTM_CMU_ECLK2_DEN, GTM_CMU_FXCLK_CTRL, GTM_CTRL,GTM_IRQ_EN, GTM_IRQ_MODE, GTM_EIRQ_EN,
+            SRC_GTMAEIIRQ
+          <td>-</td>
+        </tr>
+         
+       
+      </tbody>
+    </table>    
+    <p>
+      &nbsp;</p>      
+    <h2>
+      /******************************************MCU MPU Settings******************************************/</h2>        
+    <table border="3" cellpadding="5" cellspacing="0" class="curvedEdges">
+      <caption><strong>
+        Table 2: MCU SFR and Memory Range</strong></caption>
+      <thead>
+        <tr>
+          <th scope="col">
+            Start Address</th>
+          <th scope="col">
+            End Address</th>
+          <th scope="col">
+            Remarks</th>
+        </tr>
+      </thead>
+      <tbody>
+                <tr>
+          <td>
+            DMA_CLC</td>
+          <td>
+            DMA_PRR0</td>
+          <td>
+            DMA Initialization done during MCU Initialization only</td>
+        </tr>
+                                <tr>
+          <td>
+            GTM_REV</td>
+          <td>
+            GTM_MSCIN1_INLCON</td>
+          <td>
+            GTM Initialization done during MCU Initialization only</td>
+        </tr>
+                <tr>
+          <td>
+            SMU_CMD</td>
+          <td>
+            SMU_AG4</td>
+          <td>
+            <p>
+              SMU alarm flags to be disabled during MCU clock initialization only</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            SCU_ID</td>
+          <td>
+            SCU_TRAPDIS</td>
+          <td>
+            SCU SFR usage by MCU driver</td>
+        </tr>
+                <tr>
+          <td>
+            MCU_START_SEC_VAR_32BIT</td>
+          <td>
+            MCU_STOP_SEC_VAR_32BIT</td>
+          <td>
+            <p>
+                            Mcu_kConfigPtr, Mcu_ResetStatusVal - 32 bit variables used by MCU</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            MCU_START_SEC_VAR_8BIT</td>
+          <td>
+            MCU_STOP_SEC_VAR_8BIT</td>
+          <td>
+            Mcu_ClockSetting- 8 bit variable used by MCU</td>
+        </tr>
+        <tr>
+          <td>
+            MCU_START_SEC_CODE</td>
+          <td>
+            MCU_STOP_SEC_CODE</td>
+          <td>
+            <p>
+              MCU driver - Basic AUTOSAR functionality</p>
+          </td>
+        </tr>
+              </tbody>
+    </table>
+  </body>
+</html>                                    

@@ -1,0 +1,472 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.2r2 Build 18041957 SN 06692445"
+	.compiler_invocation	"ctc -f cc21396a --dep-file=output\\generated\\src\\.Uart_PBCfg.o.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xc -D__CPU_TC27XC__ --core=tc1.6.x --fp-model=+float -D_TASKING_C_TRICORE_ -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\.settings -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Asw -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\compiler -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc\\TC27xC -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc\\TC27xC\\SupportDocuments -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\lib -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\obj -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Asw -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\dio_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\dio_infineon_tricore\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\integration_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\integration_general\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Hal_Sensor -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output\\generated -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output\\generated\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\PWM3Ph -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Qspi -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Adc_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Adc3ph_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Can_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TLE_9180_Drive -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\UART_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Hal_Sensor -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\Demo_Aurix -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\mak -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\PWM3Ph -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Qspi -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Adc_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Adc3ph_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Can_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TLE_9180_Drive -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\UART_Test -g2 --make-target=output\\generated\\src\\Uart_PBCfg.o -t2 --language=-gcc,-volatile,+strings,-kanji --default-near-size=8 -O2 --default-a1-size=0 --default-a0-size=0 --source --align=0 --compact-max-size=200 --switch=auto --error-limit=42 -o output\\generated\\src\\Uart_PBCfg.src ..\\output\\generated\\src\\Uart_PBCfg.c"
+	.compiler_name		"ctc"
+	;source	'..\\output\\generated\\src\\Uart_PBCfg.c'
+
+	
+$TC16X
+	
+	.sdecl	'.rodata.Shared.CONFIGURATION_PB',data,rom,cluster('Uart_kChannelConfig0')
+	.sect	'.rodata.Shared.CONFIGURATION_PB'
+	.align	4
+Uart_kChannelConfig0:	.type	object
+	.size	Uart_kChannelConfig0,96
+	.word	TestUartTransmitNotif_0,TestUartReceiveNotif_0
+	.space	8
+	.half	48,1000,4
+	.byte	9
+	.space	1
+	.byte	1,8,3
+	.space	21
+	.half	24,1000,24
+	.byte	9,3,1,8
+	.byte	1
+	.space	5
+	.word	TestUartTransmitNotif,TestUartReceiveNotif
+	.space	8
+	.half	24,1000,24
+	.byte	9,1,1,8
+	.byte	3
+	.space	5
+	.sdecl	'.zrodata.Uart_PBCfg.Uart_ConfigRoot',data,rom,cluster('Uart_ConfigRoot')
+	.sect	'.zrodata.Uart_PBCfg.Uart_ConfigRoot'
+	.global	Uart_ConfigRoot
+	.align	4
+Uart_ConfigRoot:	.type	object
+	.size	Uart_ConfigRoot,8
+	.word	Uart_kChannelConfig0
+	.byte	3
+	.space	3
+	.calls	'__INDIRECT__','TestUartTransmitNotif_0'
+	.calls	'__INDIRECT__','TestUartReceiveNotif_0'
+	.calls	'__INDIRECT__','TestUartTransmitNotif'
+	.extern	TestUartTransmitNotif_0
+	.extern	TestUartReceiveNotif_0
+	.extern	TestUartTransmitNotif
+	.extern	TestUartReceiveNotif
+	.extern	__INDIRECT__
+	.calls	'__INDIRECT__','TestUartReceiveNotif'
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L3:
+	.word	1514
+	.half	3
+	.word	.L4
+	.byte	4
+.L2:
+	.byte	1
+	.byte	'..\\output\\generated\\src\\Uart_PBCfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1
+	.word	.L5
+	.byte	2
+	.byte	'Uart_ErrorIdType',0,2,253,3,14,1,3
+	.byte	'UART_NO_ERR',0,0,3
+	.byte	'UART_PARITY_ERR',0,1,3
+	.byte	'UART_FRAME_ERR',0,2,3
+	.byte	'UART_TXOVERFLOW_ERR',0,3,3
+	.byte	'UART_RXOVERFLOW_ERR',0,4,3
+	.byte	'UART_RXUNDERFLOW_ERR',0,5,0,4
+	.byte	'TestUartTransmitNotif_0',0,1,62,15,1,1,1,1,5
+	.byte	'ErrorId',0,1,62,56
+	.word	187
+	.byte	0,4
+	.byte	'TestUartReceiveNotif_0',0,1,65,15,1,1,1,1,5
+	.byte	'ErrorId',0,1,65,55
+	.word	187
+	.byte	0,4
+	.byte	'TestUartTransmitNotif',0,1,68,15,1,1,1,1,5
+	.byte	'ErrorId',0,1,68,54
+	.word	187
+	.byte	0,4
+	.byte	'TestUartReceiveNotif',0,1,71,15,1,1,1,1,5
+	.byte	'ErrorId',0,1,71,53
+	.word	187
+	.byte	0,6
+	.byte	'__INDIRECT__',0,1,1,1,1,1,1,7,1,8
+	.word	537
+	.byte	9
+	.byte	'__codeptr',0,1,1,1
+	.word	539
+	.byte	10
+	.byte	'unsigned char',0,1,8,9
+	.byte	'uint8',0,3,90,29
+	.word	562
+	.byte	10
+	.byte	'unsigned short int',0,2,7,9
+	.byte	'uint16',0,3,92,29
+	.word	593
+	.byte	8
+	.word	562
+	.byte	9
+	.byte	'Uart_MemPtrType',0,2,231,3,16
+	.word	630
+	.byte	9
+	.byte	'Uart_SizeType',0,2,240,3,16
+	.word	593
+	.byte	9
+	.byte	'Uart_ErrorIdType',0,2,133,4,2
+	.word	187
+	.byte	11,1,1,12
+	.word	187
+	.byte	0,8
+	.word	709
+	.byte	9
+	.byte	'Uart_NotificationPtrType',0,2,135,4,15
+	.word	718
+	.byte	13
+	.byte	'UartNotifType',0,2,142,4,16,16,14
+	.byte	'UartTransmitNotifPtr',0
+	.word	723
+	.byte	4,2,35,0,14
+	.byte	'UartReceiveNotifPtr',0
+	.word	723
+	.byte	4,2,35,4,14
+	.byte	'UartAbortTransmitNotifPtr',0
+	.word	723
+	.byte	4,2,35,8,14
+	.byte	'UartAbortReceiveNotifPtr',0
+	.word	723
+	.byte	4,2,35,12,0,9
+	.byte	'UartNotifType',0,2,148,4,2
+	.word	757
+	.byte	8
+	.word	709
+	.byte	13
+	.byte	'Uart_ChannelType',0,2,155,4,16,32,14
+	.byte	'UartNotif',0
+	.word	757
+	.byte	16,2,35,0,14
+	.byte	'HwBrgNumerator',0
+	.word	593
+	.byte	2,2,35,16,14
+	.byte	'HwBrgDenominator',0
+	.word	593
+	.byte	2,2,35,18,14
+	.byte	'HwBitconPrescalar',0
+	.word	593
+	.byte	2,2,35,20,14
+	.byte	'HwBitconOversampling',0
+	.word	562
+	.byte	1,2,35,22,14
+	.byte	'HwModule',0
+	.word	562
+	.byte	1,2,35,23,14
+	.byte	'StopBits',0
+	.word	562
+	.byte	1,2,35,24,14
+	.byte	'DataLength',0
+	.word	562
+	.byte	1,2,35,25,14
+	.byte	'RxPinSelection',0
+	.word	562
+	.byte	1,2,35,26,14
+	.byte	'ParityEnable',0
+	.word	562
+	.byte	1,2,35,27,14
+	.byte	'Parity',0
+	.word	562
+	.byte	1,2,35,28,14
+	.byte	'CtsEnable',0
+	.word	562
+	.byte	1,2,35,29,14
+	.byte	'CtsPolarity',0
+	.word	562
+	.byte	1,2,35,30,0,9
+	.byte	'Uart_ChannelType',0,2,183,4,2
+	.word	934
+	.byte	15
+	.word	934
+	.byte	8
+	.word	1268
+	.byte	13
+	.byte	'Uart_ConfigType',0,2,189,4,16,8,14
+	.byte	'ChannelConfigPtr',0
+	.word	1273
+	.byte	4,2,35,0,14
+	.byte	'NoOfChannels',0
+	.word	562
+	.byte	1,2,35,4,0,9
+	.byte	'Uart_ConfigType',0,2,195,4,2
+	.word	1278
+	.byte	2
+	.byte	'Uart_StateType',0,2,228,4,14,1,3
+	.byte	'UART_UNINITIALISED',0,0,3
+	.byte	'UART_INITIALISED',0,1,3
+	.byte	'UART_OPERATION_IN_PROGRESS',0,2,0,9
+	.byte	'Uart_StateType',0,2,233,4,2
+	.word	1374
+	.byte	16,8
+	.word	1278
+	.byte	17,0,0
+.L10:
+	.byte	15
+	.word	1489
+	.byte	16,96
+	.word	934
+	.byte	17,2,0
+.L11:
+	.byte	15
+	.word	1503
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L4:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,4,1,3,8,58,15,59,15,57,15,11,15,0,0,3,40,0,3,8,28,13,0
+	.byte	0,4,46,1,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,5,5,0,3,8,58,15,59,15,57,15,73,19,0,0,6,46
+	.byte	0,3,8,58,15,59,15,57,15,54,15,63,12,60,12,0,0,7,21,0,54,15,0,0,8,15,0,73,19,0,0,9,22,0,3,8,58,15,59,15
+	.byte	57,15,73,19,0,0,10,36,0,3,8,11,15,62,15,0,0,11,21,1,54,15,39,12,0,0,12,5,0,73,19,0,0,13,19,1,3,8,58,15
+	.byte	59,15,57,15,11,15,0,0,14,13,0,3,8,73,19,11,15,56,9,0,0,15,38,0,73,19,0,0,16,1,1,11,15,73,19,0,0,17,33
+	.byte	0,47,15,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L5:
+	.word	.L13-.L12
+.L12:
+	.half	3
+	.word	.L15-.L14
+.L14:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\inc',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc',0
+	.byte	0
+	.byte	'..\\output\\generated\\src\\Uart_PBCfg.c',0,0,0,0
+	.byte	'Uart.h',0,1,0,0
+	.byte	'Platform_Types.h',0,2,0,0,0
+.L15:
+.L13:
+	.sdecl	'.debug_info',debug,cluster('Uart_ConfigRoot')
+	.sect	'.debug_info'
+.L6:
+	.word	217
+	.half	3
+	.word	.L7
+	.byte	4,1
+	.byte	'..\\output\\generated\\src\\Uart_PBCfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1,2
+	.word	.L2
+	.byte	3
+	.byte	'Uart_ConfigRoot',0,1,157,1,24
+	.word	.L10
+	.byte	1,5,3
+	.word	Uart_ConfigRoot
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Uart_ConfigRoot')
+	.sect	'.debug_abbrev'
+.L7:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('Uart_kChannelConfig0')
+	.sect	'.debug_info'
+.L8:
+	.word	220
+	.half	3
+	.word	.L9
+	.byte	4,1
+	.byte	'..\\output\\generated\\src\\Uart_PBCfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'W:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\',0,12
+	.byte	1,2
+	.word	.L2
+	.byte	3
+	.byte	'Uart_kChannelConfig0',0,1,76,32
+	.word	.L11
+	.byte	5,3
+	.word	Uart_kChannelConfig0
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Uart_kChannelConfig0')
+	.sect	'.debug_abbrev'
+.L9:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+
+; ..\output\generated\src\Uart_PBCfg.c	     1  /*******************************************************************************
+; ..\output\generated\src\Uart_PBCfg.c	     2  **                                                                            **
+; ..\output\generated\src\Uart_PBCfg.c	     3  ** Copyright (C) Infineon Technologies (2014)                                 **
+; ..\output\generated\src\Uart_PBCfg.c	     4  **                                                                            **
+; ..\output\generated\src\Uart_PBCfg.c	     5  ** All rights reserved.                                                       **
+; ..\output\generated\src\Uart_PBCfg.c	     6  **                                                                            **
+; ..\output\generated\src\Uart_PBCfg.c	     7  ** This document contains proprietary information belonging to Infineon       **
+; ..\output\generated\src\Uart_PBCfg.c	     8  ** Technologies. Passing on and copying of this document, and communication   **
+; ..\output\generated\src\Uart_PBCfg.c	     9  ** of its contents is not permitted without prior written authorization.      **
+; ..\output\generated\src\Uart_PBCfg.c	    10  **                                                                            **
+; ..\output\generated\src\Uart_PBCfg.c	    11  ********************************************************************************
+; ..\output\generated\src\Uart_PBCfg.c	    12  **                                                                            **
+; ..\output\generated\src\Uart_PBCfg.c	    13  **  $FILENAME   : Uart_PBCfg.c $                                             **
+; ..\output\generated\src\Uart_PBCfg.c	    14  **                                                                            **
+; ..\output\generated\src\Uart_PBCfg.c	    15  **  $CC VERSION : \main\24 $                                                 **
+; ..\output\generated\src\Uart_PBCfg.c	    16  **                                                                            **
+; ..\output\generated\src\Uart_PBCfg.c	    17  **  DATE, TIME: 2021-04-08, 20:15:41                                          **
+; ..\output\generated\src\Uart_PBCfg.c	    18  **                                                                            **
+; ..\output\generated\src\Uart_PBCfg.c	    19  **  GENERATOR : Build b141014-0350                                            **
+; ..\output\generated\src\Uart_PBCfg.c	    20  **                                                                            **
+; ..\output\generated\src\Uart_PBCfg.c	    21  **  AUTHOR    : DL-AUTOSAR-Engineering                                        **
+; ..\output\generated\src\Uart_PBCfg.c	    22  **                                                                            **
+; ..\output\generated\src\Uart_PBCfg.c	    23  **  VENDOR    : Infineon Technologies                                         **
+; ..\output\generated\src\Uart_PBCfg.c	    24  **                                                                            **
+; ..\output\generated\src\Uart_PBCfg.c	    25  **  DESCRIPTION  : Uart configuration generated out of ECU configuration      **
+; ..\output\generated\src\Uart_PBCfg.c	    26  **                 file(Uart.bmd/.xdm)                                        **
+; ..\output\generated\src\Uart_PBCfg.c	    27  **                                                                            **
+; ..\output\generated\src\Uart_PBCfg.c	    28  **  MAY BE CHANGED BY USER [yes/no]: No                                       **
+; ..\output\generated\src\Uart_PBCfg.c	    29  **                                                                            **
+; ..\output\generated\src\Uart_PBCfg.c	    30  *******************************************************************************/
+; ..\output\generated\src\Uart_PBCfg.c	    31  
+; ..\output\generated\src\Uart_PBCfg.c	    32  /*******************************************************************************
+; ..\output\generated\src\Uart_PBCfg.c	    33  **                      Includes                                              **
+; ..\output\generated\src\Uart_PBCfg.c	    34  *******************************************************************************/
+; ..\output\generated\src\Uart_PBCfg.c	    35  /* Include UART Module File */
+; ..\output\generated\src\Uart_PBCfg.c	    36  #include "Uart.h"
+; ..\output\generated\src\Uart_PBCfg.c	    37  
+; ..\output\generated\src\Uart_PBCfg.c	    38  /*******************************************************************************
+; ..\output\generated\src\Uart_PBCfg.c	    39  **                      Private Macro Definitions                             **
+; ..\output\generated\src\Uart_PBCfg.c	    40  *******************************************************************************/
+; ..\output\generated\src\Uart_PBCfg.c	    41  /*******************************************************************************
+; ..\output\generated\src\Uart_PBCfg.c	    42  **                      Imported Compiler Switch Check                        **
+; ..\output\generated\src\Uart_PBCfg.c	    43  *******************************************************************************/
+; ..\output\generated\src\Uart_PBCfg.c	    44  /*******************************************************************************
+; ..\output\generated\src\Uart_PBCfg.c	    45  **                      Private Type Definitions                              **
+; ..\output\generated\src\Uart_PBCfg.c	    46  *******************************************************************************/
+; ..\output\generated\src\Uart_PBCfg.c	    47  /*******************************************************************************
+; ..\output\generated\src\Uart_PBCfg.c	    48  **                      Private Function Declarations                         **
+; ..\output\generated\src\Uart_PBCfg.c	    49  *******************************************************************************/
+; ..\output\generated\src\Uart_PBCfg.c	    50  /*******************************************************************************
+; ..\output\generated\src\Uart_PBCfg.c	    51  **                      Global Constant Definitions                           **
+; ..\output\generated\src\Uart_PBCfg.c	    52  *******************************************************************************/
+; ..\output\generated\src\Uart_PBCfg.c	    53  /*
+; ..\output\generated\src\Uart_PBCfg.c	    54                 Container: UartConfigSet
+; ..\output\generated\src\Uart_PBCfg.c	    55  */
+; ..\output\generated\src\Uart_PBCfg.c	    56  #define UART_START_SEC_POSTBUILDCFG
+; ..\output\generated\src\Uart_PBCfg.c	    57  /*
+; ..\output\generated\src\Uart_PBCfg.c	    58   * To be used for global or static constants (unspecified size)
+; ..\output\generated\src\Uart_PBCfg.c	    59  */
+; ..\output\generated\src\Uart_PBCfg.c	    60  #include "MemMap.h"
+; ..\output\generated\src\Uart_PBCfg.c	    61   /* Notification Function of UartTransmitNotifPtr */
+; ..\output\generated\src\Uart_PBCfg.c	    62    extern void TestUartTransmitNotif_0(Uart_ErrorIdType ErrorId);
+; ..\output\generated\src\Uart_PBCfg.c	    63  
+; ..\output\generated\src\Uart_PBCfg.c	    64   /* Notification Function of UartRecieveNotifPtr */
+; ..\output\generated\src\Uart_PBCfg.c	    65    extern void TestUartReceiveNotif_0(Uart_ErrorIdType ErrorId);
+; ..\output\generated\src\Uart_PBCfg.c	    66  
+; ..\output\generated\src\Uart_PBCfg.c	    67                           /* Notification Function of UartTransmitNotifPtr */
+; ..\output\generated\src\Uart_PBCfg.c	    68    extern void TestUartTransmitNotif(Uart_ErrorIdType ErrorId);
+; ..\output\generated\src\Uart_PBCfg.c	    69  
+; ..\output\generated\src\Uart_PBCfg.c	    70   /* Notification Function of UartRecieveNotifPtr */
+; ..\output\generated\src\Uart_PBCfg.c	    71    extern void TestUartReceiveNotif(Uart_ErrorIdType ErrorId);
+; ..\output\generated\src\Uart_PBCfg.c	    72  
+; ..\output\generated\src\Uart_PBCfg.c	    73          
+; ..\output\generated\src\Uart_PBCfg.c	    74  /* Uart Channel Initialization Data */
+; ..\output\generated\src\Uart_PBCfg.c	    75  
+; ..\output\generated\src\Uart_PBCfg.c	    76  static const Uart_ChannelType  Uart_kChannelConfig0[3] = 
+; ..\output\generated\src\Uart_PBCfg.c	    77  {
+; ..\output\generated\src\Uart_PBCfg.c	    78    {  /* Notification function pointers for UART Module */
+; ..\output\generated\src\Uart_PBCfg.c	    79      {
+; ..\output\generated\src\Uart_PBCfg.c	    80        /* Call-back Notification Function for Write operation */
+; ..\output\generated\src\Uart_PBCfg.c	    81        &TestUartTransmitNotif_0,
+; ..\output\generated\src\Uart_PBCfg.c	    82            /* Call-back Notification Function for Read operation */
+; ..\output\generated\src\Uart_PBCfg.c	    83        &TestUartReceiveNotif_0,
+; ..\output\generated\src\Uart_PBCfg.c	    84            /* Call-back Notification Function for AbortWrite operation */
+; ..\output\generated\src\Uart_PBCfg.c	    85        NULL_PTR,
+; ..\output\generated\src\Uart_PBCfg.c	    86        /* Call-back Notification Function for AbortRead operation */
+; ..\output\generated\src\Uart_PBCfg.c	    87        NULL_PTR,
+; ..\output\generated\src\Uart_PBCfg.c	    88      },
+; ..\output\generated\src\Uart_PBCfg.c	    89    	/* BaudRate : 96000 Hz  */
+; ..\output\generated\src\Uart_PBCfg.c	    90      48U,       /* BRG.NUMERATOR value */
+; ..\output\generated\src\Uart_PBCfg.c	    91      1000U,     /* BRG.DENOMINATOR value */
+; ..\output\generated\src\Uart_PBCfg.c	    92      4U,       /* BITCON.PRESCALAR value */
+; ..\output\generated\src\Uart_PBCfg.c	    93      9U,       /* BITCON.Oversampling value */
+; ..\output\generated\src\Uart_PBCfg.c	    94      UART_ASCLIN0,    /* HW Unit used */
+; ..\output\generated\src\Uart_PBCfg.c	    95      1U,      /* Number of Stop Bits*/
+; ..\output\generated\src\Uart_PBCfg.c	    96      8U,      /* DataLength*/
+; ..\output\generated\src\Uart_PBCfg.c	    97      3U,      /* UartRxPinSelection */
+; ..\output\generated\src\Uart_PBCfg.c	    98      0U,      /*Parity Enable*/ 
+; ..\output\generated\src\Uart_PBCfg.c	    99      0U,      /* Odd or Even Parity */ 
+; ..\output\generated\src\Uart_PBCfg.c	   100      0U,      /*CTS Enable*/
+; ..\output\generated\src\Uart_PBCfg.c	   101      0U,      /*RTS/CTS Polarity*/
+; ..\output\generated\src\Uart_PBCfg.c	   102    },
+; ..\output\generated\src\Uart_PBCfg.c	   103    {  /* Notification function pointers for UART Module */
+; ..\output\generated\src\Uart_PBCfg.c	   104      {
+; ..\output\generated\src\Uart_PBCfg.c	   105        /* Call-back Notification Function for Write operation */
+; ..\output\generated\src\Uart_PBCfg.c	   106        NULL_PTR,
+; ..\output\generated\src\Uart_PBCfg.c	   107        /* Call-back Notification Function for Read operation */
+; ..\output\generated\src\Uart_PBCfg.c	   108        NULL_PTR,
+; ..\output\generated\src\Uart_PBCfg.c	   109        /* Call-back Notification Function for AbortWrite operation */
+; ..\output\generated\src\Uart_PBCfg.c	   110        NULL_PTR,
+; ..\output\generated\src\Uart_PBCfg.c	   111        /* Call-back Notification Function for AbortRead operation */
+; ..\output\generated\src\Uart_PBCfg.c	   112        NULL_PTR,
+; ..\output\generated\src\Uart_PBCfg.c	   113      },
+; ..\output\generated\src\Uart_PBCfg.c	   114    	/* BaudRate : 9600 Hz  */
+; ..\output\generated\src\Uart_PBCfg.c	   115      24U,       /* BRG.NUMERATOR value */
+; ..\output\generated\src\Uart_PBCfg.c	   116      1000U,     /* BRG.DENOMINATOR value */
+; ..\output\generated\src\Uart_PBCfg.c	   117      24U,       /* BITCON.PRESCALAR value */
+; ..\output\generated\src\Uart_PBCfg.c	   118      9U,       /* BITCON.Oversampling value */
+; ..\output\generated\src\Uart_PBCfg.c	   119      UART_ASCLIN3,    /* HW Unit used */
+; ..\output\generated\src\Uart_PBCfg.c	   120      1U,      /* Number of Stop Bits*/
+; ..\output\generated\src\Uart_PBCfg.c	   121      8U,      /* DataLength*/
+; ..\output\generated\src\Uart_PBCfg.c	   122      1U,      /* UartRxPinSelection */
+; ..\output\generated\src\Uart_PBCfg.c	   123      0U,      /*Parity Enable*/ 
+; ..\output\generated\src\Uart_PBCfg.c	   124      0U,      /* Odd or Even Parity */ 
+; ..\output\generated\src\Uart_PBCfg.c	   125      0U,      /*CTS Enable*/
+; ..\output\generated\src\Uart_PBCfg.c	   126      0U,      /*RTS/CTS Polarity*/
+; ..\output\generated\src\Uart_PBCfg.c	   127    },
+; ..\output\generated\src\Uart_PBCfg.c	   128    {  /* Notification function pointers for UART Module */
+; ..\output\generated\src\Uart_PBCfg.c	   129      {
+; ..\output\generated\src\Uart_PBCfg.c	   130        /* Call-back Notification Function for Write operation */
+; ..\output\generated\src\Uart_PBCfg.c	   131        &TestUartTransmitNotif,
+; ..\output\generated\src\Uart_PBCfg.c	   132            /* Call-back Notification Function for Read operation */
+; ..\output\generated\src\Uart_PBCfg.c	   133        &TestUartReceiveNotif,
+; ..\output\generated\src\Uart_PBCfg.c	   134            /* Call-back Notification Function for AbortWrite operation */
+; ..\output\generated\src\Uart_PBCfg.c	   135        NULL_PTR,
+; ..\output\generated\src\Uart_PBCfg.c	   136        /* Call-back Notification Function for AbortRead operation */
+; ..\output\generated\src\Uart_PBCfg.c	   137        NULL_PTR,
+; ..\output\generated\src\Uart_PBCfg.c	   138      },
+; ..\output\generated\src\Uart_PBCfg.c	   139    	/* BaudRate : 9600 Hz  */
+; ..\output\generated\src\Uart_PBCfg.c	   140      24U,       /* BRG.NUMERATOR value */
+; ..\output\generated\src\Uart_PBCfg.c	   141      1000U,     /* BRG.DENOMINATOR value */
+; ..\output\generated\src\Uart_PBCfg.c	   142      24U,       /* BITCON.PRESCALAR value */
+; ..\output\generated\src\Uart_PBCfg.c	   143      9U,       /* BITCON.Oversampling value */
+; ..\output\generated\src\Uart_PBCfg.c	   144      UART_ASCLIN1,    /* HW Unit used */
+; ..\output\generated\src\Uart_PBCfg.c	   145      1U,      /* Number of Stop Bits*/
+; ..\output\generated\src\Uart_PBCfg.c	   146      8U,      /* DataLength*/
+; ..\output\generated\src\Uart_PBCfg.c	   147      3U,      /* UartRxPinSelection */
+; ..\output\generated\src\Uart_PBCfg.c	   148      0U,      /*Parity Enable*/ 
+; ..\output\generated\src\Uart_PBCfg.c	   149      0U,      /* Odd or Even Parity */ 
+; ..\output\generated\src\Uart_PBCfg.c	   150      0U,      /*CTS Enable*/
+; ..\output\generated\src\Uart_PBCfg.c	   151      0U,      /*RTS/CTS Polarity*/
+; ..\output\generated\src\Uart_PBCfg.c	   152    },
+; ..\output\generated\src\Uart_PBCfg.c	   153  };
+; ..\output\generated\src\Uart_PBCfg.c	   154  
+; ..\output\generated\src\Uart_PBCfg.c	   155  /* Uart Module Initialization Data */
+; ..\output\generated\src\Uart_PBCfg.c	   156  
+; ..\output\generated\src\Uart_PBCfg.c	   157  const Uart_ConfigType  Uart_ConfigRoot[1] = 
+; ..\output\generated\src\Uart_PBCfg.c	   158   {
+; ..\output\generated\src\Uart_PBCfg.c	   159     {
+; ..\output\generated\src\Uart_PBCfg.c	   160        Uart_kChannelConfig0,
+; ..\output\generated\src\Uart_PBCfg.c	   161        3U,
+; ..\output\generated\src\Uart_PBCfg.c	   162     }  
+; ..\output\generated\src\Uart_PBCfg.c	   163   };
+; ..\output\generated\src\Uart_PBCfg.c	   164  
+; ..\output\generated\src\Uart_PBCfg.c	   165  #define UART_STOP_SEC_POSTBUILDCFG
+; ..\output\generated\src\Uart_PBCfg.c	   166  /*IFX_MISRA_RULE_19_01_STATUS=File inclusion after pre-processor directives is
+; ..\output\generated\src\Uart_PBCfg.c	   167   allowed only for MemMap.h*/
+; ..\output\generated\src\Uart_PBCfg.c	   168  #include "MemMap.h"
+; ..\output\generated\src\Uart_PBCfg.c	   169  
+; ..\output\generated\src\Uart_PBCfg.c	   170  /*******************************************************************************
+; ..\output\generated\src\Uart_PBCfg.c	   171  **                      Global Variable Definitions                           **
+; ..\output\generated\src\Uart_PBCfg.c	   172  *******************************************************************************/
+; ..\output\generated\src\Uart_PBCfg.c	   173  /*******************************************************************************
+; ..\output\generated\src\Uart_PBCfg.c	   174  **                      Private Constant Definitions                          **
+; ..\output\generated\src\Uart_PBCfg.c	   175  *******************************************************************************/
+; ..\output\generated\src\Uart_PBCfg.c	   176  /*******************************************************************************
+; ..\output\generated\src\Uart_PBCfg.c	   177  **                      Private Variable Definitions                          **
+; ..\output\generated\src\Uart_PBCfg.c	   178  *******************************************************************************/
+; ..\output\generated\src\Uart_PBCfg.c	   179  /*******************************************************************************
+; ..\output\generated\src\Uart_PBCfg.c	   180  **                      Global Function Definitions                           **
+; ..\output\generated\src\Uart_PBCfg.c	   181  *******************************************************************************/
+; ..\output\generated\src\Uart_PBCfg.c	   182  /*******************************************************************************
+; ..\output\generated\src\Uart_PBCfg.c	   183  **                      Private Function Definitions                          **
+; ..\output\generated\src\Uart_PBCfg.c	   184  *******************************************************************************/
+; ..\output\generated\src\Uart_PBCfg.c	   185  
+
+	; Module end

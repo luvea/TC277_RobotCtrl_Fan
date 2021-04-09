@@ -1,0 +1,120 @@
+-->
+<html>
+  <head>
+    <title>PORT Driver Details</title>
+  </head>
+  <body>
+    <style type="text/css">
+table{table-layout: fixed;width: 300px;}
+table.curvedEdges { border:10px solid ;-webkit-border-radius:13px;-moz-border-radius:13px;-ms-border-radius:13px;-o-border-radius:13px;border-radius:13px; }
+table.curvedEdges td, table.curvedEdges th { border-bottom:1px dotted black;overflow: hidden;width: 400px;padding:5px; }
+</style>
+<!-- Be sure to place the above styles (i.e. everything between the <style></style> tags) into the document 'head' (i.e. between the <head></head> tags. Everything below goes inside the <body></body> tags) -->   
+    <p>
+      &nbsp;</p>  
+    <h2>
+      /*****************************************PORT HW-SW MAP*****************************************/</h2>
+    <table border="3" cellpadding="5" cellspacing="0" class="curvedEdges">
+      <caption><strong>
+        Table 1: PORT SFR Usage per API</strong></caption>
+      <thead>
+        <tr>
+          <th scope="col">
+            API Name</th>
+          <th scope="col">
+            SFRs Used</th>
+          <th scope="col">
+            Remarks</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            Port_Init</td>
+          <td>
+            Pn_PDR,Pn_OUT,Pn_IOCR,Pn_DISC,
+            Pn_LPCR,Pn_PCSR,Pn_OMR
+          </td>
+          <td>
+          n refers to port number
+          </td>
+          <td>-</td>
+        </tr>
+                        <tr>
+          <td>
+            Port_SetPinDirection</td>
+          <td>
+            Pn_IOCR
+          </td>
+          <td>
+          n refers to port number
+          </td>
+        </tr>
+                <tr>
+          <td>
+            Port_RefreshPortDirection </td>
+          <td>
+            Pn_IOCR           
+          </td>
+          <td>
+          n refers to port number
+          </td>
+        </tr>
+                <tr>
+          <td>
+            Port_SetPinMode</td>
+          <td>
+            Pn_IOCR           
+          </td>
+          <td>n refers to port number</td>
+        </tr>   
+        
+      </tbody>
+    </table>    
+    <p>
+      &nbsp;</p>      
+    <h2>
+      /******************************************PORT MPU Settings******************************************/</h2>        
+    <table border="3" cellpadding="5" cellspacing="0" class="curvedEdges">
+      <caption><strong>
+        Table 2: PORT SFR and Memory Range</strong></caption>
+      <thead>
+        <tr>
+          <th scope="col">
+            Start Address</th>
+          <th scope="col">
+            End Address</th>
+          <th scope="col">
+            Remarks</th>
+        </tr>
+      </thead>
+      <tbody>
+                        <tr>
+          <td>
+            PORT_START_SEC_VAR_32BIT</td>
+          <td>
+            PORT_STOP_SEC_VAR_32BIT</td>
+          <td>
+              Port_kConfigPtr -&nbsp;32 bit variable used by PORT </p>
+          </td>
+        </tr>
+                <tr>
+          <td>
+            PORT_START_SEC_CODE</td>
+          <td>
+            PORT_STOP_SEC_CODE</td>
+          <td>
+            PORT driver - Basic AUTOSAR and SAFETY functionality</td>
+        </tr>
+        <tr>
+          <td>
+            PORT_START_SEC_CONST_16BIT</td>
+          <td>
+            PORT_STOP_SEC_CONST_16BIT</td>
+          <td>
+            Port_kAvailablePins -&nbsp;16 bit constant used by PORT</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>                                    
