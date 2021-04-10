@@ -187,11 +187,9 @@
 			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
 			<storageModule addStartupFiles="false" moduleId="com.tasking.processor"/>
 			<storageModule moduleId="com.tasking.toolInfo">
-				<toolInfo>TASKING VX-toolset for TriCore: assembler v6.2r2 Build 18041957</toolInfo>
 				<toolInfo>TASKING VX-toolset for TriCore: object link v6.2r2 Build 18041957 SN 06692445</toolInfo>
 				<toolInfo>TASKING program builder v6.2r2 Build 18041957</toolInfo>
 				<toolInfo>TASKING VX-toolset for TriCore: control program v6.2r2 Build 18041957</toolInfo>
-				<toolInfo>TASKING VX-toolset for TriCore: C compiler v6.2r2 Build 18041957 SN 06692445</toolInfo>
 			</storageModule>
 		</cconfiguration>
 		<cconfiguration id="com.tasking.config.ctc.abs.release.80482595">

@@ -1,4 +1,9 @@
 # space <name> <id> <mau size>
+space	mpe:vtc:abs18	3	8
+space	mpe:vtc:linear	1	8
+space	mpe:vtc:abs24	2	8
+space	mpe:tc0:csa	104	8
+space	mpe:tc1:linear	201	8
 space	mpe:tc0:linear	101	8
 space	mpe:tc1:abs24	202	8
 space	mpe:tc1:abs18	203	8
@@ -9,11 +14,6 @@ space	mpe:tc0:abs18	103	8
 space	mpe:tc2:abs24	302	8
 space	mpe:tc2:abs18	303	8
 space	mpe:tc2:csa	304	8
-space	mpe:vtc:linear	1	8
-space	mpe:vtc:abs24	2	8
-space	mpe:vtc:abs18	3	8
-space	mpe:tc0:csa	104	8
-space	mpe:tc1:linear	201	8
 # chip <name> <id> <mau size> <size> <type>
 chip	mpe:dspr0	0	8	114688	ram
 chip	mpe:pspr1	3	8	32768	ram

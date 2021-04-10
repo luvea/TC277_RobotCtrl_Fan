@@ -2,54 +2,13 @@
 **** Build of configuration Debug for project TC277_RobotCtrl_ADCQueue ****
 
 "R:\\TASKING\\TriCore v6.2r2\\ctc\\bin\\amk" -j12 all 
-Compiling DemoApp.c
-Compiling Adc_Irq.c
-Compiling Pwm_3ph_Core1.c
-Compiling Pwm_3ph_Core2.c
-Compiling AuirxQspi.c
-Compiling AurixQspi_Cfg.c
-Compiling AurixQspi_PBCfg.c
-Compiling Adc3ph_Core1_M12.c
-Compiling Adc3ph_Core1_M34.c
-Compiling Notification_Adc3ph_Result_Core1.c
-Compiling Notification_Adc3ph_Result_Core2.c
-Compiling Can.c
-Compiling TLE9180_Callout.c
-Compiling TLE_9180.c
-ctc W588: ["..\TLE_9180_Drive\TLE_9180.c" 227/12] dead assignment to "ui8_Tmp" eliminated
-ctc W588: ["..\TLE_9180_Drive\TLE_9180.c" 207/11] dead assignment to "ui8_Tmp" eliminated
-ctc W588: ["..\TLE_9180_Drive\TLE_9180.c" 182/11] dead assignment to "ui8_Tmp" eliminated
-ctc W588: ["..\TLE_9180_Drive\TLE_9180.c" 181/11] dead assignment to "ui8_Tmp" eliminated
-ctc W588: ["..\TLE_9180_Drive\TLE_9180.c" 180/11] dead assignment to "ui8_Tmp" eliminated
-ctc W588: ["..\TLE_9180_Drive\TLE_9180.c" 179/11] dead assignment to "ui8_Tmp" eliminated
-ctc W588: ["..\TLE_9180_Drive\TLE_9180.c" 352/11] dead assignment to "ui8_Tmp" eliminated
-ctc W588: ["..\TLE_9180_Drive\TLE_9180.c" 314/11] dead assignment to "ui8_Tmp" eliminated
-ctc W588: ["..\TLE_9180_Drive\TLE_9180.c" 267/11] dead assignment to "ui8_Tmp" eliminated
-0 errors, 9 warnings
-ctc W549: ["..\TestCode\Adc3ph_Test\Adc3ph_Core1_M12.c" 205/44] condition is always false
-ctc W549: ["..\TestCode\Adc3ph_Test\Adc3ph_Core1_M12.c" 205/93] condition is always false
-ctc W549: ["..\TestCode\Adc3ph_Test\Adc3ph_Core1_M12.c" 205/144] condition is always false
-0 errors, 3 warnings
-ctc W537: ["..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c" 45/17] unused variable "SinAngle"
-0 errors, 1 warnings
-ctc W523: ["..\TestCode\Can_Test\Can.c" 111/22] pointers to different types at initializer
-ctc W523: ["..\TestCode\Can_Test\Can.c" 112/22] pointers to different types at initializer
-ctc W523: ["..\TestCode\Can_Test\Can.c" 113/22] pointers to different types at initializer
-0 errors, 3 warnings
-ctc W560: ["..\PWM3Ph\Pwm_3ph_Core1.c" 79/65] possible truncation at implicit conversion to type "unsigned short int"
-ctc W560: ["..\PWM3Ph\Pwm_3ph_Core1.c" 80/79] possible truncation at implicit conversion to type "unsigned short int"
-ctc W560: ["..\PWM3Ph\Pwm_3ph_Core1.c" 82/79] possible truncation at implicit conversion to type "unsigned short int"
-ctc W560: ["..\PWM3Ph\Pwm_3ph_Core1.c" 83/65] possible truncation at implicit conversion to type "unsigned short int"
-0 errors, 4 warnings
 Linking to TC277_RobotCtrl_ADCQueue.elf
 ltc W159: LSL: section ".zbss.Mcal.Mcal_CpuInitCompletedSem" (variable Mcal_CpuInitCompletedSem) was not selected because it already has an absolute restriction
 
-Time consumed: 7087 ms
+Time consumed: 3519 ms
 **** End of build ****
 
 Tool info: 
-TASKING VX-toolset for TriCore: assembler v6.2r2 Build 18041957
 TASKING VX-toolset for TriCore: object link v6.2r2 Build 18041957 SN 06692445
 TASKING program builder v6.2r2 Build 18041957
 TASKING VX-toolset for TriCore: control program v6.2r2 Build 18041957
-TASKING VX-toolset for TriCore: C compiler v6.2r2 Build 18041957 SN 06692445
