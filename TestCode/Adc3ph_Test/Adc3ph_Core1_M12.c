@@ -138,21 +138,6 @@ void Adc3ph_M1_Init(void)
       Adc_EnableHardwareTrigger(AdcConf_AdcGroup_G3_AI_DC);
 //      Adc_EnableGroupNotification(AdcConf_AdcGroup_G0_FOC_CUR_M1_U);
 }
-//void Adc3ph_M2_Init(void)
-//{
-//      Adc_SetupResultBuffer(AdcConf_AdcGroup_G0_FOC_CUR_M2_U,&Adc3ph_Buffer_M2_CUR_U[0]);
-//      Adc_SetupResultBuffer(AdcConf_AdcGroup_G1_FOC_CUR_M2_V,&Adc3ph_Buffer_M2_CUR_V[0]);
-//      Adc_SetupResultBuffer(AdcConf_AdcGroup_G2_FOC_CUR_M2_W,&Adc3ph_Buffer_M2_CUR_W[0]);
-////      Adc_SetupResultBuffer(AdcConf_AdcGroup_G3_AI_DC,&DC1_Buffer_M1[0]);
-//
-//      Adc_EnableHardwareTrigger(AdcConf_AdcGroup_G0_FOC_CUR_M2_U);
-//      Adc_EnableHardwareTrigger(AdcConf_AdcGroup_G1_FOC_CUR_M2_V);
-//      Adc_EnableHardwareTrigger(AdcConf_AdcGroup_G2_FOC_CUR_M2_W);
-////      Adc_EnableHardwareTrigger(AdcConf_AdcGroup_G3_AI_DC);
-////      Adc_EnableGroupNotification(AdcConf_AdcGroup_G0_FOC_CUR_M2_U);
-//}
-
-
 
 
 
@@ -166,13 +151,6 @@ void Adc3ph_M1_GetResult(void)
 	DC1_Reg=MODULE_VADC.G[3].RES[3].B.RESULT;                     //母线电压采样1
 	DC2_Reg=MODULE_VADC.G[3].RES[2].B.RESULT;                     //母线电压采样2
 
-//	Adc3ph_Reg_U=Adc3ph_Buffer_M1_CUR_U[0];
-//	Adc3ph_Reg_V=Adc3ph_Buffer_M1_CUR_V[0];
-//	Adc3ph_Reg_W=Adc3ph_Buffer_M1_CUR_W[0];
-
-//	DC1_Reg=DC1_Buffer_M1[0];
-//	DC2_Reg=DC1_Buffer_M1[1];
-//	VRO_Reg=Adc3ph_Buffer_M1_CUR_U[1];
 }
 void Adc3ph_M2_GetResult(void)
 {

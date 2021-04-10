@@ -24,7 +24,7 @@ extern uint32 Hal_M2_Timestamp_tick;
 extern uint32 Hal_M3_Timestamp_tick;
 extern uint32 Hal_M4_Timestamp_tick;
 
-extern uint8_T VePC_S_SubDebugMode_NULL_M12;
+
 extern uint8_T VePC_S_SubDebugMode_NULL;
 
 extern void UVW_Complete_M1_AdcNotification(void);

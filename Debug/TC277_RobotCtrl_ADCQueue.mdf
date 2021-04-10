@@ -1,23 +1,21 @@
 # space <name> <id> <mau size>
-space	mpe:vtc:abs18	3	8
-space	mpe:vtc:linear	1	8
-space	mpe:vtc:abs24	2	8
-space	mpe:tc0:csa	104	8
-space	mpe:tc1:linear	201	8
 space	mpe:tc0:linear	101	8
-space	mpe:tc1:abs24	202	8
 space	mpe:tc1:abs18	203	8
 space	mpe:tc1:csa	204	8
 space	mpe:tc2:linear	301	8
+space	mpe:tc2:abs24	302	8
 space	mpe:tc0:abs24	102	8
 space	mpe:tc0:abs18	103	8
-space	mpe:tc2:abs24	302	8
 space	mpe:tc2:abs18	303	8
 space	mpe:tc2:csa	304	8
+space	mpe:vtc:abs18	3	8
+space	mpe:vtc:abs24	2	8
+space	mpe:vtc:linear	1	8
+space	mpe:tc0:csa	104	8
+space	mpe:tc1:linear	201	8
+space	mpe:tc1:abs24	202	8
 # chip <name> <id> <mau size> <size> <type>
 chip	mpe:dspr0	0	8	114688	ram
-chip	mpe:pspr1	3	8	32768	ram
-chip	mpe:dspr2	4	8	122880	ram
 chip	mpe:pspr2	5	8	32768	ram
 chip	mpe:pflash0	6	8	2097152	rom
 chip	mpe:pflash1	7	8	2097152	rom
@@ -27,10 +25,12 @@ chip	mpe:dflash1	10	8	65536	nvram
 chip	mpe:lmuram	11	8	32768	ram
 chip	mpe:pspr0	1	8	24576	ram
 chip	mpe:dspr1	2	8	122880	ram
+chip	mpe:pspr1	3	8	32768	ram
+chip	mpe:dspr2	4	8	122880	ram
 chip	mpe:mcs00	12	8	6144	ram
 chip	mpe:mcs01	13	8	6144	ram
-chip	mpe:mcs03	15	8	6144	ram
 chip	mpe:mcs02	14	8	6144	ram
+chip	mpe:mcs03	15	8	6144	ram
 # map <space id> <start in space> <size in space> <chip id> <start on chip>
 map	101	3489660928	114688	0	0
 map	102	3489660928	114688	0	0

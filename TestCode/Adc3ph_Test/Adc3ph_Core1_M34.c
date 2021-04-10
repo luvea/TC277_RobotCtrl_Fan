@@ -45,7 +45,7 @@
 //**                      Private Macro Definitions                             **
 //*******************************************************************************/
 #define ADC3PH_REFVOLTAGE           5.000f
-#define ADC3PH_RESOLUTION           4096.000f
+#define ADC3PH_RESOLUTION           4095.000f
 #define CUR_ADC_GAIN                3.183f
 #define DC_FACTOR                   7.0f
 //*******************************************************************************
@@ -65,23 +65,16 @@
 //*******************************************************************************/
 //* Memory Mapping the global variables */
 
-//float32 AI_DC_CH_1;
-//float32 AI_DC_CH_2;
+
 float32 AI_DC_CH_3;
 float32 AI_DC_CH_4;
 
 
-//float32 AI_DRV1_VRO;
-//float32 AI_DRV2_VRO;
+
 float32 AI_DRV3_VRO;
 float32 AI_DRV4_VRO;
 
-//uint16 Adc3ph_Reg_M1_U;
-//uint16 Adc3ph_Reg_M1_V;
-//uint16 Adc3ph_Reg_M1_W;
-//uint16 Adc3ph_Reg_M2_U;
-//uint16 Adc3ph_Reg_M2_V;
-//uint16 Adc3ph_Reg_M2_W;
+
 uint16 Adc3ph_Reg_M3_U;
 uint16 Adc3ph_Reg_M3_V;
 uint16 Adc3ph_Reg_M3_W;
@@ -89,8 +82,7 @@ uint16 Adc3ph_Reg_M4_U;
 uint16 Adc3ph_Reg_M4_V;
 uint16 Adc3ph_Reg_M4_W;
 
-//uint16 VRO_M1_Reg;
-//uint16 VRO_M2_Reg;
+
 uint16 VRO_M3_Reg;
 uint16 VRO_M4_Reg;
 
@@ -135,36 +127,6 @@ Adc_ValueGroupType DC1_Buffer_M4[8];
 /*******************************************************************************
 **                      Global Function Definitions                           **
 *******************************************************************************/
-
-
-//void Adc3ph_M3_Init(void)
-//{
-//      Adc_SetupResultBuffer(AdcConf_AdcGroup_G0_FOC_CUR_M3_U,&Adc3ph_Buffer_M3_CUR_U[0]);
-//      Adc_SetupResultBuffer(AdcConf_AdcGroup_G1_FOC_CUR_M3_V,&Adc3ph_Buffer_M3_CUR_V[0]);
-//      Adc_SetupResultBuffer(AdcConf_AdcGroup_G2_FOC_CUR_M3_W,&Adc3ph_Buffer_M3_CUR_W[0]);
-//      Adc_SetupResultBuffer(AdcConf_AdcGroup_G3_AI_DC,&DC1_Buffer_M3[0]);
-//
-//      Adc_EnableHardwareTrigger(AdcConf_AdcGroup_G0_FOC_CUR_M3_U);
-//      Adc_EnableHardwareTrigger(AdcConf_AdcGroup_G1_FOC_CUR_M3_V);
-//      Adc_EnableHardwareTrigger(AdcConf_AdcGroup_G2_FOC_CUR_M3_W);
-//      Adc_EnableHardwareTrigger(AdcConf_AdcGroup_G3_AI_DC);
-////    Adc_EnableGroupNotification(AdcConf_AdcGroup_G0_FOC_CUR_M1_U);
-//}
-//void Adc3ph_M4_Init(void)
-//
-//{
-//      Adc_SetupResultBuffer(AdcConf_AdcGroup_G0_FOC_CUR_M4_U,&Adc3ph_Buffer_M4_CUR_U[0]);
-//      Adc_SetupResultBuffer(AdcConf_AdcGroup_G1_FOC_CUR_M4_V,&Adc3ph_Buffer_M4_CUR_V[0]);
-//      Adc_SetupResultBuffer(AdcConf_AdcGroup_G2_FOC_CUR_M4_W,&Adc3ph_Buffer_M4_CUR_W[0]);
-//      Adc_SetupResultBuffer(AdcConf_AdcGroup_G3_AI_DC,&DC1_Buffer_M4[0]);
-//
-//      Adc_EnableHardwareTrigger(AdcConf_AdcGroup_G0_FOC_CUR_M4_U);
-//      Adc_EnableHardwareTrigger(AdcConf_AdcGroup_G1_FOC_CUR_M4_V);
-//      Adc_EnableHardwareTrigger(AdcConf_AdcGroup_G2_FOC_CUR_M4_W);
-//      Adc_EnableHardwareTrigger(AdcConf_AdcGroup_G3_AI_DC);
-////    Adc_EnableGroupNotification(AdcConf_AdcGroup_G0_FOC_CUR_M1_U);
-//}
-
 
 
 

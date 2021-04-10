@@ -10,9 +10,7 @@
 
 
 #include "Std_Types.h"
-#include "Std_Types.h"
 #include "Adc.h"
-
 #include "Test_Print.h"
 //#include "Testmodel_Core1.h"
 //#include "Testmodel_Core2.h"

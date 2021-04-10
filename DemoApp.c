@@ -114,18 +114,11 @@ void DemoApp(void)
 		Time_perTick_ns = ((float32)1000000000 / (float32)uwStmFreq);
 
 	   Dio_WriteChannel(DioConf_DioChannel_GPIO_5V_SHUT_OFF, STD_LOW);
-
 	   Dio_WriteChannel(DioConf_DioChannel_DO_SEN_POW_EN, STD_HIGH);
 
        IrqAdc_Init();
-
        Adc_InitS();
        Adc3ph_M1_Init();
-
-
-
-
-
        Pwm_3ph_Init();
 
 
@@ -214,10 +207,7 @@ void DemoApp(void)
 
 
             TLE9180_PowerupSequence();          //∆¿π¿∞Â…œ∆¡±Œ
-//            Adc3ph_M1_GetResult();
-//            Adc3ph_M2_GetResult();
-//            Adc3ph_M3_GetResult();
-//            Adc3ph_M4_GetResult();
+
 
              TransmitCntr = 0;
              RetWriteApi = Uart_Write(0U, (Uart_MemPtrType)Uart_TxDataBuff, UART_TX_DATA_COUNT);
@@ -231,36 +221,7 @@ void DemoApp(void)
              ReceiveCntr = 0;
              RetReadApi = Uart_Read(0U, (Uart_MemPtrType)Uart_RxDataBuff, UART_TX_DATA_COUNT);
 
-//     		TLE9180_WriteINH_N(STD_HIGH);
-//     		TLE9180_WriteSOFF_N(STD_HIGH);
-//     		TLE9180_WriteENA(STD_HIGH);
-//		     Timer_DelayMs(10);
-
-//	           Pwm_3ph_SetDuty();
-
-//		Testmodel_step();
-
-//		for (int i =0; i<10000; i++)
-//		{
-//			__nop();
-//		}
-
-//		Timer_DelayMs(1);
-
-//		Pwm_3ph_SetDuty();
-
-//		Ton_M1_Duty_U_f32 = f32_Ton_fault_A;
-//		Ton_M1_Duty_V_f32 = f32_Ton_fault_B;
-//		Ton_M1_Duty_W_f32 = f32_Ton_fault_C;
-//
-
-
-//        f32_EAngle_Motor = f32_EAngle_Motor + 15;
-//		if(f32_EAngle_Motor > 4096)
-//		{
-//			f32_EAngle_Motor = 0;              //Appl
-//		}
-            // Can_17_MCanP_Send();
+           // Can_17_MCanP_Send();
            testCnt++;
 
            Time_Appl[1] = MODULE_STM0.TIM0.B.STM31_0;

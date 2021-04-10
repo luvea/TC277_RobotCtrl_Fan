@@ -107,7 +107,8 @@ void Pwm_3ph_Init(void)
     MODULE_GTM.ATOM[1].CH0.CN0.B.CN0 = 0;
     MODULE_GTM.TOM[0].CH0.CN0.B.CN0 = 0;
     MODULE_GTM.ATOM[0].CH0.CN0.B.CN0 = 0;
-    MODULE_GTM.ATOM[4].CH0.CN0.B.CN0 = 0;
+    MODULE_GTM.ATOM[4].CH0.CN0.B.CN0 = 0;                     //reference通道cn0重置，使四路pwm对齐
+
 	Gtm_SetAtomShadowValSr0(1, 0, PWM_PHASE_TICKS);           //DPO_M1_PWM_REF_RES        //设置pwm参考通道的周期，也就是设置输出pwm的周期
 	Gtm_SetTomShadowValSr0(0, 0, PWM_PHASE_TICKS);            //DPO_M2_PWM_REF_RES
 	Gtm_SetAtomShadowValSr0(4, 0, PWM_PHASE_TICKS);           //DPO_M3_PWM_REF_RES

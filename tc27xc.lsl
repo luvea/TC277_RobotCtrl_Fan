@@ -555,6 +555,8 @@ extends gtm10_04
         {
 #include        "tc1v1_6_x.bmhd.lsl"
         }
+        
+        
 //		section_layout :vtc:linear
 //        {
 //			group pwmramcode (ordered,copy,run_addr = mem:pspr0)
@@ -590,50 +592,7 @@ extends gtm10_04
 //        	}
 //        
 //        }
-		section_layout :vtc:linear
-        {
-			group pwmramcode (ordered,copy,run_addr = mem:pspr1)
-			{
-
-
-                         select ".text.Testmodel.*";
-                         select  ".text.Notification_Adc3ph_Result_Core1.*";
-                         select  ".text.Notification_Adc3ph_Result_Core2.*";
-                         select ".text.Adc3ph_Core1_M12.*";
-                         select ".text.Adc3ph_Core1_M34.*";
-                         select ".text.Hal_Sensor_M1_Core1.*";
-                         select ".text.Hal_Sensor_M2_Core1.*";
-                         select ".text.Hal_Sensor_M3_Core1.*";
-                         select ".text.Hal_Sensor_M4_Core1.*";
-                         
-                         select ".text.Pwm_3ph_Core1.*";
-                         select ".text.Pwm_3ph_Core2.*";
-			}
-			
-			group ramdataload (ordered,contiguous, load_addr = mem:pflash0)
-			{
-				select "*.data.*";
-			}
-			group ramdata (ordered,attributes=rw,run_addr = mem:dspr1)
-			{
-				select "*.data.*";
-				select "*.bss.*";
-				
-			}
-        }
-        section_layout :vtc:abs18
-        {
-        	group
-        	{
-        		group ramzdata (ordered,contiguous, attributes=rw,run_addr = mem:dspr1)
-			{
-				select "*.zdata.*";
-				select "*.zbss.*";
-				
-			}
-        	}
-        
-        }        
+      
 }
 
 //

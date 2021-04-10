@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.2r2 Build 18041957 SN 06692445"
-	.compiler_invocation	"ctc -f cc20112a --dep-file=TestCode\\Adc3ph_Test\\.Adc3ph_Core1_M34.o.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xc -D__CPU_TC27XC__ --core=tc1.6.x --fp-model=+float -D_TASKING_C_TRICORE_ -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\.settings -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Asw -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\compiler -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc\\TC27xC -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc\\TC27xC\\SupportDocuments -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\lib -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\obj -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Asw -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\dio_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\dio_infineon_tricore\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\integration_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\integration_general\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Hal_Sensor -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output\\generated -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output\\generated\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\PWM3Ph -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Qspi -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Adc_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Adc3ph_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Can_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TLE_9180_Drive -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\UART_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Hal_Sensor -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\Demo_Aurix -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\mak -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\PWM3Ph -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Qspi -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Adc_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Adc3ph_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Can_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TLE_9180_Drive -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\UART_Test -g2 --make-target=TestCode\\Adc3ph_Test\\Adc3ph_Core1_M34.o -t2 --language=-gcc,-volatile,+strings,-kanji --default-near-size=8 -O2 --default-a1-size=0 --default-a0-size=0 --source --align=0 --compact-max-size=200 --switch=auto --error-limit=42 -o TestCode\\Adc3ph_Test\\Adc3ph_Core1_M34.src ..\\TestCode\\Adc3ph_Test\\Adc3ph_Core1_M34.c"
+	.compiler_invocation	"ctc -f cc18860a --dep-file=TestCode\\Adc3ph_Test\\.Adc3ph_Core1_M34.o.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xc -D__CPU_TC27XC__ --core=tc1.6.x --fp-model=+float -D_TASKING_C_TRICORE_ -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\.settings -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Asw -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\compiler -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc\\TC27xC -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc\\TC27xC\\SupportDocuments -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\lib -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\obj -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Asw -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\dio_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\dio_infineon_tricore\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\integration_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\integration_general\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Hal_Sensor -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output\\generated -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output\\generated\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\PWM3Ph -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Qspi -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Adc_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Adc3ph_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Can_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TLE_9180_Drive -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\UART_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Hal_Sensor -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\Demo_Aurix -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\mak -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\PWM3Ph -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Qspi -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Adc_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Adc3ph_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Can_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TLE_9180_Drive -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\UART_Test -g2 --make-target=TestCode\\Adc3ph_Test\\Adc3ph_Core1_M34.o -t2 --language=-gcc,-volatile,+strings,-kanji --default-near-size=8 -O2 --default-a1-size=0 --default-a0-size=0 --source --align=0 --compact-max-size=200 --switch=auto --error-limit=42 -o TestCode\\Adc3ph_Test\\Adc3ph_Core1_M34.src ..\\TestCode\\Adc3ph_Test\\Adc3ph_Core1_M34.c"
 	.compiler_name		"ctc"
 	;source	'..\\TestCode\\Adc3ph_Test\\Adc3ph_Core1_M34.c'
 
@@ -11,6 +11,12 @@ $TC16X
 	.align	2
 .1.cnt:	.type	object
 	.size	.1.cnt,4
+	.word	1166012416
+	.sdecl	'.zrodata.Adc3ph_Core1_M34..2.cnt',data,rom
+	.sect	'.zrodata.Adc3ph_Core1_M34..2.cnt'
+	.align	2
+.2.cnt:	.type	object
+	.size	.2.cnt,4
 	.word	1078703686
 	
 	.sdecl	'.text.Adc3ph_Core1_M34.Adc3ph_M3_GetResult',code,cluster('Adc3ph_M3_GetResult')
@@ -66,7 +72,7 @@ $TC16X
 ; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    45  //**                      Private Macro Definitions                             **
 ; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    46  //*******************************************************************************/
 ; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    47  #define ADC3PH_REFVOLTAGE           5.000f
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    48  #define ADC3PH_RESOLUTION           4096.000f
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    48  #define ADC3PH_RESOLUTION           4095.000f
 ; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    49  #define CUR_ADC_GAIN                3.183f
 ; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    50  #define DC_FACTOR                   7.0f
 ; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    51  //*******************************************************************************
@@ -86,146 +92,108 @@ $TC16X
 ; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    65  //*******************************************************************************/
 ; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    66  //* Memory Mapping the global variables */
 ; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    67  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    68  //float32 AI_DC_CH_1;
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    69  //float32 AI_DC_CH_2;
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    70  float32 AI_DC_CH_3;
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    71  float32 AI_DC_CH_4;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    68  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    69  float32 AI_DC_CH_3;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    70  float32 AI_DC_CH_4;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    71  
 ; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    72  
 ; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    73  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    74  //float32 AI_DRV1_VRO;
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    75  //float32 AI_DRV2_VRO;
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    76  float32 AI_DRV3_VRO;
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    77  float32 AI_DRV4_VRO;
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    78  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    79  //uint16 Adc3ph_Reg_M1_U;
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    80  //uint16 Adc3ph_Reg_M1_V;
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    81  //uint16 Adc3ph_Reg_M1_W;
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    82  //uint16 Adc3ph_Reg_M2_U;
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    83  //uint16 Adc3ph_Reg_M2_V;
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    84  //uint16 Adc3ph_Reg_M2_W;
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    85  uint16 Adc3ph_Reg_M3_U;
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    86  uint16 Adc3ph_Reg_M3_V;
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    87  uint16 Adc3ph_Reg_M3_W;
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    88  uint16 Adc3ph_Reg_M4_U;
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    89  uint16 Adc3ph_Reg_M4_V;
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    90  uint16 Adc3ph_Reg_M4_W;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    74  float32 AI_DRV3_VRO;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    75  float32 AI_DRV4_VRO;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    76  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    77  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    78  uint16 Adc3ph_Reg_M3_U;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    79  uint16 Adc3ph_Reg_M3_V;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    80  uint16 Adc3ph_Reg_M3_W;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    81  uint16 Adc3ph_Reg_M4_U;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    82  uint16 Adc3ph_Reg_M4_V;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    83  uint16 Adc3ph_Reg_M4_W;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    84  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    85  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    86  uint16 VRO_M3_Reg;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    87  uint16 VRO_M4_Reg;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    88  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    89  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    90  
 ; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    91  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    92  //uint16 VRO_M1_Reg;
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    93  //uint16 VRO_M2_Reg;
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    94  uint16 VRO_M3_Reg;
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    95  uint16 VRO_M4_Reg;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    92  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    93  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    94  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    95  
 ; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    96  
 ; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    97  
 ; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    98  
 ; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	    99  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   100  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   101  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   102  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   103  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   104  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   105  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   100  Adc_ValueGroupType Adc3ph_Buffer_M3_CUR_U[8];
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   101  Adc_ValueGroupType Adc3ph_Buffer_M3_CUR_V[8];
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   102  Adc_ValueGroupType Adc3ph_Buffer_M3_CUR_W[8];
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   103  Adc_ValueGroupType Adc3ph_Buffer_M4_CUR_U[8];
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   104  Adc_ValueGroupType Adc3ph_Buffer_M4_CUR_V[8];
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   105  Adc_ValueGroupType Adc3ph_Buffer_M4_CUR_W[8];
 ; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   106  
 ; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   107  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   108  Adc_ValueGroupType Adc3ph_Buffer_M3_CUR_U[8];
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   109  Adc_ValueGroupType Adc3ph_Buffer_M3_CUR_V[8];
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   110  Adc_ValueGroupType Adc3ph_Buffer_M3_CUR_W[8];
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   111  Adc_ValueGroupType Adc3ph_Buffer_M4_CUR_U[8];
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   112  Adc_ValueGroupType Adc3ph_Buffer_M4_CUR_V[8];
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   113  Adc_ValueGroupType Adc3ph_Buffer_M4_CUR_W[8];
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   108  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   109  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   110  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   111  Adc_ValueGroupType DC1_Buffer_M3[8];
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   112  Adc_ValueGroupType DC1_Buffer_M4[8];
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   113  
 ; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   114  
 ; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   115  
 ; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   116  
 ; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   117  
 ; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   118  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   119  Adc_ValueGroupType DC1_Buffer_M3[8];
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   120  Adc_ValueGroupType DC1_Buffer_M4[8];
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   121  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   119  /*******************************************************************************
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   120  **                      Private Constant Definitions                          **
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   121  *******************************************************************************/
 ; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   122  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   123  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   124  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   125  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   123  /*******************************************************************************
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   124  **                      Private Variable Definitions                          **
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   125  *******************************************************************************/
 ; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   126  
 ; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   127  /*******************************************************************************
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   128  **                      Private Constant Definitions                          **
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   128  **                      Global Function Definitions                           **
 ; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   129  *******************************************************************************/
 ; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   130  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   131  /*******************************************************************************
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   132  **                      Private Variable Definitions                          **
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   133  *******************************************************************************/
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   134  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   135  /*******************************************************************************
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   136  **                      Global Function Definitions                           **
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   137  *******************************************************************************/
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   138  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   139  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   140  //void Adc3ph_M3_Init(void)
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   141  //{
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   142  //      Adc_SetupResultBuffer(AdcConf_AdcGroup_G0_FOC_CUR_M3_U,&Adc3ph_Buffer_M3_CUR_U[0]);
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   143  //      Adc_SetupResultBuffer(AdcConf_AdcGroup_G1_FOC_CUR_M3_V,&Adc3ph_Buffer_M3_CUR_V[0]);
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   144  //      Adc_SetupResultBuffer(AdcConf_AdcGroup_G2_FOC_CUR_M3_W,&Adc3ph_Buffer_M3_CUR_W[0]);
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   145  //      Adc_SetupResultBuffer(AdcConf_AdcGroup_G3_AI_DC,&DC1_Buffer_M3[0]);
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   146  //
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   147  //      Adc_EnableHardwareTrigger(AdcConf_AdcGroup_G0_FOC_CUR_M3_U);
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   148  //      Adc_EnableHardwareTrigger(AdcConf_AdcGroup_G1_FOC_CUR_M3_V);
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   149  //      Adc_EnableHardwareTrigger(AdcConf_AdcGroup_G2_FOC_CUR_M3_W);
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   150  //      Adc_EnableHardwareTrigger(AdcConf_AdcGroup_G3_AI_DC);
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   151  ////    Adc_EnableGroupNotification(AdcConf_AdcGroup_G0_FOC_CUR_M1_U);
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   152  //}
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   153  //void Adc3ph_M4_Init(void)
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   154  //
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   155  //{
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   156  //      Adc_SetupResultBuffer(AdcConf_AdcGroup_G0_FOC_CUR_M4_U,&Adc3ph_Buffer_M4_CUR_U[0]);
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   157  //      Adc_SetupResultBuffer(AdcConf_AdcGroup_G1_FOC_CUR_M4_V,&Adc3ph_Buffer_M4_CUR_V[0]);
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   158  //      Adc_SetupResultBuffer(AdcConf_AdcGroup_G2_FOC_CUR_M4_W,&Adc3ph_Buffer_M4_CUR_W[0]);
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   159  //      Adc_SetupResultBuffer(AdcConf_AdcGroup_G3_AI_DC,&DC1_Buffer_M4[0]);
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   160  //
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   161  //      Adc_EnableHardwareTrigger(AdcConf_AdcGroup_G0_FOC_CUR_M4_U);
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   162  //      Adc_EnableHardwareTrigger(AdcConf_AdcGroup_G1_FOC_CUR_M4_V);
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   163  //      Adc_EnableHardwareTrigger(AdcConf_AdcGroup_G2_FOC_CUR_M4_W);
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   164  //      Adc_EnableHardwareTrigger(AdcConf_AdcGroup_G3_AI_DC);
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   165  ////    Adc_EnableGroupNotification(AdcConf_AdcGroup_G0_FOC_CUR_M1_U);
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   166  //}
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   167  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   168  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   169  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   170  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   171  void Adc3ph_M3_GetResult(void)
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   131  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   132  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   133  void Adc3ph_M3_GetResult(void)
 ; Function Adc3ph_M3_GetResult
 .L3:
 Adc3ph_M3_GetResult:	.type	func
 
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   172  {
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   173  	Adc3ph_Reg_M3_U=MODULE_VADC.G[0].RES[2].B.RESULT;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   134  {
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   135  	Adc3ph_Reg_M3_U=MODULE_VADC.G[0].RES[2].B.RESULT;
 	movh.a	a15,#61442
 	ld.hu	d15,[a15]@los(0xf0020708)
 .L181:
 	st.h	Adc3ph_Reg_M3_U,d15
 .L182:
 
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   174  	Adc3ph_Reg_M3_V=MODULE_VADC.G[1].RES[2].B.RESULT;                //UVW电压采样
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   136  	Adc3ph_Reg_M3_V=MODULE_VADC.G[1].RES[2].B.RESULT;                //UVW电压采样
 	ld.hu	d15,[a15]@los(0xf0020b08)
 .L183:
 	st.h	Adc3ph_Reg_M3_V,d15
 .L184:
 
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   175  	Adc3ph_Reg_M3_W=MODULE_VADC.G[2].RES[2].B.RESULT;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   137  	Adc3ph_Reg_M3_W=MODULE_VADC.G[2].RES[2].B.RESULT;
 	ld.hu	d15,[a15]@los(0xf0020f08)
 .L185:
 	st.h	Adc3ph_Reg_M3_W,d15
 .L186:
 
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   176  	VRO_M3_Reg=MODULE_VADC.G[1].RES[6].B.RESULT;                     //9180_3相电流采样参考电压
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   138  	VRO_M3_Reg=MODULE_VADC.G[1].RES[6].B.RESULT;                     //9180_3相电流采样参考电压
 	ld.hu	d15,[a15]@los(0xf0020b18)
 .L187:
 	st.h	VRO_M3_Reg,d15
 .L188:
 
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   177  	DC1_Reg=MODULE_VADC.G[3].RES[3].B.RESULT;                        //母线电压采样1
-	fcall	.cocofun_4
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   139  	DC1_Reg=MODULE_VADC.G[3].RES[3].B.RESULT;                        //母线电压采样1
+	fcall	.cocofun_5
 .L189:
 
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   178  	DC2_Reg=MODULE_VADC.G[3].RES[2].B.RESULT;                        //母线电压采样2
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   179  }
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   140  	DC2_Reg=MODULE_VADC.G[3].RES[2].B.RESULT;                        //母线电压采样2
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   141  }
 	ret
 .L137:
 	
@@ -234,13 +202,13 @@ __Adc3ph_M3_GetResult_function_end:
 .L36:
 	; End of function
 	
-	.sdecl	'.text.Adc3ph_Core1_M34..cocofun_4',code,cluster('.cocofun_4')
-	.sect	'.text.Adc3ph_Core1_M34..cocofun_4'
+	.sdecl	'.text.Adc3ph_Core1_M34..cocofun_5',code,cluster('.cocofun_5')
+	.sect	'.text.Adc3ph_Core1_M34..cocofun_5'
 	.align	2
-; Function .cocofun_4
+; Function .cocofun_5
 .L5:
-.cocofun_4:	.type	func
-; Function body .cocofun_4, coco_iter:0
+.cocofun_5:	.type	func
+; Function body .cocofun_5, coco_iter:0
 	ld.hu	d15,[a15]@los(0xf002130c)
 .L259:
 	st.h	DC1_Reg,d15
@@ -258,43 +226,43 @@ __Adc3ph_M3_GetResult_function_end:
 	
 	.global	Adc3ph_M4_GetResult
 
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   180  void Adc3ph_M4_GetResult(void)
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   142  void Adc3ph_M4_GetResult(void)
 ; Function Adc3ph_M4_GetResult
 .L7:
 Adc3ph_M4_GetResult:	.type	func
 
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   181  {
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   182  	Adc3ph_Reg_M4_U=MODULE_VADC.G[0].RES[3].B.RESULT;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   143  {
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   144  	Adc3ph_Reg_M4_U=MODULE_VADC.G[0].RES[3].B.RESULT;
 	movh.a	a15,#61442
 	ld.hu	d15,[a15]@los(0xf002070c)
 .L194:
 	st.h	Adc3ph_Reg_M4_U,d15
 .L195:
 
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   183  	Adc3ph_Reg_M4_V=MODULE_VADC.G[1].RES[3].B.RESULT;                //UVW电压采样
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   145  	Adc3ph_Reg_M4_V=MODULE_VADC.G[1].RES[3].B.RESULT;                //UVW电压采样
 	ld.hu	d15,[a15]@los(0xf0020b0c)
 .L196:
 	st.h	Adc3ph_Reg_M4_V,d15
 .L197:
 
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   184  	Adc3ph_Reg_M4_W=MODULE_VADC.G[2].RES[3].B.RESULT;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   146  	Adc3ph_Reg_M4_W=MODULE_VADC.G[2].RES[3].B.RESULT;
 	ld.hu	d15,[a15]@los(0xf0020f0c)
 .L198:
 	st.h	Adc3ph_Reg_M4_W,d15
 .L199:
 
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   185  	VRO_M4_Reg=MODULE_VADC.G[1].RES[7].B.RESULT;                     //9180_4相电流采样参考电压
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   147  	VRO_M4_Reg=MODULE_VADC.G[1].RES[7].B.RESULT;                     //9180_4相电流采样参考电压
 	ld.hu	d15,[a15]@los(0xf0020b1c)
 .L200:
 	st.h	VRO_M4_Reg,d15
 .L201:
 
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   186  	DC1_Reg=MODULE_VADC.G[3].RES[3].B.RESULT;                        //母线电压采样1
-	fcall	.cocofun_4
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   148  	DC1_Reg=MODULE_VADC.G[3].RES[3].B.RESULT;                        //母线电压采样1
+	fcall	.cocofun_5
 .L202:
 
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   187  	DC2_Reg=MODULE_VADC.G[3].RES[2].B.RESULT;                        //母线电压采样2
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   188  }
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   149  	DC2_Reg=MODULE_VADC.G[3].RES[2].B.RESULT;                        //母线电压采样2
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   150  }
 	ret
 .L139:
 	
@@ -309,60 +277,60 @@ __Adc3ph_M4_GetResult_function_end:
 	
 	.global	Adc3ph_Current_M3_PhyCal
 
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   189  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   190  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   191  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   192  void Adc3ph_Current_M3_PhyCal(void)
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   151  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   152  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   153  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   154  void Adc3ph_Current_M3_PhyCal(void)
 ; Function Adc3ph_Current_M3_PhyCal
 .L9:
 Adc3ph_Current_M3_PhyCal:	.type	func
 
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   193  {
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   194      float32 temp_M3_U;
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   195      float32 temp_M3_V;
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   196      float32 temp_M3_W;
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   197  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   198      Adc3ph_M3_GetResult();
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   155  {
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   156      float32 temp_M3_U;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   157      float32 temp_M3_V;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   158      float32 temp_M3_W;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   159  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   160      Adc3ph_M3_GetResult();
 	call	Adc3ph_M3_GetResult
 .L207:
 
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   199  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   200      temp_M3_U=((float32)Adc3ph_Reg_M3_U * ADC3PH_REFVOLTAGE) / ADC3PH_RESOLUTION;
-	movh	d0,#14720
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   161  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   162      temp_M3_U=((float32)Adc3ph_Reg_M3_U * ADC3PH_REFVOLTAGE) / ADC3PH_RESOLUTION;
+	movh	d1,#16544
 	ld.hu	d15,Adc3ph_Reg_M3_U
 .L208:
-	movh	d1,#16544
+	ld.w	d0,.1.cnt
 .L209:
-	fcall	.cocofun_6
+	fcall	.cocofun_7
 .L210:
 
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   201      temp_M3_V=((float32)Adc3ph_Reg_M3_V * ADC3PH_REFVOLTAGE) / ADC3PH_RESOLUTION;   //UVW电压实际值
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   163      temp_M3_V=((float32)Adc3ph_Reg_M3_V * ADC3PH_REFVOLTAGE) / ADC3PH_RESOLUTION;   //UVW电压实际值
 	ld.hu	d15,Adc3ph_Reg_M3_V
 .L211:
-	fcall	.cocofun_7
+	fcall	.cocofun_8
 .L212:
 
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   202      temp_M3_W=((float32)Adc3ph_Reg_M3_W * ADC3PH_REFVOLTAGE) / ADC3PH_RESOLUTION;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   164      temp_M3_W=((float32)Adc3ph_Reg_M3_W * ADC3PH_REFVOLTAGE) / ADC3PH_RESOLUTION;
 	ld.hu	d15,Adc3ph_Reg_M3_W
 .L213:
-	fcall	.cocofun_2
+	fcall	.cocofun_3
 .L158:
 
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   203  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   204      AI_DC_CH_3=((float32)DC1_Reg * ADC3PH_REFVOLTAGE) / ADC3PH_RESOLUTION;
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   205      AI_DC_CH_4=((float32)DC2_Reg * ADC3PH_REFVOLTAGE) / ADC3PH_RESOLUTION;
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   206      AI_DRV3_VRO=((float32)VRO_M3_Reg * ADC3PH_REFVOLTAGE) / ADC3PH_RESOLUTION;   //相电流采样参考电压实际值
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   165  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   166      AI_DC_CH_3=((float32)DC1_Reg * ADC3PH_REFVOLTAGE) / ADC3PH_RESOLUTION;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   167      AI_DC_CH_4=((float32)DC2_Reg * ADC3PH_REFVOLTAGE) / ADC3PH_RESOLUTION;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   168      AI_DRV3_VRO=((float32)VRO_M3_Reg * ADC3PH_REFVOLTAGE) / ADC3PH_RESOLUTION;   //相电流采样参考电压实际值
 	ld.hu	d15,VRO_M3_Reg
 .L214:
-	fcall	.cocofun_9
+	fcall	.cocofun_10
 .L159:
 
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   207  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   208  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   209  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   210  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   211  //	  Test_IrqTim1_3_Cnt++;
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   212  	  Hal_M3_GetStatus(MOTOT_M3, HAL_A);
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   169  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   170  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   171  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   172  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   173  //	  Test_IrqTim1_3_Cnt++;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   174  	  Hal_M3_GetStatus(MOTOT_M3, HAL_A);
 	mov	d4,#3
 	st.w	AI_DRV3_VRO,d15
 .L160:
@@ -370,41 +338,41 @@ Adc3ph_Current_M3_PhyCal:	.type	func
 	call	Hal_M3_GetStatus
 .L161:
 
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   213  //      Test_IrqTim1_4_Cnt++;
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   214  //      Hal_GetStatus(MOTOT_M1, HAL_B);
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   215  //  	  Test_IrqTim1_6_Cnt++;
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   216  //      Hal_GetStatus(MOTOT_M1, HAL_C);
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   217  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   218  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   219  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   220      DC_link_Vol=((float32)(AI_DC_CH_3+AI_DC_CH_4))*DC_FACTOR;           //母线电压实际值
-	fcall	.cocofun_3
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   175  //      Test_IrqTim1_4_Cnt++;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   176  //      Hal_GetStatus(MOTOT_M1, HAL_B);
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   177  //  	  Test_IrqTim1_6_Cnt++;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   178  //      Hal_GetStatus(MOTOT_M1, HAL_C);
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   179  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   180  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   181  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   182      DC_link_Vol=((float32)(AI_DC_CH_3+AI_DC_CH_4))*DC_FACTOR;           //母线电压实际值
+	fcall	.cocofun_4
 .L162:
 
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   221  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   222      Phase_Cur_A_M3_Value= -(temp_M3_U-AI_DRV3_VRO) * CUR_ADC_GAIN;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   183  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   184      Phase_Cur_A_M3_Value= -(temp_M3_U-AI_DRV3_VRO) * CUR_ADC_GAIN;
 	ld.w	d0,AI_DRV3_VRO
 .L215:
 	sub.f	d1,d8,d0
-	fcall	.cocofun_5
+	fcall	.cocofun_6
 .L163:
 	st.w	Phase_Cur_A_M3_Value,d1
 .L165:
 
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   223      Phase_Cur_B_M3_Value= -(temp_M3_V-AI_DRV3_VRO) * CUR_ADC_GAIN;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   185      Phase_Cur_B_M3_Value= -(temp_M3_V-AI_DRV3_VRO) * CUR_ADC_GAIN;
 	sub.f	d1,d9,d0
-	fcall	.cocofun_5
+	fcall	.cocofun_6
 .L216:
 	st.w	Phase_Cur_B_M3_Value,d1
 .L217:
 
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   224      Phase_Cur_C_M3_Value= -(temp_M3_W-AI_DRV3_VRO) * CUR_ADC_GAIN;
-	fcall	.cocofun_8
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   186      Phase_Cur_C_M3_Value= -(temp_M3_W-AI_DRV3_VRO) * CUR_ADC_GAIN;
+	fcall	.cocofun_9
 .L166:
 	st.w	Phase_Cur_C_M3_Value,d15
 .L167:
 
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   225  }
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   187  }
 	ret
 .L140:
 	
@@ -413,39 +381,39 @@ __Adc3ph_Current_M3_PhyCal_function_end:
 .L46:
 	; End of function
 	
-	.sdecl	'.text.Adc3ph_Core1_M34..cocofun_9',code,cluster('.cocofun_9')
-	.sect	'.text.Adc3ph_Core1_M34..cocofun_9'
-	.align	2
-; Function .cocofun_9
-.L11:
-.cocofun_9:	.type	func
-; Function body .cocofun_9, coco_iter:1
-	fcall	.cocofun_10
-.L156:
-	mul.f	d15,d15,d0
-	fret
-.L91:
-	; End of function
 	.sdecl	'.text.Adc3ph_Core1_M34..cocofun_10',code,cluster('.cocofun_10')
 	.sect	'.text.Adc3ph_Core1_M34..cocofun_10'
 	.align	2
 ; Function .cocofun_10
-.L13:
+.L11:
 .cocofun_10:	.type	func
-; Function body .cocofun_10, coco_iter:2
+; Function body .cocofun_10, coco_iter:1
+	fcall	.cocofun_11
+.L156:
+	div.f	d15,d15,d0
+	fret
+.L91:
+	; End of function
+	.sdecl	'.text.Adc3ph_Core1_M34..cocofun_11',code,cluster('.cocofun_11')
+	.sect	'.text.Adc3ph_Core1_M34..cocofun_11'
+	.align	2
+; Function .cocofun_11
+.L13:
+.cocofun_11:	.type	func
+; Function body .cocofun_11, coco_iter:2
 	utof	d15,d15
 .L289:
 	mul.f	d15,d15,d1
 	fret
 .L96:
 	; End of function
-	.sdecl	'.text.Adc3ph_Core1_M34..cocofun_8',code,cluster('.cocofun_8')
-	.sect	'.text.Adc3ph_Core1_M34..cocofun_8'
+	.sdecl	'.text.Adc3ph_Core1_M34..cocofun_9',code,cluster('.cocofun_9')
+	.sect	'.text.Adc3ph_Core1_M34..cocofun_9'
 	.align	2
-; Function .cocofun_8
+; Function .cocofun_9
 .L15:
-.cocofun_8:	.type	func
-; Function body .cocofun_8, coco_iter:0
+.cocofun_9:	.type	func
+; Function body .cocofun_9, coco_iter:0
 	sub.f	d0,d10,d0
 .L279:
 	insn.t	d0,d0:31,d0:31
@@ -454,52 +422,52 @@ __Adc3ph_Current_M3_PhyCal_function_end:
 	fret
 .L86:
 	; End of function
+	.sdecl	'.text.Adc3ph_Core1_M34..cocofun_8',code,cluster('.cocofun_8')
+	.sect	'.text.Adc3ph_Core1_M34..cocofun_8'
+	.align	2
+; Function .cocofun_8
+.L17:
+.cocofun_8:	.type	func
+; Function body .cocofun_8, coco_iter:0
+	fcall	.cocofun_11
+.L153:
+	div.f	d9,d15,d0
+	fret
+.L81:
+	; End of function
 	.sdecl	'.text.Adc3ph_Core1_M34..cocofun_7',code,cluster('.cocofun_7')
 	.sect	'.text.Adc3ph_Core1_M34..cocofun_7'
 	.align	2
 ; Function .cocofun_7
-.L17:
+.L19:
 .cocofun_7:	.type	func
 ; Function body .cocofun_7, coco_iter:0
-	fcall	.cocofun_10
-.L153:
-	mul.f	d9,d15,d0
+	fcall	.cocofun_11
+.L152:
+	div.f	d8,d15,d0
 	fret
-.L81:
+.L76:
 	; End of function
 	.sdecl	'.text.Adc3ph_Core1_M34..cocofun_6',code,cluster('.cocofun_6')
 	.sect	'.text.Adc3ph_Core1_M34..cocofun_6'
 	.align	2
 ; Function .cocofun_6
-.L19:
+.L21:
 .cocofun_6:	.type	func
 ; Function body .cocofun_6, coco_iter:0
-	fcall	.cocofun_10
-.L152:
-	mul.f	d8,d15,d0
-	fret
-.L76:
-	; End of function
-	.sdecl	'.text.Adc3ph_Core1_M34..cocofun_5',code,cluster('.cocofun_5')
-	.sect	'.text.Adc3ph_Core1_M34..cocofun_5'
-	.align	2
-; Function .cocofun_5
-.L21:
-.cocofun_5:	.type	func
-; Function body .cocofun_5, coco_iter:0
 	insn.t	d1,d1:31,d1:31
 .L164:
 	mul.f	d1,d1,d15
 	fret
 .L71:
 	; End of function
-	.sdecl	'.text.Adc3ph_Core1_M34..cocofun_3',code,cluster('.cocofun_3')
-	.sect	'.text.Adc3ph_Core1_M34..cocofun_3'
+	.sdecl	'.text.Adc3ph_Core1_M34..cocofun_4',code,cluster('.cocofun_4')
+	.sect	'.text.Adc3ph_Core1_M34..cocofun_4'
 	.align	2
-; Function .cocofun_3
+; Function .cocofun_4
 .L23:
-.cocofun_3:	.type	func
-; Function body .cocofun_3, coco_iter:0
+.cocofun_4:	.type	func
+; Function body .cocofun_4, coco_iter:0
 	ld.w	d15,AI_DC_CH_3
 .L249:
 	ld.w	d0,AI_DC_CH_4
@@ -511,30 +479,30 @@ __Adc3ph_Current_M3_PhyCal_function_end:
 	mul.f	d15,d15,d0
 	st.w	DC_link_Vol,d15
 .L253:
-	ld.w	d15,.1.cnt
+	ld.w	d15,.2.cnt
 .L254:
 	fret
 .L61:
 	; End of function
-	.sdecl	'.text.Adc3ph_Core1_M34..cocofun_2',code,cluster('.cocofun_2')
-	.sect	'.text.Adc3ph_Core1_M34..cocofun_2'
+	.sdecl	'.text.Adc3ph_Core1_M34..cocofun_3',code,cluster('.cocofun_3')
+	.sect	'.text.Adc3ph_Core1_M34..cocofun_3'
 	.align	2
-; Function .cocofun_2
+; Function .cocofun_3
 .L25:
-.cocofun_2:	.type	func
-; Function body .cocofun_2, coco_iter:0
-	fcall	.cocofun_10
+.cocofun_3:	.type	func
+; Function body .cocofun_3, coco_iter:0
+	fcall	.cocofun_11
 .L154:
-	mul.f	d10,d15,d0
+	div.f	d10,d15,d0
 	ld.hu	d15,DC1_Reg
 .L155:
-	fcall	.cocofun_9
+	fcall	.cocofun_10
 .L157:
 	st.w	AI_DC_CH_3,d15
 .L241:
 	ld.hu	d15,DC2_Reg
 .L242:
-	fcall	.cocofun_9
+	fcall	.cocofun_10
 .L243:
 	st.w	AI_DC_CH_4,d15
 .L244:
@@ -547,58 +515,58 @@ __Adc3ph_Current_M3_PhyCal_function_end:
 	
 	.global	Adc3ph_Current_M4_PhyCal
 
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   226  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   227  void Adc3ph_Current_M4_PhyCal(void)
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   188  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   189  void Adc3ph_Current_M4_PhyCal(void)
 ; Function Adc3ph_Current_M4_PhyCal
 .L27:
 Adc3ph_Current_M4_PhyCal:	.type	func
 
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   228  {
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   229      float32 temp_M4_U;
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   230      float32 temp_M4_V;
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   231      float32 temp_M4_W;
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   232  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   233      Adc3ph_M4_GetResult();
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   190  {
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   191      float32 temp_M4_U;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   192      float32 temp_M4_V;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   193      float32 temp_M4_W;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   194  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   195      Adc3ph_M4_GetResult();
 	call	Adc3ph_M4_GetResult
 .L222:
 
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   234  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   235      temp_M4_U=((float32)Adc3ph_Reg_M4_U * ADC3PH_REFVOLTAGE) / ADC3PH_RESOLUTION;
-	movh	d0,#14720
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   196  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   197      temp_M4_U=((float32)Adc3ph_Reg_M4_U * ADC3PH_REFVOLTAGE) / ADC3PH_RESOLUTION;
+	movh	d1,#16544
 	ld.hu	d15,Adc3ph_Reg_M4_U
 .L223:
-	movh	d1,#16544
+	ld.w	d0,.1.cnt
 .L224:
-	fcall	.cocofun_6
+	fcall	.cocofun_7
 .L168:
 
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   236      temp_M4_V=((float32)Adc3ph_Reg_M4_V * ADC3PH_REFVOLTAGE) / ADC3PH_RESOLUTION;   //UVW电压实际值
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   198      temp_M4_V=((float32)Adc3ph_Reg_M4_V * ADC3PH_REFVOLTAGE) / ADC3PH_RESOLUTION;   //UVW电压实际值
 	ld.hu	d15,Adc3ph_Reg_M4_V
 .L225:
-	fcall	.cocofun_7
+	fcall	.cocofun_8
 .L170:
 
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   237      temp_M4_W=((float32)Adc3ph_Reg_M4_W * ADC3PH_REFVOLTAGE) / ADC3PH_RESOLUTION;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   199      temp_M4_W=((float32)Adc3ph_Reg_M4_W * ADC3PH_REFVOLTAGE) / ADC3PH_RESOLUTION;
 	ld.hu	d15,Adc3ph_Reg_M4_W
 .L226:
-	fcall	.cocofun_2
+	fcall	.cocofun_3
 .L171:
 
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   238  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   239      AI_DC_CH_3=((float32)DC1_Reg * ADC3PH_REFVOLTAGE) / ADC3PH_RESOLUTION;
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   240      AI_DC_CH_4=((float32)DC2_Reg * ADC3PH_REFVOLTAGE) / ADC3PH_RESOLUTION;
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   241      AI_DRV4_VRO=((float32)VRO_M4_Reg * ADC3PH_REFVOLTAGE) / ADC3PH_RESOLUTION;   //相电流采样参考电压实际值
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   200  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   201      AI_DC_CH_3=((float32)DC1_Reg * ADC3PH_REFVOLTAGE) / ADC3PH_RESOLUTION;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   202      AI_DC_CH_4=((float32)DC2_Reg * ADC3PH_REFVOLTAGE) / ADC3PH_RESOLUTION;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   203      AI_DRV4_VRO=((float32)VRO_M4_Reg * ADC3PH_REFVOLTAGE) / ADC3PH_RESOLUTION;   //相电流采样参考电压实际值
 	ld.hu	d15,VRO_M4_Reg
 .L227:
-	fcall	.cocofun_9
+	fcall	.cocofun_10
 .L228:
 
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   242  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   243  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   244  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   245  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   246  //	  Test_IrqTim1_3_Cnt++;
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   247  	  Hal_M4_GetStatus(MOTOT_M4, HAL_A);
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   204  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   205  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   206  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   207  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   208  //	  Test_IrqTim1_3_Cnt++;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   209  	  Hal_M4_GetStatus(MOTOT_M4, HAL_A);
 	mov	d4,#4
 	st.w	AI_DRV4_VRO,d15
 .L229:
@@ -606,41 +574,41 @@ Adc3ph_Current_M4_PhyCal:	.type	func
 	call	Hal_M4_GetStatus
 .L169:
 
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   248  //      Test_IrqTim1_4_Cnt++;
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   249  //      Hal_GetStatus(MOTOT_M1, HAL_B);
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   250  //  	  Test_IrqTim1_6_Cnt++;
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   251  //      Hal_GetStatus(MOTOT_M1, HAL_C);
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   252  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   253  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   254  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   255      DC_link_Vol =((float32)(AI_DC_CH_3+AI_DC_CH_4))*DC_FACTOR;           //母线电压实际值
-	fcall	.cocofun_3
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   210  //      Test_IrqTim1_4_Cnt++;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   211  //      Hal_GetStatus(MOTOT_M1, HAL_B);
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   212  //  	  Test_IrqTim1_6_Cnt++;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   213  //      Hal_GetStatus(MOTOT_M1, HAL_C);
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   214  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   215  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   216  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   217      DC_link_Vol =((float32)(AI_DC_CH_3+AI_DC_CH_4))*DC_FACTOR;           //母线电压实际值
+	fcall	.cocofun_4
 .L172:
 
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   256  
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   257      Phase_Cur_A_M4_Value= -(temp_M4_U-AI_DRV4_VRO) * CUR_ADC_GAIN;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   218  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   219      Phase_Cur_A_M4_Value= -(temp_M4_U-AI_DRV4_VRO) * CUR_ADC_GAIN;
 	ld.w	d0,AI_DRV4_VRO
 .L230:
 	sub.f	d1,d8,d0
-	fcall	.cocofun_5
+	fcall	.cocofun_6
 .L231:
 	st.w	Phase_Cur_A_M4_Value,d1
 .L232:
 
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   258      Phase_Cur_B_M4_Value= -(temp_M4_V-AI_DRV4_VRO) * CUR_ADC_GAIN;
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   220      Phase_Cur_B_M4_Value= -(temp_M4_V-AI_DRV4_VRO) * CUR_ADC_GAIN;
 	sub.f	d1,d9,d0
-	fcall	.cocofun_5
+	fcall	.cocofun_6
 .L233:
 	st.w	Phase_Cur_B_M4_Value,d1
 .L234:
 
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   259      Phase_Cur_C_M4_Value= -(temp_M4_W-AI_DRV4_VRO) * CUR_ADC_GAIN;
-	fcall	.cocofun_8
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   221      Phase_Cur_C_M4_Value= -(temp_M4_W-AI_DRV4_VRO) * CUR_ADC_GAIN;
+	fcall	.cocofun_9
 .L235:
 	st.w	Phase_Cur_C_M4_Value,d15
 .L236:
 
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   260  }
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   222  }
 	ret
 .L146:
 	
@@ -793,39 +761,39 @@ DC1_Buffer_M4:	.type	object
 	.calls	'Adc3ph_Current_M3_PhyCal','Hal_M3_GetStatus'
 	.calls	'Adc3ph_Current_M4_PhyCal','Adc3ph_M4_GetResult'
 	.calls	'Adc3ph_Current_M4_PhyCal','Hal_M4_GetStatus'
-	.calls	'Adc3ph_M3_GetResult','.cocofun_4'
-	.calls	'Adc3ph_M4_GetResult','.cocofun_4'
-	.calls	'Adc3ph_Current_M3_PhyCal','.cocofun_6'
+	.calls	'Adc3ph_M3_GetResult','.cocofun_5'
+	.calls	'Adc3ph_M4_GetResult','.cocofun_5'
 	.calls	'Adc3ph_Current_M3_PhyCal','.cocofun_7'
-	.calls	'Adc3ph_Current_M3_PhyCal','.cocofun_2'
-	.calls	'Adc3ph_Current_M3_PhyCal','.cocofun_9'
-	.calls	'Adc3ph_Current_M3_PhyCal','.cocofun_3'
-	.calls	'Adc3ph_Current_M3_PhyCal','.cocofun_5'
 	.calls	'Adc3ph_Current_M3_PhyCal','.cocofun_8'
-	.calls	'.cocofun_9','.cocofun_10'
-	.calls	'.cocofun_7','.cocofun_10'
-	.calls	'.cocofun_6','.cocofun_10'
-	.calls	'.cocofun_2','.cocofun_10'
-	.calls	'.cocofun_2','.cocofun_9'
-	.calls	'Adc3ph_Current_M4_PhyCal','.cocofun_6'
+	.calls	'Adc3ph_Current_M3_PhyCal','.cocofun_3'
+	.calls	'Adc3ph_Current_M3_PhyCal','.cocofun_10'
+	.calls	'Adc3ph_Current_M3_PhyCal','.cocofun_4'
+	.calls	'Adc3ph_Current_M3_PhyCal','.cocofun_6'
+	.calls	'Adc3ph_Current_M3_PhyCal','.cocofun_9'
+	.calls	'.cocofun_10','.cocofun_11'
+	.calls	'.cocofun_8','.cocofun_11'
+	.calls	'.cocofun_7','.cocofun_11'
+	.calls	'.cocofun_3','.cocofun_11'
+	.calls	'.cocofun_3','.cocofun_10'
 	.calls	'Adc3ph_Current_M4_PhyCal','.cocofun_7'
-	.calls	'Adc3ph_Current_M4_PhyCal','.cocofun_2'
-	.calls	'Adc3ph_Current_M4_PhyCal','.cocofun_9'
-	.calls	'Adc3ph_Current_M4_PhyCal','.cocofun_3'
-	.calls	'Adc3ph_Current_M4_PhyCal','.cocofun_5'
 	.calls	'Adc3ph_Current_M4_PhyCal','.cocofun_8'
+	.calls	'Adc3ph_Current_M4_PhyCal','.cocofun_3'
+	.calls	'Adc3ph_Current_M4_PhyCal','.cocofun_10'
+	.calls	'Adc3ph_Current_M4_PhyCal','.cocofun_4'
+	.calls	'Adc3ph_Current_M4_PhyCal','.cocofun_6'
+	.calls	'Adc3ph_Current_M4_PhyCal','.cocofun_9'
 	.calls	'Adc3ph_M3_GetResult','',0
-	.calls	'.cocofun_4','',0
+	.calls	'.cocofun_5','',0
 	.calls	'Adc3ph_M4_GetResult','',0
 	.calls	'Adc3ph_Current_M3_PhyCal','',0
-	.calls	'.cocofun_9','',0
 	.calls	'.cocofun_10','',0
+	.calls	'.cocofun_11','',0
+	.calls	'.cocofun_9','',0
 	.calls	'.cocofun_8','',0
 	.calls	'.cocofun_7','',0
 	.calls	'.cocofun_6','',0
-	.calls	'.cocofun_5','',0
+	.calls	'.cocofun_4','',0
 	.calls	'.cocofun_3','',0
-	.calls	'.cocofun_2','',0
 	.extern	Hal_M3_GetStatus
 	.extern	Hal_M4_GetStatus
 	.extern	DC_link_Vol
@@ -24865,7 +24833,7 @@ DC1_Buffer_M4:	.type	object
 	.byte	2
 	.word	.L28
 	.byte	3
-	.byte	'Adc3ph_M3_GetResult',0,1,171,1,6,1,1,1
+	.byte	'Adc3ph_M3_GetResult',0,1,133,1,6,1,1,1
 	.word	.L3,.L137,.L2
 	.byte	4
 	.word	.L138
@@ -24888,7 +24856,7 @@ DC1_Buffer_M4:	.type	object
 .L180:
 	.byte	5,43,7,0,5,2
 	.word	.L3
-	.byte	3,172,1,1,5,17,9
+	.byte	3,134,1,1,5,17,9
 	.half	.L181-.L3
 	.byte	1,5,43,9
 	.half	.L182-.L181
@@ -24931,7 +24899,7 @@ DC1_Buffer_M4:	.type	object
 	.byte	2
 	.word	.L28
 	.byte	3
-	.byte	'Adc3ph_M4_GetResult',0,1,180,1,6,1,1,1
+	.byte	'Adc3ph_M4_GetResult',0,1,142,1,6,1,1,1
 	.word	.L7,.L139,.L6
 	.byte	4
 	.word	.L7,.L139
@@ -24954,7 +24922,7 @@ DC1_Buffer_M4:	.type	object
 .L193:
 	.byte	5,43,7,0,5,2
 	.word	.L7
-	.byte	3,181,1,1,5,17,9
+	.byte	3,143,1,1,5,17,9
 	.half	.L194-.L7
 	.byte	1,5,43,9
 	.half	.L195-.L194
@@ -24995,18 +24963,18 @@ DC1_Buffer_M4:	.type	object
 	.byte	2
 	.word	.L28
 	.byte	3
-	.byte	'Adc3ph_Current_M3_PhyCal',0,1,192,1,6,1,1,1
+	.byte	'Adc3ph_Current_M3_PhyCal',0,1,154,1,6,1,1,1
 	.word	.L9,.L140,.L8
 	.byte	4
 	.word	.L141
 	.byte	5
-	.byte	'temp_M3_U',0,1,194,1,13
+	.byte	'temp_M3_U',0,1,156,1,13
 	.word	.L142,.L143
 	.byte	5
-	.byte	'temp_M3_V',0,1,195,1,13
+	.byte	'temp_M3_V',0,1,157,1,13
 	.word	.L142,.L144
 	.byte	5
-	.byte	'temp_M3_W',0,1,196,1,13
+	.byte	'temp_M3_W',0,1,158,1,13
 	.word	.L142,.L145
 	.byte	0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Adc3ph_Current_M3_PhyCal')
@@ -25027,9 +24995,9 @@ DC1_Buffer_M4:	.type	object
 .L206:
 	.byte	5,24,7,0,5,2
 	.word	.L9
-	.byte	3,197,1,1,5,64,9
+	.byte	3,159,1,1,5,43,9
 	.half	.L207-.L9
-	.byte	3,2,1,5,25,1,5,43,9
+	.byte	3,2,1,5,25,1,5,64,9
 	.half	.L208-.L207
 	.byte	1,5,16,9
 	.half	.L209-.L208
@@ -25093,18 +25061,18 @@ DC1_Buffer_M4:	.type	object
 	.byte	2
 	.word	.L28
 	.byte	3
-	.byte	'Adc3ph_Current_M4_PhyCal',0,1,227,1,6,1,1,1
+	.byte	'Adc3ph_Current_M4_PhyCal',0,1,189,1,6,1,1,1
 	.word	.L27,.L146,.L26
 	.byte	4
 	.word	.L27,.L146
 	.byte	5
-	.byte	'temp_M4_U',0,1,229,1,13
+	.byte	'temp_M4_U',0,1,191,1,13
 	.word	.L142,.L147
 	.byte	5
-	.byte	'temp_M4_V',0,1,230,1,13
+	.byte	'temp_M4_V',0,1,192,1,13
 	.word	.L142,.L148
 	.byte	5
-	.byte	'temp_M4_W',0,1,231,1,13
+	.byte	'temp_M4_W',0,1,193,1,13
 	.word	.L142,.L149
 	.byte	0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Adc3ph_Current_M4_PhyCal')
@@ -25125,9 +25093,9 @@ DC1_Buffer_M4:	.type	object
 .L221:
 	.byte	5,24,7,0,5,2
 	.word	.L27
-	.byte	3,232,1,1,5,64,9
+	.byte	3,194,1,1,5,43,9
 	.half	.L222-.L27
-	.byte	3,2,1,5,25,1,5,43,9
+	.byte	3,2,1,5,25,1,5,64,9
 	.half	.L223-.L222
 	.byte	1,5,16,9
 	.half	.L224-.L223
@@ -25173,7 +25141,7 @@ DC1_Buffer_M4:	.type	object
 	.sect	'.debug_ranges'
 .L50:
 	.word	-1,.L27,0,.L51-.L27,0,0
-	.sdecl	'.debug_info',debug,cluster('.cocofun_2')
+	.sdecl	'.debug_info',debug,cluster('.cocofun_3')
 	.sect	'.debug_info'
 .L52:
 	.word	228
@@ -25188,15 +25156,15 @@ DC1_Buffer_M4:	.type	object
 	.byte	2
 	.word	.L28
 	.byte	3
-	.byte	'.cocofun_2',0,1,192,1,6,1
+	.byte	'.cocofun_3',0,1,154,1,6,1
 	.word	.L25,.L56,.L24
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('.cocofun_2')
+	.sdecl	'.debug_abbrev',debug,cluster('.cocofun_3')
 	.sect	'.debug_abbrev'
 .L53:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,0,3,8,58,15,59,15,57,15,54,15
 	.byte	17,1,18,1,64,6,0,0,0
-	.sdecl	'.debug_line',debug,cluster('.cocofun_2')
+	.sdecl	'.debug_line',debug,cluster('.cocofun_3')
 	.sect	'.debug_line'
 .L54:
 	.word	.L238-.L237
@@ -25209,7 +25177,7 @@ DC1_Buffer_M4:	.type	object
 .L240:
 	.byte	5,16,7,0,5,2
 	.word	.L25
-	.byte	3,201,1,1,5,41,9
+	.byte	3,163,1,1,5,62,9
 	.half	.L154-.L25
 	.byte	1,5,26,3,2,1,5,17,9
 	.half	.L155-.L154
@@ -25225,7 +25193,7 @@ DC1_Buffer_M4:	.type	object
 	.half	.L56-.L243
 	.byte	0,1,1,5,16,0,5,2
 	.word	.L25
-	.byte	3,201,1,1,5,41,9
+	.byte	3,163,1,1,5,62,9
 	.half	.L154-.L25
 	.byte	3,35,1,5,26,3,2,1,5,17,9
 	.half	.L155-.L154
@@ -25243,11 +25211,11 @@ DC1_Buffer_M4:	.type	object
 	.half	.L56-.L244
 	.byte	0,1,1
 .L238:
-	.sdecl	'.debug_ranges',debug,cluster('.cocofun_2')
+	.sdecl	'.debug_ranges',debug,cluster('.cocofun_3')
 	.sect	'.debug_ranges'
 .L55:
 	.word	-1,.L25,0,.L56-.L25,0,0
-	.sdecl	'.debug_info',debug,cluster('.cocofun_3')
+	.sdecl	'.debug_info',debug,cluster('.cocofun_4')
 	.sect	'.debug_info'
 .L57:
 	.word	228
@@ -25262,15 +25230,15 @@ DC1_Buffer_M4:	.type	object
 	.byte	2
 	.word	.L28
 	.byte	3
-	.byte	'.cocofun_3',0,1,192,1,6,1
+	.byte	'.cocofun_4',0,1,154,1,6,1
 	.word	.L23,.L61,.L22
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('.cocofun_3')
+	.sdecl	'.debug_abbrev',debug,cluster('.cocofun_4')
 	.sect	'.debug_abbrev'
 .L58:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,0,3,8,58,15,59,15,57,15,54,15
 	.byte	17,1,18,1,64,6,0,0,0
-	.sdecl	'.debug_line',debug,cluster('.cocofun_3')
+	.sdecl	'.debug_line',debug,cluster('.cocofun_4')
 	.sect	'.debug_line'
 .L59:
 	.word	.L246-.L245
@@ -25283,7 +25251,7 @@ DC1_Buffer_M4:	.type	object
 .L248:
 	.byte	5,28,7,0,5,2
 	.word	.L23
-	.byte	3,219,1,1,5,39,9
+	.byte	3,181,1,1,5,39,9
 	.half	.L249-.L23
 	.byte	1,5,38,9
 	.half	.L250-.L249
@@ -25297,7 +25265,7 @@ DC1_Buffer_M4:	.type	object
 	.half	.L61-.L253
 	.byte	0,1,1,5,29,0,5,2
 	.word	.L23
-	.byte	3,254,1,1,5,40,9
+	.byte	3,216,1,1,5,40,9
 	.half	.L249-.L23
 	.byte	1,5,39,9
 	.half	.L250-.L249
@@ -25313,11 +25281,11 @@ DC1_Buffer_M4:	.type	object
 	.half	.L61-.L254
 	.byte	0,1,1
 .L246:
-	.sdecl	'.debug_ranges',debug,cluster('.cocofun_3')
+	.sdecl	'.debug_ranges',debug,cluster('.cocofun_4')
 	.sect	'.debug_ranges'
 .L60:
 	.word	-1,.L23,0,.L61-.L23,0,0
-	.sdecl	'.debug_info',debug,cluster('.cocofun_4')
+	.sdecl	'.debug_info',debug,cluster('.cocofun_5')
 	.sect	'.debug_info'
 .L62:
 	.word	228
@@ -25332,15 +25300,15 @@ DC1_Buffer_M4:	.type	object
 	.byte	2
 	.word	.L28
 	.byte	3
-	.byte	'.cocofun_4',0,1,171,1,6,1
+	.byte	'.cocofun_5',0,1,133,1,6,1
 	.word	.L5,.L66,.L4
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('.cocofun_4')
+	.sdecl	'.debug_abbrev',debug,cluster('.cocofun_5')
 	.sect	'.debug_abbrev'
 .L63:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,0,3,8,58,15,59,15,57,15,54,15
 	.byte	17,1,18,1,64,6,0,0,0
-	.sdecl	'.debug_line',debug,cluster('.cocofun_4')
+	.sdecl	'.debug_line',debug,cluster('.cocofun_5')
 	.sect	'.debug_line'
 .L64:
 	.word	.L256-.L255
@@ -25353,7 +25321,7 @@ DC1_Buffer_M4:	.type	object
 .L258:
 	.byte	5,35,7,0,5,2
 	.word	.L5
-	.byte	3,176,1,1,5,9,9
+	.byte	3,138,1,1,5,9,9
 	.half	.L259-.L5
 	.byte	1,5,35,9
 	.half	.L260-.L259
@@ -25363,7 +25331,7 @@ DC1_Buffer_M4:	.type	object
 	.half	.L66-.L261
 	.byte	0,1,1,5,35,0,5,2
 	.word	.L5
-	.byte	3,185,1,1,5,9,9
+	.byte	3,147,1,1,5,9,9
 	.half	.L259-.L5
 	.byte	1,5,35,9
 	.half	.L260-.L259
@@ -25375,11 +25343,11 @@ DC1_Buffer_M4:	.type	object
 	.half	.L66-.L262
 	.byte	0,1,1
 .L256:
-	.sdecl	'.debug_ranges',debug,cluster('.cocofun_4')
+	.sdecl	'.debug_ranges',debug,cluster('.cocofun_5')
 	.sect	'.debug_ranges'
 .L65:
 	.word	-1,.L5,0,.L66-.L5,0,0
-	.sdecl	'.debug_info',debug,cluster('.cocofun_5')
+	.sdecl	'.debug_info',debug,cluster('.cocofun_6')
 	.sect	'.debug_info'
 .L67:
 	.word	228
@@ -25394,15 +25362,15 @@ DC1_Buffer_M4:	.type	object
 	.byte	2
 	.word	.L28
 	.byte	3
-	.byte	'.cocofun_5',0,1,192,1,6,1
+	.byte	'.cocofun_6',0,1,154,1,6,1
 	.word	.L21,.L71,.L20
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('.cocofun_5')
+	.sdecl	'.debug_abbrev',debug,cluster('.cocofun_6')
 	.sect	'.debug_abbrev'
 .L68:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,0,3,8,58,15,59,15,57,15,54,15
 	.byte	17,1,18,1,64,6,0,0,0
-	.sdecl	'.debug_line',debug,cluster('.cocofun_5')
+	.sdecl	'.debug_line',debug,cluster('.cocofun_6')
 	.sect	'.debug_line'
 .L69:
 	.word	.L264-.L263
@@ -25415,35 +25383,35 @@ DC1_Buffer_M4:	.type	object
 .L266:
 	.byte	5,27,7,0,5,2
 	.word	.L21
-	.byte	3,221,1,1,5,52,9
+	.byte	3,183,1,1,5,52,9
 	.half	.L164-.L21
 	.byte	1,9
 	.half	.L71-.L164
 	.byte	0,1,1,5,27,0,5,2
 	.word	.L21
-	.byte	3,222,1,1,5,52,9
+	.byte	3,184,1,1,5,52,9
 	.half	.L164-.L21
 	.byte	1,3,127,1,7,9
 	.half	.L71-.L164
 	.byte	0,1,1,5,27,0,5,2
 	.word	.L21
-	.byte	3,128,2,1,5,52,9
+	.byte	3,218,1,1,5,52,9
 	.half	.L164-.L21
 	.byte	1,3,93,1,7,9
 	.half	.L71-.L164
 	.byte	0,1,1,5,27,0,5,2
 	.word	.L21
-	.byte	3,129,2,1,5,52,9
+	.byte	3,219,1,1,5,52,9
 	.half	.L164-.L21
 	.byte	1,3,92,1,7,9
 	.half	.L71-.L164
 	.byte	0,1,1
 .L264:
-	.sdecl	'.debug_ranges',debug,cluster('.cocofun_5')
+	.sdecl	'.debug_ranges',debug,cluster('.cocofun_6')
 	.sect	'.debug_ranges'
 .L70:
 	.word	-1,.L21,0,.L71-.L21,0,0
-	.sdecl	'.debug_info',debug,cluster('.cocofun_6')
+	.sdecl	'.debug_info',debug,cluster('.cocofun_7')
 	.sect	'.debug_info'
 .L72:
 	.word	228
@@ -25458,15 +25426,15 @@ DC1_Buffer_M4:	.type	object
 	.byte	2
 	.word	.L28
 	.byte	3
-	.byte	'.cocofun_6',0,1,192,1,6,1
+	.byte	'.cocofun_7',0,1,154,1,6,1
 	.word	.L19,.L76,.L18
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('.cocofun_6')
+	.sdecl	'.debug_abbrev',debug,cluster('.cocofun_7')
 	.sect	'.debug_abbrev'
 .L73:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,0,3,8,58,15,59,15,57,15,54,15
 	.byte	17,1,18,1,64,6,0,0,0
-	.sdecl	'.debug_line',debug,cluster('.cocofun_6')
+	.sdecl	'.debug_line',debug,cluster('.cocofun_7')
 	.sect	'.debug_line'
 .L74:
 	.word	.L268-.L267
@@ -25479,23 +25447,23 @@ DC1_Buffer_M4:	.type	object
 .L270:
 	.byte	5,16,7,0,5,2
 	.word	.L19
-	.byte	3,199,1,1,5,41,9
+	.byte	3,161,1,1,5,62,9
 	.half	.L152-.L19
 	.byte	1,9
 	.half	.L76-.L152
 	.byte	0,1,1,5,16,0,5,2
 	.word	.L19
-	.byte	3,199,1,1,5,41,9
+	.byte	3,161,1,1,5,62,9
 	.half	.L152-.L19
 	.byte	3,35,1,3,93,1,7,9
 	.half	.L76-.L152
 	.byte	0,1,1
 .L268:
-	.sdecl	'.debug_ranges',debug,cluster('.cocofun_6')
+	.sdecl	'.debug_ranges',debug,cluster('.cocofun_7')
 	.sect	'.debug_ranges'
 .L75:
 	.word	-1,.L19,0,.L76-.L19,0,0
-	.sdecl	'.debug_info',debug,cluster('.cocofun_7')
+	.sdecl	'.debug_info',debug,cluster('.cocofun_8')
 	.sect	'.debug_info'
 .L77:
 	.word	228
@@ -25510,15 +25478,15 @@ DC1_Buffer_M4:	.type	object
 	.byte	2
 	.word	.L28
 	.byte	3
-	.byte	'.cocofun_7',0,1,192,1,6,1
+	.byte	'.cocofun_8',0,1,154,1,6,1
 	.word	.L17,.L81,.L16
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('.cocofun_7')
+	.sdecl	'.debug_abbrev',debug,cluster('.cocofun_8')
 	.sect	'.debug_abbrev'
 .L78:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,0,3,8,58,15,59,15,57,15,54,15
 	.byte	17,1,18,1,64,6,0,0,0
-	.sdecl	'.debug_line',debug,cluster('.cocofun_7')
+	.sdecl	'.debug_line',debug,cluster('.cocofun_8')
 	.sect	'.debug_line'
 .L79:
 	.word	.L272-.L271
@@ -25531,23 +25499,23 @@ DC1_Buffer_M4:	.type	object
 .L274:
 	.byte	5,16,7,0,5,2
 	.word	.L17
-	.byte	3,200,1,1,5,41,9
+	.byte	3,162,1,1,5,62,9
 	.half	.L153-.L17
 	.byte	1,9
 	.half	.L81-.L153
 	.byte	0,1,1,5,16,0,5,2
 	.word	.L17
-	.byte	3,200,1,1,5,41,9
+	.byte	3,162,1,1,5,62,9
 	.half	.L153-.L17
 	.byte	3,35,1,3,93,1,7,9
 	.half	.L81-.L153
 	.byte	0,1,1
 .L272:
-	.sdecl	'.debug_ranges',debug,cluster('.cocofun_7')
+	.sdecl	'.debug_ranges',debug,cluster('.cocofun_8')
 	.sect	'.debug_ranges'
 .L80:
 	.word	-1,.L17,0,.L81-.L17,0,0
-	.sdecl	'.debug_info',debug,cluster('.cocofun_8')
+	.sdecl	'.debug_info',debug,cluster('.cocofun_9')
 	.sect	'.debug_info'
 .L82:
 	.word	228
@@ -25562,15 +25530,15 @@ DC1_Buffer_M4:	.type	object
 	.byte	2
 	.word	.L28
 	.byte	3
-	.byte	'.cocofun_8',0,1,192,1,6,1
+	.byte	'.cocofun_9',0,1,154,1,6,1
 	.word	.L15,.L86,.L14
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('.cocofun_8')
+	.sdecl	'.debug_abbrev',debug,cluster('.cocofun_9')
 	.sect	'.debug_abbrev'
 .L83:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,0,3,8,58,15,59,15,57,15,54,15
 	.byte	17,1,18,1,64,6,0,0,0
-	.sdecl	'.debug_line',debug,cluster('.cocofun_8')
+	.sdecl	'.debug_line',debug,cluster('.cocofun_9')
 	.sect	'.debug_line'
 .L84:
 	.word	.L276-.L275
@@ -25583,7 +25551,7 @@ DC1_Buffer_M4:	.type	object
 .L278:
 	.byte	5,38,7,0,5,2
 	.word	.L15
-	.byte	3,223,1,1,5,27,9
+	.byte	3,185,1,1,5,27,9
 	.half	.L279-.L15
 	.byte	1,5,52,9
 	.half	.L280-.L279
@@ -25591,7 +25559,7 @@ DC1_Buffer_M4:	.type	object
 	.half	.L86-.L280
 	.byte	0,1,1,5,38,0,5,2
 	.word	.L15
-	.byte	3,130,2,1,5,27,9
+	.byte	3,220,1,1,5,27,9
 	.half	.L279-.L15
 	.byte	1,5,52,9
 	.half	.L280-.L279
@@ -25599,14 +25567,14 @@ DC1_Buffer_M4:	.type	object
 	.half	.L86-.L280
 	.byte	0,1,1
 .L276:
-	.sdecl	'.debug_ranges',debug,cluster('.cocofun_8')
+	.sdecl	'.debug_ranges',debug,cluster('.cocofun_9')
 	.sect	'.debug_ranges'
 .L85:
 	.word	-1,.L15,0,.L86-.L15,0,0
-	.sdecl	'.debug_info',debug,cluster('.cocofun_9')
+	.sdecl	'.debug_info',debug,cluster('.cocofun_10')
 	.sect	'.debug_info'
 .L87:
-	.word	228
+	.word	229
 	.half	3
 	.word	.L88
 	.byte	4,1
@@ -25618,15 +25586,15 @@ DC1_Buffer_M4:	.type	object
 	.byte	2
 	.word	.L28
 	.byte	3
-	.byte	'.cocofun_9',0,1,192,1,6,1
+	.byte	'.cocofun_10',0,1,154,1,6,1
 	.word	.L11,.L91,.L10
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('.cocofun_9')
+	.sdecl	'.debug_abbrev',debug,cluster('.cocofun_10')
 	.sect	'.debug_abbrev'
 .L88:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,0,3,8,58,15,59,15,57,15,54,15
 	.byte	17,1,18,1,64,6,0,0,0
-	.sdecl	'.debug_line',debug,cluster('.cocofun_9')
+	.sdecl	'.debug_line',debug,cluster('.cocofun_10')
 	.sect	'.debug_line'
 .L89:
 	.word	.L282-.L281
@@ -25639,47 +25607,47 @@ DC1_Buffer_M4:	.type	object
 .L284:
 	.byte	5,18,7,0,5,2
 	.word	.L11
-	.byte	3,205,1,1,5,38,9
+	.byte	3,167,1,1,5,59,9
 	.half	.L156-.L11
 	.byte	1,9
 	.half	.L91-.L156
 	.byte	0,1,1,5,18,0,5,2
 	.word	.L11
-	.byte	3,205,1,1,5,34,9
+	.byte	3,167,1,1,5,55,9
 	.half	.L156-.L11
-	.byte	3,126,1,5,38,3,2,1,7,9
+	.byte	3,126,1,5,59,3,2,1,7,9
 	.half	.L91-.L156
 	.byte	0,1,1,5,18,0,5,2
 	.word	.L11
-	.byte	3,205,1,1,5,34,9
+	.byte	3,167,1,1,5,55,9
 	.half	.L156-.L11
-	.byte	3,33,1,5,38,3,95,1,7,9
+	.byte	3,33,1,5,59,3,95,1,7,9
 	.half	.L91-.L156
 	.byte	0,1,1,5,18,0,5,2
 	.word	.L11
-	.byte	3,205,1,1,5,34,9
+	.byte	3,167,1,1,5,55,9
 	.half	.L156-.L11
-	.byte	3,127,1,5,38,3,1,1,7,9
+	.byte	3,127,1,5,59,3,1,1,7,9
 	.half	.L91-.L156
 	.byte	0,1,1,5,18,0,5,2
 	.word	.L11
-	.byte	3,205,1,1,5,34,9
+	.byte	3,167,1,1,5,55,9
 	.half	.L156-.L11
-	.byte	3,34,1,5,38,3,94,1,7,9
+	.byte	3,34,1,5,59,3,94,1,7,9
 	.half	.L91-.L156
 	.byte	0,1,1,5,18,0,5,2
 	.word	.L11
-	.byte	3,205,1,1,5,38,9
+	.byte	3,167,1,1,5,59,9
 	.half	.L156-.L11
 	.byte	3,35,1,3,93,1,7,9
 	.half	.L91-.L156
 	.byte	0,1,1
 .L282:
-	.sdecl	'.debug_ranges',debug,cluster('.cocofun_9')
+	.sdecl	'.debug_ranges',debug,cluster('.cocofun_10')
 	.sect	'.debug_ranges'
 .L90:
 	.word	-1,.L11,0,.L91-.L11,0,0
-	.sdecl	'.debug_info',debug,cluster('.cocofun_10')
+	.sdecl	'.debug_info',debug,cluster('.cocofun_11')
 	.sect	'.debug_info'
 .L92:
 	.word	229
@@ -25694,15 +25662,15 @@ DC1_Buffer_M4:	.type	object
 	.byte	2
 	.word	.L28
 	.byte	3
-	.byte	'.cocofun_10',0,1,192,1,6,1
+	.byte	'.cocofun_11',0,1,154,1,6,1
 	.word	.L13,.L96,.L12
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('.cocofun_10')
+	.sdecl	'.debug_abbrev',debug,cluster('.cocofun_11')
 	.sect	'.debug_abbrev'
 .L93:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,0,3,8,58,15,59,15,57,15,54,15
 	.byte	17,1,18,1,64,6,0,0,0
-	.sdecl	'.debug_line',debug,cluster('.cocofun_10')
+	.sdecl	'.debug_line',debug,cluster('.cocofun_11')
 	.sect	'.debug_line'
 .L94:
 	.word	.L286-.L285
@@ -25715,79 +25683,79 @@ DC1_Buffer_M4:	.type	object
 .L288:
 	.byte	5,18,7,0,5,2
 	.word	.L13
-	.byte	3,205,1,1,5,38,9
+	.byte	3,167,1,1,5,38,9
 	.half	.L289-.L13
 	.byte	1,9
 	.half	.L96-.L289
 	.byte	0,1,1,5,17,0,5,2
 	.word	.L13
-	.byte	3,203,1,1,5,34,9
+	.byte	3,165,1,1,5,34,9
 	.half	.L289-.L13
 	.byte	1,5,38,3,2,1,7,9
 	.half	.L96-.L289
 	.byte	0,1,1,5,17,0,5,2
 	.word	.L13
-	.byte	3,238,1,1,5,34,9
+	.byte	3,200,1,1,5,34,9
 	.half	.L289-.L13
 	.byte	1,5,38,3,95,1,7,9
 	.half	.L96-.L289
 	.byte	0,1,1,5,17,0,5,2
 	.word	.L13
-	.byte	3,204,1,1,5,34,9
+	.byte	3,166,1,1,5,34,9
 	.half	.L289-.L13
 	.byte	1,5,38,3,1,1,7,9
 	.half	.L96-.L289
 	.byte	0,1,1,5,17,0,5,2
 	.word	.L13
-	.byte	3,239,1,1,5,34,9
+	.byte	3,201,1,1,5,34,9
 	.half	.L289-.L13
 	.byte	1,5,38,3,94,1,7,9
 	.half	.L96-.L289
 	.byte	0,1,1,5,18,0,5,2
 	.word	.L13
-	.byte	3,240,1,1,5,38,9
+	.byte	3,202,1,1,5,38,9
 	.half	.L289-.L13
 	.byte	1,3,93,1,7,9
 	.half	.L96-.L289
 	.byte	0,1,1,5,16,0,5,2
 	.word	.L13
-	.byte	3,200,1,1,5,41,9
+	.byte	3,162,1,1,5,41,9
 	.half	.L289-.L13
 	.byte	1,5,38,3,5,1,7,9
 	.half	.L96-.L289
 	.byte	0,1,1,5,16,0,5,2
 	.word	.L13
-	.byte	3,235,1,1,5,41,9
+	.byte	3,197,1,1,5,41,9
 	.half	.L289-.L13
 	.byte	1,5,38,3,98,1,7,9
 	.half	.L96-.L289
 	.byte	0,1,1,5,16,0,5,2
 	.word	.L13
-	.byte	3,199,1,1,5,41,9
+	.byte	3,161,1,1,5,41,9
 	.half	.L289-.L13
 	.byte	1,5,38,3,6,1,7,9
 	.half	.L96-.L289
 	.byte	0,1,1,5,16,0,5,2
 	.word	.L13
-	.byte	3,234,1,1,5,41,9
+	.byte	3,196,1,1,5,41,9
 	.half	.L289-.L13
 	.byte	1,5,38,3,99,1,7,9
 	.half	.L96-.L289
 	.byte	0,1,1,5,16,0,5,2
 	.word	.L13
-	.byte	3,201,1,1,5,41,9
+	.byte	3,163,1,1,5,41,9
 	.half	.L289-.L13
 	.byte	1,5,38,3,4,1,7,9
 	.half	.L96-.L289
 	.byte	0,1,1,5,16,0,5,2
 	.word	.L13
-	.byte	3,236,1,1,5,41,9
+	.byte	3,198,1,1,5,41,9
 	.half	.L289-.L13
 	.byte	1,5,38,3,97,1,7,9
 	.half	.L96-.L289
 	.byte	0,1,1
 .L286:
-	.sdecl	'.debug_ranges',debug,cluster('.cocofun_10')
+	.sdecl	'.debug_ranges',debug,cluster('.cocofun_11')
 	.sect	'.debug_ranges'
 .L95:
 	.word	-1,.L13,0,.L96-.L13,0,0
@@ -25804,7 +25772,7 @@ DC1_Buffer_M4:	.type	object
 	.byte	1,2
 	.word	.L28
 	.byte	3
-	.byte	'Adc3ph_Reg_M3_U',0,3,85,8
+	.byte	'Adc3ph_Reg_M3_U',0,3,78,8
 	.word	.L150
 	.byte	1,5,3
 	.word	Adc3ph_Reg_M3_U
@@ -25827,7 +25795,7 @@ DC1_Buffer_M4:	.type	object
 	.byte	1,2
 	.word	.L28
 	.byte	3
-	.byte	'Adc3ph_Reg_M3_V',0,3,86,8
+	.byte	'Adc3ph_Reg_M3_V',0,3,79,8
 	.word	.L150
 	.byte	1,5,3
 	.word	Adc3ph_Reg_M3_V
@@ -25850,7 +25818,7 @@ DC1_Buffer_M4:	.type	object
 	.byte	1,2
 	.word	.L28
 	.byte	3
-	.byte	'Adc3ph_Reg_M3_W',0,3,87,8
+	.byte	'Adc3ph_Reg_M3_W',0,3,80,8
 	.word	.L150
 	.byte	1,5,3
 	.word	Adc3ph_Reg_M3_W
@@ -25873,7 +25841,7 @@ DC1_Buffer_M4:	.type	object
 	.byte	1,2
 	.word	.L28
 	.byte	3
-	.byte	'Adc3ph_Reg_M4_U',0,3,88,8
+	.byte	'Adc3ph_Reg_M4_U',0,3,81,8
 	.word	.L150
 	.byte	1,5,3
 	.word	Adc3ph_Reg_M4_U
@@ -25896,7 +25864,7 @@ DC1_Buffer_M4:	.type	object
 	.byte	1,2
 	.word	.L28
 	.byte	3
-	.byte	'Adc3ph_Reg_M4_V',0,3,89,8
+	.byte	'Adc3ph_Reg_M4_V',0,3,82,8
 	.word	.L150
 	.byte	1,5,3
 	.word	Adc3ph_Reg_M4_V
@@ -25919,7 +25887,7 @@ DC1_Buffer_M4:	.type	object
 	.byte	1,2
 	.word	.L28
 	.byte	3
-	.byte	'Adc3ph_Reg_M4_W',0,3,90,8
+	.byte	'Adc3ph_Reg_M4_W',0,3,83,8
 	.word	.L150
 	.byte	1,5,3
 	.word	Adc3ph_Reg_M4_W
@@ -25942,7 +25910,7 @@ DC1_Buffer_M4:	.type	object
 	.byte	1,2
 	.word	.L28
 	.byte	3
-	.byte	'VRO_M3_Reg',0,3,94,8
+	.byte	'VRO_M3_Reg',0,3,86,8
 	.word	.L150
 	.byte	1,5,3
 	.word	VRO_M3_Reg
@@ -25965,7 +25933,7 @@ DC1_Buffer_M4:	.type	object
 	.byte	1,2
 	.word	.L28
 	.byte	3
-	.byte	'VRO_M4_Reg',0,3,95,8
+	.byte	'VRO_M4_Reg',0,3,87,8
 	.word	.L150
 	.byte	1,5,3
 	.word	VRO_M4_Reg
@@ -25988,7 +25956,7 @@ DC1_Buffer_M4:	.type	object
 	.byte	1,2
 	.word	.L28
 	.byte	3
-	.byte	'AI_DC_CH_3',0,3,70,9
+	.byte	'AI_DC_CH_3',0,3,69,9
 	.word	.L142
 	.byte	1,5,3
 	.word	AI_DC_CH_3
@@ -26011,7 +25979,7 @@ DC1_Buffer_M4:	.type	object
 	.byte	1,2
 	.word	.L28
 	.byte	3
-	.byte	'AI_DC_CH_4',0,3,71,9
+	.byte	'AI_DC_CH_4',0,3,70,9
 	.word	.L142
 	.byte	1,5,3
 	.word	AI_DC_CH_4
@@ -26034,7 +26002,7 @@ DC1_Buffer_M4:	.type	object
 	.byte	1,2
 	.word	.L28
 	.byte	3
-	.byte	'AI_DRV3_VRO',0,3,76,9
+	.byte	'AI_DRV3_VRO',0,3,74,9
 	.word	.L142
 	.byte	1,5,3
 	.word	AI_DRV3_VRO
@@ -26057,7 +26025,7 @@ DC1_Buffer_M4:	.type	object
 	.byte	1,2
 	.word	.L28
 	.byte	3
-	.byte	'AI_DRV4_VRO',0,3,77,9
+	.byte	'AI_DRV4_VRO',0,3,75,9
 	.word	.L142
 	.byte	1,5,3
 	.word	AI_DRV4_VRO
@@ -26080,7 +26048,7 @@ DC1_Buffer_M4:	.type	object
 	.byte	1,2
 	.word	.L28
 	.byte	3
-	.byte	'Adc3ph_Buffer_M3_CUR_U',0,3,108,20
+	.byte	'Adc3ph_Buffer_M3_CUR_U',0,3,100,20
 	.word	.L151
 	.byte	1,5,3
 	.word	Adc3ph_Buffer_M3_CUR_U
@@ -26103,7 +26071,7 @@ DC1_Buffer_M4:	.type	object
 	.byte	1,2
 	.word	.L28
 	.byte	3
-	.byte	'Adc3ph_Buffer_M3_CUR_V',0,3,109,20
+	.byte	'Adc3ph_Buffer_M3_CUR_V',0,3,101,20
 	.word	.L151
 	.byte	1,5,3
 	.word	Adc3ph_Buffer_M3_CUR_V
@@ -26126,7 +26094,7 @@ DC1_Buffer_M4:	.type	object
 	.byte	1,2
 	.word	.L28
 	.byte	3
-	.byte	'Adc3ph_Buffer_M3_CUR_W',0,3,110,20
+	.byte	'Adc3ph_Buffer_M3_CUR_W',0,3,102,20
 	.word	.L151
 	.byte	1,5,3
 	.word	Adc3ph_Buffer_M3_CUR_W
@@ -26149,7 +26117,7 @@ DC1_Buffer_M4:	.type	object
 	.byte	1,2
 	.word	.L28
 	.byte	3
-	.byte	'Adc3ph_Buffer_M4_CUR_U',0,3,111,20
+	.byte	'Adc3ph_Buffer_M4_CUR_U',0,3,103,20
 	.word	.L151
 	.byte	1,5,3
 	.word	Adc3ph_Buffer_M4_CUR_U
@@ -26172,7 +26140,7 @@ DC1_Buffer_M4:	.type	object
 	.byte	1,2
 	.word	.L28
 	.byte	3
-	.byte	'Adc3ph_Buffer_M4_CUR_V',0,3,112,20
+	.byte	'Adc3ph_Buffer_M4_CUR_V',0,3,104,20
 	.word	.L151
 	.byte	1,5,3
 	.word	Adc3ph_Buffer_M4_CUR_V
@@ -26195,7 +26163,7 @@ DC1_Buffer_M4:	.type	object
 	.byte	1,2
 	.word	.L28
 	.byte	3
-	.byte	'Adc3ph_Buffer_M4_CUR_W',0,3,113,20
+	.byte	'Adc3ph_Buffer_M4_CUR_W',0,3,105,20
 	.word	.L151
 	.byte	1,5,3
 	.word	Adc3ph_Buffer_M4_CUR_W
@@ -26218,7 +26186,7 @@ DC1_Buffer_M4:	.type	object
 	.byte	1,2
 	.word	.L28
 	.byte	3
-	.byte	'DC1_Buffer_M3',0,3,119,20
+	.byte	'DC1_Buffer_M3',0,3,111,20
 	.word	.L151
 	.byte	1,5,3
 	.word	DC1_Buffer_M3
@@ -26241,7 +26209,7 @@ DC1_Buffer_M4:	.type	object
 	.byte	1,2
 	.word	.L28
 	.byte	3
-	.byte	'DC1_Buffer_M4',0,3,120,20
+	.byte	'DC1_Buffer_M4',0,3,112,20
 	.word	.L151
 	.byte	1,5,3
 	.word	DC1_Buffer_M4
@@ -26253,64 +26221,64 @@ DC1_Buffer_M4:	.type	object
 	.byte	0,0,0
 	.sdecl	'.debug_loc',debug,cluster('.cocofun_10')
 	.sect	'.debug_loc'
+.L10:
+	.word	-1,.L11,0,.L91-.L11
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('.cocofun_11')
+	.sect	'.debug_loc'
 .L12:
 	.word	-1,.L13,0,.L96-.L13
 	.half	2
 	.byte	138,0
 	.word	0,0
-	.sdecl	'.debug_loc',debug,cluster('.cocofun_2')
+	.sdecl	'.debug_loc',debug,cluster('.cocofun_3')
 	.sect	'.debug_loc'
 .L24:
 	.word	-1,.L25,0,.L56-.L25
 	.half	2
 	.byte	138,0
 	.word	0,0
-	.sdecl	'.debug_loc',debug,cluster('.cocofun_3')
+	.sdecl	'.debug_loc',debug,cluster('.cocofun_4')
 	.sect	'.debug_loc'
 .L22:
 	.word	-1,.L23,0,.L61-.L23
 	.half	2
 	.byte	138,0
 	.word	0,0
-	.sdecl	'.debug_loc',debug,cluster('.cocofun_4')
+	.sdecl	'.debug_loc',debug,cluster('.cocofun_5')
 	.sect	'.debug_loc'
 .L4:
 	.word	-1,.L5,0,.L66-.L5
 	.half	2
 	.byte	138,0
 	.word	0,0
-	.sdecl	'.debug_loc',debug,cluster('.cocofun_5')
+	.sdecl	'.debug_loc',debug,cluster('.cocofun_6')
 	.sect	'.debug_loc'
 .L20:
 	.word	-1,.L21,0,.L71-.L21
 	.half	2
 	.byte	138,0
 	.word	0,0
-	.sdecl	'.debug_loc',debug,cluster('.cocofun_6')
+	.sdecl	'.debug_loc',debug,cluster('.cocofun_7')
 	.sect	'.debug_loc'
 .L18:
 	.word	-1,.L19,0,.L76-.L19
 	.half	2
 	.byte	138,0
 	.word	0,0
-	.sdecl	'.debug_loc',debug,cluster('.cocofun_7')
+	.sdecl	'.debug_loc',debug,cluster('.cocofun_8')
 	.sect	'.debug_loc'
 .L16:
 	.word	-1,.L17,0,.L81-.L17
 	.half	2
 	.byte	138,0
 	.word	0,0
-	.sdecl	'.debug_loc',debug,cluster('.cocofun_8')
+	.sdecl	'.debug_loc',debug,cluster('.cocofun_9')
 	.sect	'.debug_loc'
 .L14:
 	.word	-1,.L15,0,.L86-.L15
-	.half	2
-	.byte	138,0
-	.word	0,0
-	.sdecl	'.debug_loc',debug,cluster('.cocofun_9')
-	.sect	'.debug_loc'
-.L10:
-	.word	-1,.L11,0,.L91-.L11
 	.half	2
 	.byte	138,0
 	.word	0,0
@@ -26581,52 +26549,52 @@ DC1_Buffer_M4:	.type	object
 	.word	-1
 	.byte	3,0,2,1,40,12,26,0,9,40,27,155,0,7,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36
 	.byte	8,37,8,38,8,39,0
-	.sdecl	'.debug_frame',debug,cluster('.cocofun_4')
+	.sdecl	'.debug_frame',debug,cluster('.cocofun_5')
 	.sect	'.debug_frame'
 	.word	24
 	.word	.L291,.L5,.L66-.L5
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
-	.sdecl	'.debug_frame',debug,cluster('.cocofun_9')
+	.sdecl	'.debug_frame',debug,cluster('.cocofun_10')
 	.sect	'.debug_frame'
 	.word	24
 	.word	.L291,.L11,.L91-.L11
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
-	.sdecl	'.debug_frame',debug,cluster('.cocofun_10')
+	.sdecl	'.debug_frame',debug,cluster('.cocofun_11')
 	.sect	'.debug_frame'
 	.word	24
 	.word	.L291,.L13,.L96-.L13
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
-	.sdecl	'.debug_frame',debug,cluster('.cocofun_8')
+	.sdecl	'.debug_frame',debug,cluster('.cocofun_9')
 	.sect	'.debug_frame'
 	.word	24
 	.word	.L291,.L15,.L86-.L15
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
-	.sdecl	'.debug_frame',debug,cluster('.cocofun_7')
+	.sdecl	'.debug_frame',debug,cluster('.cocofun_8')
 	.sect	'.debug_frame'
 	.word	24
 	.word	.L291,.L17,.L81-.L17
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
-	.sdecl	'.debug_frame',debug,cluster('.cocofun_6')
+	.sdecl	'.debug_frame',debug,cluster('.cocofun_7')
 	.sect	'.debug_frame'
 	.word	24
 	.word	.L291,.L19,.L76-.L19
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
-	.sdecl	'.debug_frame',debug,cluster('.cocofun_5')
+	.sdecl	'.debug_frame',debug,cluster('.cocofun_6')
 	.sect	'.debug_frame'
 	.word	24
 	.word	.L291,.L21,.L71-.L21
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
-	.sdecl	'.debug_frame',debug,cluster('.cocofun_3')
+	.sdecl	'.debug_frame',debug,cluster('.cocofun_4')
 	.sect	'.debug_frame'
 	.word	24
 	.word	.L291,.L23,.L61-.L23
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
-	.sdecl	'.debug_frame',debug,cluster('.cocofun_2')
+	.sdecl	'.debug_frame',debug,cluster('.cocofun_3')
 	.sect	'.debug_frame'
 	.word	24
 	.word	.L291,.L25,.L56-.L25
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 
-; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   261  
+; ..\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.c	   223  
 
 	; Module end

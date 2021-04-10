@@ -3,9 +3,8 @@
 
 "R:\\TASKING\\TriCore v6.2r2\\ctc\\bin\\amk" -j12 all 
 Linking to TC277_RobotCtrl_ADCQueue.elf
-ltc W159: LSL: section ".zbss.Mcal.Mcal_CpuInitCompletedSem" (variable Mcal_CpuInitCompletedSem) was not selected because it already has an absolute restriction
 
-Time consumed: 3519 ms
+Time consumed: 3131 ms
 **** End of build ****
 
 Tool info: 

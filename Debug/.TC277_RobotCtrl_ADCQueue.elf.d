@@ -116,8 +116,6 @@ TC277_RobotCtrl_ADCQueue.elf : .\Hal_Sensor\Hal_Sensor_M4_Core2.o
 .\Hal_Sensor\Hal_Sensor_M4_Core2.o :
 TC277_RobotCtrl_ADCQueue.elf : .\PWM3Ph\Pwm_3ph_Core1.o
 .\PWM3Ph\Pwm_3ph_Core1.o :
-TC277_RobotCtrl_ADCQueue.elf : .\PWM3Ph\Pwm_3ph_Core2.o
-.\PWM3Ph\Pwm_3ph_Core2.o :
 TC277_RobotCtrl_ADCQueue.elf : .\Qspi\AuirxQspi.o
 .\Qspi\AuirxQspi.o :
 TC277_RobotCtrl_ADCQueue.elf : .\Qspi\AurixQspi_Cfg.o
@@ -134,8 +132,6 @@ TC277_RobotCtrl_ADCQueue.elf : .\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.o
 .\TestCode\Adc3ph_Test\Adc3ph_Core1_M34.o :
 TC277_RobotCtrl_ADCQueue.elf : .\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.o
 .\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.o :
-TC277_RobotCtrl_ADCQueue.elf : .\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core2.o
-.\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core2.o :
 TC277_RobotCtrl_ADCQueue.elf : .\TestCode\Adc_Test\Adc_Sw.o
 .\TestCode\Adc_Test\Adc_Sw.o :
 TC277_RobotCtrl_ADCQueue.elf : .\TestCode\Can_Test\Can.o

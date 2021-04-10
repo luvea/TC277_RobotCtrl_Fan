@@ -90,9 +90,7 @@ void UVW_Complete_M1_AdcNotification(void)
 		Ton_M4_Duty_U_f32 = 0.5;
 		Ton_M4_Duty_V_f32 = 0.5;
 		Ton_M4_Duty_W_f32 = 0.5;
-//		Pwm_3ph_SetDuty_M1();
-//		Pwm_3ph_SetDuty_M2();
-//		Pwm_3ph_SetDuty_M3();
+
 		Pwm_3ph_SetDuty_M1();
 		Pwm_3ph_SetDuty_M2();
 		Pwm_3ph_SetDuty_M3();
@@ -117,9 +115,6 @@ void UVW_Complete_M1_AdcNotification(void)
 		Ton_M4_Duty_U_f32 = f32_M4_Ton_fault_A;
 		Ton_M4_Duty_V_f32 = f32_M4_Ton_fault_B;
 		Ton_M4_Duty_W_f32 = f32_M4_Ton_fault_C;
-//		Ton_M1_Duty_U_f32 = f32_Ton_fault_A;
-//		Ton_M1_Duty_V_f32 = f32_Ton_fault_B;
-//		Ton_M1_Duty_W_f32 = f32_Ton_fault_C;
 
 		Pwm_3ph_SetDuty_M1();
 		Pwm_3ph_SetDuty_M2();
@@ -162,9 +157,7 @@ void UVW_Complete_M1_AdcNotification(void)
 		Ton_M4_Duty_W_f32 = f32_M4_Ton_fault_C;
 
 
-//		Ton_M1_Duty_U_f32 = f32_Ton_fault_A;
-//		Ton_M1_Duty_V_f32 = f32_Ton_fault_B;
-//		Ton_M1_Duty_W_f32 = f32_Ton_fault_C;
+
 		Pwm_3ph_SetDuty_M1();
 		Pwm_3ph_SetDuty_M2();
 		Pwm_3ph_SetDuty_M3();
@@ -176,55 +169,6 @@ void UVW_Complete_M1_AdcNotification(void)
 	Time_M1_Irq[2] = Time_M1_Irq[1] - Time_M1_Irq[0];
 }
 
-//void UVW_Complete_M2_AdcNotification(void)
-//{
-//	Time_M2_Irq[0] = MODULE_STM0.TIM0.B.STM31_0;
-//
-//	static uint8 TxCnt;
-//	static float32 SinAngle;
-////	u32_IrqCn0 = MODULE_GTM.ATOM[1].CH1.CN0.B.CN0;
-//	Appl_Adc_M2_TimeStamp_tick_u32 = MODULE_STM0.TIM2.B.STM39_8;
-////	Appl_Adc_M1_TimeStamp_second_f32 = (float32)Appl_Adc_M1_TimeStamp_tick_u32 * 256 / 100000000;
-//	// max: 10995.11627775‬s   resolution: 0.00000256s
-////	Appl_Hal_M1_TimeStamp_tick_u32 = Hal_M1_Timestamp_tick;
-////	Appl_Hal_M1_TimeStamp_second_f32 = (float32)Appl_Hal_M1_TimeStamp_tick_u32 * 256 / 100000000;
-//	// max: 10995.11627775‬s   resolution: 0.00002048s
-//
-//	TxCnt++;
-//	if(TxCnt==100)
-//	{
-////		Can_17_MCanP_Send();
-//		TxCnt=0;
-//	}
-//
-////	DMA_DADR052.U=Adc3ph_Buffer_M1_CUR_U[0];
-////	DMA_DADR051.U=Adc3ph_Buffer_M1_CUR_V[0];
-////	DMA_DADR050.U=Adc3ph_Buffer_M1_CUR_W[0];
-//
-//	Adc3ph_Current_M2_PhyCal();
-//	Appl_HalStatus_M2_u8 = ((uint8)( Hal_M2_Timestamp_tick & HALSTATUS_MASK ));
-//
-//
-//	Testmodel_Core1_step();
-//	if (VePC_S_SubDebugMode_NULL == 1)
-//	{
-//		Ton_M2_Duty_U_f32 = 0.5;
-//		Ton_M2_Duty_V_f32 = 0.5;
-//		Ton_M2_Duty_W_f32 = 0.5;
-//
-//		Pwm_3ph_SetDuty_M2();
-//	}
-//	else if ((VePC_S_SubDebugMode_NULL == 0) || (VePC_S_SubDebugMode_NULL == 2) || (VePC_S_SubDebugMode_NULL == 3)|| (VePC_S_SubDebugMode_NULL == 5))
-//	{
-//		Ton_M2_Duty_U_f32 = f32_M2_Ton_fault_A;
-//		Ton_M2_Duty_V_f32 = f32_M2_Ton_fault_B;
-//		Ton_M2_Duty_W_f32 = f32_M2_Ton_fault_C;
-//		Pwm_3ph_SetDuty_M2();
-//
-//	}
-//
-//	Time_M2_Irq[1] = MODULE_STM0.TIM0.B.STM31_0;
-//	Time_M2_Irq[2] = Time_M2_Irq[1] - Time_M2_Irq[0];
-//}
+
 
 

@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.2r2 Build 18041957 SN 06692445"
-	.compiler_invocation	"ctc -f cc23092a --dep-file=TestCode\\Adc3ph_Test\\.Notification_Adc3ph_Result_Core1.o.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xc -D__CPU_TC27XC__ --core=tc1.6.x --fp-model=+float -D_TASKING_C_TRICORE_ -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\.settings -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Asw -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\compiler -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc\\TC27xC -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc\\TC27xC\\SupportDocuments -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\lib -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\obj -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Asw -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\dio_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\dio_infineon_tricore\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\integration_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\integration_general\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Hal_Sensor -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output\\generated -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output\\generated\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\PWM3Ph -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Qspi -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Adc_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Adc3ph_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Can_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TLE_9180_Drive -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\UART_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Hal_Sensor -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\Demo_Aurix -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\mak -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\PWM3Ph -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Qspi -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Adc_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Adc3ph_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Can_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TLE_9180_Drive -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\UART_Test -g2 --make-target=TestCode\\Adc3ph_Test\\Notification_Adc3ph_Result_Core1.o -t2 --language=-gcc,-volatile,+strings,-kanji --default-near-size=8 -O2 --default-a1-size=0 --default-a0-size=0 --source --align=0 --compact-max-size=200 --switch=auto --error-limit=42 -o TestCode\\Adc3ph_Test\\Notification_Adc3ph_Result_Core1.src ..\\TestCode\\Adc3ph_Test\\Notification_Adc3ph_Result_Core1.c"
+	.compiler_invocation	"ctc -f cc92084a --dep-file=TestCode\\Adc3ph_Test\\.Notification_Adc3ph_Result_Core1.o.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xc -D__CPU_TC27XC__ --core=tc1.6.x --fp-model=+float -D_TASKING_C_TRICORE_ -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\.settings -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Asw -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\dio_infineon_tricore\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\compiler -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc\\TC27xC -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\general\\tricore\\inc\\TC27xC\\SupportDocuments -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\integration_general\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\lib -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\obj -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\tricore_general\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Asw -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\adc_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\can_17_mcanp_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\dio_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\dio_infineon_tricore\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\ecum_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\icu_17_gtmccu6_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\integration_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\integration_general\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\irq_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\mcu_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\port_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\pwm_17_gtm_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\tricore_general\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Aurix_MC-ISAR\\uart_infineon_tricore\\ssc\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Hal_Sensor -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output\\generated -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\output\\generated\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\PWM3Ph -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\Qspi -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Adc_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Adc3ph_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TestCode\\Can_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\TLE_9180_Drive -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Debug\\UART_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Hal_Sensor -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\Demo_Aurix -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\inc -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\mak -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\output\\generated\\src -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\PWM3Ph -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\Qspi -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Adc_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Adc3ph_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TestCode\\Can_Test -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\TLE_9180_Drive -IW:\\AURIX\\Robot\\TC277_RobotCtrl_ADCQueue_zhaojing\\Tasking\\TC277_RobotCtrl_ADCQueue\\UART_Test -g2 --make-target=TestCode\\Adc3ph_Test\\Notification_Adc3ph_Result_Core1.o -t2 --language=-gcc,-volatile,+strings,-kanji --default-near-size=8 -O2 --default-a1-size=0 --default-a0-size=0 --source --align=0 --compact-max-size=200 --switch=auto --error-limit=42 -o TestCode\\Adc3ph_Test\\Notification_Adc3ph_Result_Core1.src ..\\TestCode\\Adc3ph_Test\\Notification_Adc3ph_Result_Core1.c"
 	.compiler_name		"ctc"
 	;source	'..\\TestCode\\Adc3ph_Test\\Notification_Adc3ph_Result_Core1.c'
 
@@ -216,15 +216,13 @@ UVW_Complete_M1_AdcNotification:	.type	func
 .L3:
 
 ; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	    92  		Ton_M4_Duty_W_f32 = 0.5;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	    93  //		Pwm_3ph_SetDuty_M1();
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	    94  //		Pwm_3ph_SetDuty_M2();
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	    95  //		Pwm_3ph_SetDuty_M3();
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	    96  		Pwm_3ph_SetDuty_M1();
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	    97  		Pwm_3ph_SetDuty_M2();
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	    98  		Pwm_3ph_SetDuty_M3();
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	    99  		Pwm_3ph_SetDuty_M4();
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   100  	}
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   101  	else if ((VePC_S_SubDebugMode_NULL == 0) || (VePC_S_SubDebugMode_NULL == 2) || (VePC_S_SubDebugMode_NULL == 3))
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	    93  
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	    94  		Pwm_3ph_SetDuty_M1();
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	    95  		Pwm_3ph_SetDuty_M2();
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	    96  		Pwm_3ph_SetDuty_M3();
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	    97  		Pwm_3ph_SetDuty_M4();
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	    98  	}
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	    99  	else if ((VePC_S_SubDebugMode_NULL == 0) || (VePC_S_SubDebugMode_NULL == 2) || (VePC_S_SubDebugMode_NULL == 3))
 	jeq	d15,#0,.L5
 .L89:
 	jeq	d15,#2,.L6
@@ -232,157 +230,152 @@ UVW_Complete_M1_AdcNotification:	.type	func
 	jeq	d15,#3,.L7
 .L91:
 
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   102  	{
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   103  
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   104  
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   105  		Ton_M1_Duty_U_f32 = f32_M1_Ton_fault_A;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   106  		Ton_M1_Duty_V_f32 = f32_M1_Ton_fault_B;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   107  		Ton_M1_Duty_W_f32 = f32_M1_Ton_fault_C;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   108  
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   109  		Ton_M2_Duty_U_f32 = f32_M2_Ton_fault_A;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   110  		Ton_M2_Duty_V_f32 = f32_M2_Ton_fault_B;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   111  		Ton_M2_Duty_W_f32 = f32_M2_Ton_fault_C;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   112  
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   113  		Ton_M3_Duty_U_f32 = f32_M3_Ton_fault_A;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   114  		Ton_M3_Duty_V_f32 = f32_M3_Ton_fault_B;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   115  		Ton_M3_Duty_W_f32 = f32_M3_Ton_fault_C;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   116  
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   117  		Ton_M4_Duty_U_f32 = f32_M4_Ton_fault_A;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   118  		Ton_M4_Duty_V_f32 = f32_M4_Ton_fault_B;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   119  		Ton_M4_Duty_W_f32 = f32_M4_Ton_fault_C;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   120  //		Ton_M1_Duty_U_f32 = f32_Ton_fault_A;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   121  //		Ton_M1_Duty_V_f32 = f32_Ton_fault_B;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   122  //		Ton_M1_Duty_W_f32 = f32_Ton_fault_C;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   123  
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   124  		Pwm_3ph_SetDuty_M1();
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   125  		Pwm_3ph_SetDuty_M2();
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   126  		Pwm_3ph_SetDuty_M3();
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   127  		Pwm_3ph_SetDuty_M4();
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   128  	}
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   129  //	else if(VePC_S_SubDebugMode_NULL == 4)
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   130  //	{
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   131  //		SinAngle = (float32)SinCnt * 0.002 * PI;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   132  ////		Ton_M1_Duty_U_f32 = sin(SinAngle) / 15 + 0.5;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   133  ////		Ton_M1_Duty_V_f32 = sin(SinAngle + 0.6667 * PI) / 15 + 0.5;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   134  ////		Ton_M1_Duty_W_f32 = sin(SinAngle - 0.6667 * PI) / 15 + 0.5;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   135  //		Ton_M1_Duty_U_f32 = 0.6;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   136  //		Ton_M1_Duty_V_f32 = 0.5;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   137  //		Ton_M1_Duty_W_f32 = 0.5;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   138  //		Pwm_3ph_SetDuty_M1();
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   139  //		SinCnt++;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   140  //		if(SinCnt == 1000)
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   141  //		{
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   142  //			SinCnt = 0;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   143  //		}
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   144  //	}
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   145  	else if(VePC_S_SubDebugMode_NULL == 5)
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   100  	{
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   101  
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   102  
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   103  		Ton_M1_Duty_U_f32 = f32_M1_Ton_fault_A;
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   104  		Ton_M1_Duty_V_f32 = f32_M1_Ton_fault_B;
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   105  		Ton_M1_Duty_W_f32 = f32_M1_Ton_fault_C;
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   106  
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   107  		Ton_M2_Duty_U_f32 = f32_M2_Ton_fault_A;
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   108  		Ton_M2_Duty_V_f32 = f32_M2_Ton_fault_B;
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   109  		Ton_M2_Duty_W_f32 = f32_M2_Ton_fault_C;
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   110  
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   111  		Ton_M3_Duty_U_f32 = f32_M3_Ton_fault_A;
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   112  		Ton_M3_Duty_V_f32 = f32_M3_Ton_fault_B;
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   113  		Ton_M3_Duty_W_f32 = f32_M3_Ton_fault_C;
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   114  
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   115  		Ton_M4_Duty_U_f32 = f32_M4_Ton_fault_A;
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   116  		Ton_M4_Duty_V_f32 = f32_M4_Ton_fault_B;
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   117  		Ton_M4_Duty_W_f32 = f32_M4_Ton_fault_C;
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   118  
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   119  		Pwm_3ph_SetDuty_M1();
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   120  		Pwm_3ph_SetDuty_M2();
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   121  		Pwm_3ph_SetDuty_M3();
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   122  		Pwm_3ph_SetDuty_M4();
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   123  	}
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   124  //	else if(VePC_S_SubDebugMode_NULL == 4)
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   125  //	{
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   126  //		SinAngle = (float32)SinCnt * 0.002 * PI;
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   127  ////		Ton_M1_Duty_U_f32 = sin(SinAngle) / 15 + 0.5;
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   128  ////		Ton_M1_Duty_V_f32 = sin(SinAngle + 0.6667 * PI) / 15 + 0.5;
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   129  ////		Ton_M1_Duty_W_f32 = sin(SinAngle - 0.6667 * PI) / 15 + 0.5;
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   130  //		Ton_M1_Duty_U_f32 = 0.6;
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   131  //		Ton_M1_Duty_V_f32 = 0.5;
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   132  //		Ton_M1_Duty_W_f32 = 0.5;
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   133  //		Pwm_3ph_SetDuty_M1();
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   134  //		SinCnt++;
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   135  //		if(SinCnt == 1000)
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   136  //		{
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   137  //			SinCnt = 0;
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   138  //		}
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   139  //	}
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   140  	else if(VePC_S_SubDebugMode_NULL == 5)
 	jne	d15,#5,.L8
 .L7:
 .L6:
 .L5:
 
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   146  	{
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   147  
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   148  		Ton_M1_Duty_U_f32 = f32_M1_Ton_fault_A;
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   141  	{
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   142  
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   143  		Ton_M1_Duty_U_f32 = f32_M1_Ton_fault_A;
 	ld.w	d15,f32_M1_Ton_fault_A
 .L92:
 	st.w	Ton_M1_Duty_U_f32,d15
 .L93:
 
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   149  		Ton_M1_Duty_V_f32 = f32_M1_Ton_fault_B;
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   144  		Ton_M1_Duty_V_f32 = f32_M1_Ton_fault_B;
 	ld.w	d15,f32_M1_Ton_fault_B
 .L94:
 	st.w	Ton_M1_Duty_V_f32,d15
 .L95:
 
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   150  		Ton_M1_Duty_W_f32 = f32_M1_Ton_fault_C;
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   145  		Ton_M1_Duty_W_f32 = f32_M1_Ton_fault_C;
 	ld.w	d15,f32_M1_Ton_fault_C
 .L96:
 	st.w	Ton_M1_Duty_W_f32,d15
 .L97:
 
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   151  
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   152  		Ton_M2_Duty_U_f32 = f32_M2_Ton_fault_A;
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   146  
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   147  		Ton_M2_Duty_U_f32 = f32_M2_Ton_fault_A;
 	ld.w	d15,f32_M2_Ton_fault_A
 .L98:
 	st.w	Ton_M2_Duty_U_f32,d15
 .L99:
 
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   153  		Ton_M2_Duty_V_f32 = f32_M2_Ton_fault_B;
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   148  		Ton_M2_Duty_V_f32 = f32_M2_Ton_fault_B;
 	ld.w	d15,f32_M2_Ton_fault_B
 .L100:
 	st.w	Ton_M2_Duty_V_f32,d15
 .L101:
 
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   154  		Ton_M2_Duty_W_f32 = f32_M2_Ton_fault_C;
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   149  		Ton_M2_Duty_W_f32 = f32_M2_Ton_fault_C;
 	ld.w	d15,f32_M2_Ton_fault_C
 .L102:
 	st.w	Ton_M2_Duty_W_f32,d15
 .L103:
 
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   155  
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   156  		Ton_M3_Duty_U_f32 = f32_M3_Ton_fault_A;
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   150  
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   151  		Ton_M3_Duty_U_f32 = f32_M3_Ton_fault_A;
 	ld.w	d15,f32_M3_Ton_fault_A
 .L104:
 	st.w	Ton_M3_Duty_U_f32,d15
 .L105:
 
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   157  		Ton_M3_Duty_V_f32 = f32_M3_Ton_fault_B;
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   152  		Ton_M3_Duty_V_f32 = f32_M3_Ton_fault_B;
 	ld.w	d15,f32_M3_Ton_fault_B
 .L106:
 	st.w	Ton_M3_Duty_V_f32,d15
 .L107:
 
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   158  		Ton_M3_Duty_W_f32 = f32_M3_Ton_fault_C;
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   153  		Ton_M3_Duty_W_f32 = f32_M3_Ton_fault_C;
 	ld.w	d15,f32_M3_Ton_fault_C
 .L108:
 	st.w	Ton_M3_Duty_W_f32,d15
 .L109:
 
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   159  
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   160  		Ton_M4_Duty_U_f32 = f32_M4_Ton_fault_A;
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   154  
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   155  		Ton_M4_Duty_U_f32 = f32_M4_Ton_fault_A;
 	ld.w	d15,f32_M4_Ton_fault_A
 .L110:
 	st.w	Ton_M4_Duty_U_f32,d15
 .L111:
 
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   161  		Ton_M4_Duty_V_f32 = f32_M4_Ton_fault_B;
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   156  		Ton_M4_Duty_V_f32 = f32_M4_Ton_fault_B;
 	ld.w	d15,f32_M4_Ton_fault_B
 .L112:
 	st.w	Ton_M4_Duty_V_f32,d15
 .L113:
 
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   162  		Ton_M4_Duty_W_f32 = f32_M4_Ton_fault_C;
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   157  		Ton_M4_Duty_W_f32 = f32_M4_Ton_fault_C;
 	ld.w	d15,f32_M4_Ton_fault_C
 .L4:
 	st.w	Ton_M4_Duty_W_f32,d15
 .L114:
 
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   163  
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   164  
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   165  //		Ton_M1_Duty_U_f32 = f32_Ton_fault_A;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   166  //		Ton_M1_Duty_V_f32 = f32_Ton_fault_B;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   167  //		Ton_M1_Duty_W_f32 = f32_Ton_fault_C;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   168  		Pwm_3ph_SetDuty_M1();
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   158  
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   159  
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   160  
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   161  		Pwm_3ph_SetDuty_M1();
 	call	Pwm_3ph_SetDuty_M1
 .L115:
 
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   169  		Pwm_3ph_SetDuty_M2();
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   162  		Pwm_3ph_SetDuty_M2();
 	call	Pwm_3ph_SetDuty_M2
 .L116:
 
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   170  		Pwm_3ph_SetDuty_M3();
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   163  		Pwm_3ph_SetDuty_M3();
 	call	Pwm_3ph_SetDuty_M3
 .L117:
 
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   171  		Pwm_3ph_SetDuty_M4();
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   164  		Pwm_3ph_SetDuty_M4();
 	call	Pwm_3ph_SetDuty_M4
 .L8:
 
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   172  
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   173  	}
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   174  
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   175  	Time_M1_Irq[1] = MODULE_STM0.TIM0.B.STM31_0;
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   165  
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   166  	}
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   167  
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   168  	Time_M1_Irq[1] = MODULE_STM0.TIM0.B.STM31_0;
 	mov.aa	a2,a15
 .L118:
 	ld.w	d15,[a12]
@@ -390,7 +383,7 @@ UVW_Complete_M1_AdcNotification:	.type	func
 	st.w	[+a2]4,d15
 .L120:
 
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   176  	Time_M1_Irq[2] = Time_M1_Irq[1] - Time_M1_Irq[0];
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   169  	Time_M1_Irq[2] = Time_M1_Irq[1] - Time_M1_Irq[0];
 	ld.w	d15,[a2]
 .L121:
 	ld.w	d0,[a15]
@@ -399,7 +392,7 @@ UVW_Complete_M1_AdcNotification:	.type	func
 	st.w	[a15]8,d15
 .L123:
 
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   177  }
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   170  }
 	ret
 .L40:
 	
@@ -26667,13 +26660,13 @@ _999001_TxCnt:	.type	object
 	.half	.L88-.L87
 	.byte	3,115,1,5,11,9
 	.half	.L3-.L88
-	.byte	3,23,1,5,72,7,9
+	.byte	3,21,1,5,72,7,9
 	.half	.L89-.L3
 	.byte	1,5,107,7,9
 	.half	.L90-.L89
 	.byte	1,5,7,7,9
 	.half	.L91-.L90
-	.byte	3,44,1,5,23,7,9
+	.byte	3,41,1,5,23,7,9
 	.half	.L5-.L91
 	.byte	3,3,1,5,21,9
 	.half	.L92-.L5
@@ -26723,7 +26716,7 @@ _999001_TxCnt:	.type	object
 	.half	.L4-.L113
 	.byte	1,9
 	.half	.L114-.L4
-	.byte	3,6,1,9
+	.byte	3,4,1,9
 	.half	.L115-.L114
 	.byte	3,1,1,9
 	.half	.L116-.L115
@@ -27000,58 +26993,9 @@ _999001_TxCnt:	.type	object
 	.word	12
 	.word	.L124,.L10,.L40-.L10
 
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   178  
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   179  //void UVW_Complete_M2_AdcNotification(void)
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   180  //{
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   181  //	Time_M2_Irq[0] = MODULE_STM0.TIM0.B.STM31_0;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   182  //
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   183  //	static uint8 TxCnt;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   184  //	static float32 SinAngle;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   185  ////	u32_IrqCn0 = MODULE_GTM.ATOM[1].CH1.CN0.B.CN0;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   186  //	Appl_Adc_M2_TimeStamp_tick_u32 = MODULE_STM0.TIM2.B.STM39_8;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   187  ////	Appl_Adc_M1_TimeStamp_second_f32 = (float32)Appl_Adc_M1_TimeStamp_tick_u32 * 256 / 100000000;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   188  //	// max: 10995.11627775‬s   resolution: 0.00000256s
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   189  ////	Appl_Hal_M1_TimeStamp_tick_u32 = Hal_M1_Timestamp_tick;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   190  ////	Appl_Hal_M1_TimeStamp_second_f32 = (float32)Appl_Hal_M1_TimeStamp_tick_u32 * 256 / 100000000;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   191  //	// max: 10995.11627775‬s   resolution: 0.00002048s
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   192  //
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   193  //	TxCnt++;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   194  //	if(TxCnt==100)
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   195  //	{
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   196  ////		Can_17_MCanP_Send();
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   197  //		TxCnt=0;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   198  //	}
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   199  //
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   200  ////	DMA_DADR052.U=Adc3ph_Buffer_M1_CUR_U[0];
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   201  ////	DMA_DADR051.U=Adc3ph_Buffer_M1_CUR_V[0];
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   202  ////	DMA_DADR050.U=Adc3ph_Buffer_M1_CUR_W[0];
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   203  //
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   204  //	Adc3ph_Current_M2_PhyCal();
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   205  //	Appl_HalStatus_M2_u8 = ((uint8)( Hal_M2_Timestamp_tick & HALSTATUS_MASK ));
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   206  //
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   207  //
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   208  //	Testmodel_Core1_step();
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   209  //	if (VePC_S_SubDebugMode_NULL == 1)
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   210  //	{
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   211  //		Ton_M2_Duty_U_f32 = 0.5;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   212  //		Ton_M2_Duty_V_f32 = 0.5;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   213  //		Ton_M2_Duty_W_f32 = 0.5;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   214  //
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   215  //		Pwm_3ph_SetDuty_M2();
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   216  //	}
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   217  //	else if ((VePC_S_SubDebugMode_NULL == 0) || (VePC_S_SubDebugMode_NULL == 2) || (VePC_S_SubDebugMode_NULL == 3)|| (VePC_S_SubDebugMode_NULL == 5))
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   218  //	{
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   219  //		Ton_M2_Duty_U_f32 = f32_M2_Ton_fault_A;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   220  //		Ton_M2_Duty_V_f32 = f32_M2_Ton_fault_B;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   221  //		Ton_M2_Duty_W_f32 = f32_M2_Ton_fault_C;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   222  //		Pwm_3ph_SetDuty_M2();
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   223  //
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   224  //	}
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   225  //
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   226  //	Time_M2_Irq[1] = MODULE_STM0.TIM0.B.STM31_0;
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   227  //	Time_M2_Irq[2] = Time_M2_Irq[1] - Time_M2_Irq[0];
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   228  //}
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   229  
-; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   230  
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   171  
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   172  
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   173  
+; ..\TestCode\Adc3ph_Test\Notification_Adc3ph_Result_Core1.c	   174  
 
 	; Module end
