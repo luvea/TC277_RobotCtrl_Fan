@@ -3,7 +3,7 @@
 ################################################################################
 
 PROJ 	= TC277_RobotCtrl_ADCQueue
-PRODDIR = R:\TASKING\TriCore v6.2r2\ctc
+PRODDIR = R:\Program Files\TASKING\TriCore v6.2r2\ctc\eclipse\plugins\com.tasking.ctc.debug.win32.x86_1.8.0.0\ctc
 
 -include "..\makefile.init"
 

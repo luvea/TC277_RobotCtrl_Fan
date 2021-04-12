@@ -1,13 +1,14 @@
 
 **** Build of configuration Debug for project TC277_RobotCtrl_ADCQueue ****
 
-"R:\\TASKING\\TriCore v6.2r2\\ctc\\bin\\amk" -j12 all 
-Linking to TC277_RobotCtrl_ADCQueue.elf
 
-Time consumed: 3131 ms
+("R:\\Program Files\\TASKING\\TriCore v6.2r2\\ctc\\eclipse\\plugins\\com.tasking.ctc.debug.win32.x86_1.8.0.0\\ctc\\bin\\amk" -j12 all -a 
+Cannot run program "R:\Program Files\TASKING\TriCore v6.2r2\ctc\eclipse\plugins\com.tasking.ctc.debug.win32.x86_1.8.0.0\ctc\bin\amk": Launching failed
+
+Error: Program "R:\Program Files\TASKING\TriCore v6.2r2\ctc\eclipse\plugins\com.tasking.ctc.debug.win32.x86_1.8.0.0\ctc\bin\amk" not found in PATH
+PATH=[C:/Program Files (x86)/Java/jre1.8.0_281/bin/client;C:/Program Files (x86)/Java/jre1.8.0_281/bin;C:/Program Files (x86)/Java/jre1.8.0_281/lib/i386;R:\HighTec4.9.4.0\toolchains\tricore\v4.9.4.0\bin;C:\Program Files (x86)\Vector vFlash 5\Bin\Automation\;C:\Program Files (x86)\Vector vFlash 6\Bin\Automation\;C:\Program Files (x86)\Vector vFlash 4\Bin\Automation\;R:\HighTec\toolchains\tricore\v4.6.5.0\bin;R:\HighTec/licensemanager;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\luvea\AppData\Local\Microsoft\WindowsApps;C:\Users\luvea\.dotnet\tools;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;R:\anaconda3_4.0.0;R:\anaconda3_4.0.0\Scripts;R:\anaconda3_4.0.0\Library\bin;R:\anaconda3;R:\anaconda3\Library\mingw-w64\bin;R:\anaconda3\Library\usr\bin;R:\anaconda3\Library\bin;R:\anaconda3\Scripts;C:\Program Files\dotnet\;C:\Program Files (x86)\Vector CANdb++ 3.1\Exec32;R:\Program Files\Git\cmd;R:\anaconda3_4.0.0;R:\anaconda3_4.0.0\Scripts;R:\anaconda3_4.0.0\Library\bin;R:\anaconda3;R:\anaconda3\Library\mingw-w64\bin;R:\anaconda3\Library\usr\bin;R:\anaconda3\Library\bin;R:\anaconda3\Scripts;C:\Users\luvea\AppData\Local\Microsoft\WindowsApps;C:\Users\luvea\.dotnet\tools;C:\Users\luvea\AppData\Local\GitHubDesktop\bin;R:\Program Files\TASKING\TriCore v6.2r2\ctc\eclipse;]
+)
+Time consumed: 258 ms
 **** End of build ****
 
 Tool info: 
-TASKING VX-toolset for TriCore: object link v6.2r2 Build 18041957 SN 06692445
-TASKING program builder v6.2r2 Build 18041957
-TASKING VX-toolset for TriCore: control program v6.2r2 Build 18041957

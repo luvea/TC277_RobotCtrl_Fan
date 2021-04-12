@@ -210,7 +210,7 @@ void Adc3ph_Current_M1_PhyCal(void)
 
 
     DC_link_Vol=((float32)(AI_DC_CH_1+AI_DC_CH_2))*DC_FACTOR;           //母线电压实际值
-//    DC_link_Vol=((float32)(AI_DC_CH_1+AI_DC_CH_2))*DC_FACTOR;           //母线电压实际值
+
 
 
 
@@ -218,9 +218,6 @@ void Adc3ph_Current_M1_PhyCal(void)
     Phase_Cur_B_M1_Value= -(temp_M1_V-AI_DRV1_VRO) * CUR_ADC_GAIN;
     Phase_Cur_C_M1_Value= -(temp_M1_W-AI_DRV1_VRO) * CUR_ADC_GAIN;
 
-//    Phase_Cur_A_Value= -(temp_M1_U-AI_DRV1_VRO) * CUR_ADC_GAIN;
-//    Phase_Cur_B_Value= -(temp_M1_V-AI_DRV1_VRO) * CUR_ADC_GAIN;
-//    Phase_Cur_C_Value= -(temp_M1_W-AI_DRV1_VRO) * CUR_ADC_GAIN;
 
 
 }
@@ -243,12 +240,8 @@ void Adc3ph_Current_M2_PhyCal(void)
 
 
 
-//	  Test_IrqTim1_3_Cnt++;
 	  Hal_M2_GetStatus(MOTOT_M2, HAL_A);
-//      Test_IrqTim1_4_Cnt++;
-//      Hal_GetStatus(MOTOT_M1, HAL_B);
-//  	  Test_IrqTim1_6_Cnt++;
-//      Hal_GetStatus(MOTOT_M1, HAL_C);
+
 
 
 
